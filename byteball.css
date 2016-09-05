@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=latin);
+
+body {
+	padding-top: 20px;
+	background-color: #2C3E50;
+	color: white;
+	font-family: Open Sans, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.light-bg{
+	background-color: white;
+	color: black;
+}
+
+
+.separator{
+	border-bottom: 1px solid #eee;
+	width: 100%;
+}
+
+.features{
+	padding-top: 0px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.features .col-lg-4{
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 60px;
+}
+.features h2{
+	margin-top: 15px;
+}
+.features img{
+	width: 32px;
+}
+
+.textblock{
+	margin-bottom: 20px;
+}
+
+h1{
+	font-size: 36px !important;
+	margin-top: 40px;
+}
+
+h2{
+	font-size: 26px;
+	margin-top: 40px;
+}
+
+.jumbotron h1{
+	margin-top: 10px;
+}
+
+.footer {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	/*margin-top: 40px;*/
+	border-top: 1px solid #eee;
+	text-align: center;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+	text-align: center;
+	background-color: transparent;
+}
+.jumbotron .btn {
+	padding: 14px 24px;
+	font-size: 21px;
+}
+
+.app img{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	height: 32px;
+}
+
+.app a{
+	color: white;
+}
+
+.apps{
+	margin-bottom: 0px;
+}
+
+.apps div.app{
+	width: 100px;
+	display: inline-block;
+}
+
+.apps p{
+	margin-top: 50px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+	/* Remove the padding we set earlier */
+	.masthead,
+	.marketing,
+	.footer {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}

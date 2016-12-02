@@ -1,5 +1,5 @@
 RewriteEngine on
-RewriteRule ^downloads\/Byteball-test-osx64.dmg https://github.com/byteball/byteball/releases/download/v0.6.0/Byteball-test-osx64.dmg [R=302,L]
-RewriteRule ^downloads\/Byteball-test-win64.exe https://github.com/byteball/byteball/releases/download/v0.6.0/Byteball-test-win64.exe [R=302,L]
-RewriteRule ^downloads\/Byteball-test-win32.exe https://github.com/byteball/byteball/releases/download/v0.6.0/Byteball-test-win32.exe [R=302,L]
-RewriteRule ^downloads\/byteball-linux64.zip https://github.com/byteball/byteball/releases/download/v0.6.0/byteball-linux64.zip [R=302,L]
+RewriteRule ^downloads\/Byteball-test-osx64.dmg https://github.com/byteball/byteball/releases/download/v0.7.0t/Byteball-test-osx64.dmg [R=302,L]
+RewriteRule ^downloads\/Byteball-test-win64.exe https://github.com/byteball/byteball/releases/download/v0.7.0t/Byteball-test-win64.exe [R=302,L]
+RewriteRule ^downloads\/Byteball-test-win32.exe https://github.com/byteball/byteball/releases/download/v0.7.0t/Byteball-test-win32.exe [R=302,L]
+RewriteRule ^downloads\/byteball-linux64.zip https://github.com/byteball/byteball/releases/download/v0.7.0t/byteball-linux64.zip [R=302,L]

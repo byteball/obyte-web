@@ -99,6 +99,33 @@ h2{
 	color: #A6B1B7;	
 }
 
+.inline{
+	display: inline-block;
+}
+img.shrink, .main-feature img{
+	max-width: 100%;
+}
+
+.row.main-feature{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.main-feature{
+	font-size: 17px;
+}
+
+.main-feature h2{
+	font-size: 30px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.main-feature img{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
 	/* Remove the padding we set earlier */

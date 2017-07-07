@@ -11,9 +11,6 @@ File Description:Main CSS file of the template */
 body {
 	font-family: 'Open Sans', sans-serif;
 }
-.site-name {
-	font-family: 'Raleway', sans-serif;
-}
 html,
 body {
 	height: 100%;
@@ -79,7 +76,7 @@ a:active {
 }
 
 a .clock .text{
-	color: #8b8e96;
+	color: #2c3e50;
 }
 
 .large {
@@ -131,6 +128,9 @@ blockquote {
 	transition: all 0.2s ease-in-out;
 }
 .banner {
+	background-color: rgba(16, 16, 16, 0.06);
+    margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
 	width: 100%;
 	height: 100%;
 	min-height: 850px;
@@ -344,86 +344,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 	border-color: #339BEB;
 }
 
-/* Collapse
----------------------------------- */
-.panel-group .panel {
-	-webkit-border-radius: 0px;
-	-moz-border-radius: 0px;
-	border-radius: 0px;
-	border: none;
-}
-.panel-default > .panel-heading {
-	padding: 0;
-	outline: none;
-	border: none;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	-o-border-radius: 0;
-	border-radius: 0;
-	width: 100%;
-}
-.panel-default > .panel-heading + .panel-collapse > .panel-body {
-	border: 1px solid #f0f0f0;
-	border-top: none;
-	background-color: #fafafa
-}
-.panel-heading a {
-	font-weight: 400;
-	padding: 12px 35px 12px 15px;
-	display: inline-block;
-	width: 100%;
-	background-color: #55acee;
-	color: #ffffff;
-	position: relative;
-	text-decoration: none;
-}
-.panel-heading a.collapsed {
-	color: #ffffff;
-	background-color: #333333;
-}
-.panel-heading a:after {
-	font-family: "FontAwesome";
-	content: "\f147";
-	position: absolute;
-	right: 15px;
-	font-size: 14px;
-	font-weight: 300;
-	top: 50%;
-	line-height: 1;
-	margin-top: -7px;
-}
-.panel-heading a.collapsed:after {
-	content: "\f196";
-}
-.panel-heading a:hover {
-	text-decoration: none;
-	background-color: #55acee;
-	color: #ffffff;
-}
-.panel-title a i {
-	padding-right: 10px;
-	font-size: 20px;
-}
-
-/* Pills
----------------------------------- */
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus,
-.nav-pills > li > a:hover {
-	background-color: #55acee;
-	border-color: #55acee;
-	color: #ffffff;
-}
-.nav-pills > li > a {
-	border-radius: 0;
-	padding: 8px 20px;
-	border: 1px solid #cacaca;
-	color: #666666;
-	font-size: 12px;
-	text-transform: uppercase;
-	font-weight: 300;
-}
 
 /* Forms
 ---------------------------------- */
@@ -773,14 +693,14 @@ textarea {
 }
 
 .clock-canvas {
-    background-color: rgba(44, 62, 80, 0.14);
+    background-color: rgba(44, 62, 80, 0.12);
     border-radius: 50%;
     height: 0px;
     padding-bottom: 100%;
 }
 
 .text {
-    color: #c3c3c3;    
+    color: #2c3e50;    
     font-size: 25px;
     font-weight: 300;  
     /* margin-top: -36px; */
@@ -962,4 +882,13 @@ textarea {
     	padding: 20px 0;
 	}
 
+}
+
+.btn-success {
+	color: #455565;
+	background-color: #fff; 
+	border-color: #2c3e50;
+}
+.btn {
+	border-radius: 7px;
 }

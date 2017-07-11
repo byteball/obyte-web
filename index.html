@@ -651,18 +651,24 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<p>98% of all bytes and blackbytes will be distributed to current Bitcoin holders who bother to prove their Bitcoin balances
-							during at least one of distribution rounds. No investment is required, you need just to link your Bitcoin and Byteball
-							addresses by making a small BTC payment or by signing a message with your Bitcoin address. Then the number of bytes
-							and blackbytes you receive in each round will be proportional to the balance of your Bitcoin address in the snapshot
-							block of that round.</p>
-						<p>In the first round, over 70,000 BTC was linked, and we distributed 10% of all bytes and blackbytes according to linked
-							Bitcoin balances in the first Bitcoin block timestamped Dec 25, 2016 (Christmas block). In the 2nd to 6th rounds,
-							we distributed another 15.5%, over 450,000 BTC was linked.</p>
-						<p>In the 7th round, which is scheduled for the full moon of July (July 9, 2017 at 04:07 UTC), we'll distribute 62.5 MB
-							for each 1 BTC of linked balance and 0.2 new byte for each 1 byte you already hold. To participate, install the wallet
-							and <a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">chat with the Transition Bot</a>							that will help you link your Bitcoin and Byteball addresses. Track linking progress at <a href="http://transition.byteball.org/"
-							 target="_blank">transition.byteball.org</a>.</p>
+						<p>98% of all bytes and blackbytes are to be distributed for free.  The distribution is split into multiple rounds and in each round holders of BTC and Bytes are rewarded.  The amounts you receive are proportional to your proven balances in BTC and Bytes on the next distribution date:</p>
+						<ul>
+							<li>For every 16 BTC you receive 1 GB (1 gigabyte = 1 billion bytes),</li>
+							<li>For every 5 GB you receive additional 1 GB.</li>
+						</ul>
+						<p>To prove your balances, install the wallet and chat with the Transition Bot (you find it in the Bot Store in the wallet).  The bot will help you link your Bitcoin and Byteball addresses by making a micropayment or signing a message.</p>
+						<p>You also receive blackbytes in proportion to your linked BTC balance and your balance in Bytes on the linked Byteball address.</p>
+						<p>The first distribution round took place on Dec 25, 2016 when the network launched, over 70,000 BTC was linked, and 10% of the total supply of bytes and blackbytes was distributed.  In the subsequent rounds, the total distributed supply reached 36.6%:</p>
+						<ul>
+							<li>2nd round on Feb 11, 2017: 121,763 BTC linked, 1.8% distributed;</li>
+							<li>3rd round on Mar 12, 2017: 129,139 BTC linked, 2.0% distributed;</li>
+							<li>4th round on Apr 11, 2017: 145,441 BTC linked, 2.3% distributed;</li>
+							<li>5th round on May 10, 2017: 207,672 BTC linked, 2.9% distributed;</li>
+							<li>6th round on Jun 9, 2017: 453,621 BTC linked, 6.6% distributed;</li>
+							<li>7th round on Jul 9, 2017: 949,004 BTC linked, 11.0% distributed.</li>
+						</ul>
+						<p>The 8th round is scheduled for the full moon of August (<b>Aug 7, 2017 at 18:10 UTC</b>).  The balances will be snapshotted at the time of the first Bitcoin block after this date, and rules for this round are as indicated above.  We will likely have more rounds until we distribute all 98%, the rules in the future rounds will change in favor of current holders of bytes.</p>
+						<p><a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">Chat with the Transition Bot</a> to link your Bitcoin and Byteball addresses and participate, track linking progress at <a href="http://transition.byteball.org/" target="_blank">transition.byteball.org</a>.</p>
 					</div>
 				</div>
 			</div>
@@ -681,7 +687,7 @@
 						<p class="lead text-left">Unbounded scalability, fast confirmations, no miners, no blocks, low fees.</p>
 						<p>Byteball data is stored and ordered using <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">directed acyclic graph</a>							(DAG) rather than blockchain. This allows all users to secure each other's data by referencing earlier data units
 							created by other users, and also removes scalability limits common for blockchains, such as blocksize issue.</p>
-						<p>Blockless design is simpler because there are no blocks, there are only transactions.  Users just add their transactions to the end of the DAG themselves, they don't have to wait when miners create a new block and there is no guesswork whether they will include your transaction in the block.</p>
+						<p>Blockless design is simpler because there are no blocks, there are only transactions.  Users just add their transactions to the end of the DAG themselves, they don't have to wait when miners create a new block and there is no guesswork whether miners will include your transaction in the block.</p>
 						<p>The consensus algorithm used to protect from double-spends is based on establishing a total order within the DAG. This
 							is achieved by selecting a chain, called main chain, which gravitates towards units issued by commonly recognized
 							reputable users &mdash; witnesses. See the <a href="Byteball.pdf">white paper</a> for details.</p>

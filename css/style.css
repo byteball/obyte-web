@@ -841,7 +841,7 @@ textarea {
 		padding: 6px 0;
 	}
 	.logo-main {
-		max-width: 108px;
+	/*	max-width: 108px;*/
 		font-size: 28px;
 		margin-top: -38px;
 		margin-left: auto;

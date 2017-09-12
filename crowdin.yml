@@ -1,0 +1,3 @@
+files:
+  - source: index.html
+    translation: /%original_file_name%.%two_letters_code%

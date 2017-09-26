@@ -135,7 +135,7 @@ blockquote {
 	height: 100%;
 	min-height: 850px;
 	position: relative;
-	color: #fff;
+/*	color: #fff;*/
 	overflow: hidden;
 }
 .banner-image {
@@ -718,6 +718,12 @@ textarea {
 	transform: scale(1);
 }
 
+.what-is{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+}
 
 .clock{
     position: relative;

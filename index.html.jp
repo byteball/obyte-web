@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="jp">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Byteball&mdash;スマートな決済でシンプルに。">
+	<meta name="author" content="Byteball">
+	<link rel="icon" href="img/icon_16x16@2x.png">
+
+	<title>Byteball &mdash; スマートな決済でシンプルに。</title>
+
+	<!-- Mobile Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="img/icon_16x16@2x.png">
+
+	<!-- Web Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+
+	<!-- Font Awesome CSS -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Plugins -->
+	<link href="css/animations.css" rel="stylesheet">
+
+	<!-- Worthy core CSS file -->
+	<link href="css/style.css?v4" rel="stylesheet">
+
+
+
+</head>
+
+<body class="no-trans">
+	<!--div id="particles-js"></div-->
+
+	<!-- scrollToTop -->
+	<!-- ================ -->
+	<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+
+	<!-- header start -->
+	<!-- ================ -->
+	<header class="header fixed clearfix navbar navbar-fixed-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-xs-12 col-sm-12">
+
+						<div class="logo smooth-scroll text-center">
+							 <a href="#banner"><img id="logo" src="img/icon-white-outline-1024.png" alt="Byteball logo" style="max-width: 55px;"></a>
+						</div>
+
+					<!-- header-right start -->
+					<!-- ================ -->
+					<div class="header-right clearfix">
+
+						<!-- main-navigation start -->
+						<!-- ================ -->
+						<div class="main-navigation animated">
+
+							<!-- navbar start -->
+							<!-- ================ -->
+							<nav class="navbar navbar-default" role="navigation">
+								<div class="container-fluid">
+
+									<!-- Toggle get grouped for better mobile display -->
+									<div class="navbar-header">
+										<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+												<span class="sr-only">Toggle navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+									</div>
+
+									<!-- Collect the nav links, forms, and other content for toggling -->
+									<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+										<ul class="nav navbar-nav">
+
+											<li><a href="#why">理由</a></li>
+											<li><a href="#core">特徴</a></li>
+											<li><a href="#download">ダウンロード</a></li>
+											<li><a href="#dist">配布</a></li>
+											<li><a href="#tech">技術</a></li>
+											<li><a href="https://wiki.byteball.org" target="_blank" title="Wiki">Wiki</a></li>
+											<li><a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="BitcoinTalk thread"><i class="fa fa-bitcoin"></i></a></li>
+											<li><a href="https://medium.com/byteball" target="_blank" title="Medium blog"><i class="fa fa-medium"></i></a></li>
+											<li><a href="https://byteball.slack.com" target="_blank" title="Slack"><i class="fa fa-slack"></i></a></li>
+											<li><a href="https://www.reddit.com/r/ByteBall/" target="_blank" title="Reddit"><i class="fa fa-reddit-alien"></i></a></li>
+											<li><a href="https://t.me/byteball" target="_blank" title="Telegram"><i class="fa fa-telegram"></i></a></li>
+										</ul>
+									</div>
+
+								</div>
+							</nav>
+							<!-- navbar end -->
+
+						</div>
+						<!-- main-navigation end -->
+
+					</div>
+					<!-- header-right end -->
+
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- header end -->
+
+	<!-- banner start -->
+	<!-- ================ -->
+	<div id="banner" class="banner">
+		<div class="banner-caption">
+			<div class="container">
+
+				<div class="row smooth-scroll">
+					<div class="row text-center logo-main">
+						<svg height="128" width="128">
+							<circle cx="64" cy="64" r="58" stroke="#2c3e50" stroke-width="6" fill="white" />
+						</svg>
+						<div style="margin-top: -15px;">Byteball</div>
+					</div>
+					<div class="space"></div>
+					<div class="row text-center">
+						<h2>スマートな決済でシンプルに。</h2>
+
+						<p><a class="btn btn-lg btn-success" href="#download" role="button">Byteballウォレットをダウンロードする</a></p>
+						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i>ホワイトペーパーを読む</a></p>
+					</div>
+					<div class="space"></div>
+
+
+					<p class="lead what-is">Byteballはスマートコントラクトに基づいた新しいシステムです。</p>
+					<p class="lead what-is">Byteballで契約が作成されると、それらは同意の下、正確に実行されます。契約相手への信用も、処理速度が遅くコストがかかるこれまでのシステムへの依存も、もう必要ありません。なぜなら不変のルールによって、（権力が）分散化されたプラットフォームで契約が執行されるからです。以下の、現在利用可能な契約タイプをご覧ください。</p>
+
+
+				</div>
+			</div>
+			<!-- /.countdown-wrapper -->
+
+		</div>
+	</div>
+	<!-- banner end -->
+	<!-- section start -->
+	<!-- ================ -->
+	<div class="default-bg">
+		<div id="why" class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<h2 class="text-center">Byteballを使う理由</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+			<div class="section clearfix">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+
+						 <div class="space"></div>
+						<div class="row">
+							<div class="col-md-5 col-md-offset-1">
+								<h2 class="title text-left">リスクのない条件付き支払い</h2>
+								<p class="lead text-left">Byteballはこれまでの通貨ではできなかったことを可能にします。例えば： <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
+								 target="_blank">条件付き支払い</a></p>
+
+								<p>あなたはお金の受領者がお金を受領する際に、条件を設定できます。条件が満たされなければ、あなたは自分が払ったお金を取り戻すことができます。</p>
+								<div class="space"></div>
+							</div>
+							<div class="col-md-6">
+								  <!-- <div class="frame-it"></div>  -->
+								<img src="img/inphone/payment-with-bind-full.png" alt="" class="img-feature">
+								<!-- <img src="img/inphone/bind.png" alt="" class="max-w320"> -->
+								<!-- <div class="space"></div> -->
+							</div>
+						</div>
+					 </div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+			<!-- section end -->
+			<div class="section clearfix">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+
+						 <div class="space"></div>
+						<div class="row">
+							<div class="col-md-4 col-md-push-6">
+							<h2 class="title text-left">P2P（ピアツーピア）保険</h2>
+							<p class="lead text-left">ネガティブな出来事への備え</p>
+							<p>ネガティブな出来事の発生時に支払いを受けられる保険を、個人から購入できます。自分の利益のために保険を売ることもできます。</p>
+							<p>保険とは、ズバリ<a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527"
+								 target="_blank">シンプルなスマートコントラクト</a>です。それは条件となる出来事が発生した際に、保険金受取人によって実行可能です。その他、保険者が実行するケースなどもあります。</p>
+							<p>航空機遅延保険に入るには、保険の相手となる人を<a href="http://slack.byteball.org" target="_blank" title="Slack">Slack</a>の<a href="https://byteball.slack.com/messages/C54CDJATB/"
+								 target="_blank">#p2p_insurance</a>チャンネルで探してください。そして、
+								契約を作成し、あなたのフライトが遅れた場合、<a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000">flight delays oracle</a>というチャットボットとチャットして、遅延に関するデータをポストさせてください。すると、契約が実行されます。</p>
+							<div class="space"></div>
+							</div>
+							<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
+								<img src="img/inphone/flight-delays-oracle-full.png" alt="" class="img-wallet-left img-feature">
+								<!-- <img src="img/inphone/flight-delays-oracle-top-no-border.png" alt="" class="img-wallet-left"> -->
+								<!-- <div class="space"></div> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+	<!-- section start -->
+	<!-- ================ -->
+			<div class="section clearfix">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+
+						 <div class="space"></div>
+						<div class="row">
+							<div class="col-md-5 col-md-offset-1">
+							<h2 class="title text-left">予測市場</h2>
+							<p class="lead text-left">将来の出来事を予測してお金を手に入れよう</p>
+							<p>ある特定の出来事が発生した場合に執行されるP2Pのスマートコントラクトを作成しましょう。それらを、<a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
+								 target="_blank">価格変動くじ</a>や、スポーツくじ、保険などに使用しましょう。</p>
+							<p>あなたの賭けの相手を、私たちの<a href="http://slack.byteball.org" target="_blank" title="Slack">Slack</a>の<a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a>チャンネルで見つけてください。</p>
+							<div class="space"></div>
+							</div>
+							<div class="col-md-6">
+								<img src="img/inphone/offer-contract.png" alt="" class="img-feature">
+								<!-- <img src="img/inphone/offer-contract-unlock-condition.png" alt=""> -->
+								<!-- <div class="space"></div> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+	<!-- section end -->
+			<div class="section clearfix">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+
+						<div class="space"></div>
+						<div class="row">
+							<div class="col-md-4 col-md-push-6">
+								<h2 class="title text-left">P2Pの賭け事</h2>
+								<p class="lead text-left">スポーツイベントで賭けをしましょう。</p>
+								<p>あなたの賭けの相手を<a href="http://slack.byteball.org" target="_blank" title="Slack">Slack</a>の<a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a>チャンネルで探しましょう。そして近々行われる試合の結果によって実行される契約を作成しましょう。</p>
+								<p>結果が明らかになったら、<a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">sports oracle</a>とチャットし、結果を投稿させてください。その後契約が実行されます。</p>
+
+								<div class="space"></div>
+							</div>
+							<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
+
+							<!-- <div style="position:relative; display: inline-block;">
+								<div class="frame-it1"></div> -->
+								<img src="img/inphone/sports-oracle-chat-full.png" alt="" class="img-wallet-left img-feature">
+								<!-- <img src="img/inphone/payment-in-chat.png" alt="" class="img-wallet-left max-w320"> -->
+							<!-- </div> -->
+								<!-- <div class="space"></div> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+	<!-- section start -->
+	<!-- ================ -->
+		<div class="section clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+
+					<div class="space"></div>
+					<div class="row">
+						<div class="col-md-5 col-md-offset-1">
+							<h2 class="title text-left">チャットでのP2P支払い</h2>
+							<p class="lead text-left">リンクをクリックするだけでチャットと支払いが同じアプリ内で完結します。</p>
+							<div class="space"></div>
+						</div>
+						<div class="col-md-6">
+							 <!-- <div class="frame-it"></div> -->
+							<img src="img/inphone/payment-in-chat-full.png" alt="" class="img-feature">
+							<!-- <img src="img/inphone/sports-oracle-chat-top-no-border.png" alt=""> -->
+							<!-- <div class="space"></div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+		<!-- section end -->
+		<div class="section clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+
+					 <div class="space"></div>
+					<div class="row">
+						<div class="col-md-4 col-md-push-6">
+							<h2 class="title text-left">チャットボット</h2>
+							<p class="lead text-left">人間に話しかけるように、ボットに話しかけてみてください。</p>
+							<p>販売者のボットとチャットして買い物をし、2クリックで支払いができます。両替やその他のサービスも同様に、チャットのようなインターフェースで簡単にご利用いただけます。</p>
+						<div class="space"></div>
+						</div>
+						<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
+							<img src="img/inphone/merchant-chatbot-1.png" alt="" class="img-wallet-left img-feature">
+							<!-- <img src="img/inphone/merchant-chatbot-top.png" alt="" class="img-wallet-left"> -->
+							<!-- <div class="space"></div> -->
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+
+		<!-- section end -->
+		<!-- section end -->
+		<div class="section clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+
+					 <div class="space"></div>
+					<div class="row">
+						<div class="col-md-5 col-md-offset-1">
+							<h2 class="title text-left">ボットストア</h2>
+							<p class="lead text-left">内蔵されたボットストアを通して、様々なチャットボットを見つけたり追加することが簡単にできます。</p>
+							<p>開発者は自分のチャットボットをボットストアで公開することで、すべてのユーザーにすぐにアクセスできます。 詳しくは<a href="https://github.com/byteball/byteballcore/wiki/Writing-chatbots-for-Byteball"
+								 target="_blank">チャットボット開発ガイド</a>をご覧ください。</p>
+						<div class="space"></div>
+						</div>
+						<div class="col-md-6">
+							<img src="img/inphone/bot-store.png" alt="" class="img-feature">
+							<!-- <img src="img/inphone/bot-store-top-no-border.png" alt=""> -->
+							<!-- <div class="space"></div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+			<!-- section end -->
+		<div class="section clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+
+					 <div class="space"></div>
+					<div class="row">
+						<div class="col-md-5 col-md-offset-1">
+							<h2 class="title text-left">追跡不可能な通貨: Blackbytes</h2>
+							<p class="lead text-left">現金のようにプライバシーを保護します。</p>
+							<p>あなたが完全なプライバシー保護を希望される場合、Blackbytesで支払ってください。Blackbytesとは、現金のように追跡不可能な通貨で、そのトランザクションは公的なデータベースに表示されません。それらはP2Pで取引されます。</p>
+							<p>プライバシーをさらに高めたい場合は、財布に内蔵されたTORスイッチを使ってください。</p>
+
+
+						</div>
+						<div class="col-md-6" style="position: relative">
+							<!--img src="img/black-byteball-logo-big.png" alt="" style="max-width: 142px; margin-top: 60px; margin-left: 110px;"-->
+							<svg height="128" width="128" style="position: relative">
+								<circle cx="64" cy="64" r="58" stroke="#2c3e50" stroke-width="6" fill="transparent" />
+							</svg>
+							<i class="fa fa-eye-slash" style="font-size: 80px; position: absolute; top: 19px; left: 39px; color: #2c3e50"></i>
+							<!-- <div class="space"></div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+	<!-- section start -->
+	<!-- ================ -->
+		<!-- section start -->
+	<!-- ================ -->
+	<div class="section clearfix ">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+
+						 <div class="space"></div>
+						<div class="row">
+							<div class="col-md-5 col-md-offset-1">
+								<h2 class="title text-left">ユーザー相互扶助</h2>
+								<p class="lead text-left">お互いの取引を守りましょう。</p>
+								<p>すべての支払いを保存し処理するような中央組織はありません。その代わり、ユーザー間の取引は暗号化された状態で互いにリンクされ、あなたが新しいトランザクションを追加すると、他のユーザーはその上に新しくトランザクションを追加します。そしてトランザクションの数は雪玉のように大きくなっていき、これが私たちが"Byteball"と呼ぶ所以でもあります。</p>
+
+							</div>
+							<div class="col-md-6">
+								<img src="img/DAG-transparent.png" alt="" style="margin-top: 60px;">
+
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+	<!-- section start -->
+	<!-- section start -->
+	<!-- ================ -->
+	<div class="default-bg">
+		<div id="core" class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<h2 class="text-center">Core features</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+	<!-- ================ -->
+	<div class="section clearfix">
+		<div class="container ">
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
+					<h3 class="media-heading">原子的な（分割不可能な）交換</h3>
+					<p>2人の利用者が１つの契約にサインすると、2つのトランザクションが同時に走るか、または全く動かないかのどちらかになります。中央的な交換所を必要としません。</p>
+					<div class="space-res"></div>
+				</div>
+				<div class="col-sm-4">
+					<h3 class="media-heading">統制された資産</h3>
+					<p>統制された組織は、KYC（ノウユアカスタマー）/AML（アンチマネーロンダリング）の要求に叶う資産を発行することができます。良い状態に統制された資産の交換は、発行者によって連署されます。一方規則に反するものには連署されません。 </p>
+				</div>
+			</div>
+			<div class="space"></div>
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
+					<h3 class="media-heading">複数サイン</h3>
+					<p>セキュリティのために、複数のサインが行われた時にだけ資金を配布可能にすることができます。例えば、ノートパソコンとスマートフォンからサインインするといったように。資金の管理権をシェアしている場合は、異なる人物のサインが求められます。</p>
+					<div class="space-res"></div>
+				</div>
+
+				<div class="col-sm-4">
+					<h3 class="media-heading">オンチェーンオラクル</h3>
+					<p>信頼できない相手と取引をする際は、信託されたデータプロバイダーのデータベースに登録されたイベントに依存し、資金をロックすることができます。</p>
+				</div>
+			</div>
+			<div class="space"></div>
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
+					<h3 class="media-heading">変更不可能な記憶装置</h3>
+					<p>一度Byteballのデータベースに記録されると、データを改変することも削除することもできません。</p>
+					<div class="space-res"></div>
+				</div>
+				<div class="col-sm-4">
+					<h3 class="media-heading">Settlement finality</h3>
+							<p>信頼できる基準が満たされると、新しいトランザクションが確定されます。強力な攻撃者によってさえ、それは改変できません。正確な数の承認数が推量できなければ、51%アタックはできません。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+
+	<!-- section start -->
+	<!-- ================ -->
+	<div class="default-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<h2  id="download"  class="text-center">Byteballウォレットをゲットしよう</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+	<!-- section start -->
+
+	<div class="section clearfix ">
+		<div class="container">
+			<div class="row apps">
+
+				<div class="col-md-8 col-md-offset-2 text-center">
+
+					 <div>
+						 <img style="max-width: 33%;" src="img/inphone/wallet.png" />
+					</div>
+					<div class="space"></div>
+					<div class="app">
+						<div><a target="_blank" href="https://github.com/byteball/byteball/blob/master/building-for-ios.md"><img src="img/icon-applestore.svg"/></a></div>
+						<div><a target="_blank" href="https://github.com/byteball/byteball/blob/master/building-for-ios.md">iOS</a></div>
+					</div>
+					<div class="app">
+						<div><a target="_blank" href="https://play.google.com/store/apps/details?id=org.byteball.wallet"><img src="img/android_robot.svg"/></a></div>
+						<div><a target="_blank" href="https://play.google.com/store/apps/details?id=org.byteball.wallet">Android</a></div>
+					</div>
+					<div class="app">
+						<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.1/Byteball-win64.exe"><img src="img/icon-microsoft.svg"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.1/Byteball-win64.exe">Windows</a></div>
+					</div>
+					<div class="app">
+						<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.1/Byteball-osx64.dmg"><img src="img/icon-mac-os-x.svg"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.1/Byteball-osx64.dmg">Mac</a></div>
+					</div>
+					<div class="app">
+						<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.1/byteball-linux64.zip"><img src="img/linux.png"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.1/byteball-linux64.zip">Linux</a></div>
+					</div>
+					<div class="app">
+						<div><a target="_blank" href="https://github.com/byteball/byteball"><img src="img/fi-social-github.svg"/></a></div>
+						<div><a target="_blank" href="https://github.com/byteball/byteball">GitHub</a></div>
+					</div>
+					<div class="space"></div>
+					<ul class="list-unstyled text-left">
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i>インストール後、<a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">Transition Bot</a>とチャットして次の配布（エアドロップ）に参加してください。</li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">Buy or sell bytes</a>のトレーディングボットからbytesの売買ができます。</li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="https://medium.com/byteball/making-p2p-great-again-episode-ii-bitcoin-exchange-d98adfbde2a5" target="_blank">P2P exchange bytes vs bitcoins</a>では、 <a href="byteball:A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@byteball.org/bb#0000">BTC Oracle</a>ボットを使ってmerkle proofを取得できます。<br></li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="https://explorer.byteball.org" target="_blank">DAG explorer</a>でByteballの公開取引を見ることができます。</li>
+								<!-- <li><i class="fa fa-caret-right pr-10 text-colored"></i> Dignissimos molestiae necessitatibus</li> -->
+							</ul>
+					 <!-- <h4 style="font-weight: 500;">After installing, <a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">chat with the Transition Bot</a>	to participate in the next distribution round</br> -->
+						<!-- <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">Buy or sell bytes</a> by chatting
+						with a trading bot</br> -->
+						<!-- <a href="https://medium.com/byteball/making-p2p-great-again-episode-ii-bitcoin-exchange-d98adfbde2a5" target="_blank">P2P exchange bytes vs bitcoins</a>,
+						get your merkle proof by chatting with <a href="byteball:A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@byteball.org/bb#0000">BTC Oracle</a></br>
+						View public transactions on the <a href="https://explorer.byteball.org" target="_blank">DAG explorer</a></h4>  -->
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+	<!-- section start -->
+	<!-- ================ -->
+	<div class="default-bg">
+		<div id="dist" class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<h2 class="text-center">公正な初期配布</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+	<!-- section start -->
+	<!-- ================ -->
+	<div class="section clearfix ">
+		<div class="container">
+			<div class="row">
+				<p class="lead text-center">次回の無料配布: <span id="distDate">日程</span></p>
+				<div class="clock row">
+					<div class="col-xs-3 col-sm-3 col-md-3">
+						<div class="countdown-time-value clock-item clock-days">
+							<div class="wrap">
+								<div class="inner">
+									<div id="canvas-days" class="clock-canvas"></div>
+									<div class="text">
+										<p class="val">0</p>
+										<p class="type-days type-time">日</p>
+									</div>
+									<!-- /.text -->
+								</div>
+								<!-- /.inner -->
+							</div>
+							<!-- /.wrap -->
+						</div>
+					</div>
+					<!-- /.clock-item -->
+
+					<div class="col-xs-3 col-sm-3 col-md-3">
+						<div class="clock-item clock-hours countdown-time-value">
+							<div class="wrap">
+								<div class="inner">
+									<div id="canvas-hours" class="clock-canvas"></div>
+
+									<div class="text">
+										<p class="val">0</p>
+										<p class="type-hours type-time">時間</p>
+									</div>
+									<!-- /.text -->
+								</div>
+								<!-- /.inner -->
+							</div>
+							<!-- /.wrap -->
+						</div>
+					</div>
+					<!-- /.clock-item -->
+
+					<div class="col-xs-3 col-sm-3 col-md-3">
+						<div class="clock-item clock-minutes countdown-time-value">
+							<div class="wrap">
+								<div class="inner">
+									<div id="canvas-minutes" class="clock-canvas"></div>
+
+									<div class="text">
+										<p class="val">0</p>
+										<p class="type-minutes type-time">分</p>
+									</div>
+									<!-- /.text -->
+								</div>
+								<!-- /.inner -->
+							</div>
+							<!-- /.wrap -->
+						</div>
+					</div>
+					<!-- /.clock-item -->
+
+					<div class="col-xs-3 col-sm-3 col-md-3">
+						<div class="clock-item clock-seconds countdown-time-value">
+							<div class="wrap">
+								<div class="inner">
+									<div id="canvas-seconds" class="clock-canvas"></div>
+
+									<div class="text">
+										<p class="val">0</p>
+										<p class="type-seconds type-time">秒</p>
+									</div>
+									<!-- /.text -->
+								</div>
+								<!-- /.inner -->
+							</div>
+							<!-- /.wrap -->
+						</div>
+					</div>
+					<!-- /.clock-item -->
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row margin-zero">
+						<p class="lead text-left">BTC保有者・Bytes保有者への無料配布（エアドロップ）</p>
+						<p>広く世間に認知されるため、bytesとblackbytesの98%を無料で配布します。</p>
+						<p>PBytesの一部は<a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">キャッシュバック</a>として、私たちのパートナーショップでの購入に対して配布されます。多くの場合、購入金額の10%がキャッシュバックされます。あなたがショップオーナーまたはペイメントプロセッサで、キャッシュバックプログラムに参加されたい場合、こちらの<a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">申請フォーム</a>または<script>document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">');</script>メール<script>document.write('</a>');</script>からご連絡ください。</p>
+						<p>配布期間はいくつかの期間に分割され、BTCとBytesの保有者は報酬を受け取ることができます。次回配布時に配布される量は通貨保有量に比例します:</p>
+						<ul>
+							<li>16 BTC につき 0.1 GB (1 gigabyte = 1 billion bytes) 付与</li>
+							<li>1 GB につき 0.1 GB 付与</li>
+						</ul>
+						<p>あなたの預金を証明するために、byteball公式ウォレットをインストールし、Transition Bot (Bot Storeの中にあります)とチャットしてください。そのボットによってあなたはBitcoinとByteballのアドレスをリンクさせることができます。リンクは、少額の決済をすること、またはメッセージを送ることで行われます。</p>
+						<p>リンクされたBTC量とByteballアドレスに紐付いたBytes量に比例して、blackbytesも受け取ることができます。</p>
+						<p>最初の配布はネットワークが開始された2016年12月25日に行われ、70,000以上のBTCがリンクされました。そしてbytesとblackbytesの総発行料の10%が配布されました。その後の配布によって、総配布料の58.4%まで配布されました。</p>
+						<ul>
+							<li>2回目 2017/2/11: 121,763 BTC リンク済み 1.8% 配布済み</li>
+							<li>3回目 2017/3/12: 129,139 BTC リンク済み 2.0% 配布済み</li>
+							<li>4回目 2017/4/11: 145,441 BTC リンク済み 2.3% 配布済み</li>
+							<li>5回目 2017/5/10: 207,672 BTC リンク済み 2.9% 配布済み</li>
+							<li>6回目 2017/6/9: 453,621 BTC リンク済み 6.6% 配布済み</li>
+							<li>7回目 2017/7/9: 949,004 BTC リンク済み 11.0% 配布済み.</li>
+							<li>8回目 2017/8/7: 1,395,899 BTC リンク済み 16.0% 配布済み</li>
+							<li>9回目 2017/9/6: 1,306,573 BTC リンク済み 5.7% 配布済み</li>
+						</ul>
+						<p>10回目は11月4日（満月の日）を予定しています(<b>Nov 4, 2017 at 05:23 UTC</b>)。その時間に預金額はスナップショットされます。ルールは上述した通りです。私たちは配布量が98%に達するまで配布を行う予定です。</p>
+						<p>BitcoinとByteballアドレスをリンクさせるために<a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">Transition Bot</a>とチャットしてください。リンクの状況は<a href="http://transition.byteball.org/" target="_blank">transition.byteball.org</a>で確認できます。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+
+	<!-- section start -->
+	<!-- ================ -->
+	<div class="default-bg">
+		<div id="tech" class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<h2 class="text-center">完全に新しい技術</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+
+	<!-- section start -->
+	<!-- ================ -->
+	<div class="section clearfix ">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row margin-zero">
+						<p class="lead text-left">スケーラビリティは拘束されず、承認は素早く行われ、マイナーは存在せず、ブロックもなく、低コスト。</p>
+						<p>Byteballのデータは、ブロックチェーンではなく、<a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">directed acyclic graph</a>(DAG)を使って発注され蓄積されます。他のユーザーが作った以前のデータを参照するこの技術によって、すべてのユーザーのデータを守ることができます。また、ブロックサイズ問題として知られているような、ブロックチェーンによくある拡張性の制限を取り除きます。</p>
+						<p>ブロックが存在せず、トランザクションのみが存在するブロックレスデザインはシンプルです。ユーザーはDAGの最後に自分のトランザクションを追加するだけでよく、マイナーが新しいブロックを追加するのを待つ必要がありません。。また、マイナーが自分のトランザクションをブロックに含めたかどうかを慮る必要もありません。</p>
+						<p>すべての注文がDAGの中に組み込まれていることにより、二重支払いを防ぐ合意アルゴリズムが形成されます。これはメインチェーンと呼ばれるチェーンを選択することで達成されます。メインチェーンは、優良ユーザーである証人によって発行されたユニットに関連付けられます。詳細は<a href="Byteball.pdf">ホワイトペーパー</a> をご覧ください。</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+
+	<!-- section start -->
+	<!-- ================ -->
+	<div class="section clearfix ">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row margin-zero">
+						<h2 class="text-left">テストネット</h2>
+						<p><a href="testnet.html">開発者や、実際にお金を使わずにByteballの特徴を体験してみたい方は、テストネットウォレット</a>も利用できます。</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+	<!-- section start -->
+	<!-- ================ -->
+	<div class="section clearfix ">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row margin-zero">
+						<h2 class="text-left">コミュニティとサポート</h2>
+						<p>Byteballの<a href="http://slack.byteball.org" target="_blank" title="Slack">Slack</a>がありますが、利用者へのスパムDMが横行しているため、現在は新規の参加を停止しています。すでに参加している人から招待メールをもらうことで参加できます。Byteballウォレットに関する問題は、 #helpdesk channel から質問できます。</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+	<!-- section start -->
+	<!-- ================ -->
+	<div class="section clearfix ">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row margin-zero">
+						<h2 class="text-left">取引じょ</h2>
+						<p>ウォレットの中で、<a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">trading bot</a>とチャットをすることで、Bytesの売買ができます。
+							また、<a href="https://bittrex.com/Market/Index?MarketName=BTC-GBYTE" target="_blank">Bittrex</a>、
+							<a href="https://cryptox.pl" target="_blank">Cryptox</a>、<a href="https://www.cryptopia.co.nz/Exchange/?market=GBYTE_BTC"
+							 target="_blank">Cryptopia</a>、<a href="https://changelly.com/exchange/btc/gbyte" target="_blank">Changelly</a>、
+							<a href="https://bitsquare.io" target="_blank">Bitsquare</a>などの取引所でも売買できます。</p>
+						<p>Blackbytesの売買は、<a href="http://slack.byteball.org" target="_blank" title="Slack">Slack</a>の<a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a>チャンネルでオーダーし、<a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">bound (conditional) payments</a>からP2Pで取引可能です。</p>
+
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<a class='exchange-icon' href="https://bittrex.com/Market/Index?MarketName=BTC-GBYTE" target="_blank"><img src="https://bittrex.com/Content/img/logos/bittrex-logo-transparent.png" alt="Bittrex"></a>
+					<a class='exchange-icon' style='margin-bottom: 6px;' href="https://cryptox.pl" target="_blank"><img src="https://cryptox.pl/images/logo.png" alt="Cryptox"></a>
+					<a class='exchange-icon' href="https://www.cryptopia.co.nz/Exchange/?market=GBYTE_BTC" target="_blank"><img src="img/exchanges/Cryptopia-Light2x.png" alt="Cryptopia"></a>
+					<a class='exchange-icon' href="https://changelly.com/exchange/btc/gbyte" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALwAAAA1CAMAAADMKHGJAAADAFBMVEUQ0Hj///8Q0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HisG82fAAAA/3RSTlMAAAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmJygpKissLS4vMDEyMzQ1Njc4OTo7PD0+P0BBQkNERUZHSElKS0xN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" alt="Changelly"></a>
+					<a class='exchange-icon' href="https://bitsquare.io" target="_blank"><img src="img/exchanges/bitsquare.png" alt="bitsquare"></a>
+					<a class='exchange-icon' href="https://www.kaiserex.com" target="_blank"><img src="img/exchanges/kaiserex-logo.png" alt="Kaiserex"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- sectionimg/exchanges/bitsqare.png end -->
+	<!-- footer start -->
+	<!-- Site footer -->
+	<footer class="footer text-center">
+		<!--p>&copy; 2016 Byteball</p-->
+
+		&nbsp;
+		<script>
+			document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">byteball'); document.write('@'); document.write('byteball.org</a>');
+		</script>
+		&nbsp;
+		<a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a> &nbsp;
+		<a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="BitcoinTalk thread"><i class="fa fa-bitcoin"></i></a>		&nbsp;
+		<a href="https://medium.com/byteball" target="_blank" title="Medium"><i class="fa fa-medium"></i></a> &nbsp;
+		<a href="https://byteball.slack.com" target="_blank" title="Slack"><i class="fa fa-slack"></i></a> &nbsp;
+		<a href="https://www.reddit.com/r/ByteBall/" target="_blank" title="Reddit"><i class="fa fa-reddit-alien"></i></a> &nbsp;
+		<a href="https://t.me/byteball" target="_blank" title="Telegram"><i class="fa fa-telegram"></i></a>
+	</footer>
+
+
+	<!-- JavaScript files placed at the end of the document so the pages load faster
+		================================================== -->
+	<!-- Jquery and Bootstap core js files -->
+	<script type="text/javascript" src="plugins/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<!-- Modernizr javascript -->
+	<script type="text/javascript" src="plugins/modernizr.js"></script>
+
+
+	<!-- Initialization of Plugins -->
+	<script type="text/javascript" src="js/template.js?v2"></script>
+
+	<script src="js/kinetic.js"></script>
+	<script src="js/jquery.final-countdown.min.js"></script>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-83607123-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</body>
+
+</html>

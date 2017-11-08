@@ -144,8 +144,8 @@
 			{epoch: 1504681320, sDate: 'September 6 07:02 UTC'},
 		//	{epoch: 1507228800, sDate: 'October 5 18:40 UTC'},
 			{epoch: 1509772980, sDate: 'November 4 05:23 UTC'},
-			{epoch: 1512316020, sDate: 'December 3 15:47 UTC'},
-			{epoch: 9999999999, sDate: 'LAST we already conquered the world'},
+		//	{epoch: 1512316020, sDate: 'December 3 15:47 UTC'},
+		//	{epoch: 9999999999, sDate: 'LAST we already conquered the world'},
 		]
 
 		for (var i = 0;i<fullMoons.length -1;i++ ){

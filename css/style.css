@@ -135,7 +135,7 @@ blockquote {
 	height: 100%;
 	min-height: 850px;
 	position: relative;
-	color: #fff;
+/*	color: #fff;*/
 	overflow: hidden;
 }
 .banner-image {
@@ -407,6 +407,10 @@ textarea {
 ----------------------------------------------------------------------------- */
 .header .navbar {
 	margin-bottom: 0;
+	display: inline-block;
+}
+.main-navigation {
+	text-align: center;
 }
 .main-navigation .navbar-default {
 	background-color: transparent;
@@ -414,7 +418,7 @@ textarea {
 }
 .main-navigation .navbar-default .navbar-nav > li > a {
 	color: #fff;
-	padding: 10px 20px;
+	padding: 10px 10px;
 	font-size: 18px;
 	font-weight: 300;
 }
@@ -450,6 +454,52 @@ textarea {
 	.header.navbar-fixed-top {
 		position: absolute;
 	}
+}
+
+
+@media (max-width: 1200px) {
+
+.header .navbar {
+	margin-bottom: 0;
+	 display: inline; 
+}
+.main-navigation {
+	text-align: center;
+}
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 0px solid transparent;
+      box-shadow: inset 0 0px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+       display: inline-block !important; 
+  }
 }
 
 /* Fixed Header
@@ -495,6 +545,7 @@ textarea {
 
 	-webkit-transform: scale(0); 
     transform: scale(0);
+	position: absolute;
 }
 .logo a {
 	color: #ffffff;
@@ -667,6 +718,12 @@ textarea {
 	transform: scale(1);
 }
 
+.what-is{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+}
 
 .clock{
     position: relative;
@@ -789,6 +846,7 @@ textarea {
 .exchange-icon{
     display:inline-block;
     width: 150px;
+	margin-right: 10px;
 }
 .img-wallet-left{
      display:inline-block; 
@@ -834,7 +892,7 @@ textarea {
 	}
 	.banner {
 
-		min-height: 620px;
+		min-height: 760px;
 
 	}
 	.container .space {
@@ -854,7 +912,7 @@ textarea {
     	display: inline-block;
 	}
 	.navbar-collapse {
-		background:rgba(0, 0, 0, 0.78);
+		 /*background:rgba(0, 0, 0, 0.78);*/
 	}
 	.text .type-time {
     	font-size: 10px;
@@ -891,4 +949,17 @@ textarea {
 }
 .btn {
 	border-radius: 7px;
+}
+
+
+
+@media (min-width: 992px){
+	.container {
+		width: inherit;
+	}
+}
+@media (min-width: 768px){
+	.container {
+		width: inherit;
+	}
 }

@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!-->
-<html lang="de">
+<html lang="ja">
 <!--<![endif]-->
 
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="Smart payments made simple">
+	<meta name="description" content="スマート決済でシンプルに">
 	<meta name="author" content="Byteball">
 	<link rel="icon" href="img/icon_16x16@2x.png">
 
-	<title>Byteball &mdash; smart payments made simple</title>
+	<title>Byteball &mdash; スマート決済でシンプルに</title>
 
 	<!-- Mobile Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -90,7 +90,7 @@
 											<li><a href="https://wiki.byteball.org" target="_blank" title="Wiki">Wiki</a></li>
 											<li><a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
 											<li><a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="BitcoinTalk thread"><i class="fa fa-bitcoin"></i></a></li>
+											<li><a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="BitcoinTalkスレッド"><i class="fa fa-bitcoin"></i></a></li>
 											<li><a href="https://medium.com/byteball" target="_blank" title="Medium blog"><i class="fa fa-medium"></i></a></li>
 											<li><a href="https://byteball.slack.com" target="_blank" title="Slack"><i class="fa fa-slack"></i></a></li>
 											<li><a href="https://www.reddit.com/r/ByteBall/" target="_blank" title="Reddit"><i class="fa fa-reddit-alien"></i></a></li>
@@ -129,7 +129,7 @@
 					</div>
 					<div class="space"></div>
 					<div class="row text-center">
-						<h2>Smart payments made simple</h2>
+						<h2>スマート決済でシンプルに</h2>
 
 						<p><a class="btn btn-lg btn-success" href="#download" role="button">Get Byteball wallet</a></p>
 						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> Read the whitepaper</a></p>
@@ -157,7 +157,7 @@
 		<div id="why" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Vorteile von Byteball!</h2>
+					<h2 class="text-center">なぜByteballなのか？</h2>
 				</div>
 			</div>
 		</div>
@@ -171,11 +171,11 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-								<h2 class="title text-left">Risikofreie an Bedingungen knüpfbare Smartzahlungen</h2>
-								<p class="lead text-left">Byteball erlaubt ihnen etwas, was traditionelle Währungen nicht können: <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
-								 target="_blank">Die Bezahlung von Bedingungen abhängig machen.</a></p>
+								<h2 class="title text-left">リスクのない条件付きスマート決済</h2>
+								<p class="lead text-left">Byteballでは従来の通貨ではできないことができます: <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
+								 target="_blank">条件付き決済</a></p>
 
-								<p>Sie legen fest, unter welcher Bedingung der Zahlungsempfänger das Geld erhält. Wenn die Bedingung nicht erfüllt ist, erhalten Sie Ihr Geld zurück.</p>
+								<p>あなたは受取人がいつお金を受け取るかという条件を設定します。条件が満たされない場合は、返金されます。</p>
 								<div class="space"></div>
 							</div>
 							<div class="col-md-6">
@@ -232,11 +232,11 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Prognosemärkte</h2>
-							<p class="lead text-left">Verdienen Sie Geld durch korrekte Vorhersage zukünftiger Ereignisse.</p>
-							<p>Erstellen Sie einen P2P-Smart-Vertrag, der freigeschaltet werden kann, wenn ein bestimmtes Ereignis eintritt. Nutzen Sie es für <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
-								 target="_blank">Wetten auf Preisbewegungen</a>, Sportwetten und Versicherungen.</p>
-							<p>Finden Sie Ihren Handelspartner im <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> Kanal in unserem <a href="http://slack.byteball.org" target="_blank" title="Slack">Slack.</a></p>
+							<h2 class="title text-left">予測市場</h2>
+							<p class="lead text-left">将来のイベントを正確に予測してお金を稼ぐ。</p>
+							<p>特定のイベントが発生したときにロックを解除できるP2Pスマートコントラクトを作成します。 <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
+								 target="_blank">価格変動への賭け</a>、スポーツくじや保険に使用できます。</p>
+							<p>相手を<a href="http://slack.byteball.org" target="_blank" title="Slack">Slack</a>の<a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a>チャンネルで見つけましょう。</p>
 							<div class="space"></div>
 							</div>
 							<div class="col-md-6">
@@ -317,10 +317,9 @@
 					 <div class="space"></div> 
 					<div class="row">
 						<div class="col-md-4 col-md-push-6">
-							<h2 class="title text-left">Chatbots</h2>
-							<p class="lead text-left">Talk to a bot like you would talk to a human.</p>
-							<p>Shop by chatting with a merchant's bot, pay in two clicks. Exchanges and other services are also easy to use in conversational
-								interface.</p>
+							<h2 class="title text-left">チャットBot</h2>
+							<p class="lead text-left">人と話すようにBotと会話できます。</p>
+							<p>商店のBotとチャットして買い物をし、2回のクリックで支払うことができます。対話型インターフェースでは、取引所や他のサービスも使いやすいです。</p>
 						<div class="space"></div>
 						</div>
 						<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
@@ -346,10 +345,10 @@
 					 <div class="space"></div> 
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Bot Store</h2>
-							<p class="lead text-left">Easily discover and add new chatbots via the built-in Bot Store.</p>
-							<p>Developers have instant access to all users by publishing their chatbot on the Bot Store. See the <a href="https://github.com/byteball/byteballcore/wiki/Writing-chatbots-for-Byteball"
-								 target="_blank">developer guide about building chatbots.</a></p>
+							<h2 class="title text-left">Botストア</h2>
+							<p class="lead text-left">内蔵されたBotストアで、新しいチャットBotを簡単に見つけることや追加する事ができます。</p>
+							<p>開発者は、BotストアでチャットBotを公開することにより、すべてのユーザーにすぐにアクセスすることができます。 <a href="https://github.com/byteball/byteballcore/wiki/Writing-chatbots-for-Byteball"
+								 target="_blank">チャットBot開発者ガイド</a>を見てください。</p>
 						<div class="space"></div>
 						</div>
 						<div class="col-md-6">
@@ -372,11 +371,10 @@
 					 <div class="space"></div> 
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Untraceable currency: Blackbytes</h2>
-							<p class="lead text-left">Cash-like privacy.</p>
-							<p>When you want complete privacy, pay in Blackbytes, a cash-like untraceable currency whose transactions are not visible
-								on the public database, they are sent peer-to-peer instead.</p>
-							<p>Use built-in TOR switch straight from the wallet to increase your privacy even further.</p>
+							<h2 class="title text-left">追跡不可能な通貨 : Blackbytes</h2>
+							<p class="lead text-left">現金のようなプライバシー。</p>
+							<p>完全なプライバシーが必要な場合は、現金のような追跡不可能な通貨Blackbytesで支払うことができます。その取引は公開データベース上では見ることができず、代わりにP2Pで送信されます。</p>
+							<p>ウォレットから直接に内蔵TORスイッチを使用すると、プライバシーをさらに高めることができます。</p>
 
 
 						</div>
@@ -406,10 +404,9 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-								<h2 class="title text-left">Users help each other</h2>
-								<p class="lead text-left">Secure each other's transactions.</p>
-								<p>There is no central entity that stores and processes all the payments.  Instead, transactions created by users are
-									cryptographically linked to each other, and once you add your new transaction, other users start adding theirs on top of yours, and the number of other transactions that link to your transaction grows like snowball (that's why we call it Byteball).</p>
+								<h2 class="title text-left">ユーザーの助け合い</h2>
+								<p class="lead text-left">お互いの取引をセキュリティ保護します。</p>
+								<p>中央ですべての決済を保管し処理するものは存在しません。  代わりに、ユーザーによって作成されたトランザクションは、暗号化されて相互にリンクされます。あなたが新しいトランザクションを追加すると、他のユーザーはその上に新しいトランザクションを追加し始め、トランザクションにリンクするトランザクション数が雪だるま式に増加します。（これがByteballという名前の理由です）</p>
 
 							</div>
 							<div class="col-md-6">
@@ -429,7 +426,7 @@
 		<div id="core" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Core features</h2>
+					<h2 class="text-center">コア機能</h2>
 				</div>
 			</div>
 		</div>
@@ -440,42 +437,38 @@
 		<div class="container ">
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
-					<h3 class="media-heading">Atomic exchange</h3>
-					<p>When two parties sign a single unit that executes both legs of the exchange, the two transactions either happen simultaneously
-						or don't happen at all. It is no longer necessary to trust any centralized exchanges.</p>
+					<h3 class="media-heading">アトミックエクスチェンジ</h3>
+					<p>二人の当事者がトレードを実行する1つのユニットに署名するとき、2つのトランザクションは同時に発生するか、両方とも発生しないかのどちらかです。 集中管理された取引所を信用する必要はなくなりました。</p>
 					<div class="space-res"></div>
 				</div>
 				<div class="col-sm-4">
-					<h3 class="media-heading">Regulated assets</h3>
-					<p>Regulated institutions can issue assets that are compatible with KYC/AML requirements. Every transfer of such asset
-						is to be cosigned by the issuer, and if there is anything that contradicts the regulations, the issuer won't cosign.</p>
+					<h3 class="media-heading">規制アセット</h3>
+					<p>規制機関はKYC/AMLの要請に適合するアセットを発行することができます。 そのようなアセットのすべての転送は発行者によって連署されなければならず、規制に違反するものがあれば、発行者は連署しません。</p>
 				</div>
 			</div>
 			<div class="space"></div>
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
-					<h3 class="media-heading">Multi signature</h3>
-					<p>For security, you can require that your funds be spendable only when several signatures are provided, e.g. from your
-						laptop and from your phone. For shared control of funds, signatures from different people may be required.</p>
+					<h3 class="media-heading">マルチシグ</h3>
+					<p>セキュリティのために、あなたの資金を消費する際にノートPCや携帯電話などから複数の署名が必要となるようにすることができます。 資金の共有管理のために、複数の人の署名が必要となるようにもできます。</p>
 					<div class="space-res"></div>
 				</div>
 
 				<div class="col-sm-4">
-					<h3 class="media-heading">On-chain oracles</h3>
-					<p>When dealing with untrusted counterparties, you can lock the funds on an address that is spendable either by you or
-						by the counterparty, depending on the events registered to the database by trusted data providers &mdash; oracles.</p>
+					<h3 class="media-heading">オンチェーンオラクル</h3>
+					<p>信用していない相手と取引する場合は、信頼できるデータプロバイダ &mdash; オラクルによってデータベースに登録されたイベントによって、あなたか相手のどちらかが消費可能となるアドレスに資金をロックすることができます。</p>
 				</div>
 			</div>
 			<div class="space"></div>
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
-					<h3 class="media-heading">Immutable storage</h3>
-					<p>Once stored in the Byteball database, the data can neither be revised nor removed.</p>
+					<h3 class="media-heading">不変なストレージ</h3>
+					<p>データが一度Byteballデータベースに格納されると、修正も削除もできなくなります。</p>
 					<div class="space-res"></div>
 				</div>
 				<div class="col-sm-4">
-					<h3 class="media-heading">Settlement finality</h3>
-							<p>After certain criteria are met, a new transaction becomes final. It cannot be revised even by a powerful attacker.  No guesswork about the right number of confirmations, no 51% attacks.</p>
+					<h3 class="media-heading">ファイナリティ</h3>
+							<p>一定の基準が満たされると、新しいトランザクションが確定します。それは強力な攻撃者であっても変更することはできません。適切な確認数を推測する必要や、51%アタックはありません。</p>
 				</div>
 			</div>
 		</div>
@@ -488,7 +481,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2  id="download"  class="text-center">Get your Byteball wallet</h2>
+					<h2  id="download"  class="text-center">Byteballウォレットの入手</h2>
 				</div>
 			</div>
 		</div>
@@ -532,11 +525,10 @@
 					</div>
 					<div class="space"></div>
 					<ul class="list-unstyled text-left">
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> After installing, <a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">chat with the Transition Bot</a> to participate in the next distribution round</li>
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">Buy or sell bytes</a> by chatting	with a trading bot</li>
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="https://medium.com/byteball/making-p2p-great-again-episode-ii-bitcoin-exchange-d98adfbde2a5" target="_blank">P2P exchange bytes vs bitcoins</a>,
-						get your merkle proof by chatting with <a href="byteball:A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@byteball.org/bb#0000">BTC Oracle</a><br></li>
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> View public transactions on the <a href="https://explorer.byteball.org" target="_blank">DAG explorer</a></li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> インストール後、<a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">Transition Botとチャットして</a>次回の分配ラウンドに参加しましょう。</li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> トレーディングBotとチャットして<a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">bytesを売買しましょう</a>。</li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="https://medium.com/byteball/making-p2p-great-again-episode-ii-bitcoin-exchange-d98adfbde2a5" target="_blank">bytesとビットコインのP2P取引所</a>、<a href="byteball:A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@byteball.org/bb#0000">BTCオラクル</a>とチャットしてマークルプルーフを入手しましょう。<br></li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="https://explorer.byteball.org" target="_blank">DAGエクスプローラ</a>で公開トランザクションを見ましょう。</li>
 								<!-- <li><i class="fa fa-caret-right pr-10 text-colored"></i> Dignissimos molestiae necessitatibus</li> -->
 							</ul>
 					 <!-- <h4 style="font-weight: 500;">After installing, <a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">chat with the Transition Bot</a>	to participate in the next distribution round</br> -->
@@ -557,7 +549,7 @@
 		<div id="dist" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Fair initial distribution</h2>
+					<h2 class="text-center">公平な初期分配</h2>
 				</div>
 			</div>
 		</div>
@@ -687,7 +679,7 @@
 		<div id="tech" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Completely new technology</h2>
+					<h2 class="text-center">完全に新しい技術</h2>
 				</div>
 			</div>
 		</div>
@@ -701,13 +693,10 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<p class="lead text-left">Unbounded scalability, fast confirmations, no miners, no blocks, low fees.</p>
-						<p>Byteball data is stored and ordered using <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">directed acyclic graph</a>							(DAG) rather than blockchain. This allows all users to secure each other's data by referencing earlier data units
-							created by other users, and also removes scalability limits common for blockchains, such as blocksize issue.</p>
-						<p>Blockless design is simpler because there are no blocks, there are only transactions.  Users just add their transactions to the end of the DAG themselves, they don't have to wait when miners create a new block and there is no guesswork whether miners will include your transaction in the block.</p>
-						<p>The consensus algorithm used to protect from double-spends is based on establishing a total order within the DAG. This
-							is achieved by selecting a chain, called main chain, which gravitates towards units issued by commonly recognized
-							reputable users &mdash; witnesses. See the <a href="Byteball.pdf">white paper</a> for details.</p>
+						<p class="lead text-left">無限のスケーラビリティ、高速な確認、マイナー不要、ブロック不要、低料金。</p>
+						<p>Byteballデータはブロックチェーンではなく、<a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">有向非巡回グラフ</a> (DAG) に格納、順序付けされます。 これによりすべてのユーザーは、他のユーザーが作成した以前のデータユニットを参照することで、それぞれのデータを守ります。また、一般的なブロックチェーンのブロックサイズ問題のようなスケーラビリティ制限を排除しました。</p>
+						<p>ブロックレスの設計は、ブロックがなくトランザクションだけがあるためシンプルです。  ユーザーはDAGの末尾に自身のトランザクションを追加するだけで、マイナーが新しいブロックを作成するのを待つことや、、マイナーがブロックに自分のトランザクションを含めるかどうかを推測する必要はありません。</p>
+						<p>二重支払いを防ぐためのコンセンサスアルゴリズムは、DAGの内部で全順序を確立することに基いています。 これはメインチェーンと呼ばれるチェーンを選択することで達成されます。メインチェーンは一般に評判の良いと認識されるユーザー &mdash; 証人によって発行されたユニットに向かって引き寄せられます。 詳細は<a href="Byteball.pdf">ホワイトペーパー</a>を見てください。</p>
 
 					</div>
 				</div>
@@ -723,9 +712,8 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<h2 class="text-left">Testnet</h2>
-						<p><a href="testnet.html">Testnet wallet</a> is also available if you are a developer or want to experience the features
-							of Byteball without spending a penny.</p>
+						<h2 class="text-left">テストネット</h2>
+						<p>開発者の方、またはお金を使うことなくByteballの機能を体験したい方は、<a href="testnet.html">テストネットウォレット</a>が利用可能です。</p>
 
 					</div>
 				</div>
@@ -740,10 +728,8 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<h2 class="text-left">Community and Support</h2>
-						<p>Join Byteball on Slack! There are many channels with lively discussions about future developments, trading, auctions,
-							to name just a few. If you have any issues with the Byteball wallet, our competent support staff will take care of
-							it at the #helpdesk channel. Please get your invite at <a href="http://slack.byteball.org" target="_blank" title="Slack">slack.byteball.org</a>.</p>
+						<h2 class="text-left">コミュニティとサポート</h2>
+						<p>SlackのByteballに参加してください！ 活発な議論を交わすチャンネルが多数あります。ほんの数例を挙げると将来の開発、トレード、オークションなどがあります。 Byteballウォレットで何か問題があった場合、有能なサポートスタッフが#helpdeskチャンネルで対応いたします。 <a href="http://slack.byteball.org" target="_blank" title="Slack">slack.byteball.org</a>で招待状を手に入れましょう。</p>
 
 					</div>
 				</div>
@@ -758,14 +744,11 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<h2 class="text-left">Exchanges</h2>
-						<p>You can buy or sell bytes without leaving the wallet by <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">chatting with a trading bot</a>.
-							You can also trade on <a href="https://bittrex.com/Market/Index?MarketName=BTC-GBYTE" target="_blank">Bittrex</a>,
-							<a href="https://cryptox.pl" target="_blank">Cryptox</a>, <a href="https://www.cryptopia.co.nz/Exchange/?market=GBYTE_BTC"
-							 target="_blank">Cryptopia</a>, <a href="https://changelly.com/exchange/btc/gbyte" target="_blank">Changelly</a>, and
-							<a href="https://bitsquare.io" target="_blank">Bitsquare</a> exchanges.</p>
-						<p>To buy or sell blackbytes, see or post orders in <a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a>							channel on our <a href="http://slack.byteball.org" target="_blank" title="Slack">Slack</a>, then exchange peer-to-peer
-							using <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">bound (conditional) payments.</a></p>
+						<h2 class="text-left">取引所</h2>
+						<p><a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">トレーディングBotとチャット</a>することでウォレットを離れることなくbytesの売買が可能です。
+							また、<a href="https://bittrex.com/Market/Index?MarketName=BTC-GBYTE" target="_blank">Bittrex</a>、<a href="https://cryptox.pl" target="_blank">Cryptox</a>、<a href="https://www.cryptopia.co.nz/Exchange/?market=GBYTE_BTC"
+							 target="_blank">Cryptopia</a>、<a href="https://changelly.com/exchange/btc/gbyte" target="_blank">Changelly</a>、<a href="https://bitsquare.io" target="_blank">Bitsquare</a>の取引所でもトレード可能です。</p>
+						<p>blackbytesを売買するには、<a href="http://slack.byteball.org" target="_blank" title="Slack">Slack</a>の<a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a>チャンネルでオーダーを見たり掲示したりし、 <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">条件付き決済</a>を使ってピアツーピアで取引します。</p>
 
 					</div>
 				</div>
@@ -795,7 +778,7 @@
 		</script>
 		&nbsp;
 		<a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a> &nbsp;
-		<a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="BitcoinTalk thread"><i class="fa fa-bitcoin"></i></a>		&nbsp;
+		<a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="BitcoinTalkスレッド"><i class="fa fa-bitcoin"></i></a>		&nbsp;
 		<a href="https://medium.com/byteball" target="_blank" title="Medium"><i class="fa fa-medium"></i></a> &nbsp;
 		<a href="https://byteball.slack.com" target="_blank" title="Slack"><i class="fa fa-slack"></i></a> &nbsp;
 		<a href="https://www.reddit.com/r/ByteBall/" target="_blank" title="Reddit"><i class="fa fa-reddit-alien"></i></a> &nbsp;

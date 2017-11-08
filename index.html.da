@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!-->
-<html lang="de">
+<html lang="da">
 <!--<![endif]-->
 
 <head>
@@ -157,7 +157,7 @@
 		<div id="why" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Vorteile von Byteball!</h2>
+					<h2 class="text-center">Why use Byteball?</h2>
 				</div>
 			</div>
 		</div>
@@ -171,11 +171,11 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-								<h2 class="title text-left">Risikofreie an Bedingungen knüpfbare Smartzahlungen</h2>
-								<p class="lead text-left">Byteball erlaubt ihnen etwas, was traditionelle Währungen nicht können: <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
-								 target="_blank">Die Bezahlung von Bedingungen abhängig machen.</a></p>
+								<h2 class="title text-left">Risk-free conditional smart payments</h2>
+								<p class="lead text-left">Byteball allows you to do something that traditional currencies can't: <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
+								 target="_blank">conditional payments.</a></p>
 
-								<p>Sie legen fest, unter welcher Bedingung der Zahlungsempfänger das Geld erhält. Wenn die Bedingung nicht erfüllt ist, erhalten Sie Ihr Geld zurück.</p>
+								<p>You set a condition when the payee receives the money. If the condition is not met, you get your money back.</p>
 								<div class="space"></div>
 							</div>
 							<div class="col-md-6">
@@ -232,11 +232,11 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Prognosemärkte</h2>
-							<p class="lead text-left">Verdienen Sie Geld durch korrekte Vorhersage zukünftiger Ereignisse.</p>
-							<p>Erstellen Sie einen P2P-Smart-Vertrag, der freigeschaltet werden kann, wenn ein bestimmtes Ereignis eintritt. Nutzen Sie es für <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
-								 target="_blank">Wetten auf Preisbewegungen</a>, Sportwetten und Versicherungen.</p>
-							<p>Finden Sie Ihren Handelspartner im <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> Kanal in unserem <a href="http://slack.byteball.org" target="_blank" title="Slack">Slack.</a></p>
+							<h2 class="title text-left">Prediction markets</h2>
+							<p class="lead text-left">Make money by correctly predicting future events.</p>
+							<p>Create a P2P smart contract that can be unlocked if a specific event occurs. Use it for <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
+								 target="_blank">betting on price movements</a>, sports betting, and insurance.</p>
+							<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> channel on our <a href="http://slack.byteball.org" target="_blank" title="Slack">Slack.</a></p>
 							<div class="space"></div>
 							</div>
 							<div class="col-md-6">

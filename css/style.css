@@ -846,6 +846,7 @@ textarea {
 .exchange-icon{
     display:inline-block;
     width: 150px;
+	margin-right: 10px;
 }
 .img-wallet-left{
      display:inline-block; 

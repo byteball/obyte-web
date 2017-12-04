@@ -1,0 +1,145 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="https://byteball.org/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="https://byteball.org/css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+	text-align: center;
+	padding-top: 20px;
+}
+</style>
+</head>
+<body>
+	<p class="text-center">
+		Click the button to open Byteball app on your device and receive funds, if installed.
+	</p>
+	<p id="warning" class="alert alert-danger" style="display: none">
+		Unfortunately, Byteball Wallet is not yet available for iOS platform. Try to use another device to claim your funds.
+	</p>
+	<button id="openInApp" class="btn btn-lg btn-success">Receive funds</button>
+	<br><br>
+	<p class="text-center">
+		If you do not have Byteball Wallet installed, download it first and then click the button above.
+	</p>
+	<p>
+		Download app: 
+		<div class="col-md-8 col-md-offset-2 text-center apps">
+			<div class="app">
+				<div><a target="_blank" href="https://github.com/byteball/byteball/blob/master/building-for-ios.md"><img src="img/icon-applestore.svg"></a></div>
+				<div><a target="_blank" href="https://github.com/byteball/byteball/blob/master/building-for-ios.md">iOS</a></div>
+			</div>
+			<div class="app">
+				<div><a target="_blank" href="https://play.google.com/store/apps/details?id=org.byteball.wallet"><img src="img/android_robot.svg"></a></div>
+				<div><a target="_blank" href="https://play.google.com/store/apps/details?id=org.byteball.wallet">Android</a></div>
+			</div>
+			<div class="app">
+				<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.5/Byteball-win64.exe"><img src="img/icon-microsoft.svg"></a></div>
+				<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.5/Byteball-win64.exe">Windows</a></div>
+			</div>
+			<div class="app">
+				<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.5/Byteball-osx64.dmg"><img src="img/icon-mac-os-x.svg"></a></div>
+				<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.5/Byteball-osx64.dmg">Mac</a></div>
+			</div>
+			<div class="app">
+				<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.5/byteball-linux64.zip"><img src="img/linux.png"></a></div>
+				<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.5/byteball-linux64.zip">Linux</a></div>
+			</div>
+		</div>
+	</p>
+<script>
+	var NativeAppLauncher = (function() {
+		var IOS_VERSION_RE = /OS\s+(\d)_/;
+		var timers = [];
+		var userAgent = window.navigator.userAgent;
+		var isAndroid = function() {
+			return /Android/.test(userAgent);
+		};
+		var isIOS = function() {
+			return /(?:i(?:Phone|P(?:o|a)d))/.test(userAgent);
+		};
+		var iOSVersion = function() {
+			return isIOS() ? parseInt(userAgent.match(IOS_VERSION_RE)[1], 10) : 0;
+		};
+		var isChrome = function() {
+			// Opera (OPR) also identifies itself as Chrome and has to be corrected for.
+			// OPR is used on Android but on iOS it is OPiOS where Opera does NOT identify as Chrome. Go figure!
+			// Probably because on iOS it is Opera Mini and has all browser have to be based on Safari/WebKit.
+			return /Chrome/.test(userAgent) && !/OPR/.test(userAgent);
+		};
+		var isFirefox = function() {
+			return /Firefox/.test(userAgent);
+		};
+
+		return {
+			// Stop any running timers.
+			clearTimers: function() {
+				timers.map(clearTimeout);
+				timers = [];
+			},
+			getDeepLink: function() {
+				return "byteball:" + window.location.hash.substr(1);
+			},
+			openApp: function(deeplink, storeURI) {
+				var launcher = this;
+				var storeLaunched = false;
+				var gotStoreURI = "string" == typeof storeURI;
+				// If this handler is part of the UI thread, i.e. the `direct` result of a user action then
+				// redirecting to the App Store will happen immediately. When not part of the UI thread however,
+				// the redirect will bring up an Open in App dialog. Unless there is already a dialog showing,
+				// in which case the redirect dialog will wait for the currently shown dialog to be dismissed.
+				
+				gotStoreURI && timers.push(window.setTimeout(function() {
+					if (!isIOS()) {
+						storeLaunched = true;
+						window.top.location = storeURI;
+					} else {
+						document.getElementById('warning').style.display = 'block';
+					}
+				}, 1000));
+				isIOS() && timers.push(window.setTimeout(function() {
+					storeLaunched && window.location.reload()
+				}, 2000));
+				
+				window.location = deeplink;
+			},
+			// Get the deep link URI to the Byteball app in the store appropriate for the OS.
+			// Using a deep link guarantees that the app store opens even when using an alternate browser (e.g. Puffin or Firefox)
+			getStoreURI: function() {
+				return isAndroid() ?
+					"market://details?id=org.byteball.wallet" :
+					"https://github.com/byteball/byteball/releases";
+			},
+			// Try to launch the native app on iOS/Android. Redirect to the app store if launch fails.
+			init: function() {
+				var launcher = this;
+				var events = ["pagehide", "blur"];
+				if (isIOS() || (isAndroid() && !isChrome())) {
+					events.push("beforeunload");
+				}
+
+				function addListenerMulti(element, eventNames, listener) {
+					var events = eventNames.split(' ');
+					for (var i = 0, iLen = events.length; i < iLen; i++) {
+						element.addEventListener(events[i], listener, false);
+					}
+				}
+				addListenerMulti(window, events.join(" "), function(e) {
+					launcher.clearTimers();
+				});
+				document.getElementById('openInApp')
+					.onclick = function() {
+						// Detach the app launcher from the UI thread so that the Open in App dialog won't be
+						// interrupted when the delayed redirect to the App Store fires.
+						setTimeout(function() {
+							launcher.openApp.call(launcher, launcher.getDeepLink(), launcher.getStoreURI());
+						}.bind(this), 0);
+						return false;
+					};
+			}
+		};
+	})();
+NativeAppLauncher.init();
+</script>
+</body>
+</html>

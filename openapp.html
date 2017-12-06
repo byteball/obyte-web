@@ -8,23 +8,33 @@ body {
 	text-align: center;
 	padding-top: 20px;
 }
+.m10 {
+	margin-top:10px;
+	margin-bottom:10px;
+	float: none;
+}
+.m20 {
+	margin-top:20px;
+	margin-bottom:20px;
+	float: none;
+}
 </style>
 </head>
 <body>
-	<p class="text-center">
+	<div class="text-center">
 		Click the button to open Byteball app on your device and receive funds, if installed.
-	</p>
-	<p id="warning" class="alert alert-danger" style="display: none">
+	</div>
+	<div id="warning" class="alert alert-danger m10" style="display: none">
 		Unfortunately, Byteball Wallet is not yet available for iOS platform. Try to use another device to claim your funds.
-	</p>
-	<button id="openInApp" class="btn btn-lg btn-success">Receive funds</button>
+	</div>
+	<button id="openInApp" class="btn btn-lg btn-success m10">Receive funds</button>
 	<br><br>
-	<p class="text-center">
+	<div class="text-center">
 		If you do not have Byteball Wallet installed, download it first and then click the button above.
-	</p>
-	<p>
-		Download app: 
-		<div class="col-md-8 col-md-offset-2 text-center apps">
+	</div>
+	<div class="m10">
+		<div>Download app: </div>
+		<div class="col-md-8 col-md-offset-2 text-center apps m10">
 			<div class="app">
 				<div><a target="_blank" href="https://github.com/byteball/byteball/blob/master/building-for-ios.md"><img src="img/icon-applestore.svg"></a></div>
 				<div><a target="_blank" href="https://github.com/byteball/byteball/blob/master/building-for-ios.md">iOS</a></div>
@@ -46,7 +56,12 @@ body {
 				<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.5/byteball-linux64.zip">Linux</a></div>
 			</div>
 		</div>
-	</p>
+	</div>
+	<div class="m20">
+		In case of problems with the button, you can claim your funds using the following mnemonic:<br>
+		<b id="mnemonic"></b><br>
+		Just open your Byteball Wallet, navigate to <i>Receive</i> 	&rarr; <i>Claim funds using mnemonic</i> and paste it.
+	</div>
 <script>
 	var NativeAppLauncher = (function() {
 		var IOS_VERSION_RE = /OS\s+(\d)_/;
@@ -136,6 +151,7 @@ body {
 						}.bind(this), 0);
 						return false;
 					};
+				document.getElementById('mnemonic').innerHTML = window.location.hash.substr("#textcoin?".length);
 			}
 		};
 	})();

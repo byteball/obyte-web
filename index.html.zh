@@ -83,10 +83,10 @@
 										<ul class="nav navbar-nav">
 
 											<li><a href="#why">Why</a></li>
-											<li><a href="#core">Features</a></li>
-											<li><a href="#download">Download</a></li>
-											<li><a href="#dist">Distribution</a></li>
-											<li><a href="#tech">Technology</a></li>
+											<li><a href="#core">技术特性</a></li>
+											<li><a href="#download">下载</a></li>
+											<li><a href="#dist">分发</a></li>
+											<li><a href="#tech">技术</a></li>
 											<li><a href="https://wiki.byteball.org" target="_blank" title="Wiki">Wiki</a></li>
 											<li><a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
 											<li><a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
@@ -131,8 +131,8 @@
 					<div class="row text-center">
 						<h2>智能付款变得简单</h2>
 
-						<p><a class="btn btn-lg btn-success" href="#download" role="button">Get Byteball wallet</a></p>
-						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> Read the whitepaper</a></p>
+						<p><a class="btn btn-lg btn-success" href="#download" role="button">获取Byteball钱包</a></p>
+						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> 阅读白皮书</a></p>
 					</div>
 					<div class="space"></div>
 					
@@ -199,14 +199,14 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-4 col-md-push-6">
-							<h2 class="title text-left">P2P insurance</h2>
+							<h2 class="title text-left">P2P保险</h2>
 							<p class="lead text-left">Hedge against negative events.</p>
 							<p>Buy insurance from peers to get paid in case a negative event occurs. Sell insurance for profit.</p>
 							<p>Insurance is just <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527"
 								 target="_blank">a simple smart contract</a> that can be unlocked by the insured &mdash; if the event in question
 								did occur, or by the insurer &mdash; otherwise.</p>
 							<p>To insure against flight delay, find your counterpart in <a href="https://byteball.slack.com/messages/C54CDJATB/"
-								 target="_blank">#p2p_insurance</a> channel on our <a href="http://slack.byteball.org" target="_blank" title="Slack">Slack</a>,
+								 target="_blank">#p2p_insurance</a> channel on our <a href="https://byteball.slack.org" target="_blank" title="Slack">Slack</a>,
 								create a contract, and if your flight arrives late, <a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000">chat with flight delays oracle</a>								to have it post the data about the delay, then unlock the contract.</p>
 							<div class="space"></div>
 							</div>
@@ -236,7 +236,7 @@
 							<p class="lead text-left">通过正确预测未来事件赚钱。</p>
 							<p>创建一个P2P智能合同，如果发生特定事件可以解锁。 用于<a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
 								 target="_blank">投注价格变动</a> ，体育博彩和保险。</p>
-							<p>在我们的 <a href="http://slack.byteball.org" target="_blank" title="Slack">Slack</a> 的 <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> 频道中找到您的对手方。</p>
+							<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> channel on our <a href="https://byteball.slack.org" target="_blank" title="Slack">Slack.</a></p>
 							<div class="space"></div>
 							</div>
 							<div class="col-md-6">
@@ -259,11 +259,11 @@
 						<div class="space"></div> 
 						<div class="row">
 							<div class="col-md-4 col-md-push-6">
-								<h2 class="title text-left">P2P betting</h2>
-								<p class="lead text-left">Bet against other users on sports events.</p>
-								<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a>								channel on our <a href="http://slack.byteball.org" target="_blank" title="Slack">Slack</a> and create a contract
+								<h2 class="title text-left">P2P投注</h2>
+								<p class="lead text-left">在运动项目上与其他用户打赌。</p>
+								<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a>								channel on our <a href="https://byteball.slack.org" target="_blank" title="Slack">Slack</a> and create a contract
 									that can be unlocked by you or your peer depending on the results of a future game.</p>
-								<p>After the result is known, <a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">chat with sports oracle</a>								to have it post the data about the outcome, then unlock the contract.</p>
+								<p>结果知道后， 与<a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">sports oracle</a>聊天，让它发布关于结果的数据，然后解锁合约。</p>
 
 								<div class="space"></div>
 							</div>
@@ -292,8 +292,8 @@
 					<div class="space"></div> 
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">P2P payments in chat</h2>
-							<p class="lead text-left">Chat and pay in the same app just by clicking links.</p>
+							<h2 class="title text-left">在聊天中实现P2P付款</h2>
+							<p class="lead text-left">只需点击链接就可以在同一个应用程序中聊天和支付。</p>
 							<div class="space"></div>
 						</div>
 						<div class="col-md-6">
@@ -345,7 +345,7 @@
 					 <div class="space"></div> 
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Bot Store</h2>
+							<h2 class="title text-left">机器人商店</h2>
 							<p class="lead text-left">通过内置的Bot Store轻松发现和添加新的聊天机器人。</p>
 							<p>开发人员可以通过在Bot Store上发布他们的聊天机器人来即时连接所有用户。 请参阅<a href="https://github.com/byteball/byteballcore/wiki/Writing-chatbots-for-Byteball"
 								 target="_blank">开发人员指南，了解如何构建聊天机器人。</a></p>
@@ -508,16 +508,16 @@
 						<div><a target="_blank" href="https://play.google.com/store/apps/details?id=org.byteball.wallet">Android</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.2/Byteball-win64.exe"><img src="img/icon-microsoft.svg"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.2/Byteball-win64.exe">Windows</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.0.0/Byteball-win64.exe"><img src="img/icon-microsoft.svg"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.0.0/Byteball-win64.exe">Windows</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.2/Byteball-osx64.dmg"><img src="img/icon-mac-os-x.svg"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.2/Byteball-osx64.dmg">Mac</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.0.0/Byteball-osx64.dmg"><img src="img/icon-mac-os-x.svg"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.0.0/Byteball-osx64.dmg">Mac</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.2/byteball-linux64.zip"><img src="img/linux.png"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.2/byteball-linux64.zip">Linux</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.0.0/byteball-linux64.zip"><img src="img/linux.png"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.0.0/byteball-linux64.zip">Linux</a></div>
 					</div>
 					<div class="app">
 						<div><a target="_blank" href="https://github.com/byteball/byteball"><img src="img/fi-social-github.svg"/></a></div>
@@ -560,7 +560,7 @@
 	<div class="section clearfix ">
 		<div class="container">
 			<div class="row">
-				<p class="lead text-center">Next free distribution: <span id="distDate">DATE</span></p>
+				<p class="lead text-center">Next free distribution (tentative): <span id="distDate">DATE</span></p>
 				<div class="clock row">
 					<div class="col-xs-3 col-sm-3 col-md-3">
 						<div class="countdown-time-value clock-item clock-days">
@@ -569,7 +569,7 @@
 									<div id="canvas-days" class="clock-canvas"></div>
 									<div class="text">
 										<p class="val">0</p>
-										<p class="type-days type-time">DAYS</p>
+										<p class="type-days type-time">日</p>
 									</div>
 									<!-- /.text -->
 								</div>
@@ -588,7 +588,7 @@
 
 									<div class="text">
 										<p class="val">0</p>
-										<p class="type-hours type-time">HOURS</p>
+										<p class="type-hours type-time">时</p>
 									</div>
 									<!-- /.text -->
 								</div>
@@ -607,7 +607,7 @@
 
 									<div class="text">
 										<p class="val">0</p>
-										<p class="type-minutes type-time">MINUTES</p>
+										<p class="type-minutes type-time">分</p>
 									</div>
 									<!-- /.text -->
 								</div>
@@ -626,7 +626,7 @@
 
 									<div class="text">
 										<p class="val">0</p>
-										<p class="type-seconds type-time">SECONDS</p>
+										<p class="type-seconds type-time">秒</p>
 									</div>
 									<!-- /.text -->
 								</div>
@@ -641,31 +641,30 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<p class="lead text-left">Free distribution to BTC and Byte holders.</p>
-						<p>Mass adoption requires wide distribution, that's why 98% of all bytes and blackbytes are to be distributed for free.</p>
-						<p>Part of the Bytes will be <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">distributed as cashback</a> for purchases at the merchant stores we partner with.  In most cases, the offered cashback is 10% of the purchase amount.  <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Fill out the application form</a> or <script>document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">');</script>contact us<script>document.write('</a>');</script> if you run a store or a payment processor and want to be part of the cashback program.</p>
-						<p>Another part of the distribution is split into multiple rounds and in each round holders of BTC and Bytes are rewarded.  The amounts you receive are proportional to your proven balances in BTC and Bytes on the distribution date, these are the rules for the November round:</p>
+						<p class="lead text-left">免费分发给BTC和Byte持有人。</p>
+						<p>大规模普及使用需要广泛的分发，因此98%的 bytes 和 blackBytes 都将免费分发。</p>
+						<p>部分字节将被用作 <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank"> 现金返还及分发计划 </a>, 用于支付在我们合作伙伴的商家商店。  一般情况下我们会返还10%的消费额。  <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Fill out the application form</a> or <script>document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">');</script>contact us<script>document.write('</a>');</script> if you run a store or a payment processor and want to be part of the cashback program.</p>
+						<p>其余的部分将会分成几轮奖励给比特币和 Bytes 的持有者。  您收到的金额与您在分配日期的 BTC 和bytes经验证的余额成正比, 这些是11月分发的规则:</p>
 						<ul>
-							<li>For every 16 BTC you receive 0.1 GB (1 gigabyte = 1 billion bytes),</li>
-							<li>For every 1 GB you receive additional 0.1 GB.</li>
+							<li>每持有16个比特币，获得0.1 GBbyte （1 GByte = 10亿 Bytes），</li>
+							<li>每持有1 GB，您将收到额外的0.1 GB。</li>
 						</ul>
-						<p>To prove your balances, install the wallet and chat with the Transition Bot (you find it in the Bot Store in the wallet).  The bot will help you link your Bitcoin and Byteball addresses by making a micropayment or signing a message.</p>
-						<p>You also receive blackbytes in proportion to your linked BTC balance and your balance in Bytes on the linked Byteball address.</p>
-						<p>The first distribution round took place on Dec 25, 2016 when the network launched, over 70,000 BTC was linked, and 10% of the total supply of bytes and blackbytes was distributed.  In the subsequent rounds, the total distributed supply reached 58.4%:</p>
+						<p>要证明您的余额，请安装钱包并与Transition Bot聊天（您可以在钱包中的Bot Store中找到它）。  机器人将帮助您通过小额支付或签署消息的方式来绑定您的比特币和Byteball钱包地址。</p>
+						<p>您还会收到与您链接的BTC余额以及绑定的Byteball地址余额成比例的BlackBytes。</p>
+						<p>第一轮发布于2016年12月25日，当网络启动时，超过70,000个BTC被绑定，并且分配了Bytes和BlackBytes总额的10％。  在后续几轮中，总分配量达到了总额的58.4％</p>
 						<ul>
-							<li>2nd round on Feb 11, 2017: 121,763 BTC linked, 1.8% distributed;</li>
-							<li>3rd round on Mar 12, 2017: 129,139 BTC linked, 2.0% distributed;</li>
-							<li>4th round on Apr 11, 2017: 145,441 BTC linked, 2.3% distributed;</li>
-							<li>5th round on May 10, 2017: 207,672 BTC linked, 2.9% distributed;</li>
-							<li>6th round on Jun 9, 2017: 453,621 BTC linked, 6.6% distributed;</li>
-							<li>7th round on Jul 9, 2017: 949,004 BTC linked, 11.0% distributed.</li>
-							<li>8th round on Aug 7, 2017: 1,395,899 BTC linked, 16.0% distributed.</li>
-							<li>9th round on Sep 6, 2017: 1,306,573 BTC linked, 5.7% distributed.</li>
-							<li>10th round on Nov 4, 2017: 1,093,155 BTC linked, 6.1% distributed.</li>
+							<li>2017年2月11日第二轮：121,763 BTC被绑定，1.8％被分配；</li>
+							<li>2017年3月12日第三轮：129,139个BTC被绑定，2.0％被分配；</li>
+							<li>2017年4月11日第四轮：145,441 BTC被绑定，2.3％被分配；</li>
+							<li>2017年5月10日第五轮：207,672 BTC被绑定，2.9％被分配；</li>
+							<li>2017年6月9日第六轮：453,621 BTC被绑定，6.6％被分配；</li>
+							<li>2017年7月9日第七轮：949,004 BTC被绑定，11.0％被分配；</li>
+							<li>2017年8月7日第八轮：1,395,899 BTC被绑定，16.0％被分配；</li>
+							<li>2017年9月6日第九轮：1,306,573 BTC被绑定，5.7％被分配。</li>
+							<li>2017年11月4日第十轮：1,093,155 BTC被绑定，6.1％被分配。</li>
 						</ul>
-						<p>The plans for future distribution will be announced in mid-November.</p>
-						<!--p>The 10th round is scheduled for the full moon of November (<b>Nov 4, 2017 at 05:23 UTC</b>).  The balances will be snapshotted at the time of the first Bitcoin block after this date, and rules for this round are as indicated above.  We will likely have more rounds until we distribute all 98%.</p-->
-						<p><a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">Chat with the Transition Bot</a> to link your Bitcoin and Byteball addresses and participate, track linking progress at <a href="http://transition.byteball.org/" target="_blank">transition.byteball.org</a>.</p>
+						<p>The 11th round is tentatively scheduled for the full moon of March (<b>Mar 2, 2018 at 00:51 UTC</b>).  The balances will be snapshotted at the time of the first Bitcoin block after this date, and rules for this round are as indicated above.  <!--We will likely have more rounds until we distribute all 98%.--> Depending on the progress of other distribution methods, this round can be postponed or even canceled.</p>
+						<p>点击与<a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">Transition Bot</a>聊天，以绑定您的Bitcoin和Byteball地址并参与，跟踪绑定进度请点击<a href="http://transition.byteball.org/" target="_blank">transition.byteball.org</a>。</p>
 					</div>
 				</div>
 			</div>
@@ -729,7 +728,7 @@
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
 						<h2 class="text-left">社区和支持</h2>
-						<p>加入Byteball 的 Slack 频道！ Slack上有许多频道对未来的发展，交易，拍卖活动有热烈的讨论，仅举几例。 如果您有任何关于Byteball钱包点问题，我们的合格支持人员将在#helpdesk频道处理。 请在<a href="http://slack.byteball.org" target="_blank" title="Slack">slack.byteball.org</a>收到您的邀请。</p>
+						<p>加入Byteball 的 Slack 频道！ Slack上有许多频道对未来的发展，交易，拍卖活动有热烈的讨论，仅举几例。 如果您有任何关于Byteball钱包点问题，我们的合格支持人员将在#helpdesk频道处理。 Please get your invite from any existing member<!-- <a href="http://slack.byteball.org" target="_blank" title="Slack">slack.byteball.org</a-->.</p>
 
 					</div>
 				</div>
@@ -748,7 +747,8 @@
 						<p>您可以通过<a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">与交易机器人聊天</a>来购买或出售字节而无须离开钱包。
 							您也可以在<a href="https://bittrex.com/Market/Index?MarketName=BTC-GBYTE" target="_blank">Bittrex</a> ， <a href="https://cryptox.pl" target="_blank">Cryptox</a> ， <a href="https://www.cryptopia.co.nz/Exchange/?market=GBYTE_BTC"
 							 target="_blank">Cryptopia</a> ， <a href="https://changelly.com/exchange/btc/gbyte" target="_blank">Changelly</a>和<a href="https://bitsquare.io" target="_blank">Bitsquare</a>交易所交易。</p>
-						<p>要购买或出售blackbytes，请在<a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a>频道中查看或发布订单，然后使用<a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">限制（有条件）支付进行点对点交易。</a></p>
+						<p>To buy or sell blackbytes, see or post orders in <a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a>							channel on our <a href="https://byteball.slack.org" target="_blank" title="Slack">Slack</a>, then exchange peer-to-peer
+							using <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">bound (conditional) payments.</a></p>
 
 					</div>
 				</div>
@@ -778,6 +778,7 @@
 		</script>
 		&nbsp;
 		<a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a> &nbsp;
+		<a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a> &nbsp;
 		<a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="BitcoinTalk 话题"><i class="fa fa-bitcoin"></i></a>		&nbsp;
 		<a href="https://medium.com/byteball" target="_blank" title="Medium"><i class="fa fa-medium"></i></a> &nbsp;
 		<a href="https://byteball.slack.com" target="_blank" title="Slack"><i class="fa fa-slack"></i></a> &nbsp;
@@ -797,7 +798,7 @@
 
 
 	<!-- Initialization of Plugins -->
-	<script type="text/javascript" src="js/template.js?v3"></script>
+	<script type="text/javascript" src="js/template.js?v4"></script>
 
 	<script src="js/kinetic.js"></script>
 	<script src="js/jquery.final-countdown.min.js"></script>

@@ -31,7 +31,7 @@
 	<link href="css/animations.css" rel="stylesheet">
 
 	<!-- Worthy core CSS file -->
-	<link href="css/style.css?v6" rel="stylesheet">
+	<link href="css/style.css?v7" rel="stylesheet">
 	
 
 	
@@ -233,9 +233,9 @@
 							<div class="col-md-5 col-md-offset-1">
 							<h2 class="title text-left">Рынки предсказаний</h2>
 							<p class="lead text-left">Зарабатывайте, предсказывая будущие события.</p>
-							<p>Вы можете создать умный контракт, где деньги будут выплачены автоматически при наступлении определённого события. Такие контракты могут быть использования для <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
-								 target="_blank">ставок на изменение котировок/цен</a>, спортивные события, страхования.</p>
-							<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> channel on our <a href="https://byteball.slack.org" target="_blank" title="Slack">Slack.</a></p>
+							<p>Вы можете создать умный контракт, где деньги будут выплачены автоматически при наступлении определённого события. Такие контракты могут быть использованы для <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
+								 target="_blank">ставок на изменение котировок/цен</a>, спортивные события, страхование.</p>
+							<p>Вы можете найти оппонента на канале <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> нашего <a href="https://byteball.slack.org" target="_blank" title="Slack">Slack</a> чата.</p>
 							<div class="space"></div>
 							</div>
 							<div class="col-md-6">
@@ -508,16 +508,16 @@
 						<div><a target="_blank" href="https://play.google.com/store/apps/details?id=org.byteball.wallet">Android</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.0.0/Byteball-win64.exe"><img src="img/icon-microsoft.svg"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.0.0/Byteball-win64.exe">Windows</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-win64.exe"><img src="img/icon-microsoft.svg"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-win64.exe">Windows</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.0.0/Byteball-osx64.dmg"><img src="img/icon-mac-os-x.svg"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.0.0/Byteball-osx64.dmg">Mac</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-osx64.dmg"><img src="img/icon-mac-os-x.svg"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-osx64.dmg">Mac</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.0.0/byteball-linux64.zip"><img src="img/linux.png"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.0.0/byteball-linux64.zip">Linux</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/byteball-linux64.zip"><img src="img/linux.png"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/byteball-linux64.zip">Linux</a></div>
 					</div>
 					<div class="app">
 						<div><a target="_blank" href="https://github.com/byteball/byteball"><img src="img/fi-social-github.svg"/></a></div>

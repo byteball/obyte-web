@@ -31,7 +31,7 @@
 	<link href="css/animations.css" rel="stylesheet">
 
 	<!-- Worthy core CSS file -->
-	<link href="css/style.css?v6" rel="stylesheet">
+	<link href="css/style.css?v7" rel="stylesheet">
 	
 
 	
@@ -204,9 +204,8 @@
 							<p>ピアから保険を購入し、ネガティブなイベントが発生した場合に支払いを受けます。利益を得るために保険を売ります。</p>
 							<p>保険は &mdash; 問題となるイベントが発生したときに被保険者がロックを解除でき &mdash; そうでなければ保険者が解除できる<a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527"
 								 target="_blank">シンプルなスマートコントラクト</a>に過ぎません。</p>
-							<p>To insure against flight delay, find your counterpart in <a href="https://byteball.slack.com/messages/C54CDJATB/"
-								 target="_blank">#p2p_insurance</a> channel on our <a href="https://byteball.slack.org" target="_blank" title="Slack">Slack</a>,
-								create a contract, and if your flight arrives late, <a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000">chat with flight delays oracle</a>								to have it post the data about the delay, then unlock the contract.</p>
+							<p>フライトの遅れに対する保険として、<a href="https://byteball.slack.org" target="_blank" title="Slack">Slack</a>の<a href="https://byteball.slack.com/messages/C54CDJATB/"
+								 target="_blank">#p2p_insurance</a>チャンネルで相手を見つけてコントラクトを作成し、フライトの到着が遅れた場合は、<a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000">フライト遅延のオラクルとチャット</a>して遅れに関するデータを送信し、コントラクトのロックを解除します。</p>
 							<div class="space"></div>
 							</div>
 							<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
@@ -235,7 +234,7 @@
 							<p class="lead text-left">将来のイベントを正確に予測してお金を稼ぐ。</p>
 							<p>特定のイベントが発生したときにロックを解除できるP2Pスマートコントラクトを作成します。 <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
 								 target="_blank">価格変動への賭け</a>、スポーツくじや保険に使用できます。</p>
-							<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> channel on our <a href="https://byteball.slack.org" target="_blank" title="Slack">Slack.</a></p>
+							<p>相手を<a href="https://byteball.slack.org" target="_blank" title="Slack">Slack</a>の<a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a>チャンネルで見つけましょう。</p>
 							<div class="space"></div>
 							</div>
 							<div class="col-md-6">
@@ -260,8 +259,7 @@
 							<div class="col-md-4 col-md-push-6">
 								<h2 class="title text-left">P2Pゲーム</h2>
 								<p class="lead text-left">スポーツイベントで他のユーザーとゲームをしましょう。</p>
-								<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a>								channel on our <a href="https://byteball.slack.org" target="_blank" title="Slack">Slack</a> and create a contract
-									that can be unlocked by you or your peer depending on the results of a future game.</p>
+								<p><a href="https://byteball.slack.org" target="_blank" title="Slack">Slack</a>の<a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a>チャンネルで相手を探し、将来の試合の結果に応じてあなたかピアがロックを解除できるコントラクトを作成します。</p>
 								<p>結果がわかったら、<a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">スポーツオラクルとチャット</a>して、結果のデータを送信しコントラクトのロックを解除します。</p>
 
 								<div class="space"></div>
@@ -507,16 +505,16 @@
 						<div><a target="_blank" href="https://play.google.com/store/apps/details?id=org.byteball.wallet">Android</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.0.0/Byteball-win64.exe"><img src="img/icon-microsoft.svg"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.0.0/Byteball-win64.exe">Windows</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-win64.exe"><img src="img/icon-microsoft.svg"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-win64.exe">Windows</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.0.0/Byteball-osx64.dmg"><img src="img/icon-mac-os-x.svg"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.0.0/Byteball-osx64.dmg">Mac</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-osx64.dmg"><img src="img/icon-mac-os-x.svg"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-osx64.dmg">Mac</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.0.0/byteball-linux64.zip"><img src="img/linux.png"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.0.0/byteball-linux64.zip">Linux</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/byteball-linux64.zip"><img src="img/linux.png"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/byteball-linux64.zip">Linux</a></div>
 					</div>
 					<div class="app">
 						<div><a target="_blank" href="https://github.com/byteball/byteball"><img src="img/fi-social-github.svg"/></a></div>
@@ -559,7 +557,7 @@
 	<div class="section clearfix ">
 		<div class="container">
 			<div class="row">
-				<p class="lead text-center">Next free distribution (tentative): <span id="distDate">DATE</span></p>
+				<p class="lead text-center">次回の無料配布 (仮): <span id="distDate">DATE</span></p>
 				<div class="clock row">
 					<div class="col-xs-3 col-sm-3 col-md-3">
 						<div class="countdown-time-value clock-item clock-days">
@@ -662,7 +660,7 @@
 							<li>第9ラウンド 2017年9月6日: 1,306,573 BTCがリンク、5.7%を配布</li>
 							<li>第10ラウンド 2017年11月4日: 1,093,155 BTCがリンク、6.1%を配布</li>
 						</ul>
-						<p>The 11th round is tentatively scheduled for the full moon of March (<b>Mar 2, 2018 at 00:51 UTC</b>).  The balances will be snapshotted at the time of the first Bitcoin block after this date, and rules for this round are as indicated above.  <!--We will likely have more rounds until we distribute all 98%.--> Depending on the progress of other distribution methods, this round can be postponed or even canceled.</p>
+						<p>第11ラウンドは3月の満月（<b>2018年3月2日 00:51 UTC</b>）に仮予定されています。  残高はこの日の後の最初のビットコインブロックでスナップショットされます。このラウンドのルールは上に書いたとおりです。  <!--98%を分配するまでラウンドを繰り返す予定です。--> 他の分配方法の進捗により、このラウンドを延期または中止することがあります。</p>
 						<p>ビットコインとByteballアドレスをリンクするために<a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">Transition Botとチャットし</a>、参加してください。リンクの状況は<a href="http://transition.byteball.org/" target="_blank">transition.byteball.org</a>で確認できます。</p>
 					</div>
 				</div>
@@ -727,7 +725,7 @@
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
 						<h2 class="text-left">コミュニティとサポート</h2>
-						<p>SlackのByteballに参加してください！ 活発な議論を交わすチャンネルが多数あります。ほんの数例を挙げると将来の開発、トレード、オークションなどがあります。 Byteballウォレットで何か問題があった場合、有能なサポートスタッフが#helpdeskチャンネルで対応いたします。 Please get your invite from any existing member<!-- <a href="http://slack.byteball.org" target="_blank" title="Slack">slack.byteball.org</a-->.</p>
+						<p>SlackのByteballに参加してください！ 活発な議論を交わすチャンネルが多数あります。ほんの数例を挙げると将来の開発、トレード、オークションなどがあります。 Byteballウォレットで何か問題があった場合、有能なサポートスタッフが#helpdeskチャンネルで対応いたします。 メンバーから招待状を手に入れてください。<!-- <a href="http://slack.byteball.org" target="_blank" title="Slack">slack.byteball.org</a--></p>
 
 					</div>
 				</div>
@@ -746,8 +744,7 @@
 						<p><a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">トレーディングBotとチャット</a>することでウォレットを離れることなくbytesの売買が可能です。
 							また、<a href="https://bittrex.com/Market/Index?MarketName=BTC-GBYTE" target="_blank">Bittrex</a>、<a href="https://cryptox.pl" target="_blank">Cryptox</a>、<a href="https://www.cryptopia.co.nz/Exchange/?market=GBYTE_BTC"
 							 target="_blank">Cryptopia</a>、<a href="https://changelly.com/exchange/btc/gbyte" target="_blank">Changelly</a>、<a href="https://bitsquare.io" target="_blank">Bitsquare</a>の取引所でもトレード可能です。</p>
-						<p>To buy or sell blackbytes, see or post orders in <a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a>							channel on our <a href="https://byteball.slack.org" target="_blank" title="Slack">Slack</a>, then exchange peer-to-peer
-							using <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">bound (conditional) payments.</a></p>
+						<p>blackbytesを売買するには、<a href="https://byteball.slack.org" target="_blank" title="Slack">Slack</a>の<a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a>チャンネルでオーダーを見たり掲示したりし、 <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">条件付き決済</a>を使ってピアツーピアで取引します。</p>
 
 					</div>
 				</div>

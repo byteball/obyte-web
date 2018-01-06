@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!-->
-<html lang="zh">
+<html lang="nl">
 <!--<![endif]-->
 
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="智能付款变得简单">
+	<meta name="description" content="Slimme betalingen in een handomdraai">
 	<meta name="author" content="Byteball">
 	<link rel="icon" href="img/icon_16x16@2x.png">
 
-	<title>Byteball &mdash; 智能付款变得简单</title>
+	<title>Byteball &mdash; slimme betalingen in een handomdraai</title>
 
 	<!-- Mobile Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -71,7 +71,7 @@
 									<!-- Toggle get grouped for better mobile display -->
 									<div class="navbar-header">
 										<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-												<span class="sr-only"> 切换导航 </span>
+												<span class="sr-only">Navigatie in/uitklappen</span>
 												<span class="icon-bar"></span>
 												<span class="icon-bar"></span>
 												<span class="icon-bar"></span>
@@ -82,15 +82,15 @@
 									<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 										<ul class="nav navbar-nav">
 
-											<li><a href="#why">简介</a></li>
-											<li><a href="#core">技术特性</a></li>
-											<li><a href="#download">下载</a></li>
-											<li><a href="#dist">分发</a></li>
-											<li><a href="#tech">技术</a></li>
+											<li><a href="#why">Waarom</a></li>
+											<li><a href="#core">Eigenschappen</a></li>
+											<li><a href="#download">Download</a></li>
+											<li><a href="#dist">Distributie</a></li>
+											<li><a href="#tech">Technologie</a></li>
 											<li><a href="https://wiki.byteball.org" target="_blank" title="Wiki">Wiki</a></li>
 											<li><a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
 											<li><a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="BitcoinTalk 话题"><i class="fa fa-bitcoin"></i></a></li>
+											<li><a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="BitcoinTalk discussie"><i class="fa fa-bitcoin"></i></a></li>
 											<li><a href="https://medium.com/byteball" target="_blank" title="Medium blog"><i class="fa fa-medium"></i></a></li>
 											<li><a href="https://byteball.slack.com" target="_blank" title="Slack"><i class="fa fa-slack"></i></a></li>
 											<li><a href="https://www.reddit.com/r/ByteBall/" target="_blank" title="Reddit"><i class="fa fa-reddit-alien"></i></a></li>
@@ -129,10 +129,10 @@
 					</div>
 					<div class="space"></div>
 					<div class="row text-center">
-						<h2>智能付款变得简单</h2>
+						<h2>Slimme betalingen in een handomdraai</h2>
 
-						<p><a class="btn btn-lg btn-success" href="#download" role="button">获取Byteball钱包</a></p>
-						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> 阅读白皮书</a></p>
+						<p><a class="btn btn-lg btn-success" href="#download" role="button">Haal je Byteball wallet op</a></p>
+						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> Lees de whitepaper</a></p>
 					</div>
 					<div class="space"></div>
 					
@@ -140,8 +140,8 @@
 					<!--p class="lead what-is">Byteball is an alternative legal system based on smart contracts.</p>
 					<p class="lead what-is">When a contract is created on Byteball, it just works exactly as agreed upon.  Trust in the counterparty and reliance on the slow and expensive conventional legal system are not required any more as the contracts are enforced by the immutable rules of the decentralized platform.  See below the types of contracts available today.</p-->
 					
-					<p class="lead what-is">Byteball 在以前没有信用的地方，给予信用机制</p>
-					<p class="lead what-is">Byteball 平台上创建的合约机制，可以让你完全信任它按约定执行。  为什么？ 因为它是由分散网络上的多个节点验证的, 它们都遵循着相同而不可破坏的规则。  和你交易的人, 即使是完全陌生的, 也必须诚实行事, 因为他只能准守合约的规则。  这样的合同叫做智能的合同。  下面展示了Byteball现在已经上线的智能合约功能。</p>
+					<p class="lead what-is">Byteball maakt vertrouwen mogelijk waar vertrouwen voorheen niet mogelijk was.</p>
+					<p class="lead what-is">Wanneer een contract wordt aangemaakt op het Byteball platform, kan je er op vertrouwen dat het precies werkt zoals overeengekomen.  Waarom? Omdat het wordt geverifieerd door meerdere nodes op het decentrale netwerk, die allemaal dezelfde onveranderlijke regels volgen.  De tegenpartij, zelfs als dat een volslagen vreemdeling is, moet zich eerlijk gedragen omdat alleen de regels regeren.  Een zodanig contract wordt een smart contract genoemd.  Zie hieronder voorbeelden van werkende smart contracts die thans beschikbaar zijn.</p>
 					
 					
 				</div>
@@ -157,7 +157,7 @@
 		<div id="why" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">为什么要使用Byteball？</h2>
+					<h2 class="text-center">Waarom Byteball gebruiken?</h2>
 				</div>
 			</div>
 		</div>
@@ -171,11 +171,11 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-								<h2 class="title text-left">无风险的有条件智能支付</h2>
-								<p class="lead text-left">Byteball允许你做一些传统货币不能做的事情：  <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
-								 target="_blank">有条件的支付。</a></p>
+								<h2 class="title text-left">Risico-vrije voorwaardelijke smart payments</h2>
+								<p class="lead text-left">Byteball stelt je in staat om iets te doen dat traditionele munteenheden niet kunnen: <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
+								 target="_blank">voorwaardelijke betalingen.</a></p>
 
-								<p>当收款人收到钱时，你设定了一个条件。如果条件不符合的话，你可以拿回你的钱。</p>
+								<p>Je stelt de voorwaarde in voor ontvangst van de betaling door de ontvanger. Als de voorwaarde niet wordt vervuld, krijg je je geld terug.</p>
 								<div class="space"></div>
 							</div>
 							<div class="col-md-6">
@@ -199,15 +199,13 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-4 col-md-push-6">
-							<h2 class="title text-left">P2P保险</h2>
-							<p class="lead text-left">Hedge against negative events.</p>
-							<p>Buy insurance from peers to get paid in case a negative event occurs. Sell insurance for profit.</p>
-							<p>Insurance is just <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527"
-								 target="_blank">a simple smart contract</a> that can be unlocked by the insured &mdash; if the event in question
-								did occur, or by the insurer &mdash; otherwise.</p>
-							<p>To insure against flight delay, find your counterpart in <a href="https://byteball.slack.com/messages/C54CDJATB/"
-								 target="_blank">#p2p_insurance</a> channel on our <a href="https://byteball.slack.org" target="_blank" title="Slack">Slack</a>,
-								create a contract, and if your flight arrives late, <a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000">chat with flight delays oracle</a>								to have it post the data about the delay, then unlock the contract.</p>
+							<h2 class="title text-left">P2P verzekering</h2>
+							<p class="lead text-left">Afdekken van risico's.</p>
+							<p>Koop verzekering van anderen om betaald te worden in geval risico's materialiseren. Verkoop verzekering tegen winst.</p>
+							<p>Verzekering is slechts <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527"
+								 target="_blank">een simpel smart contract</a> dat ontgrendeld kan worden door de verzekerde &mdash; als de gebeurtenis zich inderdaad voordeed &mdash; of in andere gevallen door de verzekeraar.</p>
+							<p>Voor verzekering tegen vluchtvertragingen, zoek je tegenpartij in het <a href="https://byteball.slack.com/messages/C54CDJATB/"
+								 target="_blank">#p2p_insurance</a> kanaal op onze <a href="https://byteball.slack.org" target="_blank" title="Slack">Slack</a>, maak een contract aan en als je vlucht te laat arriveert, <a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000">praat met de flight delays oracle</a> om deze data te laten posten over de vertraging; ontgrendel daarna het contract.</p>
 							<div class="space"></div>
 							</div>
 							<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
@@ -232,11 +230,11 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">预测市场</h2>
-							<p class="lead text-left">通过正确预测未来事件赚钱。</p>
-							<p>创建一个P2P智能合同，如果发生特定事件可以解锁。 用于<a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
-								 target="_blank">投注价格变动</a> ，体育博彩和保险。</p>
-							<p>在Slack的#prediction_markets频道中需要你的对手方来创建只能合约。</p>
+							<h2 class="title text-left">Voorspellingsmarkten</h2>
+							<p class="lead text-left">Verdien geld door toekomstige gebeurtenissen juist te voorspellen.</p>
+							<p>Maak een P2P smart contract aan dat kan worden ontgrendeld als zich een specifieke gebeurtenis voordoet. Gebruik het voor <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
+								 target="_blank">speculeren op prijsbewegingen</a>, sportuitslagen en verzekering.</p>
+							<p>Vind je tegenpartij in het <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> kanaal op onze <a href="https://byteball.slack.org" target="_blank" title="Slack">Slack.</a></p>
 							<div class="space"></div>
 							</div>
 							<div class="col-md-6">
@@ -259,11 +257,10 @@
 						<div class="space"></div> 
 						<div class="row">
 							<div class="col-md-4 col-md-push-6">
-								<h2 class="title text-left">P2P投注</h2>
-								<p class="lead text-left">在运动项目上与其他用户打赌。</p>
-								<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a>								channel on our <a href="https://byteball.slack.org" target="_blank" title="Slack">Slack</a> and create a contract
-									that can be unlocked by you or your peer depending on the results of a future game.</p>
-								<p>结果知道后， 与<a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">sports oracle</a>聊天，让它发布关于结果的数据，然后解锁合约。</p>
+								<h2 class="title text-left">P2P weddenschappen</h2>
+								<p class="lead text-left">Wed tegen andere gebruikers over sportuitslagen.</p>
+								<p>Vind je tegenpartij in het <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> kanaal op onze <a href="https://byteball.slack.org" target="_blank" title="Slack">Slack</a> en maak een contract dat ontgrendeld kan worden door jou of je mede-gebruiker, afhankelijk van de uitkomst van een toekomstige wedstrijd.</p>
+								<p>Nadat de uitkomst bekend is, <a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">chat met de sports oracle</a> om hem de data van de uitslag te laten posten. Ontgrendel daarna het contract.</p>
 
 								<div class="space"></div>
 							</div>
@@ -292,8 +289,8 @@
 					<div class="space"></div> 
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">在聊天中实现P2P付款</h2>
-							<p class="lead text-left">只需点击链接就可以在同一个应用程序中聊天和支付。</p>
+							<h2 class="title text-left">P2P betalingen in chats</h2>
+							<p class="lead text-left">Chat en betaal in dezelfde app door slechts op links te klikken.</p>
 							<div class="space"></div>
 						</div>
 						<div class="col-md-6">
@@ -317,9 +314,9 @@
 					 <div class="space"></div> 
 					<div class="row">
 						<div class="col-md-4 col-md-push-6">
-							<h2 class="title text-left">聊天机器人</h2>
-							<p class="lead text-left">像跟人聊天一样与一个机器人聊天。</p>
-							<p>通过与商家的机器人聊天来购物，只需点击两次就可以完成付费。虚拟货币兑换和其他服务在会话接口中也很容易使用。</p>
+							<h2 class="title text-left">Chatbots</h2>
+							<p class="lead text-left">Praat met een bot zoals je met een mens zou praten.</p>
+							<p>Winkel door met een winkel bot te praten, betaal met twee klikken. Beurzen en andere diensten zijn ook eenvoudig in gebruik door middel van een conversatie interface.</p>
 						<div class="space"></div>
 						</div>
 						<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
@@ -345,10 +342,10 @@
 					 <div class="space"></div> 
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">机器人商店</h2>
-							<p class="lead text-left">通过内置的Bot Store轻松发现和添加新的聊天机器人。</p>
-							<p>开发人员可以通过在Bot Store上发布他们的聊天机器人来即时连接所有用户。 请参阅<a href="https://github.com/byteball/byteballcore/wiki/Writing-chatbots-for-Byteball"
-								 target="_blank">开发人员指南，了解如何构建聊天机器人。</a></p>
+							<h2 class="title text-left">Bot Winkel</h2>
+							<p class="lead text-left">Vind en voeg eenvoudig nieuwe chatbots toe via de ingebouwde Bot Winkel.</p>
+							<p>Ontwikkelaars hebben direct toegang tot alle gebruikers door hun chatbot te publiceren in de Bot Winkel. Zie de <a href="https://github.com/byteball/byteballcore/wiki/Writing-chatbots-for-Byteball"
+								 target="_blank">gids voor ontwikkelaars voor het ontwikkelen van chatbots.</a></p>
 						<div class="space"></div>
 						</div>
 						<div class="col-md-6">
@@ -371,10 +368,10 @@
 					 <div class="space"></div> 
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">不可追踪的货币：Blackbytes</h2>
-							<p class="lead text-left">现金般的隐私。</p>
-							<p>当您想要完全的隐私保护，请以Blackbytes付款，这是一种类似现金的不可追踪的货币，其交易在公共数据库中不可见，而是以点对点的方式发送。</p>
-							<p>从钱包直接使用内置的TOR开关来进一步增强您的隐私保护。</p>
+							<h2 class="title text-left">Ontraceerbaar geld: Blackbytes</h2>
+							<p class="lead text-left">Privacy gelijk aan cash.</p>
+							<p>Wanneer je volledige privacy wil, betaal in Blackbytes, een cash-achtige ontraceerbare munteenheid waarvan de transacties niet zichtbaar zijn in de publieke database; deze worden verzonden via peer-to-peer.</p>
+							<p>Gebruik de ingebouwde TOR switch vanuit de portemonnee om je privacy nog verder te verbeteren.</p>
 
 
 						</div>
@@ -404,9 +401,9 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-								<h2 class="title text-left">用户互相帮助</h2>
-								<p class="lead text-left">保证彼此的交易。</p>
-								<p>没有中央实体存储和处理所有付款。  相反，用户创建的交易是密码相互链接的，一旦添加了新的交易，其他用户开始将其添加到您的帐户之上，并且链接到您的交易的其他交易的数量就会变得像雪球一样（这就是为什么我们称之为字节球）。</p>
+								<h2 class="title text-left">Gebruikers helpen elkaar</h2>
+								<p class="lead text-left">Maak elkanders transacties veilig.</p>
+								<p>Er is geen centrale autoriteit die alle transacties bewaard en behandeld.  In plaats daarvan zijn transacties van gebruikers met cryptografie aan elkaar gelinkt, en wanneer je een transactie toevoegt, gaan andere gebruikers hun transacties daar bovenop toevoegen, en het aantal transacties dat naar jouw transactie linkt groeit als een sneeuwbal (dat is waarom we het Byteball noemen).</p>
 
 							</div>
 							<div class="col-md-6">
@@ -426,7 +423,7 @@
 		<div id="core" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">核心功能</h2>
+					<h2 class="text-center">Kern eigenschappen</h2>
 				</div>
 			</div>
 		</div>
@@ -437,38 +434,38 @@
 		<div class="container ">
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
-					<h3 class="media-heading">原子交换</h3>
-					<p>当双方对包含两个交易的一个单元签名后，两个交易要么同时，要么都不发生。 不再需要信任任何中心化都交易所。</p>
+					<h3 class="media-heading">Atomic beurs</h3>
+					<p>Wanneer twee partijen een enkele eenheid tekenen die beide onderdelen van de uitwisseling uitvoert, vinden de twee transacties of plaats of helemaal niet. Het is niet langer noodzakelijk om centrale beurzen te vertrouwen.</p>
 					<div class="space-res"></div>
 				</div>
 				<div class="col-sm-4">
-					<h3 class="media-heading">监管资产</h3>
-					<p>受监管的机构可以发行符合KYC / AML要求的资产。 该资产的每一次转移都需要发行机构共同签名，如有任何违反规定的行为，发行机构不会签名。</p>
+					<h3 class="media-heading">Gereguleerde bezittingen</h3>
+					<p>Gereguleerde instellingen kunnen bezittingen uitgeven die voldoen aan Know-Your-Customer/Anti-Money-Laundering vereisten. Iedere overdracht van een dergelijke bezitting moet worden bijgetekend door de uitgevende partij, en in geval van strijdigheid met de voorwaarden zal de uitgevende partij niet bijtekenen.</p>
 				</div>
 			</div>
 			<div class="space"></div>
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
-					<h3 class="media-heading">多重签名</h3>
-					<p>为了安全起见，您可以要求您的资金只有在提供多个签名时才能使用，例如从笔记本电脑和手机上分别签名。 对于共同控制的资金，可能需要来自不同人员的签名。</p>
+					<h3 class="media-heading">Multi handtekening</h3>
+					<p>Voor veiligheid kan je bepalen dat je geld alleen uit kan worden gegeven wanneer diverse handtekeningen zijn gezet, bijvoorbeeld vanaf je laptop en vanaf je telefoon. Voor gedeelde controle over geld, kunnen verschillende handtekeningen van verschillende personen nodig zijn.</p>
 					<div class="space-res"></div>
 				</div>
 
 				<div class="col-sm-4">
-					<h3 class="media-heading">链上的神话</h3>
-					<p>在与不信任的对手交易时，您可以将资金锁定在可能由您或对手方支配的地址上，具体由谁支配取决于由受信任的数据提供商 - oracle注册到数据库的事件。</p>
+					<h3 class="media-heading">On-chain orakels</h3>
+					<p>In geval met niet-vertrouwde tegenpartijen wordt gewerkt, kan je geld vastzetten op een adres dat hetzij door jou hetzij door de tegenpartij kan worden uitgegeven, afhankelijk van door vertrouwde data providers &mdash; orakels &mdash; in de database genoteerde gebeurtenissen.</p>
 				</div>
 			</div>
 			<div class="space"></div>
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
-					<h3 class="media-heading">不变的存储</h3>
-					<p>一旦存储在Byteball数据库中，数据既不能被修改也不能被删除。</p>
+					<h3 class="media-heading">Onveranderlijke opslag</h3>
+					<p>Eenmaal opgeslagen in de Byteball database, kan de data niet meer worden gewijzigd of verwijderd.</p>
 					<div class="space-res"></div>
 				</div>
 				<div class="col-sm-4">
-					<h3 class="media-heading">结算定案</h3>
-							<p>在符合某些标准后，一笔新的交易将最终确定。即使是强大的攻击者也无法修改。不需要猜测多少个确认数的交易才可信，没有51％攻击。</p>
+					<h3 class="media-heading">Finale afhandeling</h3>
+							<p>Nadat bepaalde criteria zijn vervuld, wordt een nieuwe transactie finaal en kan niet meer worden aangepast, ook niet door een aanvaller. Geen twijfel over het juiste aantal bevestigingen, geen 51% aanvallen.</p>
 				</div>
 			</div>
 		</div>
@@ -481,7 +478,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2  id="download"  class="text-center">获取您的Byteball钱包</h2>
+					<h2  id="download"  class="text-center">Haal je Byteball wallet op</h2>
 				</div>
 			</div>
 		</div>
@@ -525,10 +522,10 @@
 					</div>
 					<div class="space"></div>
 					<ul class="list-unstyled text-left">
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> 安装完成后，<a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">与 Transition Bot 聊天</a>， 参与下一次分配</li>
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> 通过与交易机器人聊天来<a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">购买或销售bytes</a></li>
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="https://medium.com/byteball/making-p2p-great-again-episode-ii-bitcoin-exchange-d98adfbde2a5" target="_blank">P2P交换Byteball与比特币</a> ，通过与<a href="byteball:A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@byteball.org/bb#0000">BTC Oracle</a>聊天获得您的merkle证明<br></li>
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> 在<a href="https://explorer.byteball.org" target="_blank">DAG资源管理器</a>上查看公共交易</li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> Chat na installatie <a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">met de Transition Bot</a> om mee te doen in de volgende distributie ronde</li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">Koop of verkoop bytes</a> door met een handelsbot te chatten</li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="https://medium.com/byteball/making-p2p-great-again-episode-ii-bitcoin-exchange-d98adfbde2a5" target="_blank">P2P beurs bytes versus bitcoins</a>, verkrijg je merkle bewijs door met de <a href="byteball:A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@byteball.org/bb#0000">BTC Oracle</a> te chatten<br></li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> Bekijk publieke transacties met de <a href="https://explorer.byteball.org" target="_blank">DAG explorer</a></li>
 								<!-- <li><i class="fa fa-caret-right pr-10 text-colored"></i> Dignissimos molestiae necessitatibus</li> -->
 							</ul>
 					 <!-- <h4 style="font-weight: 500;">After installing, <a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">chat with the Transition Bot</a>	to participate in the next distribution round</br> -->
@@ -549,7 +546,7 @@
 		<div id="dist" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">公平的初始分配</h2>
+					<h2 class="text-center">Eerlijke initiële distributie</h2>
 				</div>
 			</div>
 		</div>
@@ -560,7 +557,7 @@
 	<div class="section clearfix ">
 		<div class="container">
 			<div class="row">
-				<p class="lead text-center">Next free distribution (tentative): <span id="distDate">DATE</span></p>
+				<p class="lead text-center">Volgende gratis distributie (onder voorbehoud): <span id="distDate">DATUM</span></p>
 				<div class="clock row">
 					<div class="col-xs-3 col-sm-3 col-md-3">
 						<div class="countdown-time-value clock-item clock-days">
@@ -569,7 +566,7 @@
 									<div id="canvas-days" class="clock-canvas"></div>
 									<div class="text">
 										<p class="val">0</p>
-										<p class="type-days type-time">日</p>
+										<p class="type-days type-time">DAGEN</p>
 									</div>
 									<!-- /.text -->
 								</div>
@@ -588,7 +585,7 @@
 
 									<div class="text">
 										<p class="val">0</p>
-										<p class="type-hours type-time">时</p>
+										<p class="type-hours type-time">UREN</p>
 									</div>
 									<!-- /.text -->
 								</div>
@@ -607,7 +604,7 @@
 
 									<div class="text">
 										<p class="val">0</p>
-										<p class="type-minutes type-time">分</p>
+										<p class="type-minutes type-time">MINUTEN</p>
 									</div>
 									<!-- /.text -->
 								</div>
@@ -626,7 +623,7 @@
 
 									<div class="text">
 										<p class="val">0</p>
-										<p class="type-seconds type-time">秒</p>
+										<p class="type-seconds type-time">SECONDEN</p>
 									</div>
 									<!-- /.text -->
 								</div>
@@ -641,30 +638,30 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<p class="lead text-left">免费分发给BTC和Byte持有人。</p>
-						<p>大规模普及使用需要广泛的分发，因此98%的 bytes 和 blackBytes 都将免费分发。</p>
-						<p>部分字节将被用作 <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank"> 现金返还及分发计划 </a>, 用于支付在我们合作伙伴的商家商店。  一般情况下我们会返还10%的消费额。  <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Fill out the application form</a> or <script>document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">');</script>contact us<script>document.write('</a>');</script> if you run a store or a payment processor and want to be part of the cashback program.</p>
-						<p>其余的部分将会分成几轮奖励给比特币和 Bytes 的持有者。  您收到的金额与您在分配日期的 BTC 和bytes经验证的余额成正比, 这些是11月分发的规则:</p>
+						<p class="lead text-left">Gratis distributie aan houders van BTC en Byte.</p>
+						<p>Massale overstap vereist wijde distributie, dat is waarom 98% van alle bytes en blackbytes gratis worden uitgegegevn.</p>
+						<p>Een gedeelte van de Bytes wordt <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">uitgegeven als cashback</a> voor aankopen bij winkels waarmee we samenwerkingsverbanden hebben.  In de meeste gevallen is de aangeboden cashback 10% van het aankoopbedrag.  <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Vul het aanmeldingsformulier in</a> of <script>document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">');</script>neem contact met ons op<script>document.write('</a>');</script> als je een winkel of betalingsverwerker hebt en deel wil nemen aan het cashback programma.</p>
+						<p>Een ander deel van de distributie wordt gesplitst in meerdere ronden en in iedere ronde worden houders van BTC en Bytes beloond.  De bedragen die je ontvangt zijn in proportie van je bewezen saldo in BTC en Bytes op de distributiedatum. Dit zijn de regels van de ronde in november:</p>
 						<ul>
-							<li>每持有16个比特币，获得0.1 GBbyte （1 GByte = 10亿 Bytes），</li>
-							<li>每持有1 GB，您将收到额外的0.1 GB。</li>
+							<li>Voor elke 16 BTC ontvang je 0,1 GB (1 gigabyte = 1 miljard bytes),</li>
+							<li>Voor elke 1 GB ontvang je additioneel 0,1 GB.</li>
 						</ul>
-						<p>要证明您的余额，请安装钱包并与Transition Bot聊天（您可以在钱包中的Bot Store中找到它）。  机器人将帮助您通过小额支付或签署消息的方式来绑定您的比特币和Byteball钱包地址。</p>
-						<p>您还会收到与您链接的BTC余额以及绑定的Byteball地址余额成比例的BlackBytes。</p>
-						<p>第一轮发布于2016年12月25日，当网络启动时，超过70,000个BTC被绑定，并且分配了Bytes和BlackBytes总额的10％。  在后续几轮中，总分配量达到了总额的58.4％</p>
+						<p>Om je saldo te bewijzen, installeer de portemonnee en chat met de Transition Bot (je kan deze in de Bot Winkel in de portemonnee vinden).  De bot helpt je om je Bitcoin en Byteball adres te linken door een microbetaling te doen of een bericht te ondertekenen.</p>
+						<p>Je ontvangt ook blackbytes in proportie tot je gelinkte BTC saldo en je saldo in Bytes op het gelinkte Byteball adres.</p>
+						<p>De eerste distributie vond plaats op 25 december 2016 toen het netwerk werd gelanceerd. Meer dan 70.000 BTC werd gelinkt en 10% van de totale voorraad aan bytes en blackbytes werd uitgegeven.  In de volgende ronden bereikte de totale gedistribueerde voorraad 58,4%:</p>
 						<ul>
-							<li>2017年2月11日第二轮：121,763 BTC被绑定，1.8％被分配；</li>
-							<li>2017年3月12日第三轮：129,139个BTC被绑定，2.0％被分配；</li>
-							<li>2017年4月11日第四轮：145,441 BTC被绑定，2.3％被分配；</li>
-							<li>2017年5月10日第五轮：207,672 BTC被绑定，2.9％被分配；</li>
-							<li>2017年6月9日第六轮：453,621 BTC被绑定，6.6％被分配；</li>
-							<li>2017年7月9日第七轮：949,004 BTC被绑定，11.0％被分配；</li>
-							<li>2017年8月7日第八轮：1,395,899 BTC被绑定，16.0％被分配；</li>
-							<li>2017年9月6日第九轮：1,306,573 BTC被绑定，5.7％被分配。</li>
-							<li>2017年11月4日第十轮：1,093,155 BTC被绑定，6.1％被分配。</li>
+							<li>2e ronde op 11 februari 2017: 121.763 BTC gelinkt, 1,8% gedistribueerd;</li>
+							<li>3e ronde op 12 maart 2017: 129.139 BTC gelinkt, 2,0% gedistribueerd;</li>
+							<li>4e ronde op 11 april 2017: 145.441 BTC gelinkt, 2,3% gedistribueerd;</li>
+							<li>5e ronde op 10 mei 2017: 207.672 BTC gelinkt, 2,9% gedistribueerd;</li>
+							<li>6e ronde op 9 juni 2017: 453.621 BTC gelinkt, 6,6% gedistribueerd;</li>
+							<li>7e ronde op 9 juli 2017: 949.004 BTC gelinkt, 11,0% gedistribueerd;</li>
+							<li>8e ronde op 7 augustus 2017: 1.395.899 BTC gelinkt, 16,0% gedistribueerd;</li>
+							<li>9e ronde op 6 september 2017: 1.306.573 BTC gelinkt, 5,7% gedistribueerd;</li>
+							<li>10e ronde op 4 november 2017: 1.093.155 BTC gelinkt, 6,1% gedistribueerd;</li>
 						</ul>
-						<p>The 11th round is tentatively scheduled for the full moon of March (<b>Mar 2, 2018 at 00:51 UTC</b>).  The balances will be snapshotted at the time of the first Bitcoin block after this date, and rules for this round are as indicated above.  <!--We will likely have more rounds until we distribute all 98%.--> Depending on the progress of other distribution methods, this round can be postponed or even canceled.</p>
-						<p>点击与<a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">Transition Bot</a>聊天，以绑定您的Bitcoin和Byteball地址并参与，跟踪绑定进度请点击<a href="http://transition.byteball.org/" target="_blank">transition.byteball.org</a>。</p>
+						<p>De 11e ronde is onder voorbehoud gepland voor de volle maan in maart (<b>2 maart 2018 om 00:51 UTC</b>).  Na deze datum wordt van de saldi op de eerstvolgende datum van een Bitcoin block een snapshot gemaakt, en de regels voor deze ronde zijn hierboven aangegeven.  <!--We will likely have more rounds until we distribute all 98%.--> Depending on the progress of other distribution methods, this round can be postponed or even canceled.</p>
+						<p><a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">Chat met de Transition Bot</a> om je Bitcoin en Byteball adressen te linken en mee te doen. Volg het proces van linken op <a href="http://transition.byteball.org/" target="_blank">transition.byteball.org</a>.</p>
 					</div>
 				</div>
 			</div>
@@ -678,7 +675,7 @@
 		<div id="tech" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">全新技术</h2>
+					<h2 class="text-center">Volledig nieuwe technologie</h2>
 				</div>
 			</div>
 		</div>
@@ -692,10 +689,10 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<p class="lead text-left">无限的可扩展性，快速的确认，没有矿工，没有块，低廉的手续费。</p>
-						<p>Bytes中的数据使用<a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">有向无环图</a> （DAG）而不是区块链来存储和排序。 这允许所有用户通过引用其他用户创建的早期数据单元来保护彼此的数据，并且还消除区块链常见的可扩展性限制，例如区块大小问题。</p>
-						<p>这种设计更简单，因为没有区块，只有交易。  用户只需将自己的交易添加到DAG本身的末尾，他们不必等待矿工们创建一个新的块，而且不需要担心矿工们是否会将您的交易纳入块中。</p>
-						<p>用于防止双重支出的共识算法是基于在DAG内建立总订单。 这是通过选择一个被称为主链的链来实现的，这个链是由普遍认可的有信誉的用户 - 证人发行的单位。 有关详细信息，请参阅<a href="Byteball.pdf">白皮书</a> 。</p>
+						<p class="lead text-left">Ongelimiteerde schaalbaarheid, snelle bevestigingstijden, geen miners, geen blokken, lage kosten.</p>
+						<p>Byteball data wordt opgeslagen en geordend onder gebruik van <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">directed acyclic graph</a> (DAG) in plaats van een blockchain. Dit stelt gebruikers in staat om elkanders data veilig te stellen door naar eerdere door andere gebruikers gecreëerde data units te verwijzen, en neemt ook schaalbaarheidslimieten weg die gebruikelijk bij blockchains gelden, zoals de kwestie van grootte van blokken.</p>
+						<p>Een ontwerp zonder blokken is eenvoudiger omdat er geen blokken zijn; er zijn alleen transacties.  Gebruikers voegen zelf alleen hun transacties toe aan het einde van de DAG. Zij hoeven niet te wachten op een miner die een nieuw blok aanmaakt en er is geen twijfel of miners jouw transactie aan een blok toe zullen voegen.</p>
+						<p>Het consensus algoritme ter bescherming tegen dubbel spenderen is gebaseerd op het creëren van een totale ordening binnen de DAG. Dit wordt bereikt door een ketting te selecteren, de hoofdketting genaamd, die richting units beweegt die zijn uitgegeven door algemeen erkende vertrouwde gebruikers &mdash; getuigen. Zie de <a href="Byteball.pdf">white paper</a> voor details.</p>
 
 					</div>
 				</div>
@@ -711,8 +708,8 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<h2 class="text-left">测试网络</h2>
-						<p>如果您是开发人员或者想要体验Byteball的功能而不用一分钱， 可以使用<a href="testnet.html">测试网络的钱包</a>。</p>
+						<h2 class="text-left">Testnet</h2>
+						<p>Een <a href="testnet.html">testnet wallet</a> is ook beschikbaar als je een ontwikkelaar bent of de eigenschappen van Byteball wil ervaren zonder een cent uit te geven.</p>
 
 					</div>
 				</div>
@@ -727,8 +724,8 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<h2 class="text-left">社区和支持</h2>
-						<p>加入Byteball 的 Slack 频道！ Slack上有许多频道对未来的发展，交易，拍卖活动有热烈的讨论，仅举几例。 如果您有任何关于Byteball钱包点问题，我们的合格支持人员将在#helpdesk频道处理。 Please get your invite from any existing member<!-- <a href="http://slack.byteball.org" target="_blank" title="Slack">slack.byteball.org</a-->.</p>
+						<h2 class="text-left">Gemeenschap en ondersteuning</h2>
+						<p>Sluit je aan bij Byteball op Slack! Er zijn diverse kanalen met levendige discussie over toekomstige ontwikkelingen, handel en veilingen om slechts enkelen te noemen. Als je problemen hebt met de Byteball portemonnee, zal ons competente ondersteuningsteam dit oplossen via het #helpdesk kanaal. Verkrijg je uitnodiging van een bestaande gebruiker<!-- <a href="http://slack.byteball.org" target="_blank" title="Slack">slack.byteball.org</a-->.</p>
 
 					</div>
 				</div>
@@ -743,12 +740,12 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<h2 class="text-left">交易所</h2>
-						<p>您可以通过<a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">与交易机器人聊天</a>来购买或出售字节而无须离开钱包。
-							您也可以在<a href="https://bittrex.com/Market/Index?MarketName=BTC-GBYTE" target="_blank">Bittrex</a> ， <a href="https://cryptox.pl" target="_blank">Cryptox</a> ， <a href="https://www.cryptopia.co.nz/Exchange/?market=GBYTE_BTC"
-							 target="_blank">Cryptopia</a> ， <a href="https://changelly.com/exchange/btc/gbyte" target="_blank">Changelly</a>和<a href="https://bitsquare.io" target="_blank">Bitsquare</a>交易所交易。</p>
-						<p>To buy or sell blackbytes, see or post orders in <a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a>							channel on our <a href="https://byteball.slack.org" target="_blank" title="Slack">Slack</a>, then exchange peer-to-peer
-							using <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">bound (conditional) payments.</a></p>
+						<h2 class="text-left">Beurzen</h2>
+						<p>Je kan bytes kopen of verkopen zonder de portemonnee te verlaten door <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">met een handelsbot te chatten</a>.
+							Je kan ook handelen op de volgende beurzen <a href="https://bittrex.com/Market/Index?MarketName=BTC-GBYTE" target="_blank">Bittrex</a>,
+ <a href="https://cryptox.pl" target="_blank">Cryptox</a>, <a href="https://www.cryptopia.co.nz/Exchange/?market=GBYTE_BTC"
+							 target="_blank">Cryptopia</a>, <a href="https://changelly.com/exchange/btc/gbyte" target="_blank">Changelly</a>, en 				<a href="https://bitsquare.io" target="_blank">Bitsquare</a>.</p>
+						<p>Om blackbytes te kopen of verkopen, zie of plaats biedingen in het <a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a> kanaal op onze <a href="https://byteball.slack.org" target="_blank" title="Slack">Slack</a>, en wissel deze peer-to-peer uit door middel van <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">gebonden (voorwaardelijke) betalingen.</a></p>
 
 					</div>
 				</div>
@@ -779,7 +776,7 @@
 		&nbsp;
 		<a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a> &nbsp;
 		<a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a> &nbsp;
-		<a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="BitcoinTalk 话题"><i class="fa fa-bitcoin"></i></a>		&nbsp;
+		<a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="BitcoinTalk discussie"><i class="fa fa-bitcoin"></i></a>		&nbsp;
 		<a href="https://medium.com/byteball" target="_blank" title="Medium"><i class="fa fa-medium"></i></a> &nbsp;
 		<a href="https://byteball.slack.com" target="_blank" title="Slack"><i class="fa fa-slack"></i></a> &nbsp;
 		<a href="https://www.reddit.com/r/ByteBall/" target="_blank" title="Reddit"><i class="fa fa-reddit-alien"></i></a> &nbsp;

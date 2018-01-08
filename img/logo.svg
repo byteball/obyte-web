@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="166" width="128">
+	<style type="text/css">@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext);</style>
+	<circle cx="64" cy="64" r="56" stroke="#2c3e50" stroke-width="8" fill="transparent" />
+	<text x="64" y="155" font-family="Open Sans" font-size="28" font-weight="400" letter-spacing="0.8" fill="#2c3e50" text-anchor="middle">Byteball</text>
+</svg>

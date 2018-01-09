@@ -121,7 +121,7 @@ body {
 			// Using a deep link guarantees that the app store opens even when using an alternate browser (e.g. Puffin or Firefox)
 			getStoreURI: function() {
 				return isAndroid() ?
-					"market://details?id=org.byteball.wallet" :
+					"market://details?id=org.byteball.wallet&referrer=" + window.location.hash.substr(1) :
 					"https://github.com/byteball/byteball/releases";
 			},
 			// Try to launch the native app on iOS/Android. Redirect to the app store if launch fails.

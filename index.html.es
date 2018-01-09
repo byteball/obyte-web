@@ -31,7 +31,7 @@
 	<link href="css/animations.css" rel="stylesheet">
 
 	<!-- Worthy core CSS file -->
-	<link href="css/style.css?v6" rel="stylesheet">
+	<link href="css/style.css?v7" rel="stylesheet">
 	
 
 	
@@ -71,7 +71,7 @@
 									<!-- Toggle get grouped for better mobile display -->
 									<div class="navbar-header">
 										<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-												<span class="sr-only">Toggle navigation</span>
+												Cambiar navegación
 												<span class="icon-bar"></span>
 												<span class="icon-bar"></span>
 												<span class="icon-bar"></span>
@@ -82,11 +82,11 @@
 									<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 										<ul class="nav navbar-nav">
 
-											<li><a href="#why">Why</a></li>
-											<li><a href="#core">Features</a></li>
-											<li><a href="#download">Download</a></li>
-											<li><a href="#dist">Distribution</a></li>
-											<li><a href="#tech">Technology</a></li>
+											<li><a href="#why">Por qué</a></li>
+											<li><a href="#core">Características</a></li>
+											<li><a href="#download">Descargar</a></li>
+											<li><a href="#dist">Distribución</a></li>
+											<li><a href="#tech">Tecnología</a></li>
 											<li><a href="https://wiki.byteball.org" target="_blank" title="Wiki">Wiki</a></li>
 											<li><a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
 											<li><a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
@@ -131,8 +131,8 @@
 					<div class="row text-center">
 						<h2>Smart payments made simple</h2>
 
-						<p><a class="btn btn-lg btn-success" href="#download" role="button">Get Byteball wallet</a></p>
-						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> Read the whitepaper</a></p>
+						<p><a class="btn btn-lg btn-success" href="#download" role="button">Obtener monedero byteball</a></p>
+						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> Leer whitepaper</a></p>
 					</div>
 					<div class="space"></div>
 					
@@ -140,8 +140,8 @@
 					<!--p class="lead what-is">Byteball is an alternative legal system based on smart contracts.</p>
 					<p class="lead what-is">When a contract is created on Byteball, it just works exactly as agreed upon.  Trust in the counterparty and reliance on the slow and expensive conventional legal system are not required any more as the contracts are enforced by the immutable rules of the decentralized platform.  See below the types of contracts available today.</p-->
 					
-					<p class="lead what-is">Byteball enables trust where trust couldn’t exist before.</p>
-					<p class="lead what-is">When a contract is created on Byteball platform, it can be trusted to work exactly as agreed upon.  Why? Because it is validated by multiple nodes on the decentralized network, which all follow the same immutable rules.  The counterparty, even if it is a total stranger, has to behave honestly because only the rules have authority.  Such a contract is called a smart contract.  See below for examples of working smart contracts available today.</p>
+					<p class="lead what-is">Byteball permite confianza donde antes no existía.</p>
+					<p class="lead what-is">Cuando se crea un contrato en la plataforma Byteball, se puede confiar que funcionará exactamente según lo acordado.  ¿Por qué? Porque es validado por múltiples nodos de la red descentralizada, siguiendo todos ellos las mismas reglas inmutables.  La contraparte, incluso si es totalmente desconocida, tiene que comportarse honestamente porque sólo las reglas tienen autoridad.  Al contrato así se le llama un contrato inteligente.  Vea debajo ejemplos de contratos inteligentes disponibles hoy día.</p>
 					
 					
 				</div>
@@ -157,7 +157,7 @@
 		<div id="why" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Why use Byteball?</h2>
+					<h2 class="text-center">¿Por qué utilizar Byteball?</h2>
 				</div>
 			</div>
 		</div>
@@ -171,11 +171,11 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-								<h2 class="title text-left">Risk-free conditional smart payments</h2>
-								<p class="lead text-left">Byteball allows you to do something that traditional currencies can't: <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
-								 target="_blank">conditional payments.</a></p>
+								<h2 class="title text-left">Pagos inteligentes condicionales libres de riesgos</h2>
+								<p class="lead text-left">Byteball le permite hacer algo que las divisas tradicionales no pueden: <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
+								 target="_blank">pagos condicionales.</a></p>
 
-								<p>You set a condition when the payee receives the money. If the condition is not met, you get your money back.</p>
+								<p>Usted establece una condición cuando el beneficiario recibe el dinero. Si la condición no se cumple, el dinero vuelve al remitente.</p>
 								<div class="space"></div>
 							</div>
 							<div class="col-md-6">
@@ -199,14 +199,13 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-4 col-md-push-6">
-							<h2 class="title text-left">P2P insurance</h2>
-							<p class="lead text-left">Hedge against negative events.</p>
-							<p>Buy insurance from peers to get paid in case a negative event occurs. Sell insurance for profit.</p>
-							<p>Insurance is just <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527"
-								 target="_blank">a simple smart contract</a> that can be unlocked by the insured &mdash; if the event in question
-								did occur, or by the insurer &mdash; otherwise.</p>
+							<h2 class="title text-left">Seguro P2P</h2>
+							<p class="lead text-left">Protéjase contra eventos negativos.</p>
+							<p>Compre seguros de usuarios para que le paguen en caso de un acontecimiento negativo. Venda seguros por beneficio.</p>
+							<p>Este seguro solo es <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527"
+								 target="_blank">un simple contrato inteligente</a> que puede ser desbloqueado por el asegurado &mdash; si ocurrió el evento en cuestión, o por el asegurador &mdash; en caso contrario.</p>
 							<p>To insure against flight delay, find your counterpart in <a href="https://byteball.slack.com/messages/C54CDJATB/"
-								 target="_blank">#p2p_insurance</a> channel on our <a href="http://slack.byteball.org" target="_blank" title="Slack">Slack</a>,
+								 target="_blank">#p2p_insurance</a> channel on our <a href="https://byteball.slack.org" target="_blank" title="Slack">Slack</a>,
 								create a contract, and if your flight arrives late, <a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000">chat with flight delays oracle</a>								to have it post the data about the delay, then unlock the contract.</p>
 							<div class="space"></div>
 							</div>
@@ -232,11 +231,11 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Prediction markets</h2>
-							<p class="lead text-left">Make money by correctly predicting future events.</p>
-							<p>Create a P2P smart contract that can be unlocked if a specific event occurs. Use it for <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
-								 target="_blank">betting on price movements</a>, sports betting, and insurance.</p>
-							<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> channel on our <a href="http://slack.byteball.org" target="_blank" title="Slack">Slack.</a></p>
+							<h2 class="title text-left">Mercados de predicción</h2>
+							<p class="lead text-left">Gane dinero por predecir correctamente eventos futuros.</p>
+							<p>Cree un contrato inteligente que puede ser desbloqueado si sucede un evento concreto. Utilícelo para <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
+								 target="_blank">apostar en movimientos de precios</a>, apuestas deportivas y seguros.</p>
+							<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> channel on our <a href="https://byteball.slack.org" target="_blank" title="Slack">Slack.</a></p>
 							<div class="space"></div>
 							</div>
 							<div class="col-md-6">
@@ -261,7 +260,7 @@
 							<div class="col-md-4 col-md-push-6">
 								<h2 class="title text-left">P2P betting</h2>
 								<p class="lead text-left">Bet against other users on sports events.</p>
-								<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a>								channel on our <a href="http://slack.byteball.org" target="_blank" title="Slack">Slack</a> and create a contract
+								<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a>								channel on our <a href="https://byteball.slack.org" target="_blank" title="Slack">Slack</a> and create a contract
 									that can be unlocked by you or your peer depending on the results of a future game.</p>
 								<p>After the result is known, <a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">chat with sports oracle</a>								to have it post the data about the outcome, then unlock the contract.</p>
 
@@ -515,16 +514,16 @@
 						<div><a target="_blank" href="https://play.google.com/store/apps/details?id=org.byteball.wallet">Android</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.2/Byteball-win64.exe"><img src="img/icon-microsoft.svg"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.2/Byteball-win64.exe">Windows</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-win64.exe"><img src="img/icon-microsoft.svg"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-win64.exe">Windows</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.2/Byteball-osx64.dmg"><img src="img/icon-mac-os-x.svg"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.2/Byteball-osx64.dmg">Mac</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-osx64.dmg"><img src="img/icon-mac-os-x.svg"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-osx64.dmg">Mac</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.2/byteball-linux64.zip"><img src="img/linux.png"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v1.11.2/byteball-linux64.zip">Linux</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/byteball-linux64.zip"><img src="img/linux.png"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/byteball-linux64.zip">Linux</a></div>
 					</div>
 					<div class="app">
 						<div><a target="_blank" href="https://github.com/byteball/byteball"><img src="img/fi-social-github.svg"/></a></div>
@@ -568,7 +567,7 @@
 	<div class="section clearfix ">
 		<div class="container">
 			<div class="row">
-				<p class="lead text-center">Next free distribution: <span id="distDate">DATE</span></p>
+				<p class="lead text-center">Next free distribution (tentative): <span id="distDate">DATE</span></p>
 				<div class="clock row">
 					<div class="col-xs-3 col-sm-3 col-md-3">
 						<div class="countdown-time-value clock-item clock-days">
@@ -671,8 +670,7 @@
 							<li>9th round on Sep 6, 2017: 1,306,573 BTC linked, 5.7% distributed.</li>
 							<li>10th round on Nov 4, 2017: 1,093,155 BTC linked, 6.1% distributed.</li>
 						</ul>
-						<p>The plans for future distribution will be announced in mid-November.</p>
-						<!--p>The 10th round is scheduled for the full moon of November (<b>Nov 4, 2017 at 05:23 UTC</b>).  The balances will be snapshotted at the time of the first Bitcoin block after this date, and rules for this round are as indicated above.  We will likely have more rounds until we distribute all 98%.</p-->
+						<p>The 11th round is tentatively scheduled for the full moon of March (<b>Mar 2, 2018 at 00:51 UTC</b>).  The balances will be snapshotted at the time of the first Bitcoin block after this date, and rules for this round are as indicated above.  <!--We will likely have more rounds until we distribute all 98%.--> Depending on the progress of other distribution methods, this round can be postponed or even canceled.</p>
 						<p><a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">Chat with the Transition Bot</a> to link your Bitcoin and Byteball addresses and participate, track linking progress at <a href="http://transition.byteball.org/" target="_blank">transition.byteball.org</a>.</p>
 					</div>
 				</div>
@@ -743,7 +741,7 @@
 						<h2 class="text-left">Community and Support</h2>
 						<p>Join Byteball on Slack! There are many channels with lively discussions about future developments, trading, auctions,
 							to name just a few. If you have any issues with the Byteball wallet, our competent support staff will take care of
-							it at the #helpdesk channel. Please get your invite at <a href="http://slack.byteball.org" target="_blank" title="Slack">slack.byteball.org</a>.</p>
+							it at the #helpdesk channel. Please get your invite from any existing member<!-- <a href="http://slack.byteball.org" target="_blank" title="Slack">slack.byteball.org</a-->.</p>
 
 					</div>
 				</div>
@@ -764,7 +762,7 @@
 							<a href="https://cryptox.pl" target="_blank">Cryptox</a>, <a href="https://www.cryptopia.co.nz/Exchange/?market=GBYTE_BTC"
 							 target="_blank">Cryptopia</a>, <a href="https://changelly.com/exchange/btc/gbyte" target="_blank">Changelly</a>, and
 							<a href="https://bitsquare.io" target="_blank">Bitsquare</a> exchanges.</p>
-						<p>To buy or sell blackbytes, see or post orders in <a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a>							channel on our <a href="http://slack.byteball.org" target="_blank" title="Slack">Slack</a>, then exchange peer-to-peer
+						<p>To buy or sell blackbytes, see or post orders in <a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a>							channel on our <a href="https://byteball.slack.org" target="_blank" title="Slack">Slack</a>, then exchange peer-to-peer
 							using <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">bound (conditional) payments.</a></p>
 
 					</div>
@@ -795,6 +793,7 @@
 		</script>
 		&nbsp;
 		<a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a> &nbsp;
+		<a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a> &nbsp;
 		<a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="BitcoinTalk thread"><i class="fa fa-bitcoin"></i></a>		&nbsp;
 		<a href="https://medium.com/byteball" target="_blank" title="Medium"><i class="fa fa-medium"></i></a> &nbsp;
 		<a href="https://byteball.slack.com" target="_blank" title="Slack"><i class="fa fa-slack"></i></a> &nbsp;
@@ -814,7 +813,7 @@
 
 
 	<!-- Initialization of Plugins -->
-	<script type="text/javascript" src="js/template.js?v3"></script>
+	<script type="text/javascript" src="js/template.js?v4"></script>
 
 	<script src="js/kinetic.js"></script>
 	<script src="js/jquery.final-countdown.min.js"></script>

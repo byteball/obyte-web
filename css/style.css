@@ -980,11 +980,13 @@ textarea {
 #mc-embedded-subscribe{
 	padding:0 10px;  	
 }
-.xyz{
+#mc_embed_signup label{
 	color: #fff;
+	font-weight: 300;
+	display: inline;
 }
 .gap {
 	margin-top: 25px;
-	margin-bottom: -10px;
+	margin-bottom: -30px;
 }
 /* MailChimp Signup Form section style end */

@@ -383,7 +383,10 @@ textarea {
 	text-shadow: none;
 	filter: alpha(opacity=100);
 	opacity: 1;
+	
 }
+
+
 
 /* Large devices (Large desktops 1200px and up) */
 @media (min-width:1200px) {
@@ -963,3 +966,25 @@ textarea {
 		width: inherit;
 	}
 }
+
+/* MailChimp Signup Form section start */
+#mc_embed_signup{
+	background:#3F4F60; 
+	clear:left; 
+	font:14px Helvetica,Arial,sans-serif; 
+	width:100%;
+	padding: 10px;
+	text-align: center;
+	
+}
+#mc-embedded-subscribe{
+	padding:0 10px;  	
+}
+.xyz{
+	color: #fff;
+}
+.gap {
+	margin-top: 25px;
+	margin-bottom: -10px;
+}
+/* MailChimp Signup Form section style end */

@@ -9,15 +9,15 @@ File Description:Main CSS file of the template */
 /* Typography
 ----------------------------------------------------------------------------- */
 body {
-	font-family: 'Abel', 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 html,
 body {
 	height: 100%;
 }
 body {
-	font-size: 18px;
-	line-height: 1.50;
+	font-size: 16px;
+	line-height: 1.75;
 	/*color: #d9ebfd;*/
 	/*background-color: #2c3e50;*/
 	position: relative;
@@ -40,6 +40,7 @@ h2 {
 	font-size: 36px;
 	margin-top: 40px;
 	color: #2C3E50;
+	margin-bottom: 20px;
 }
 h3 {
 	font-size: 24px;
@@ -119,24 +120,16 @@ blockquote {
 }
 
 .banner h2 {
-	max-width: 90%;
+	max-width: 600px;
 	color: #0B93F6;
-	font-size: 72px;
-	margin: 18px auto 0 auto;	
+	font-size: 60px;
+	/*margin: 18px auto 0 auto;	*/
+	margin: 36px auto 36px auto;	
 	text-align: center;
 }
-
-.banner h3 {
-	max-width: 90%;
-	margin: 0 auto 0 auto;
-	padding: 10px;
-	text-align: center;
-	color: white;
-    font-size: 36px;
-}
-
+	
 .banner .btn {
-	margin-top: 36px;
+	/*margin-top: 36px;*/
 }
 
 .default-bg h2 {
@@ -170,7 +163,6 @@ body {
 
 .banner {
 	background-color: rgba(44, 62, 80, 1);
-	border-bottom: 1px solid #ccc;
 	width: 100%;
 	height: 101%;
 	min-height: 780px;
@@ -202,9 +194,13 @@ body {
 	z-index: 2;
 }
 
+.intro {
+	background-color: #0B93F6;
+}
+
 .footer {
-	margin-bottom: 40px;
-	margin-top: 40px;
+	padding-bottom: 40px;
+	padding-top: 40px;
 }
 
 .subfooter {
@@ -218,6 +214,10 @@ body {
 	padding: 30px 0;
 }
 
+.section:nth-child(1) {
+	padding: 0 0 30px 0;
+}
+
 div#why {
 	padding-top: 40px;
 }
@@ -225,8 +225,6 @@ div#why {
 /* Backgrounds
 ----------------------------------------------------------------------------- */
 .default-bg {
-	background-color: transparent;
-	color: #ffffff;
 	padding-bottom: 10px;
 }
 .default-bg.blue {
@@ -798,11 +796,12 @@ textarea {
 }
 
 .what-is{
-	max-width: 800px;
+	max-width: 860px;
 	margin: 0 auto;
-	padding: 10px;
+	padding: 0px 40px;
 	text-align: center;
 	color: white;
+	font-size: 18px;
 	display: none;
 }
 
@@ -831,10 +830,12 @@ textarea {
 }
 
 .clock-canvas {
-    background-color: rgba(44, 62, 80, 0.12);
+    background-color: white;
     border-radius: 50%;
     height: 0px;
     padding-bottom: 100%;
+     -webkit-filter: drop-shadow(0px 4px 8px rgba(44,62,80,0.1)); 
+    filter: drop-shadow(0px 4px 8px rgba(44,62,80,0.1)); 
 }
 
 .text {
@@ -878,7 +879,7 @@ textarea {
 	color: #ffffff;
 /*	max-width: 135px;*/
     margin: auto;
-	font-size: 36px;
+	font-size: 30px;
 	letter-spacing: 0.8px;
     font-weight: 400;
 	/* border: solid white;

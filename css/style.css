@@ -120,9 +120,9 @@ blockquote {
 }
 
 .banner h2 {
-	max-width: 600px;
+	max-width: 540px;
 	color: #0B93F6;
-	font-size: 60px;
+	font-size: 54px;
 	/*margin: 18px auto 0 auto;	*/
 	margin: 36px auto 36px auto;	
 	text-align: center;
@@ -1019,10 +1019,10 @@ textarea {
 }
 
 
-@media (max-width: 550px) {
+@media (max-width: 500px) {
 
 	.banner h2, .banner h3 {
-		max-width: 75%;
+		max-width: 80%;
 	}
 
     body{font-size: 15px;}
@@ -1077,7 +1077,7 @@ textarea {
 	}
 
 	.banner h2 {
-		font-size: 44px;
+		font-size: 40px;
 		margin-top: 36px;
 	}
 
@@ -1090,7 +1090,7 @@ textarea {
 	}
 
 	.default-bg h2 {
-		font-size: 44px;
+		font-size: 40px;
 	}
 
 	.section {

@@ -153,6 +153,9 @@
 		</div>
 	</div>
 	<!-- banner end -->
+	
+	
+	
 	<!-- section start -->
 	<!-- ================ -->
 	<div class="default-bg">
@@ -817,6 +820,32 @@
 		<a href="https://t.me/byteball" target="_blank" title="Telegram"><i class="fa fa-telegram"></i></a>
 	</footer>
 
+	
+
+	
+	<div id="jumioModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Scan finished</h4>
+				</div>
+				<div class="modal-body">
+					<p>Now Jumio will process your photos, it usually takes a few minutes but sometimes may take hours.</p>
+					<p>The attestation bot will let you know as soon the result is known.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	
+	
+	
 
 	<!-- JavaScript files placed at the end of the document so the pages load faster
 		================================================== -->
@@ -833,6 +862,10 @@
 
 	<script src="js/kinetic.js"></script>
 	<script src="js/jquery.final-countdown.min.js"></script>
+	<script>
+		if (location.hash === '#jumio-done')
+			$("#jumioModal").modal();
+	</script>
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -962,13 +962,7 @@ textarea {
 
 #textcoin {
 	padding-top: 100px;
-	background: url(../img/circle.svg);
-	2background-image: repeating-linear-gradient(-45deg,
-		white,
-		white 10px,
-		rgba(100, 100, 100, 0.1) 10px,
-		rgba(100, 100, 100, 0.1) 12px
-	);
+	background: url(img/circle.svg);
 }
 @media (min-width: 992px){
 	#textcoin {

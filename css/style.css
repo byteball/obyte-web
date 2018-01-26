@@ -560,7 +560,7 @@ textarea {
 }
 .site-name {
 	font-size: 36px;
-	margin-left: 60px;
+	margin-left: 50px;
 	position: absolute;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;

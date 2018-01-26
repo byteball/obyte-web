@@ -962,7 +962,7 @@ textarea {
 
 #textcoin {
 	padding-top: 100px;
-	background: url(img/circle.svg);
+	background: url(../img/circle.svg);
 }
 @media (min-width: 992px){
 	#textcoin {

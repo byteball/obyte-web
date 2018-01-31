@@ -34,7 +34,7 @@
 	<link href="https://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 
 	<!-- Worthy core CSS file -->
-	<link href="css/style.css?v9" rel="stylesheet">
+	<link href="css/style.css?v10" rel="stylesheet">
 	
 
 	
@@ -51,12 +51,57 @@
 	<!-- ================ -->
 	<header class="header fixed clearfix navbar navbar-fixed-top">
 		<div class="container">
-			<div class="row">
+			<div class="row main-navigation animated">
+				<div class="col-xs-2">
+					<div class="logo smooth-scroll text-center">
+						 <a href="#banner"><img id="logo" src="img/icon-white-outline-1024.png" alt="Byteball logo" style="max-width: 55px;"></a> 
+					</div>
+					<div class="site-name">
+						 <a href="#banner">Byteball</a> 
+					</div>
+				</div>
+
+				<!-- navbar start -->
+				<!-- ================ -->
+				<nav class="navbar navbar-default col-xs-10" role="navigation">
+					<div class="container-fluid">
+
+						<!-- Toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+							<ul class="nav navbar-nav">
+
+								<li><a href="#why">Why</a></li>
+								<li><a href="#core">Features</a></li>
+								<li><a href="#download">Download</a></li>
+								<li><a href="#dist">Distribution</a></li>
+								<li><a href="#tech">Technology</a></li>
+								<li><a href="https://wiki.byteball.org" target="_blank" title="Wiki">Wiki</a></li>
+								<li><a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="BitcoinTalk thread"><i class="fa fa-bitcoin"></i></a></li>
+								<li><a href="https://medium.com/byteball" target="_blank" title="Medium blog"><i class="fa fa-medium"></i></a></li>
+								<li><a href="https://byteball.slack.com" target="_blank" title="Slack"><i class="fa fa-slack"></i></a></li>
+								<li><a href="https://www.reddit.com/r/ByteBall/" target="_blank" title="Reddit"><i class="fa fa-reddit-alien"></i></a></li>
+								<li><a href="https://t.me/byteball" target="_blank" title="Telegram"><i class="fa fa-telegram"></i></a></li>
+							</ul>
+						</div>
+
+					</div>
+				</nav>
+				<!-- navbar end -->
+
 				<div class="col-md-12 col-xs-12 col-sm-12">
 
-						<div class="logo smooth-scroll text-center">
-							 <a href="#banner"><img id="logo" src="img/icon-white-outline-1024.png" alt="Byteball logo" style="max-width: 55px;"></a> 
-						</div>
 					
 					<!-- header-right start -->
 					<!-- ================ -->
@@ -66,44 +111,7 @@
 						<!-- ================ -->
 						<div class="main-navigation animated">
 
-							<!-- navbar start -->
-							<!-- ================ -->
-							<nav class="navbar navbar-default" role="navigation">
-								<div class="container-fluid">
-
-									<!-- Toggle get grouped for better mobile display -->
-									<div class="navbar-header">
-										<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-												<span class="sr-only">Toggle navigation</span>
-												<span class="icon-bar"></span>
-												<span class="icon-bar"></span>
-												<span class="icon-bar"></span>
-											</button>
-									</div>
-
-									<!-- Collect the nav links, forms, and other content for toggling -->
-									<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
-										<ul class="nav navbar-nav">
-
-											<li><a href="#why">Why</a></li>
-											<li><a href="#core">Features</a></li>
-											<li><a href="#download">Download</a></li>
-											<li><a href="#dist">Distribution</a></li>
-											<li><a href="#tech">Technology</a></li>
-											<li><a href="https://wiki.byteball.org" target="_blank" title="Wiki">Wiki</a></li>
-											<li><a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-											<li><a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="BitcoinTalk thread"><i class="fa fa-bitcoin"></i></a></li>
-											<li><a href="https://medium.com/byteball" target="_blank" title="Medium blog"><i class="fa fa-medium"></i></a></li>
-											<li><a href="https://byteball.slack.com" target="_blank" title="Slack"><i class="fa fa-slack"></i></a></li>
-											<li><a href="https://www.reddit.com/r/ByteBall/" target="_blank" title="Reddit"><i class="fa fa-reddit-alien"></i></a></li>
-											<li><a href="https://t.me/byteball" target="_blank" title="Telegram"><i class="fa fa-telegram"></i></a></li>
-										</ul>
-									</div>
-
-								</div>
-							</nav>
-							<!-- navbar end -->
+							
 
 						</div>
 						<!-- main-navigation end -->
@@ -116,6 +124,37 @@
 		</div>
 	</header>
 	<!-- header end -->
+
+	<!-- textcoin block start -->
+	<!-- ================ -->
+	<div class="section clearfix" id="textcoin" style="display: none;">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-5 col-md-push-5 text-center text-md-left">
+					<h2>You received money!</h2>
+					<p class="android" style="display: none;">
+						Click the button below to open or install Byteball app on your device and claim your funds.
+					</p>
+					<p class="desktop">
+						<a href="#download">Download and install Byteball Wallet</a> first, then Click the button below to open app on your device and claim your funds.
+					</p>
+					<p id="warning" class="alert alert-danger m10" style="display: none">
+							Unfortunately, Byteball Wallet is not yet available for iOS platform. Try to use another device to claim your funds.
+					</p>
+					<p><button id="openInApp" class="btn btn-lg btn-success m10">Receive funds</button></p>
+					<p>
+						If the button doesn't work, <a href="#download">install Byteball Wallet</a>, navigate to <i>Receive</i> 	&rarr; <i>Claim funds using textcoin</i> and paste the following string:<br>
+						<b id="mnemonic"></b><br>
+					</p>
+				</div>
+				<div class="col-md-2"></div>
+				<div class="col-xs-12 col-md-3 col-md-offset-2 col-md-pull-7 text-center">
+					<img src="img/inphone/wallet.png?v2" style="display: inline; max-height: 547px" /> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- textcoin block end -->
 
 	<!-- banner start -->
 	<!-- ================ -->
@@ -145,6 +184,9 @@
 		</div>
 	</div>
 	<!-- banner end -->
+	
+	
+	
 	<!-- section start -->
 	<!-- ================ -->
 	<div>
@@ -287,6 +329,61 @@
 			</div>
 		</div>
 		<!-- section end -->
+	
+	<!-- section start -->
+	<!-- ================ -->
+		<div class="section clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					
+					<div class="space"></div> 
+					<div class="row">
+						<div class="col-md-5 col-md-offset-1">
+							<h2 class="title text-left">Textcoins</h2>
+							<p class="lead text-left">Send cryptocurrency to email or via chat.</p>
+							<p>The sender just writes an email address where he would normally write a Byteball address. The recipient just clicks a link received in email or chat. If the recipient is not in Byteball yet, he will be prompted to install the wallet.  On Android, the install is started automatically. <a href="https://medium.com/byteball/sending-cryptocurrency-to-email-5c9bce22b8a9" target="_blank">Learn more</a>.</p>
+							<div class="space"></div>
+						</div>
+						<div class="col-md-6">
+							 <!-- <div class="frame-it"></div> -->
+							<img src="img/inphone/send-crypto-to-email.png" alt="" class="img-feature">
+							<!-- <img src="img/inphone/sports-oracle-chat-top-no-border.png" alt=""> -->
+							<!-- <div class="space"></div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+		<!-- section end -->
+		<div class="section clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					
+					 <div class="space"></div> 
+					<div class="row">
+						<div class="col-md-4 col-md-push-6">
+							<h2 class="title text-left">Sovereign identity</h2>
+							<p class="lead text-left">Store your ID in your wallet, choose what to disclose and to whom.</p>
+							<p>Have your real identity verified and securely stored in your wallet.  <a href="https://www.jumio.com/" target="_blank">Jumio</a> helps in ID verification.  When you want to disclose your identity to a service provider, e.g. to participate in an ICO, you just pull it out of your wallet in a few clicks.  <a href="https://medium.com/byteball/bringing-identity-to-crypto-b35964feee8e" target="_blank">Learn more</a>.</p>
+						<div class="space"></div>
+						</div>
+						<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
+							<img src="img/inphone/attestation-choose-profile-pixelated.png" alt="" class="img-wallet-left img-feature">
+							<!-- <img src="img/inphone/merchant-chatbot-top.png" alt="" class="img-wallet-left"> -->
+							<!-- <div class="space"></div> -->
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+
 	<!-- section start -->
 	<!-- ================ -->
 		<div class="section clearfix">
@@ -820,6 +917,32 @@
 		<a href="https://t.me/byteball" target="_blank" title="Telegram"><i class="fa fa-telegram"></i></a>
 	</footer>
 
+	
+
+	
+	<div id="jumioModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Scan finished</h4>
+				</div>
+				<div class="modal-body">
+					<p>Now Jumio will process your photos, it usually takes a few minutes but sometimes may take hours.</p>
+					<p>The attestation bot will let you know as soon the result is known.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	
+	
+	
 
 	<!-- JavaScript files placed at the end of the document so the pages load faster
 		================================================== -->
@@ -837,6 +960,10 @@
 	<script src="js/kinetic.js"></script>
 	<script src="js/jquery.final-countdown.min.js"></script>
 	<script>
+		if (location.hash === '#jumio-done')
+			$("#jumioModal").modal();
+	</script>
+	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -844,6 +971,112 @@
 
 		ga('create', 'UA-83607123-1', 'auto');
 		ga('send', 'pageview');
+	</script>
+
+	<script>
+		var NativeAppLauncher = (function() {
+			var textcoin = window.location.hash.replace("#textcoin?", "");
+			var IOS_VERSION_RE = /OS\s+(\d)_/;
+			var timers = [];
+			var userAgent = window.navigator.userAgent;
+			var isAndroid = function() {
+				return /Android/.test(userAgent);
+			};
+			var isIOS = function() {
+				return /(?:i(?:Phone|P(?:o|a)d))/.test(userAgent);
+			};
+			var iOSVersion = function() {
+				return isIOS() ? parseInt(userAgent.match(IOS_VERSION_RE)[1], 10) : 0;
+			};
+			var isChrome = function() {
+				// Opera (OPR) also identifies itself as Chrome and has to be corrected for.
+				// OPR is used on Android but on iOS it is OPiOS where Opera does NOT identify as Chrome. Go figure!
+				// Probably because on iOS it is Opera Mini and has all browser have to be based on Safari/WebKit.
+				return /Chrome/.test(userAgent) && !/OPR/.test(userAgent);
+			};
+			var isFirefox = function() {
+				return /Firefox/.test(userAgent);
+			};
+
+			return {
+				// Stop any running timers.
+				clearTimers: function() {
+					timers.map(clearTimeout);
+					timers = [];
+				},
+				getDeepLink: function() {
+					return "byteball:textcoin?" + textcoin;
+				},
+				openApp: function(deeplink, storeURI) {
+					console.log(textcoin);
+					var launcher = this;
+					var storeLaunched = false;
+					var gotStoreURI = "string" == typeof storeURI;
+					// If this handler is part of the UI thread, i.e. the `direct` result of a user action then
+					// redirecting to the App Store will happen immediately. When not part of the UI thread however,
+					// the redirect will bring up an Open in App dialog. Unless there is already a dialog showing,
+					// in which case the redirect dialog will wait for the currently shown dialog to be dismissed.
+					
+					gotStoreURI && timers.push(window.setTimeout(function() {
+						if (!isIOS()) {
+							storeLaunched = true;
+							window.top.location = storeURI;
+						} else {
+							document.getElementById('warning').style.display = 'block';
+						}
+					}, 1000));
+					isIOS() && timers.push(window.setTimeout(function() {
+						storeLaunched && window.location.reload()
+					}, 2000));
+					
+					window.location = deeplink;
+				},
+				// Get the deep link URI to the Byteball app in the store appropriate for the OS.
+				// Using a deep link guarantees that the app store opens even when using an alternate browser (e.g. Puffin or Firefox)
+				getStoreURI: function() {
+					return isAndroid() ?
+						"market://details?id=org.byteball.wallet&referrer=" + textcoin :
+						"https://github.com/byteball/byteball/releases";
+				},
+				// Try to launch the native app on iOS/Android. Redirect to the app store if launch fails.
+				init: function() {
+					var launcher = this;
+					var events = ["pagehide", "blur"];
+					if (isIOS() || (isAndroid() && !isChrome())) {
+						events.push("beforeunload");
+					}
+
+					function addListenerMulti(element, eventNames, listener) {
+						var events = eventNames.split(' ');
+						for (var i = 0, iLen = events.length; i < iLen; i++) {
+							element.addEventListener(events[i], listener, false);
+						}
+					}
+					addListenerMulti(window, events.join(" "), function(e) {
+						launcher.clearTimers();
+					});
+					document.getElementById('openInApp')
+						.onclick = function() {
+							// Detach the app launcher from the UI thread so that the Open in App dialog won't be
+							// interrupted when the delayed redirect to the App Store fires.
+							setTimeout(function() {
+								launcher.openApp.call(launcher, launcher.getDeepLink(), launcher.getStoreURI());
+							}.bind(this), 0);
+							return false;
+						};
+					document.getElementById('mnemonic').innerHTML = textcoin;
+					if (isAndroid) {
+						$('.android').show();
+						$('.desktop').hide();
+					}
+					$('#textcoin').show();
+					$('.header').addClass('visible-logo');
+				}
+			};
+		})();
+		if (window.location.hash.indexOf("#textcoin?") == 0) {
+			NativeAppLauncher.init();
+		}
 	</script>
 </body>
 

@@ -486,7 +486,7 @@ textarea {
 
 .navbar-toggle {
 	border-color: #0B93F6 !important;
-	background-color: none !important;
+	background-color: transparent; !important;
 }
 
 .navbar-toggle:focus, .navbar-toggle:hover {
@@ -505,8 +505,8 @@ textarea {
 
 @media (min-width:768px) {
 	.main-navigation .navbar-default .navbar-nav > li > a {
-		padding-top: 30px;
-		padding-bottom: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
 		-webkit-transition: all 0.3s ease-in-out;
 		-moz-transition: all 0.3s ease-in-out;
 		-o-transition: all 0.3s ease-in-out;
@@ -581,19 +581,69 @@ textarea {
   }
 }
 
+@media (max-width: 1200px) {
+
+	.header .navbar {
+		margin-bottom: 0;
+		 display: inline; 
+	}
+	.main-navigation {
+		text-align: center;
+	}
+	.navbar-header {
+	  float: none;
+	  padding: 5px 0;
+	}
+	.navbar-left,.navbar-right {
+	  float: none !important;
+	}
+	.navbar-toggle {
+	  display: block;
+	}
+	.navbar-collapse {
+	  border-top: 0px solid transparent;
+	  box-shadow: inset 0 0px 0 rgba(255,255,255,0.1);
+	}
+	.navbar-fixed-top {
+	  top: 0;
+	  border-width: 0 0 1px;
+	}
+	.navbar-collapse.collapse {
+	  display: none!important;
+	}
+	.navbar-nav {
+	  float: none!important;
+	  margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+	  float: none;
+	}
+	.navbar-nav>li>a {
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+	}
+	.collapse.in{
+	   display: inline-block !important; 
+	}
+
+}
+
 /* Fixed Header
 ----------------------------------------------------------------------------- */
 .fixed-header-on .header {
 	padding: 5px 0;
 	background-color: rgba(249, 250, 250, 0.9);
+
 }
-.fixed-header-on .site-name {
-	font-size: 24px;
-}
-.fixed-header-on .logo {
+.fixed-header-on .site-name, .visible-logo .site-name {
 	-webkit-transform: scale(0.8);
 	transform: scale(0.8);
-	margin-top: 0;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+.fixed-header-on .logo, .visible-logo .logo {
+	-webkit-transform: scale(0.75);
+	transform: scale(0.75);
 	margin-bottom: 0;
 }
 @media (min-width:768px) {
@@ -603,8 +653,6 @@ textarea {
 	}
 }
 @media (max-width:991px) {
-	.fixed-header-on .logo,
-	.fixed-header-on .site-name,
 	.fixed-header-on .site-slogan {
 		display: none;
 	}
@@ -615,7 +663,7 @@ textarea {
 /* Logo, Site Name, Site Slogan
 ---------------------------------- */
 .logo {
-	margin: 10px 10px 10px 0;
+	margin: 0;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -635,15 +683,21 @@ textarea {
 .site-name-and-slogan {
 }
 .site-name {
-	font-size: 36px;
+	font-size: 30px;
+	left: 60px;
+	position: fixed;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+
+	-webkit-transform: scale(0); 
+    transform: scale(0);
 }
 .site-name a {
-	color: #ffffff;
+	color: #2c3e50;
+	text-decoration: none;
 }
 .site-name a:hover {
 	text-decoration: none;
@@ -1096,8 +1150,24 @@ textarea {
 	.section {
 		padding: 0;
 	}
+
+	#textcoin {
+		padding-top: 100px;
+		background: url(../img/circle.svg);
+	}
+
 }
 
+
+@media (min-width: 992px){
+	
+	#textcoin {
+		padding-top: 140px;
+	}
+	.text-md-left {
+		text-align: left;
+	}
+}
 
 /* MailChimp Signup Form section start */
 #mc_embed_signup{

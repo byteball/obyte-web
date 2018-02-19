@@ -13,7 +13,7 @@
 		
 		// Fixed header
 		//-----------------------------------------------
-		$(window).scroll(function() {
+		var makeHeaderFixed = function() {
 			if (($(".header.fixed").length > 0)) { 
 				if(($(this).scrollTop() > 0) && ($(window).width() > 767)) {
 					$("body").addClass("fixed-header-on");
@@ -21,17 +21,8 @@
 					$("body").removeClass("fixed-header-on");
 				}
 			};
-		});
-
-		$(window).load(function() {
-			if (($(".header.fixed").length > 0)) { 
-				if(($(this).scrollTop() > 0) && ($(window).width() > 767)) {
-					$("body").addClass("fixed-header-on");
-				} else {
-					$("body").removeClass("fixed-header-on");
-				}
-			};
-		});
+		};
+		$(window).scroll(makeHeaderFixed).load(makeHeaderFixed);
 
 		//Scroll Spy
 		//-----------------------------------------------

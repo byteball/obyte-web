@@ -176,6 +176,13 @@
 			}}, function() {
 			});
 
+		// lang picker, currently selected item
+		var url = window.location.pathname;
+		var filename = url.substring(url.lastIndexOf('/')+1);
+		$('.lang .flag').attr('src', $('.lang li a[href="/' + filename + '"] img').first().attr('src'));
+		if ($(window).width() < 1200)
+			$('.lang').toggleClass('dropup');
+
 	}); // End document ready
 })(this.jQuery);
 

@@ -996,3 +996,23 @@ textarea {
 	margin-bottom: -30px;
 }
 /* MailChimp Signup Form section style end */
+
+.lang button {
+	margin-top: 17px;
+	background: transparent;
+	border: none;
+}
+.lang .flag {
+	display: inline-block;
+}
+.lang ul {
+	min-width: 100px;
+	background-color: rgba(44, 62, 80, 0.90);
+}
+.navbar-default .navbar-nav .lang.open .dropdown-menu > li > a {
+	color: white;
+}
+.lang li a img {
+	display: inline;
+	margin-right: 5px;
+}

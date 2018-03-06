@@ -123,6 +123,7 @@
 		// });
 
 		// COUNTDOWN
+		/*
 		var now = new Date().getTime()/1000
 
 		var upcoming = null; 
@@ -175,6 +176,7 @@
 				borderWidth: 13*circleBorderFactor
 			}}, function() {
 			});
+		*/
 
 		// lang picker, currently selected item
 		var url = window.location.pathname;

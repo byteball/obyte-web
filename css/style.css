@@ -1012,6 +1012,9 @@ textarea {
 .navbar-default .navbar-nav .lang.open .dropdown-menu > li > a {
 	color: white;
 }
+.navbar-default .navbar-nav .lang.open .dropdown-menu > li > a:hover {
+	background-color: rgba(34, 52, 70, 0.60);
+}
 .lang li a img {
 	display: inline;
 	margin-right: 5px;

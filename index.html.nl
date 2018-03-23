@@ -68,7 +68,7 @@
 						<!-- Toggle get grouped for better mobile display -->
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-									<span class="sr-only">Toggle navigation</span>
+									<span class="sr-only">Navigatie in/uitklappen</span>
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
@@ -78,11 +78,11 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 							<ul class="nav navbar-nav">
-								<li><a href="#why">Why</a></li>
-								<li><a href="#core">Features</a></li>
+								<li><a href="#why">Waarom</a></li>
+								<li><a href="#core">Eigenschappen</a></li>
 								<li><a href="#download">Download</a></li>
-								<li><a href="#dist">Distribution</a></li>
-								<li><a href="#tech">Technology</a></li>
+								<li><a href="#dist">Distributie</a></li>
+								<li><a href="#tech">Technologie</a></li>
 								<li><a href="https://wiki.byteball.org" target="_blank" title="Wiki">Wiki</a></li>
 								<li><a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
 								<li><a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
@@ -188,19 +188,19 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-md-5 col-md-push-5 text-center text-md-left">
-					<h2>You received money!</h2>
+					<h2>Je hebt geld ontvangen!</h2>
 					<p class="android" style="display: none;">
-						Click the button below to open or install Byteball app on your device and claim your funds.
+						Klik op de knop hieronder om de Byteball app te openen of op uw apparaat te installeren, en claim uw geld.
 					</p>
 					<p class="desktop">
-						<a href="#download">Download and install Byteball Wallet</a> first, then Click the button below to open app on your device and claim your funds.
+						<a href="#download">Download en installeer de Byteball Portefuille</a> eerst, klik vervolgens op de onderstaande knop om de app op uw apparaat te openen en uw geld te claimen.
 					</p>
 					<p id="warning" class="alert alert-danger m10" style="display: none">
-							Unfortunately, Byteball Wallet is not yet available for iOS platform. Try to use another device to claim your funds.
+							Helaas is de Byteball Portefeuille nog niet beschikbaar op iOS platformen. Probeer met een ander apparaat uw geld te claimen.
 					</p>
-					<p><button id="openInApp" class="btn btn-lg btn-success m10">Receive funds</button></p>
+					<p><button id="openInApp" class="btn btn-lg btn-success m10">Geld ontvangen</button></p>
 					<p>
-						If the button doesn't work, <a href="#download">install Byteball Wallet</a>, navigate to <i>Receive</i> 	&rarr; <i>Claim funds using textcoin</i> and paste the following string:<br>
+						Als de knop niet werkt, <a href="#download">installeer dan de Byteball Portefeuille</a>, navigeer naar <i>Ontvang</i>	&rarr;<i>Claim je geld met behulp van textcoin</i> en plak de volgende tekenreeks:<br>
 						<b id="mnemonic"></b><br>
 					</p>
 				</div>
@@ -230,8 +230,8 @@
 					<div class="row text-center">
 						<h2>Slimme betalingen in een handomdraai</h2>
 
-						<p><a class="btn btn-lg btn-success" href="#download" role="button">Get Byteball wallet</a></p>
-						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> Read the whitepaper</a></p>
+						<p><a class="btn btn-lg btn-success" href="#download" role="button">Haal je Byteball wallet op</a></p>
+						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> Lees de whitepaper</a></p>
 					</div>
 					<div class="space"></div>
 					
@@ -239,8 +239,8 @@
 					<!--p class="lead what-is">Byteball is an alternative legal system based on smart contracts.</p>
 					<p class="lead what-is">When a contract is created on Byteball, it just works exactly as agreed upon.  Trust in the counterparty and reliance on the slow and expensive conventional legal system are not required any more as the contracts are enforced by the immutable rules of the decentralized platform.  See below the types of contracts available today.</p-->
 					
-					<p class="lead what-is">Byteball enables trust where trust couldn’t exist before.</p>
-					<p class="lead what-is">When a contract is created on Byteball platform, it can be trusted to work exactly as agreed upon.  Why? Because it is validated by multiple nodes on the decentralized network, which all follow the same immutable rules.  The counterparty, even if it is a total stranger, has to behave honestly because only the rules have authority.  Such a contract is called a smart contract.  See below for examples of working smart contracts available today.</p>
+					<p class="lead what-is">Byteball maakt vertrouwen mogelijk waar vertrouwen voorheen niet mogelijk was.</p>
+					<p class="lead what-is">Wanneer een contract wordt aangemaakt op het Byteball platform, kan je er op vertrouwen dat het precies werkt zoals overeengekomen.  Waarom? Omdat het wordt geverifieerd door meerdere nodes op het decentrale netwerk, die allemaal dezelfde onveranderlijke regels volgen.  De tegenpartij, zelfs als dat een volslagen vreemdeling is, moet zich eerlijk gedragen omdat alleen de regels regeren.  Een dergelijk contract wordt een smart contract genoemd.  Zie hieronder voorbeelden van werkende smart contracts die reeds beschikbaar zijn.</p>
 					
 					
 				</div>
@@ -259,7 +259,7 @@
 		<div id="why" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Why use Byteball?</h2>
+					<h2 class="text-center">Waarom Byteball gebruiken?</h2>
 				</div>
 			</div>
 		</div>
@@ -273,11 +273,11 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-								<h2 class="title text-left">Risk-free conditional smart payments</h2>
-								<p class="lead text-left">Byteball allows you to do something that traditional currencies can't: <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
-								 target="_blank">conditional payments.</a></p>
+								<h2 class="title text-left">Risico-vrije voorwaardelijke smart payments</h2>
+								<p class="lead text-left">Byteball stelt je in staat om iets te doen wat traditionele munteenheden niet kunnen: <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
+								 target="_blank">voorwaardelijke betalingen.</a></p>
 
-								<p>You set a condition when the payee receives the money. If the condition is not met, you get your money back.</p>
+								<p>Je stelt de voorwaarde in voor ontvangst van de betaling door de ontvanger. Als de voorwaarde niet wordt vervuld, krijg je je geld terug.</p>
 								<div class="space"></div>
 							</div>
 							<div class="col-md-6">
@@ -301,15 +301,13 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-4 col-md-push-6">
-							<h2 class="title text-left">P2P insurance</h2>
-							<p class="lead text-left">Hedge against negative events.</p>
-							<p>Buy insurance from peers to get paid in case a negative event occurs. Sell insurance for profit.</p>
-							<p>Insurance is just <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527"
-								 target="_blank">a simple smart contract</a> that can be unlocked by the insured &mdash; if the event in question
-								did occur, or by the insurer &mdash; otherwise.</p>
-							<p>To insure against flight delay, find your counterpart in <a href="https://byteball.slack.com/messages/C54CDJATB/"
-								 target="_blank">#p2p_insurance</a> channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>,
-								create a contract, and if your flight arrives late, <a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000">chat with flight delays oracle</a>								to have it post the data about the delay, then unlock the contract.</p>
+							<h2 class="title text-left">P2P verzekering</h2>
+							<p class="lead text-left">Afdekken van risico's.</p>
+							<p>Koop verzekering van anderen om betaald te worden in het geval dat er een negatieve gebeurtenis plaatsvindt. Verkoop verzekering tegen winst.</p>
+							<p>Verzekering is slechts <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527"
+								 target="_blank">een simpel smart contract</a> dat ontgrendeld kan worden door de verzekerde &mdash; als de gebeurtenis zich inderdaad voordeed &mdash; of in andere gevallen door de verzekeraar.</p>
+							<p>Om je te verzekeren tegen vluchtvertragingen, zoek je tegenpartij in het <a href="https://byteball.slack.com/messages/C54CDJATB/"
+								 target="_blank">#p2p_insurance</a> kanaal op onze <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>, creëer een contract, en als je vlucht te laat arriveert, <a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000">praat met het vluchtvertraging orakel</a> om het informatie over de vertraging te laten posten, ontgrendel daarna het contract.</p>
 							<div class="space"></div>
 							</div>
 							<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
@@ -334,11 +332,11 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Prediction markets</h2>
-							<p class="lead text-left">Make money by correctly predicting future events.</p>
-							<p>Create a P2P smart contract that can be unlocked if a specific event occurs. Use it for <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
-								 target="_blank">betting on price movements</a>, sports betting, and insurance.</p>
-							<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack.</a></p>
+							<h2 class="title text-left">Voorspellingsmarkten</h2>
+							<p class="lead text-left">Verdien geld door toekomstige gebeurtenissen juist te voorspellen.</p>
+							<p>Maak een P2P smart contract aan dat kan worden ontgrendeld als zich een specifieke gebeurtenis voordoet. Gebruik het om te <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
+								 target="_blank">speculeren op prijsbewegingen</a>, wedden op sportuitslagen en verzekering.</p>
+							<p>Vind je tegenpartij in het <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> kanaal in onze <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack.</a></p>
 							<div class="space"></div>
 							</div>
 							<div class="col-md-6">
@@ -361,11 +359,10 @@
 						<div class="space"></div> 
 						<div class="row">
 							<div class="col-md-4 col-md-push-6">
-								<h2 class="title text-left">P2P betting</h2>
-								<p class="lead text-left">Bet against other users on sports events.</p>
-								<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a>								channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a> and create a contract
-									that can be unlocked by you or your peer depending on the results of a future game.</p>
-								<p>After the result is known, <a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">chat with sports oracle</a>								to have it post the data about the outcome, then unlock the contract.</p>
+								<h2 class="title text-left">P2P weddenschappen</h2>
+								<p class="lead text-left">Wed tegen andere gebruikers over sportuitslagen.</p>
+								<p>Vind je tegenpartij in het <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> kanaal in onze <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a> en creëer een contract dat kan worden ontgrendeld door jou of je mede-gebruiker afhankelijk van de uitkomst van een toekomstige wedstrijd.</p>
+								<p>Nadat de uitkomst bekend is, <a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">chat met het sport orakel</a> om het de data van de uitslag te laten posten. Ontgrendel daarna het contract.</p>
 
 								<div class="space"></div>
 							</div>
@@ -396,8 +393,8 @@
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
 							<h2 class="title text-left">Textcoins</h2>
-							<p class="lead text-left">Send cryptocurrency to email or via chat.</p>
-							<p>The sender just writes an email address where he would normally write a Byteball address. The recipient just clicks a link received in email or chat. If the recipient is not in Byteball yet, he will be prompted to install the wallet.  On Android, the install is started automatically. <a href="https://medium.com/byteball/sending-cryptocurrency-to-email-5c9bce22b8a9" target="_blank">Learn more</a>.</p>
+							<p class="lead text-left">Stuur cryptocurrency naar e-mail of via de chat.</p>
+							<p>De afzender schrijft alleen een e-mailadres waar hij anders een Byteball adres zou schrijven. De ontvanger klikt gewoon op een link ontvangen in een e-mail of gesprek. Als de ontvanger nog geen Byteball portefeuille heeft, zal hij worden gevraagd deze te installeren.  Op Android wordt de installatie automatisch gestart. <a href="https://medium.com/byteball/sending-cryptocurrency-to-email-5c9bce22b8a9" target="_blank">Meer informatie</a>.</p>
 							<div class="space"></div>
 						</div>
 						<div class="col-md-6">
@@ -421,9 +418,9 @@
 					 <div class="space"></div> 
 					<div class="row">
 						<div class="col-md-4 col-md-push-6">
-							<h2 class="title text-left">Sovereign identity</h2>
-							<p class="lead text-left">Store your ID in your wallet, choose what to disclose and to whom.</p>
-							<p>Have your real identity verified and securely stored in your wallet.  <a href="https://www.jumio.com/" target="_blank">Jumio</a> helps in ID verification.  When you want to disclose your identity to a service provider, e.g. to participate in an ICO, you just pull it out of your wallet in a few clicks.  <a href="https://medium.com/byteball/bringing-identity-to-crypto-b35964feee8e" target="_blank">Learn more</a>.</p>
+							<h2 class="title text-left">Soevereine identiteit</h2>
+							<p class="lead text-left">Sla uw ID op in uw portefeuille, kies wat openbaar te maken en aan wie.</p>
+							<p>Verifieer uw echte identiteit en sla deze veilig op in uw portefeuille.  <a href="https://www.jumio.com/" target="_blank">Jumio</a> helpt bij ID verificatie.  Wanneer u uw identiteit wilt verstrekken aan een servicebureau, bijvoorbeeld om deel te nemen aan een ICO, haalt u hem gewoon uit uw portefeuille in een paar klikken.  <a href="https://medium.com/byteball/bringing-identity-to-crypto-b35964feee8e" target="_blank">Meer informatie</a>.</p>
 						<div class="space"></div>
 						</div>
 						<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
@@ -449,8 +446,8 @@
 					<div class="space"></div> 
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">P2P payments in chat</h2>
-							<p class="lead text-left">Chat and pay in the same app just by clicking links.</p>
+							<h2 class="title text-left">P2P betalingen in chats</h2>
+							<p class="lead text-left">Chat en betaal in dezelfde app door simpelweg op links te klikken.</p>
 							<div class="space"></div>
 						</div>
 						<div class="col-md-6">
@@ -475,9 +472,8 @@
 					<div class="row">
 						<div class="col-md-4 col-md-push-6">
 							<h2 class="title text-left">Chatbots</h2>
-							<p class="lead text-left">Talk to a bot like you would talk to a human.</p>
-							<p>Shop by chatting with a merchant's bot, pay in two clicks. Exchanges and other services are also easy to use in conversational
-								interface.</p>
+							<p class="lead text-left">Praat met een bot zoals je met een mens zou praten.</p>
+							<p>Winkel door met een winkel bot te praten, betaal met twee klikken. Beurzen en andere diensten zijn ook eenvoudig in gebruik door middel van een conversatie interface.</p>
 						<div class="space"></div>
 						</div>
 						<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
@@ -503,10 +499,10 @@
 					 <div class="space"></div> 
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Bot Store</h2>
-							<p class="lead text-left">Easily discover and add new chatbots via the built-in Bot Store.</p>
-							<p>Developers have instant access to all users by publishing their chatbot on the Bot Store. See the <a href="https://github.com/byteball/byteballcore/wiki/Writing-chatbots-for-Byteball"
-								 target="_blank">developer guide about building chatbots.</a></p>
+							<h2 class="title text-left">Bot winkel</h2>
+							<p class="lead text-left">Vind en voeg eenvoudig nieuwe chatbots toe via de ingebouwde Bot Winkel.</p>
+							<p>Ontwikkelaars hebben direct toegang tot alle gebruikers door hun chatbot te publiceren in de Bot Winkel. Zie de <a href="https://github.com/byteball/byteballcore/wiki/Writing-chatbots-for-Byteball"
+								 target="_blank">gids voor ontwikkelaars voor het ontwikkelen van chatbots.</a></p>
 						<div class="space"></div>
 						</div>
 						<div class="col-md-6">
@@ -529,11 +525,10 @@
 					 <div class="space"></div> 
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Untraceable currency: Blackbytes</h2>
-							<p class="lead text-left">Cash-like privacy.</p>
-							<p>When you want complete privacy, pay in Blackbytes, a cash-like untraceable currency whose transactions are not visible
-								on the public database, they are sent peer-to-peer instead.</p>
-							<p>Use built-in TOR switch straight from the wallet to increase your privacy even further.</p>
+							<h2 class="title text-left">Ontraceerbaar geld: Blackbytes</h2>
+							<p class="lead text-left">Privacy gelijk aan cash.</p>
+							<p>Wanneer je volledige privacy wil, betaal in Blackbytes, een cash-achtige ontraceerbare munteenheid waarvan de transacties niet zichtbaar zijn in de publieke database; deze worden verzonden via peer-to-peer.</p>
+							<p>Gebruik de ingebouwde TOR switch vanuit de portemonnee om je privacy nog verder te verbeteren.</p>
 
 
 						</div>
@@ -563,10 +558,9 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-								<h2 class="title text-left">Users help each other</h2>
-								<p class="lead text-left">Secure each other's transactions.</p>
-								<p>There is no central entity that stores and processes all the payments.  Instead, transactions created by users are
-									cryptographically linked to each other, and once you add your new transaction, other users start adding theirs on top of yours, and the number of other transactions that link to your transaction grows like snowball (that's why we call it Byteball).</p>
+								<h2 class="title text-left">Gebruikers helpen elkaar</h2>
+								<p class="lead text-left">Maak elkaars transacties veilig.</p>
+								<p>Er is geen centrale autoriteit die alle transacties bewaart en behandelt.  In plaats daarvan zijn transacties van gebruikers met cryptografie aan elkaar gelinkt, en wanneer je een transactie toevoegt, voegen andere gebruikers hun transacties daaraan toe waardoor het aantal transacties dat naar jouw transactie linkt groeit als een sneeuwbal (dat is waarom we het Byteball noemen).</p>
 
 							</div>
 							<div class="col-md-6">
@@ -586,7 +580,7 @@
 		<div id="core" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Core features</h2>
+					<h2 class="text-center">Kern eigenschappen</h2>
 				</div>
 			</div>
 		</div>
@@ -597,42 +591,38 @@
 		<div class="container ">
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
-					<h3 class="media-heading">Atomic exchange</h3>
-					<p>When two parties sign a single unit that executes both legs of the exchange, the two transactions either happen simultaneously
-						or don't happen at all. It is no longer necessary to trust any centralized exchanges.</p>
+					<h3 class="media-heading">Atomic beurs</h3>
+					<p>Wanneer twee partijen een enkele eenheid tekenen die beide onderdelen van de uitwisseling uitvoert, vinden de twee transacties of tegelijkertijd plaats, of helemaal niet. Het is niet langer noodzakelijk om centrale beurzen te vertrouwen.</p>
 					<div class="space-res"></div>
 				</div>
 				<div class="col-sm-4">
-					<h3 class="media-heading">Regulated assets</h3>
-					<p>Regulated institutions can issue assets that are compatible with KYC/AML requirements. Every transfer of such asset
-						is to be cosigned by the issuer, and if there is anything that contradicts the regulations, the issuer won't cosign.</p>
+					<h3 class="media-heading">Gereguleerde bezittingen</h3>
+					<p>Gereguleerde instellingen kunnen bezittingen uitgeven die voldoen aan Know-Your-Customer/Anti-Money-Laundering vereisten. Iedere overdracht van een dergelijke bezitting moet worden bijgetekend door de uitgevende partij, en in geval van strijdigheid met de voorwaarden zal de uitgevende partij niet bijtekenen.</p>
 				</div>
 			</div>
 			<div class="space"></div>
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
-					<h3 class="media-heading">Multi signature</h3>
-					<p>For security, you can require that your funds be spendable only when several signatures are provided, e.g. from your
-						laptop and from your phone. For shared control of funds, signatures from different people may be required.</p>
+					<h3 class="media-heading">Multi handtekening</h3>
+					<p>Voor veiligheid kan je bepalen dat je geld alleen uit kan worden gegeven wanneer diverse handtekeningen zijn gezet, bijvoorbeeld vanaf je laptop en vanaf je telefoon. Voor gedeelde controle over geld, kunnen verschillende handtekeningen van verschillende personen nodig zijn.</p>
 					<div class="space-res"></div>
 				</div>
 
 				<div class="col-sm-4">
-					<h3 class="media-heading">On-chain oracles</h3>
-					<p>When dealing with untrusted counterparties, you can lock the funds on an address that is spendable either by you or
-						by the counterparty, depending on the events registered to the database by trusted data providers &mdash; oracles.</p>
+					<h3 class="media-heading">On-chain orakels</h3>
+					<p>In het geval dat er met niet-vertrouwde tegenpartijen wordt gewerkt, kan je geld vastzetten op een adres dat, hetzij door jou, hetzij door de tegenpartij, kan worden uitgegeven, afhankelijk van door vertrouwde data providers &mdash; orakels &mdash; in de database genoteerde gebeurtenissen.</p>
 				</div>
 			</div>
 			<div class="space"></div>
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
-					<h3 class="media-heading">Immutable storage</h3>
-					<p>Once stored in the Byteball database, the data can neither be revised nor removed.</p>
+					<h3 class="media-heading">Onveranderlijke opslag</h3>
+					<p>Eenmaal opgeslagen in de Byteball database, kan de data niet meer worden gewijzigd of verwijderd.</p>
 					<div class="space-res"></div>
 				</div>
 				<div class="col-sm-4">
-					<h3 class="media-heading">Settlement finality</h3>
-							<p>After certain criteria are met, a new transaction becomes final. It cannot be revised even by a powerful attacker.  No guesswork about the right number of confirmations, no 51% attacks.</p>
+					<h3 class="media-heading">Finale afhandeling</h3>
+							<p>Nadat bepaalde criteria zijn vervuld wordt een nieuwe transactie finaal en kan deze niet meer worden aangepast, ook niet door een aanvaller. Geen twijfel over het juiste aantal bevestigingen, geen 51% aanvallen.</p>
 				</div>
 			</div>
 		</div>
@@ -645,7 +635,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2  id="download"  class="text-center">Get your Byteball wallet</h2>
+					<h2  id="download"  class="text-center">Haal je Byteball wallet op</h2>
 				</div>
 			</div>
 		</div>
@@ -672,16 +662,16 @@
 						<div><a target="_blank" href="https://play.google.com/store/apps/details?id=org.byteball.wallet">Android</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-win64.exe"><img src="img/icon-microsoft.svg"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-win64.exe">Windows</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-win64.exe"><img src="img/icon-microsoft.svg"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-win64.exe">Windows</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-osx64.dmg"><img src="img/icon-mac-os-x.svg"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-osx64.dmg">Mac</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-osx64.dmg"><img src="img/icon-mac-os-x.svg"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-osx64.dmg">Mac</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/byteball-linux64.zip"><img src="img/linux.png"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/byteball-linux64.zip">Linux</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/byteball-linux64.zip"><img src="img/linux.png"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/byteball-linux64.zip">Linux</a></div>
 					</div>
 					<div class="app">
 						<div><a target="_blank" href="https://github.com/byteball/byteball"><img src="img/fi-social-github.svg"/></a></div>
@@ -689,10 +679,9 @@
 					</div>
 					<div class="space"></div>
 					<ul class="list-unstyled text-left">
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">Buy or sell bytes</a> by chatting	with a trading bot</li>
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="https://medium.com/byteball/making-p2p-great-again-episode-ii-bitcoin-exchange-d98adfbde2a5" target="_blank">P2P exchange bytes vs bitcoins</a>,
-						get your merkle proof by chatting with <a href="byteball:A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@byteball.org/bb#0000">BTC Oracle</a><br></li>
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> View public transactions on the <a href="https://explorer.byteball.org" target="_blank">DAG explorer</a></li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">Koop of verkoop Bytes</a> door met een handelsbot te chatten</li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="https://medium.com/byteball/making-p2p-great-again-episode-ii-bitcoin-exchange-d98adfbde2a5" target="_blank">P2P beurs Bytes versus bitcoins</a>, verkrijg je merkle bewijs door met het <a href="byteball:A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@byteball.org/bb#0000">BTC orakel</a> te chatten<br></li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> Bekijk publieke transacties met de <a href="https://explorer.byteball.org" target="_blank">DAG explorer</a></li>
 								<!-- <li><i class="fa fa-caret-right pr-10 text-colored"></i> Dignissimos molestiae necessitatibus</li> -->
 							</ul>
 					 <!-- <h4 style="font-weight: 500;">After installing, <a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">chat with the Transition Bot</a>	to participate in the next distribution round</br> -->
@@ -713,7 +702,7 @@
 		<div id="dist" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Fair initial distribution</h2>
+					<h2 class="text-center">Eerlijke initiële distributie</h2>
 				</div>
 			</div>
 		</div>
@@ -726,26 +715,28 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<p class="lead text-left">Free distribution for mass adoption.</p>
-						<p>Mass adoption requires wide distribution, that's why 99% of all bytes and blackbytes are to be distributed for free.  Currently, we use several ways to distribute them:</p>
+						<p class="lead text-left">Gratis uitreiking bij massale acceptatie.</p>
+						<p>Massale acceptatie vereist brede distributie en dat is waarom 99% van alle Bytes en Blackbytes gratis worden verdeeld. Op dit moment maken we gebruik van verschillende manieren om deze te distribueren:</p>
 						<ul>
-							<li><a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Cashback</a> for purchases at the merchant stores we partner with.  In most cases, the offered cashback is 10% of the purchase amount.  <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Fill out the application form</a> or <script>document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">');</script>contact us<script>document.write('</a>');</script> if you run a store or a payment processor and want to be part of the cashback program.</li>
-							<li><a href="https://medium.com/byteball/distribution-to-verified-users-and-referrals-ed00b9b2a30e" target="_blank">Verification rewards and referral rewards</a> to those who verify their real name.</li>
+							<li><a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Cashback</a> voor aankopen bij winkels van handelaren waar we mee samenwerken.  In de meeste gevallen is de aangeboden cashback 10% van het aankoopbedrag.  <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Vul het aanmeldingsformulier in</a> of <script>document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">');</script>neem contact met ons op<script>document.write('</a>');</script> als je een winkel of betalingsverwerker hebt en deel wil nemen aan het cashback programma.</li>
+							<li><a href="https://medium.com/byteball/distribution-to-verified-users-and-referrals-ed00b9b2a30e" target="_blank">Verificatie beloningen en verwijzing beloningen</a> voor zij die hun echte naam verifiëren.</li>
+							<li><a href="https://medium.com/byteball/distribution-to-verified-emails-and-sending-cryptocurrency-to-email-episode-ii-cb955fe19d7e" target="_blank">Verification rewards and referral rewards</a> to those who verify their email address.</li>
+							<li>Rewards to those who participate in <a href="https://bitcointalk.org/index.php?topic=3162547.0">our signature campaign on Bitcointalk</a>.</li>
 							<li>Giveaways distributed e.g. through youtube channels of our supporters.  See e.g. <a href="https://www.youtube.com/watch?v=hycluITNDBM" target="_blank">https://www.youtube.com/watch?v=hycluITNDBM</a>.</li>
 							<li><a href="https://medium.com/byteball-help/using-mailchimp-to-mass-send-payments-as-textcoins-5c1db06342e3" target="_blank">Mass sending of textcoins</a> to subscribers of our partners.  See the <a href="https://docs.google.com/spreadsheets/d/1heT6TUSpTJgRW-FUM0LbcoVjXZRCb3PbXQQLmzvNRvM/edit#gid=323859176" target="_blank">results of the previous campaigns</a>.</li>
 						</ul>
 						
-						<p>In the past, we also distributed Bytes to BTC holders and existing holders of Bytes.  Users used to link their BTC and Byteball addresses and were receiving new Bytes in proportion to their existing balances in BTC and Bytes.  This distribution was split into several rounds.  The first distribution round took place on Dec 25, 2016 when the network launched, over 70,000 BTC was linked, and 10% of the total supply of bytes and blackbytes was distributed.  In the subsequent rounds, the total distributed supply reached 64.5%:</p>
+						<p>In het verleden hebben we ook Bytes verdeeld aan BTC houders en bestaande houders van Bytes.  Gebruikers linkten hun BTC en Byteball adressen en kregen nieuwe Bytes in verhouding tot hun bestaande BTC en Bytes saldi.  Deze verdeling werd opgesplitst in verschillende rondes.  De eerste distributie vond plaats op 25 december 2016 toen het netwerk werd gelanceerd. Meer dan 70.000 BTC werd gelinkt en 10% van de totale voorraad aan Bytes en Blackbytes werd uitgegeven.  In de latere rondes bereikte het totale gedistribueerde aanbod 64,5%:</p>
 						<ul>
-							<li>2nd round on Feb 11, 2017: 121,763 BTC linked, 1.8% distributed;</li>
-							<li>3rd round on Mar 12, 2017: 129,139 BTC linked, 2.0% distributed;</li>
-							<li>4th round on Apr 11, 2017: 145,441 BTC linked, 2.3% distributed;</li>
-							<li>5th round on May 10, 2017: 207,672 BTC linked, 2.9% distributed;</li>
-							<li>6th round on Jun 9, 2017: 453,621 BTC linked, 6.6% distributed;</li>
-							<li>7th round on Jul 9, 2017: 949,004 BTC linked, 11.0% distributed.</li>
-							<li>8th round on Aug 7, 2017: 1,395,899 BTC linked, 16.0% distributed.</li>
-							<li>9th round on Sep 6, 2017: 1,306,573 BTC linked, 5.7% distributed.</li>
-							<li>10th round on Nov 4, 2017: 1,093,155 BTC linked, 6.1% distributed.</li>
+							<li>2e ronde op 11 februari 2017: 121.763 BTC gelinkt, 1,8% gedistribueerd;</li>
+							<li>3e ronde op 12 maart 2017: 129.139 BTC gelinkt, 2,0% gedistribueerd;</li>
+							<li>4e ronde op 11 april 2017: 145.441 BTC gelinkt, 2,3% gedistribueerd;</li>
+							<li>5e ronde op 10 mei 2017: 207.672 BTC gelinkt, 2,9% gedistribueerd;</li>
+							<li>6e ronde op 9 juni 2017: 453.621 BTC gelinkt, 6,6% gedistribueerd;</li>
+							<li>7e ronde op 9 juli 2017: 949.004 BTC gelinkt, 11,0% gedistribueerd;</li>
+							<li>8e ronde op 7 augustus 2017: 1.395.899 BTC gelinkt, 16,0% gedistribueerd;</li>
+							<li>9e ronde op 6 september 2017: 1.306.573 BTC gelinkt, 5,7% gedistribueerd;</li>
+							<li>10e ronde op 4 november 2017: 1.093.155 BTC gelinkt, 6,1% gedistribueerd;</li>
 						</ul>
 					</div>
 				</div>
@@ -760,7 +751,7 @@
 		<div id="tech" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Completely new technology</h2>
+					<h2 class="text-center">Volledig nieuwe technologie</h2>
 				</div>
 			</div>
 		</div>
@@ -774,13 +765,10 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<p class="lead text-left">Unbounded scalability, fast confirmations, no miners, no blocks, low fees.</p>
-						<p>Byteball data is stored and ordered using <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">directed acyclic graph</a>							(DAG) rather than blockchain. This allows all users to secure each other's data by referencing earlier data units
-							created by other users, and also removes scalability limits common for blockchains, such as blocksize issue.</p>
-						<p>Blockless design is simpler because there are no blocks, there are only transactions.  Users just add their transactions to the end of the DAG themselves, they don't have to wait when miners create a new block and there is no guesswork whether miners will include your transaction in the block.</p>
-						<p>The consensus algorithm used to protect from double-spends is based on establishing a total order within the DAG. This
-							is achieved by selecting a chain, called main chain, which gravitates towards units issued by commonly recognized
-							reputable users &mdash; witnesses. See the <a href="Byteball.pdf">white paper</a> for details.</p>
+						<p class="lead text-left">Ongelimiteerde schaalbaarheid, snelle bevestigingstijden, geen miners, geen blokken, lage kosten.</p>
+						<p>Byteball data wordt opgeslagen en geordend door het gebruik van <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">directed acyclic graph</a> (DAG) in plaats van een blockchain. Dit stelt gebruikers in staat om elkaars data veilig te stellen door naar eerdere door andere gebruikers gecreëerde data units te verwijzen, en neemt ook schaalbaarheidslimieten weg die gebruikelijk zijn bij blockchains, zoals de kwestie van grootte van blokken.</p>
+						<p>Een ontwerp zonder blokken is eenvoudiger omdat er geen blokken zijn; er zijn alleen transacties.  Gebruikers voegen simpelweg zelf hun transacties toe aan het einde van de DAG, ze hoeven niet te wachten op een miner die een nieuw blok aanmaakt en er is geen twijfel of miners jouw transactie aan een blok toe zullen voegen.</p>
+						<p>Het consensus algoritme ter bescherming tegen dubbel spenderen is gebaseerd op het creëren van een totale ordening binnen de DAG. Dit wordt bereikt door een ketting te selecteren, de hoofdketting genaamd, die richting units beweegt die zijn uitgegeven door algemeen erkende vertrouwde gebruikers &mdash; getuigen. Zie de <a href="Byteball.pdf">white paper</a> voor details.</p>
 
 					</div>
 				</div>
@@ -797,8 +785,7 @@
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
 						<h2 class="text-left">Testnet</h2>
-						<p><a href="testnet.html">Testnet wallet</a> is also available if you are a developer or want to experience the features
-							of Byteball without spending a penny.</p>
+						<p>Een <a href="testnet.html">testnet portefeuille</a> is ook beschikbaar als je een ontwikkelaar bent of de eigenschappen van Byteball wil ervaren zonder een cent uit te geven.</p>
 
 					</div>
 				</div>
@@ -813,10 +800,8 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<h2 class="text-left">Community and Support</h2>
-						<p>Join Byteball on <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>! There are many channels with lively discussions about future developments, trading, auctions,
-							to name just a few. If you have any issues with the Byteball wallet, our competent support staff will take care of
-							it at the #helpdesk channel in our slack <a href="https://slack.byteball.org" target="_blank" title="Slack">slack.byteball.org</a>.</p>
+						<h2 class="text-left">Gemeenschap en ondersteuning</h2>
+						<p>Sluit je aan bij Byteball op <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>! Er zijn diverse kanalen met levendige discussie over toekomstige ontwikkelingen, handel en veilingen om er een paar te noemen. Als u problemen heeft met de Byteball portefeuille kan ons competente ondersteunend personeel helpen in het #helpdesk kanaal in onze Slack <a href="https://slack.byteball.org" target="_blank" title="Slack">slack.byteball.org</a>.</p>
 
 					</div>
 				</div>
@@ -831,11 +816,11 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<h2 class="text-left">Exchanges</h2>
-						<p>You can buy or sell bytes without leaving the wallet by <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">chatting with a trading bot</a>.
-							You can also trade on the exchanges listed below.</p>
-						<p>To buy or sell blackbytes, see or post orders in <a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a>							channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>, then exchange peer-to-peer
-							using <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">bound (conditional) payments.</a></p>
+						<h2 class="text-left">Beurzen</h2>
+						<p>Je kan Bytes kopen of verkopen zonder de portemonnee te verlaten door <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">met een handelsbot te chatten</a>.
+							U kunt ook handelen op de hieronder vermelde beurzen.</p>
+						<p>Om Blackbytes the kopen over verkopen, bekijk of plaats biedingen in het <a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a>							kanaal in onze <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>, en wissel deze peer-to-peer 
+							door gebruik te maken van <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">gebonden (voorwaardelijke) betalingen.</a></p>
 
 					</div>
 				</div>
@@ -857,11 +842,11 @@
 			<div id="mc_embed_signup">
 				<form action="https://byteball.us12.list-manage.com/subscribe/post?u=8375ddcbb541577ef0292094a&amp;id=10f3306c05" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 					<div id="mc_embed_signup_scroll">
-						<label for="mce-EMAIL">Subscribe for the latest Byteball updates: </label>
-						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
+						<label for="mce-EMAIL">Abonneer je voor de laatste Byteball updates: </label>
+						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-mailadres" required>
 						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 						<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8375ddcbb541577ef0292094a_10f3306c05" tabindex="-1" value=""></div>
-						<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+						<input type="submit" value="Abonneer" name="subscribe" id="mc-embedded-subscribe" class="button">
 					</div>
 				</form>
 			</div>
@@ -896,15 +881,14 @@
 			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4 class="modal-title">Scan finished</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button> <h4 class="modal-title">Scan klaar</h4>
 				</div>
 				<div class="modal-body">
-					<p>Now Jumio will process your photos, it usually takes a few minutes but sometimes may take hours.</p>
-					<p>The attestation bot will let you know as soon the result is known.</p>
+					<p>Jumio zal nu uw foto's verwerken, dit duurt meestal een paar minuten maar kan soms uren duren.</p>
+					<p>De getuigenis bot zal u laten weten zodra het resultaat bekend is.</p>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button>
 				</div>
 			</div>
 

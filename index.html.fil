@@ -6,7 +6,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="Ang smart na mga pagbabayad ay ginawang simple">
+	<meta name="description" content="Ang matalino na mga pagbabayad ay ginawang simple">
 	<meta name="author" content="Byteball">
 	<link rel="icon" href="img/icon_16x16@2x.png">
 
@@ -56,7 +56,7 @@
 						 <a href="#banner"><img id="logo" src="img/icon-white-outline-1024.png" alt="Logo ng Byteball" style="max-width: 55px;"></a> 
 					</div>
 					<div class="site-name">
-						 <a href="#banner">Byteball</a> 
+						 <a href="#banner">Ang Byteball</a> 
 					</div>
 				</div>
 
@@ -68,7 +68,7 @@
 						<!-- Toggle get grouped for better mobile display -->
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-									<span class="sr-only">Toggle navigation</span>
+									<span class="sr-only">I-toggle ang nabigasyon</span>
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
@@ -78,16 +78,16 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 							<ul class="nav navbar-nav">
-								<li><a href="#why">Why</a></li>
-								<li><a href="#core">Features</a></li>
-								<li><a href="#download">Download</a></li>
-								<li><a href="#dist">Distribution</a></li>
-								<li><a href="#tech">Technology</a></li>
+								<li><a href="#why">Bakit</a></li>
+								<li><a href="#core">Mga Tampok</a></li>
+								<li><a href="#download">I-download</a></li>
+								<li><a href="#dist">Distribusyon</a></li>
+								<li><a href="#tech">Teknolohiya</a></li>
 								<li><a href="https://wiki.byteball.org" target="_blank" title="Wiki">Wiki</a></li>
 								<li><a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
 								<li><a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
 								<li><a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="BitcoinTalk thread"><i class="fa fa-bitcoin"></i></a></li>
-								<li><a href="https://medium.com/byteball" target="_blank" title="Medium blog"><i class="fa fa-medium"></i></a></li>
+								<li><a href="https://medium.com/byteball" target="_blank" title="Tagapamagitang blog"><i class="fa fa-medium"></i></a></li>
 								<li><a href="https://slack.byteball.org" target="_blank" title="Slack"><i class="fa fa-slack"></i></a></li>
 								<li><a href="https://www.reddit.com/r/ByteBall/" target="_blank" title="Reddit"><i class="fa fa-reddit-alien"></i></a></li>
 								<li><a href="https://t.me/byteball" target="_blank" title="Telegram"><i class="fa fa-telegram"></i></a></li>
@@ -188,19 +188,19 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-md-5 col-md-push-5 text-center text-md-left">
-					<h2>You received money!</h2>
+					<h2>Nakatanggap ka ng pera!</h2>
 					<p class="android" style="display: none;">
-						Click the button below to open or install Byteball app on your device and claim your funds.
+						I-klik ang pindutan sa baba upang buksan o i-install ang Byteball na app sa iyong device at kuhain ang iyong mga pondo.
 					</p>
 					<p class="desktop">
-						<a href="#download">Download and install Byteball Wallet</a> first, then Click the button below to open app on your device and claim your funds.
+						Una <a href="#download">i-download at i-install ang Byteball na Wallet</a>, pagkatapos ay I-klik ang pindutan sa ibaba upang buksan ang app sa iyong debays at kuhain ang iyong mga pondo.
 					</p>
 					<p id="warning" class="alert alert-danger m10" style="display: none">
-							Unfortunately, Byteball Wallet is not yet available for iOS platform. Try to use another device to claim your funds.
+							Sa kasamaang palad, ang Byteball na Wallet ay hindi pa maaari para sa iOS na plataporma. Subukang gumamit ng ibang device upang kuhain ang iyong mga pondo.
 					</p>
-					<p><button id="openInApp" class="btn btn-lg btn-success m10">Receive funds</button></p>
+					<p><button id="openInApp" class="btn btn-lg btn-success m10">Tanggapin ang mga pondo</button></p>
 					<p>
-						If the button doesn't work, <a href="#download">install Byteball Wallet</a>, navigate to <i>Receive</i> 	&rarr; <i>Claim funds using textcoin</i> and paste the following string:<br>
+						Kung ang pindutan ay hindi gumagana, <a href="#download">i-install ang Byteball na Wallet</a>, mag-nabiga sa <i>natanggap</i>	&rarr; <i>Kuhain ang mga pondo gamit ang textcoin</i> at i-paste ang mga sumusunod na string:<br>
 						<b id="mnemonic"></b><br>
 					</p>
 				</div>
@@ -224,14 +224,14 @@
 						<svg height="128" width="128">
 							<circle cx="64" cy="64" r="56" stroke="#2c3e50" stroke-width="8" fill="white" />
 						</svg> 
-						<div style="margin-top: -15px;">Byteball</div>
+						<div style="margin-top: -15px;">Ang Byteball</div>
 					</div>
 					<div class="space"></div>
 					<div class="row text-center">
-						<h2>Ang smart na mga pagbabayad ay ginawang simple</h2>
+						<h2>Ang matalino na mga pagbabayad ay ginawang simple</h2>
 
-						<p><a class="btn btn-lg btn-success" href="#download" role="button">Get Byteball wallet</a></p>
-						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> Read the whitepaper</a></p>
+						<p><a class="btn btn-lg btn-success" href="#download" role="button">Kumuha ng Byteball na wallet</a></p>
+						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> Basahin ang whitepaper</a></p>
 					</div>
 					<div class="space"></div>
 					
@@ -239,8 +239,8 @@
 					<!--p class="lead what-is">Byteball is an alternative legal system based on smart contracts.</p>
 					<p class="lead what-is">When a contract is created on Byteball, it just works exactly as agreed upon.  Trust in the counterparty and reliance on the slow and expensive conventional legal system are not required any more as the contracts are enforced by the immutable rules of the decentralized platform.  See below the types of contracts available today.</p-->
 					
-					<p class="lead what-is">Byteball enables trust where trust couldn’t exist before.</p>
-					<p class="lead what-is">When a contract is created on Byteball platform, it can be trusted to work exactly as agreed upon.  Why? Because it is validated by multiple nodes on the decentralized network, which all follow the same immutable rules.  The counterparty, even if it is a total stranger, has to behave honestly because only the rules have authority.  Such a contract is called a smart contract.  See below for examples of working smart contracts available today.</p>
+					<p class="lead what-is">Ang byteball ay pinapagana ang tiwala kung saan ang tiwala ay hindi pa umiiral noon.</p>
+					<p class="lead what-is">Kapag ang isang kontrata ay nilikha sa plataporma ng Byteball, ito ay maaring pagkatiwalaan na gumana ayon sa napagkasunduan.  Bakit? Sapagkat ito ay pinagtibay sa pamamagitan ng napakaraming mga noda sa desentralisadong network, kung saan ang lahat ay susunod sa parehas na walang pagbabagong mga patakaran.  Ang counterparty, kahit na ito ay isa talagang estranghero, ay dapat na kumilos ng matapat dahil ang mga patakaran lamang ang mayroong awtoridad.  Ang gayong isang kontrata ay tinatawag na isang matalinong kontrata.  Tingnan sa ibaba ang para sa mga halimbawa ng gumaganang matalinong mga kontrata na magagamit ngayong araw.</p>
 					
 					
 				</div>
@@ -259,7 +259,7 @@
 		<div id="why" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Why use Byteball?</h2>
+					<h2 class="text-center">Bakit gagamit ng Byteball?</h2>
 				</div>
 			</div>
 		</div>
@@ -273,11 +273,11 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-								<h2 class="title text-left">Risk-free conditional smart payments</h2>
-								<p class="lead text-left">Byteball allows you to do something that traditional currencies can't: <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
-								 target="_blank">conditional payments.</a></p>
+								<h2 class="title text-left">Malaya sa panganib na kondisyonal na mga matalinong pagbabayad</h2>
+								<p class="lead text-left">Ang Byteball ay pinahihintulutan kang gawin ang hindi kaya ng tradisyonal na mga pera: <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
+								 target="_blank">kondisyonal na mga pagbayad.</a></p>
 
-								<p>You set a condition when the payee receives the money. If the condition is not met, you get your money back.</p>
+								<p>Ikaw ay nag takda ng kondisyon kung saan ang magbabayad ay natanggap ang pera. kung ang kondisyon ay hindi matugunan, makukuha mo pabalik ang iyong pera.</p>
 								<div class="space"></div>
 							</div>
 							<div class="col-md-6">
@@ -301,15 +301,14 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-4 col-md-push-6">
-							<h2 class="title text-left">P2P insurance</h2>
-							<p class="lead text-left">Hedge against negative events.</p>
-							<p>Buy insurance from peers to get paid in case a negative event occurs. Sell insurance for profit.</p>
-							<p>Insurance is just <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527"
-								 target="_blank">a simple smart contract</a> that can be unlocked by the insured &mdash; if the event in question
-								did occur, or by the insurer &mdash; otherwise.</p>
-							<p>To insure against flight delay, find your counterpart in <a href="https://byteball.slack.com/messages/C54CDJATB/"
-								 target="_blank">#p2p_insurance</a> channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>,
-								create a contract, and if your flight arrives late, <a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000">chat with flight delays oracle</a>								to have it post the data about the delay, then unlock the contract.</p>
+							<h2 class="title text-left">P2P na insyurans</h2>
+							<p class="lead text-left">Bakod laban sa negatibong mga pangyayari.</p>
+							<p>Bumili ng insyurans mula sa mga peer para mabayaran kung sakaling may negatibong pangyayari na maganap. Ibenta ang insyurans para kumita.</p>
+							<p>Ang insyurans ay <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527"
+								 target="_blank">isang simpleng matalinong kontrata</a> lamang na maaaring kalagan ng nagpasiguro &mdash; kung ang kaganapan sa katanungan
+ay nangyari, o kung hindi ma'y mula sa nagpasiguro &mdash;</p>
+							<p>Upang masiguro laban sa pagkaantala ng paglipad, hanapin ang iyong katapat sa <a href="https://byteball.slack.com/messages/C54CDJATB/"
+								 target="_blank">#p2p_insurance</a> na tsanel sa aming <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>,								gumawa ng kontrata, at kung ang iyong paglipad ay nahuling dumating, <a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000">mag-chat sa mga pagkaantala ng paglipad na orakulo</a>								upang mai-paskil nito ang datos tungkol sa antala, saka i-unlock ang kontrata.</p>
 							<div class="space"></div>
 							</div>
 							<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
@@ -334,11 +333,11 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Prediction markets</h2>
-							<p class="lead text-left">Make money by correctly predicting future events.</p>
-							<p>Create a P2P smart contract that can be unlocked if a specific event occurs. Use it for <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
-								 target="_blank">betting on price movements</a>, sports betting, and insurance.</p>
-							<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack.</a></p>
+							<h2 class="title text-left">Hula sa mga merkado</h2>
+							<p class="lead text-left">Kumita ng pera sa pamamagitan ng tamang paghula sa hinaharap na mga mangyayari.</p>
+							<p>Lumikha ng isang P2P na matalinong kontrata na maaaring ma-unlocke kung ang isang espesipikong pangyayari ay maganap. Gamitin ito para sa <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
+								 target="_blank">pagpusta sa mga galaw ng presyo</a>, pagpusta sa laro, at insyurans.</p>
+							<p>Hanapin ang iyong katapat sa <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_market</a> na tsanel sa aming <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack.</a></p>
 							<div class="space"></div>
 							</div>
 							<div class="col-md-6">
@@ -361,11 +360,12 @@
 						<div class="space"></div> 
 						<div class="row">
 							<div class="col-md-4 col-md-push-6">
-								<h2 class="title text-left">P2P betting</h2>
-								<p class="lead text-left">Bet against other users on sports events.</p>
-								<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a>								channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a> and create a contract
-									that can be unlocked by you or your peer depending on the results of a future game.</p>
-								<p>After the result is known, <a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">chat with sports oracle</a>								to have it post the data about the outcome, then unlock the contract.</p>
+								<h2 class="title text-left">P2P na pustahan</h2>
+								<p class="lead text-left">Pumusta laban sa ibang mga user sa mga kaganapan sa mga laro.</p>
+								<p>Hanapin ang iyong katapat sa <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a>								na tsanel sa aming <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a> at gumawa ng isang kontrata
+									na maaaring ma-unlock mo o ng iyong peer depende sa mga resilta ng isang hinaharap na laro.
+									</p>
+								<p>Pagkatapos na malaman ang resulta, <a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">mag-chat kay sports oracle</a>								para ito ay ma-post ang datos tungkol sa kinalabasan, pagkatapos ay i-unlock ang kontrata.</p>
 
 								<div class="space"></div>
 							</div>
@@ -396,8 +396,8 @@
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
 							<h2 class="title text-left">Textcoins</h2>
-							<p class="lead text-left">Send cryptocurrency to email or via chat.</p>
-							<p>The sender just writes an email address where he would normally write a Byteball address. The recipient just clicks a link received in email or chat. If the recipient is not in Byteball yet, he will be prompted to install the wallet.  On Android, the install is started automatically. <a href="https://medium.com/byteball/sending-cryptocurrency-to-email-5c9bce22b8a9" target="_blank">Learn more</a>.</p>
+							<p class="lead text-left">Magpadala ng cryptocurrency sa email o sa pamamagitan ng chat.</p>
+							<p>Ang nagpadala ay sumulat ng isang email address kung saan ay normal na sumusulat ng isang Byteball na address. Ang tatanggap ay nag-klik sa isang link na natanggap sa email o sa chat. Kung ang tatanggap ay hindi pa nasa Byteball, sya ay si-senyasan na mag-install ng wallet.  Sa Android, ang pag-intall ay mag-sisimula ng awtomatiko. <a href="https://medium.com/byteball/sending-cryptocurrency-to-email-5c9bce22b8a9" target="_blank">Matuto ng higit pa</a>.</p>
 							<div class="space"></div>
 						</div>
 						<div class="col-md-6">
@@ -421,9 +421,9 @@
 					 <div class="space"></div> 
 					<div class="row">
 						<div class="col-md-4 col-md-push-6">
-							<h2 class="title text-left">Sovereign identity</h2>
-							<p class="lead text-left">Store your ID in your wallet, choose what to disclose and to whom.</p>
-							<p>Have your real identity verified and securely stored in your wallet.  <a href="https://www.jumio.com/" target="_blank">Jumio</a> helps in ID verification.  When you want to disclose your identity to a service provider, e.g. to participate in an ICO, you just pull it out of your wallet in a few clicks.  <a href="https://medium.com/byteball/bringing-identity-to-crypto-b35964feee8e" target="_blank">Learn more</a>.</p>
+							<h2 class="title text-left">Pinakadakilang pagkakakilanlan</h2>
+							<p class="lead text-left">I-imbak ang iyong ID sa iyong wallet, piliin kung ano ang ipapaalam at kung kanino.</p>
+							<p>Patunayan ang iyong tunay na pagkakalilanlan at ligtas na i-imbak sa iyong wallet.  Ang <a href="https://www.jumio.com/" target="_blank">Jumio</a> ay tumutulong sa pagpapatunay ng ID.  Kapag gusto mong ipaalam ang iyong pagkakakilanlan sa isang tagapagbigay ng serbisyo, hal. upang lumahok sa isang ICO, bunutin mo lamang ito mula sa iyong wallet sa ilan lamang na mga pag-klik.  <a href="https://medium.com/byteball/bringing-identity-to-crypto-b35964feee8e" target="_blank">Matuto ng higit pa</a>.</p>
 						<div class="space"></div>
 						</div>
 						<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
@@ -449,8 +449,8 @@
 					<div class="space"></div> 
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">P2P payments in chat</h2>
-							<p class="lead text-left">Chat and pay in the same app just by clicking links.</p>
+							<h2 class="title text-left">P2P na mga pagbabayad sa chat</h2>
+							<p class="lead text-left">Mag-chat at magbayad sa parehas na app sa pamamagitan lamang ng pag-klik sa mga link.</p>
 							<div class="space"></div>
 						</div>
 						<div class="col-md-6">
@@ -474,9 +474,9 @@
 					 <div class="space"></div> 
 					<div class="row">
 						<div class="col-md-4 col-md-push-6">
-							<h2 class="title text-left">Chatbots</h2>
-							<p class="lead text-left">Talk to a bot like you would talk to a human.</p>
-							<p>Shop by chatting with a merchant's bot, pay in two clicks. Exchanges and other services are also easy to use in conversational
+							<h2 class="title text-left">Mga chatbot</h2>
+							<p class="lead text-left">Makipag-usap sa bot tulad ng pakikipagusap mo sa isang tao.</p>
+							<p>Mamili sa pamamagitan ng pag-chat sa isang bot ng mangangalakal, magbayad sa dalawang pag-klik. Ang mga palitan at ibang mga serbisyo ay madali din gamitin sa pang-usap na
 								interface.</p>
 						<div class="space"></div>
 						</div>
@@ -504,9 +504,9 @@
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
 							<h2 class="title text-left">Bot Store</h2>
-							<p class="lead text-left">Easily discover and add new chatbots via the built-in Bot Store.</p>
-							<p>Developers have instant access to all users by publishing their chatbot on the Bot Store. See the <a href="https://github.com/byteball/byteballcore/wiki/Writing-chatbots-for-Byteball"
-								 target="_blank">developer guide about building chatbots.</a></p>
+							<p class="lead text-left">Madaling tumuklas at magdagdag ng bagong mga chatbot gamit ang built-in na Bot Store.</p>
+							<p>Ang mga developer ay mayroong agadang akses sa lahat ng mga user sa pamamagitan ng pag lathala ng kanilang chatbot sa Bot Store. Tignan ang <a href="https://github.com/byteball/byteballcore/wiki/Writing-chatbots-for-Byteball"
+								 target="_blank">gabay ng developer tungkol sa pagbuo ng mga chatbot.</a></p>
 						<div class="space"></div>
 						</div>
 						<div class="col-md-6">
@@ -529,11 +529,11 @@
 					 <div class="space"></div> 
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Untraceable currency: Blackbytes</h2>
-							<p class="lead text-left">Cash-like privacy.</p>
-							<p>When you want complete privacy, pay in Blackbytes, a cash-like untraceable currency whose transactions are not visible
-								on the public database, they are sent peer-to-peer instead.</p>
-							<p>Use built-in TOR switch straight from the wallet to increase your privacy even further.</p>
+							<h2 class="title text-left">Hindi mabakas na pera: Blackbytes</h2>
+							<p class="lead text-left">Pribasiya ng cash-like.</p>
+							<p>Kung nais mo ng kompletong pribasiya, magbayad ka sa Blackbytes, isang parang pera na hindi mabakas na salapi na kung saan ang mga transakyon ay hindi makita
+								sa pampublikong database, sa halip sila ay pinapadala ng peer-to-peer.</p>
+							<p>Gamitin ang built-in TOR papihit diretso mulsa sa wallet upang taasan ang iyong pribasiya ng higit pa.</p>
 
 
 						</div>
@@ -563,10 +563,10 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-								<h2 class="title text-left">Users help each other</h2>
-								<p class="lead text-left">Secure each other's transactions.</p>
-								<p>There is no central entity that stores and processes all the payments.  Instead, transactions created by users are
-									cryptographically linked to each other, and once you add your new transaction, other users start adding theirs on top of yours, and the number of other transactions that link to your transaction grows like snowball (that's why we call it Byteball).</p>
+								<h2 class="title text-left">Ang mga user ay tinutulungan ang bawat isa</h2>
+								<p class="lead text-left">Sinisiguro ang transaksyon ng bawat isa.</p>
+								<p>Walang sentral na entidad na ini-imbak at pino-proseso ang lahat ng mga bayad.  Sa halip, ang mga transaksyon na ginawa ng mga user lahat ay
+									kriptograpikal na naka-link sa bawat isa, at kapag ikaw ay nagdagdag ng iyong bagong transaksyon, ang ibang mga user ay maguumpisang magdagdag ng sa kanila na nasa taas ng sa'yo, at mga bilang ng ibang mga transakyon na naka-link sa iyong transakyon ay lalaki kagaya ng niyebeng binilo (kaya naman tinatawag natin itong Byteball).</p>
 
 							</div>
 							<div class="col-md-6">
@@ -586,7 +586,7 @@
 		<div id="core" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Core features</h2>
+					<h2 class="text-center">Mga tampok sa kaibuturan</h2>
 				</div>
 			</div>
 		</div>
@@ -597,42 +597,41 @@
 		<div class="container ">
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
-					<h3 class="media-heading">Atomic exchange</h3>
-					<p>When two parties sign a single unit that executes both legs of the exchange, the two transactions either happen simultaneously
-						or don't happen at all. It is no longer necessary to trust any centralized exchanges.</p>
+					<h3 class="media-heading">Atomikong palitan</h3>
+					<p>Kapag ang dalawang mga partido ay lumagda ng isang solong yunit na nag-sasakatuparan ng parehas na binti ng palitan, alinman sa dalawang mga transaksyon ay sabay-sabay na mangyari o hindi talaga mangyari. Ito ay hindi na kinakailangan upang pagkatiwalaan ang kahit na anong sentralisadong mga palitan.</p>
 					<div class="space-res"></div>
 				</div>
 				<div class="col-sm-4">
-					<h3 class="media-heading">Regulated assets</h3>
-					<p>Regulated institutions can issue assets that are compatible with KYC/AML requirements. Every transfer of such asset
-						is to be cosigned by the issuer, and if there is anything that contradicts the regulations, the issuer won't cosign.</p>
+					<h3 class="media-heading">Pinangangalagaang mga ari-arian</h3>
+					<p>Ang pinangangalagaang mga institusyon ay maaring mag-isyu ng mga ari-arian na tumutugma sa KYC/AML na mga kinakailangan. Kada paglipat ng gayon ari-arian
+						ay kailangang lagdaang muli ng taga-isyu, at kung may anuman na salungat sa mga regulasyon, ang taga-isyu ay hindi na muling lalagda.</p>
 				</div>
 			</div>
 			<div class="space"></div>
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
-					<h3 class="media-heading">Multi signature</h3>
-					<p>For security, you can require that your funds be spendable only when several signatures are provided, e.g. from your
-						laptop and from your phone. For shared control of funds, signatures from different people may be required.</p>
+					<h3 class="media-heading">Maraming Lagda</h3>
+					<p>Para sa seguridad, maaari kang mangailangan na ang iyong mga pondo ay dapat lang magastos kung ang ilang mga lagda ay naibigay, hal. mulsa sa iyong 
+						laptop at mula sa iyong telepono. Para sa ibinahaging kontrol ng mga pondo, mga lagda mula sa magkakaibang tao ay maaaring kailanganin.</p>
 					<div class="space-res"></div>
 				</div>
 
 				<div class="col-sm-4">
-					<h3 class="media-heading">On-chain oracles</h3>
-					<p>When dealing with untrusted counterparties, you can lock the funds on an address that is spendable either by you or
-						by the counterparty, depending on the events registered to the database by trusted data providers &mdash; oracles.</p>
+					<h3 class="media-heading">On-chain na mga orakulo</h3>
+					<p>Kapag nakikitungo sa mga hindi mapagkakatiwalaan na kabilang partido, maaari mong i-lock ang mga pondo sa isang address na magagastos mo o mula sa iyo o 
+						ng kabilang partido, depende sa mga kaganapan ng mga pangyayari na naka rehistro sa database ng pinagtitiwalaang tagapagbigay ng datos &mdash; na mga orakulo.</p>
 				</div>
 			</div>
 			<div class="space"></div>
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
-					<h3 class="media-heading">Immutable storage</h3>
-					<p>Once stored in the Byteball database, the data can neither be revised nor removed.</p>
+					<h3 class="media-heading">Hindi mababago na imabakan</h3>
+					<p>Sa sandali na ma-imbak sa database ng Byteball, ang datos ay hindi na magabago o maaalis.</p>
 					<div class="space-res"></div>
 				</div>
 				<div class="col-sm-4">
-					<h3 class="media-heading">Settlement finality</h3>
-							<p>After certain criteria are met, a new transaction becomes final. It cannot be revised even by a powerful attacker.  No guesswork about the right number of confirmations, no 51% attacks.</p>
+					<h3 class="media-heading">Kawakasan sa kasunduan</h3>
+							<p>Pagkatapos na ang ilang kriterya ay matugunan, isang bagong transaksyon ay magiging wakas. Ito ay hindi na maaring mabagao kahit nang napakalakas na sasalakay. walang hakahaka tungkol sa tamang numero ng mga kompirmasyon, walang 51% na mga atake.</p>
 				</div>
 			</div>
 		</div>
@@ -645,7 +644,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2  id="download"  class="text-center">Get your Byteball wallet</h2>
+					<h2  id="download"  class="text-center">Kunin ang iyong Byteball wallet</h2>
 				</div>
 			</div>
 		</div>
@@ -669,30 +668,29 @@
 					</div>
 					<div class="app">
 						<div><a target="_blank" href="https://play.google.com/store/apps/details?id=org.byteball.wallet"><img src="img/android_robot.svg"/></a></div>
-						<div><a target="_blank" href="https://play.google.com/store/apps/details?id=org.byteball.wallet">Android</a></div>
+						<div><a target="_blank" href="https://play.google.com/store/apps/details?id=org.byteball.wallet">Ang Android</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-win64.exe"><img src="img/icon-microsoft.svg"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-win64.exe">Windows</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-win64.exe"><img src="img/icon-microsoft.svg"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-win64.exe">Ang mga Window</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-osx64.dmg"><img src="img/icon-mac-os-x.svg"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-osx64.dmg">Mac</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-osx64.dmg"><img src="img/icon-mac-os-x.svg"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-osx64.dmg">Mac</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/byteball-linux64.zip"><img src="img/linux.png"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/byteball-linux64.zip">Linux</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/byteball-linux64.zip"><img src="img/linux.png"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/byteball-linux64.zip">Linux</a></div>
 					</div>
 					<div class="app">
 						<div><a target="_blank" href="https://github.com/byteball/byteball"><img src="img/fi-social-github.svg"/></a></div>
-						<div><a target="_blank" href="https://github.com/byteball/byteball">GitHub</a></div>
+						<div><a target="_blank" href="https://github.com/byteball/byteball">Github</a></div>
 					</div>
 					<div class="space"></div>
 					<ul class="list-unstyled text-left">
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">Buy or sell bytes</a> by chatting	with a trading bot</li>
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="https://medium.com/byteball/making-p2p-great-again-episode-ii-bitcoin-exchange-d98adfbde2a5" target="_blank">P2P exchange bytes vs bitcoins</a>,
-						get your merkle proof by chatting with <a href="byteball:A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@byteball.org/bb#0000">BTC Oracle</a><br></li>
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> View public transactions on the <a href="https://explorer.byteball.org" target="_blank">DAG explorer</a></li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">Bumili o magbenta ng bytes</a> sa pamamagitan ng pag-chat		sa bot ng palitan</li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="https://medium.com/byteball/making-p2p-great-again-episode-ii-bitcoin-exchange-d98adfbde2a5" target="_blank">P2P na palitan bytes vs sa bitcoins</a>, kunin ang iyong merkle na patunay sa pamamagitan ng pag-chat sa <a href="byteball:A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@byteball.org/bb#0000">BTC na orakulo</a><br></li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> Tingnan ang pampublikong mga transaksyon sa <a href="https://explorer.byteball.org" target="_blank">DAG explorer</a></li>
 								<!-- <li><i class="fa fa-caret-right pr-10 text-colored"></i> Dignissimos molestiae necessitatibus</li> -->
 							</ul>
 					 <!-- <h4 style="font-weight: 500;">After installing, <a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">chat with the Transition Bot</a>	to participate in the next distribution round</br> -->
@@ -713,7 +711,7 @@
 		<div id="dist" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Fair initial distribution</h2>
+					<h2 class="text-center">Patas na paunang distribusyon</h2>
 				</div>
 			</div>
 		</div>
@@ -726,26 +724,28 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<p class="lead text-left">Free distribution for mass adoption.</p>
-						<p>Mass adoption requires wide distribution, that's why 99% of all bytes and blackbytes are to be distributed for free.  Currently, we use several ways to distribute them:</p>
+						<p class="lead text-left">Libreng pamamahagi para sa maramihang adapsyon.</p>
+						<p>Ang maramihang adapsyon ay nangangailangan ng malawak na distribusyon, kaya 99% ng lahat nang bytes at blackbytes ay ipamamahagi ng libre. Sa kasalukuyan, gumagamit kami ng maraming paraan upang ipamahagi sila:</p>
 						<ul>
-							<li><a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Cashback</a> for purchases at the merchant stores we partner with.  In most cases, the offered cashback is 10% of the purchase amount.  <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Fill out the application form</a> or <script>document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">');</script>contact us<script>document.write('</a>');</script> if you run a store or a payment processor and want to be part of the cashback program.</li>
-							<li><a href="https://medium.com/byteball/distribution-to-verified-users-and-referrals-ed00b9b2a30e" target="_blank">Verification rewards and referral rewards</a> to those who verify their real name.</li>
+							<li><a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Cashback</a> para sa mga pagbili sa mga tindahan ng komersyante na aming kasosyo.  Sa karamihan na mga kaso, ang inaalok na cashback ay 10% ng halaga ng binili.  <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Sagutana ang patlang ng application</a> o <script>document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">');</script>kontakin kami<script>document.write('</a>');</script>kung ikaw ay nagpapatakbo ng isang tindaan o isang taga-proseso ng pagbabayad at nais na maging parte ng cashback na programa.</li>
+							<li><a href="https://medium.com/byteball/distribution-to-verified-users-and-referrals-ed00b9b2a30e" target="_blank">Mga gantimpala sa pagpapatunay at mga gantimpala sa pag-rekumenda</a> sa mga nagpatunay ng kanilang tunay na pangalan.</li>
+							<li><a href="https://medium.com/byteball/distribution-to-verified-emails-and-sending-cryptocurrency-to-email-episode-ii-cb955fe19d7e" target="_blank">Verification rewards and referral rewards</a> to those who verify their email address.</li>
+							<li>Rewards to those who participate in <a href="https://bitcointalk.org/index.php?topic=3162547.0">our signature campaign on Bitcointalk</a>.</li>
 							<li>Giveaways distributed e.g. through youtube channels of our supporters.  See e.g. <a href="https://www.youtube.com/watch?v=hycluITNDBM" target="_blank">https://www.youtube.com/watch?v=hycluITNDBM</a>.</li>
 							<li><a href="https://medium.com/byteball-help/using-mailchimp-to-mass-send-payments-as-textcoins-5c1db06342e3" target="_blank">Mass sending of textcoins</a> to subscribers of our partners.  See the <a href="https://docs.google.com/spreadsheets/d/1heT6TUSpTJgRW-FUM0LbcoVjXZRCb3PbXQQLmzvNRvM/edit#gid=323859176" target="_blank">results of the previous campaigns</a>.</li>
 						</ul>
 						
-						<p>In the past, we also distributed Bytes to BTC holders and existing holders of Bytes.  Users used to link their BTC and Byteball addresses and were receiving new Bytes in proportion to their existing balances in BTC and Bytes.  This distribution was split into several rounds.  The first distribution round took place on Dec 25, 2016 when the network launched, over 70,000 BTC was linked, and 10% of the total supply of bytes and blackbytes was distributed.  In the subsequent rounds, the total distributed supply reached 64.5%:</p>
+						<p>Sa nakalipas, amin ding ipinamahagi ang Bytes sa mga mayhawak ng BTC at umiiral na mga mayhawak ng Bytes.  Ang mga user ay nasanay na i-link ang kanilang BTC at Byteball na mga address at kami'y nakakatanggap ng bagong Bytes sa proporsyon ng anilang natitirang mga balnse sa BTC at Bytes.  Ang pamamahagi ay nahahati sa ilang mga rawnd.  Ang unang rawnd ng pamamahagi ay naganap noong ikaw-25 ng desyembre, 2016 kung saan ang network ay inilunsad, sa mahigit na 70,000 BTC na na-link, at 10% ng kabuuang supply ng mga byte at mga blackbyte ay ipinamahagi.  Sa kasunod na mga rawnd, ang kabuuang naipamahaging suplay ay umabot sa 64.5%:</p>
 						<ul>
-							<li>2nd round on Feb 11, 2017: 121,763 BTC linked, 1.8% distributed;</li>
-							<li>3rd round on Mar 12, 2017: 129,139 BTC linked, 2.0% distributed;</li>
-							<li>4th round on Apr 11, 2017: 145,441 BTC linked, 2.3% distributed;</li>
-							<li>5th round on May 10, 2017: 207,672 BTC linked, 2.9% distributed;</li>
-							<li>6th round on Jun 9, 2017: 453,621 BTC linked, 6.6% distributed;</li>
-							<li>7th round on Jul 9, 2017: 949,004 BTC linked, 11.0% distributed.</li>
-							<li>8th round on Aug 7, 2017: 1,395,899 BTC linked, 16.0% distributed.</li>
-							<li>9th round on Sep 6, 2017: 1,306,573 BTC linked, 5.7% distributed.</li>
-							<li>10th round on Nov 4, 2017: 1,093,155 BTC linked, 6.1% distributed.</li>
+							<li>2nd na rawnd noong ika-11 ng pebrero, 2017: 121,763 BTC naka-link, 1.8% ay naipamamahagi na;</li>
+							<li>3rd na rawnd noong ika-12 ng Marso, 2017: 129,139 BTC naka-link, 2.0% ay naipamamahagi na;</li>
+							<li>4th na rawnd noong ika-11 ng Abril, 2017: 145,441 BTC naka-link, 2.3% ay naipamamahagi na;</li>
+							<li>5th na rawnd noong ika-10 ng Mayo, 2017: 207,672 BTC naka-link, 2.9% ay naipamamahagi na;</li>
+							<li>6th na rawnd noong ika-9 ng Hunyo, 2017: 453,621 BTC naka-link, 6.6% ay naipamamahagi na;</li>
+							<li>7th na rawnd noong ika-9 ng Hulyo, 2017: 949,004 BTC naka-link, 11.0% ay naipamamahagi na.</li>
+							<li>8th na rawnd noong ika-7 ng Agusto, 2017: 1,395,899 BTC naka-link, 16.0% ay naipamamahagi na.</li>
+							<li>9th na rawnd noong ika-6 ng Septyembre, 2017: 1,306,573 BTC naka-link, 5.7% ay naipamamahagi na.</li>
+							<li>10th na rawnd noong ika-4 ng Nobyembre, 2017: 1,093,155 BTC naka-link, 6.1% ay naipamamahagi na.</li>
 						</ul>
 					</div>
 				</div>
@@ -760,7 +760,7 @@
 		<div id="tech" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Completely new technology</h2>
+					<h2 class="text-center">Ganap na bagong teknolohiya</h2>
 				</div>
 			</div>
 		</div>
@@ -774,13 +774,13 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<p class="lead text-left">Unbounded scalability, fast confirmations, no miners, no blocks, low fees.</p>
-						<p>Byteball data is stored and ordered using <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">directed acyclic graph</a>							(DAG) rather than blockchain. This allows all users to secure each other's data by referencing earlier data units
-							created by other users, and also removes scalability limits common for blockchains, such as blocksize issue.</p>
-						<p>Blockless design is simpler because there are no blocks, there are only transactions.  Users just add their transactions to the end of the DAG themselves, they don't have to wait when miners create a new block and there is no guesswork whether miners will include your transaction in the block.</p>
-						<p>The consensus algorithm used to protect from double-spends is based on establishing a total order within the DAG. This
-							is achieved by selecting a chain, called main chain, which gravitates towards units issued by commonly recognized
-							reputable users &mdash; witnesses. See the <a href="Byteball.pdf">white paper</a> for details.</p>
+						<p class="lead text-left">Walang hanggan na kakayahang sumukat, mabilis na mga kumpirmasyon, walang mga minero, walang mga bloke, mababa ang mga bayad.</p>
+						<p>Ang datos ng Byteball ay nakaimbak at inorder gamit ang <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">directed acyclic graph</a>							(DAG) sa halip na blockchain. Ito ay magpapahintulot sa lahat ng mga user na siguruhin ang datos ng bawat isa sa pamamagitan ng pagsangguni ng mas naunang mga yunit ng datos
+							na nilikha ng ibang mga user, na nagaalis din ng mga limitasyon sa kakayahan sa pag-sukat na pangkaraniwan para sa mga blockchain, katulad ng blocksize na isyu.</p>
+						<p>Ang Blockless na desenyo ay mas simple sapagkat ito ay walang mga block, mayroon lamang itong mga transaksyon.  Ang mga user ay magdadagdag lamang ng kanilang mga transaksyon sa hulihan ng DAG sa kanilang mga sarili, hindi na nila kilangan na maghintay habang ang mga minero ay lumillikha ng bagong mga block at walang paghahaka-haka kung ang mga minero ay isasama ang iyong transaksyon sa block.</p>
+						<p>Ang pinagkasunduan sa algoritmo ay ginagamit sa pagprotekta mula sa mga dobleng-gastos ay base sa pagbubuo ng isang kabuuang order sa loob ng DAG. Ito
+							ay nakakamit sa pamamagitan ng pagpili ng chain, pagtawag sa pangunahing chain, kung saan nagpupunta tungo sa mga yunit na inisyu nang karaniwan na kinikilala
+							na marangal na mga user &mdash; mga saksi. Tingnan ang <a href="Byteball.pdf">white paper</a> para sa mga detalye.</p>
 
 					</div>
 				</div>
@@ -797,8 +797,8 @@
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
 						<h2 class="text-left">Testnet</h2>
-						<p><a href="testnet.html">Testnet wallet</a> is also available if you are a developer or want to experience the features
-							of Byteball without spending a penny.</p>
+						<p>Ang <a href="testnet.html">Testnet wallet</a> ay maaari din kung ikaw ay isang developer o nais maranasan ang mga tampok
+							ng Byteball ng hindi gumastos ng isang sentimos.</p>
 
 					</div>
 				</div>
@@ -813,10 +813,9 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<h2 class="text-left">Community and Support</h2>
-						<p>Join Byteball on <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>! There are many channels with lively discussions about future developments, trading, auctions,
-							to name just a few. If you have any issues with the Byteball wallet, our competent support staff will take care of
-							it at the #helpdesk channel in our slack <a href="https://slack.byteball.org" target="_blank" title="Slack">slack.byteball.org</a>.</p>
+						<h2 class="text-left">Komunidad at Suporta</h2>
+						<p>Sumali sa Byteball sa <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>! Mayroong napakaraming mga tsanel na may buhay na mga paguusap tungkol sa hinaharap na mga pagpapaunlad, palitan, mga subasta,							 upang pangalanan ang ilan. Kung ikaw ay mayroong kahit na anong mga isyo sa Byteball wallet, ang aming maaasahang mga tauhan sa pag-suport ay ang bahala 
+							dito sa #helpdest na tsanel sa aming slack <a href="https://slack.byteball.org" target="_blank" title="Slack">slack.byteball.org</a>.</p>
 
 					</div>
 				</div>
@@ -831,11 +830,11 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<h2 class="text-left">Exchanges</h2>
-						<p>You can buy or sell bytes without leaving the wallet by <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">chatting with a trading bot</a>.
-							You can also trade on the exchanges listed below.</p>
-						<p>To buy or sell blackbytes, see or post orders in <a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a>							channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>, then exchange peer-to-peer
-							using <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">bound (conditional) payments.</a></p>
+						<h2 class="text-left">Mga Palitan</h2>
+						<p>Maaari kang bumili o magbenta ng bytes nang hindi iniiwan ang wallet sa pamamagitan ng <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">pag-chat sa bot ng palitan</a>.
+							Maaari ka ring makipagpalit sa mga palitan na nakalista sa ibaba.</p>
+						<p>Upang bumili o magbenta ng blackbytes, tingnan o mag-koreo ng mga order sa <a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a>							na tsanel sa aming <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>, saka magpalit nang peer-to-peer
+							gamit ang <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">bound (conditional) payments.</a></p>
 
 					</div>
 				</div>
@@ -857,11 +856,11 @@
 			<div id="mc_embed_signup">
 				<form action="https://byteball.us12.list-manage.com/subscribe/post?u=8375ddcbb541577ef0292094a&amp;id=10f3306c05" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 					<div id="mc_embed_signup_scroll">
-						<label for="mce-EMAIL">Subscribe for the latest Byteball updates: </label>
+						<label for="mce-EMAIL">Subaybayan para sa pinaka bagong mga update ng Byteball:</label>
 						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
 						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 						<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8375ddcbb541577ef0292094a_10f3306c05" tabindex="-1" value=""></div>
-						<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+						<input type="submit" value="Subaybayan" name="subscribe" id="mc-embedded-subscribe" class="button">
 					</div>
 				</form>
 			</div>
@@ -897,14 +896,14 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4 class="modal-title">Scan finished</h4>
+					<h4 class="modal-title">Tapos na ang pag-scan</h4>
 				</div>
 				<div class="modal-body">
-					<p>Now Jumio will process your photos, it usually takes a few minutes but sometimes may take hours.</p>
-					<p>The attestation bot will let you know as soon the result is known.</p>
+					<p>Ngayon ang Jumio ay i-poproseso ang iyong mga larawan, ito ay karaniwang tumatagal ng ilang minuto ngunit minsan ay tumatagal ng oras.</p>
+					<p>Ang nagpapatunay na bot ay ipapalam kaagad sayo ang mga resulta kapag nalaman na.</p>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Isara</button>
 				</div>
 			</div>
 

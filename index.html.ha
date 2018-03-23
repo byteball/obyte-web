@@ -230,8 +230,8 @@
 					<div class="row text-center">
 						<h2>Smart payments made simple</h2>
 
-						<p><a class="btn btn-lg btn-success" href="#download" role="button">Get Byteball wallet</a></p>
-						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> Read the whitepaper</a></p>
+						<p><a class="btn btn-lg btn-success" href="#download" role="button">Samun takalma na Byteball</a></p>
+						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> Karanta whitepaper</a></p>
 					</div>
 					<div class="space"></div>
 					
@@ -239,8 +239,8 @@
 					<!--p class="lead what-is">Byteball is an alternative legal system based on smart contracts.</p>
 					<p class="lead what-is">When a contract is created on Byteball, it just works exactly as agreed upon.  Trust in the counterparty and reliance on the slow and expensive conventional legal system are not required any more as the contracts are enforced by the immutable rules of the decentralized platform.  See below the types of contracts available today.</p-->
 					
-					<p class="lead what-is">Byteball enables trust where trust couldn’t exist before.</p>
-					<p class="lead what-is">When a contract is created on Byteball platform, it can be trusted to work exactly as agreed upon.  Why? Because it is validated by multiple nodes on the decentralized network, which all follow the same immutable rules.  The counterparty, even if it is a total stranger, has to behave honestly because only the rules have authority.  Such a contract is called a smart contract.  See below for examples of working smart contracts available today.</p>
+					<p class="lead what-is">Byteball yana dogara ga amincewa da wurin da akwai rashin amincewa a baya.</p>
+					<p class="lead what-is">Lokacin da aka kirkiro kwangila akan Byteball, ana iya amincewa da aiki kamar yadda aka yardar.  Me ya sa? Saboda an tabbatar da ita ta hanyar nodes masu yawa akan cibiyar sadarwa, wanda duk suna bi ka'idodi marasa daidaituwa.  Yawan takwarorina, ko da shi baƙo ne, dole ne ya nuna halin kirki saboda dokoki suna da iko.  Irin wannan kwangilar ana kiran shi kwangilar basira.  Dubi ƙasa don misalai na aiki kwangila basira dake samuwa a yau.</p>
 					
 					
 				</div>
@@ -259,7 +259,7 @@
 		<div id="why" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Why use Byteball?</h2>
+					<h2 class="text-center">Me yasa ake amfani da Byteball?</h2>
 				</div>
 			</div>
 		</div>
@@ -273,11 +273,11 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-								<h2 class="title text-left">Risk-free conditional smart payments</h2>
-								<p class="lead text-left">Byteball allows you to do something that traditional currencies can't: <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
-								 target="_blank">conditional payments.</a></p>
+								<h2 class="title text-left">Yanayin Biyan kuɗi mai tsabta</h2>
+								<p class="lead text-left">Byteball yana ba mutum dama yayi wani abu wanda kudin al'ada ba zai iya yi ba:<a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
+								 target="_blank"> yanayin biyan kuɗi</a></p>
 
-								<p>You set a condition when the payee receives the money. If the condition is not met, you get your money back.</p>
+								<p>Ka saita yanayin lokacin da payee zai karbi kuɗin. Idan ba a sadu da yanayin ba, za ka sami kuɗin ka.</p>
 								<div class="space"></div>
 							</div>
 							<div class="col-md-6">
@@ -301,12 +301,11 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-4 col-md-push-6">
-							<h2 class="title text-left">P2P insurance</h2>
-							<p class="lead text-left">Hedge against negative events.</p>
-							<p>Buy insurance from peers to get paid in case a negative event occurs. Sell insurance for profit.</p>
-							<p>Insurance is just <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527"
-								 target="_blank">a simple smart contract</a> that can be unlocked by the insured &mdash; if the event in question
-								did occur, or by the insurer &mdash; otherwise.</p>
+							<h2 class="title text-left">Inshora na P2P</h2>
+							<p class="lead text-left">Shinge daga abubuwan da korau.</p>
+							<p>Ku sayi inshora daga 'yan uwan ​​da za su biya idan har wani mummunan abu ya faru. Sayen inshora don riba.</p>
+							<p>Inshora ita ce<a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527"
+								 target="_blank"> kawai ƙirar mai sauki wanda</a> mai inshora din zai iya buɗewa&mdash; - idan abin da ya faru a cikin tambaya ya faru, ko kuma mai inshora&mdash; - ko in ba haka ba ne.</p>
 							<p>To insure against flight delay, find your counterpart in <a href="https://byteball.slack.com/messages/C54CDJATB/"
 								 target="_blank">#p2p_insurance</a> channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>,
 								create a contract, and if your flight arrives late, <a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000">chat with flight delays oracle</a>								to have it post the data about the delay, then unlock the contract.</p>
@@ -334,10 +333,10 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Prediction markets</h2>
-							<p class="lead text-left">Make money by correctly predicting future events.</p>
-							<p>Create a P2P smart contract that can be unlocked if a specific event occurs. Use it for <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
-								 target="_blank">betting on price movements</a>, sports betting, and insurance.</p>
+							<h2 class="title text-left">Kasuwannin Tatancewa</h2>
+							<p class="lead text-left">Samu kuɗi ta hanyar zancen abubuwan da ke faruwa a nan gaba.</p>
+							<p>Ƙirƙirar kwangilar P2P mai kyau wanda za a iya buɗe idan wani abu ya faru. Yi amfani <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
+								 target="_blank">dashi don yin kasuwanci a kan farash</a>i, cinikin wasanni, da inshora.</p>
 							<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack.</a></p>
 							<div class="space"></div>
 							</div>
@@ -361,11 +360,11 @@
 						<div class="space"></div> 
 						<div class="row">
 							<div class="col-md-4 col-md-push-6">
-								<h2 class="title text-left">P2P betting</h2>
-								<p class="lead text-left">Bet against other users on sports events.</p>
+								<h2 class="title text-left">Cacan P2P</h2>
+								<p class="lead text-left">Buga caca da wasu masu amfani akan wasanni.</p>
 								<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a>								channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a> and create a contract
 									that can be unlocked by you or your peer depending on the results of a future game.</p>
-								<p>After the result is known, <a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">chat with sports oracle</a>								to have it post the data about the outcome, then unlock the contract.</p>
+								<p>Bayan an san sakamakon, <a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">tattauna tare da labaran wasanni</a> don a rubuta shi game da sakamakon, sa'annan ka buɗe kwangilar.</p>
 
 								<div class="space"></div>
 							</div>
@@ -449,8 +448,8 @@
 					<div class="space"></div> 
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">P2P payments in chat</h2>
-							<p class="lead text-left">Chat and pay in the same app just by clicking links.</p>
+							<h2 class="title text-left">Biyan P2P a cikin hira</h2>
+							<p class="lead text-left">A yi hira kuma biya a cikin wannan app ta hanyar latsa hanyoyin.</p>
 							<div class="space"></div>
 						</div>
 						<div class="col-md-6">
@@ -475,9 +474,8 @@
 					<div class="row">
 						<div class="col-md-4 col-md-push-6">
 							<h2 class="title text-left">Chatbots</h2>
-							<p class="lead text-left">Talk to a bot like you would talk to a human.</p>
-							<p>Shop by chatting with a merchant's bot, pay in two clicks. Exchanges and other services are also easy to use in conversational
-								interface.</p>
+							<p class="lead text-left">Yi magana da bot dan dam kamar kana magana da mutum.</p>
+							<p>Siya kaya ta hanyar yin hira tare da mahalarta mai ciniki, biya a cikin dannawa biyu. Canje-canje da sauran ayyuka suna da sauƙin yin amfani da su a cikin karamin tattaunawa.</p>
 						<div class="space"></div>
 						</div>
 						<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
@@ -504,9 +502,9 @@
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
 							<h2 class="title text-left">Bot Store</h2>
-							<p class="lead text-left">Easily discover and add new chatbots via the built-in Bot Store.</p>
-							<p>Developers have instant access to all users by publishing their chatbot on the Bot Store. See the <a href="https://github.com/byteball/byteballcore/wiki/Writing-chatbots-for-Byteball"
-								 target="_blank">developer guide about building chatbots.</a></p>
+							<p class="lead text-left">Sauƙin ganowa da kuma ƙara sababbin kalmomi ta hanyar Gidan ɗakin Bot Store.</p>
+							<p>Masu haɓaka suna samun dama ga duk masu amfani ta hanyar wallafa shafin yanar gizon su a kan Bot Store. Dubi <a href="https://github.com/byteball/byteballcore/wiki/Writing-chatbots-for-Byteball"
+								 target="_blank">jagorar mai gudanarwa game da gina gwanon kalmomi.</a></p>
 						<div class="space"></div>
 						</div>
 						<div class="col-md-6">
@@ -529,11 +527,10 @@
 					 <div class="space"></div> 
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Untraceable currency: Blackbytes</h2>
-							<p class="lead text-left">Cash-like privacy.</p>
-							<p>When you want complete privacy, pay in Blackbytes, a cash-like untraceable currency whose transactions are not visible
-								on the public database, they are sent peer-to-peer instead.</p>
-							<p>Use built-in TOR switch straight from the wallet to increase your privacy even further.</p>
+							<h2 class="title text-left">Kudin da ba tare da kyauta ba: Blackbytes</h2>
+							<p class="lead text-left">Sirrin kuɗi.</p>
+							<p>Lokacin da kake son cikakken sirri, biya a Blackbytes, kudin da ba a karɓar ba kamar yadda ba a iya gani ba a kan bayanan jama'a, ana aika su dira-daki a maimakon haka.</p>
+							<p>Yi amfani da TOR mai ɗawainiya a madaidaici daga walat don ƙara sirrinka har ma da kara.</p>
 
 
 						</div>
@@ -563,10 +560,9 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-								<h2 class="title text-left">Users help each other</h2>
-								<p class="lead text-left">Secure each other's transactions.</p>
-								<p>There is no central entity that stores and processes all the payments.  Instead, transactions created by users are
-									cryptographically linked to each other, and once you add your new transaction, other users start adding theirs on top of yours, and the number of other transactions that link to your transaction grows like snowball (that's why we call it Byteball).</p>
+								<h2 class="title text-left">Masu amfani su na taimakawa juna</h2>
+								<p class="lead text-left">Tabbatar da ma'amala da juna.</p>
+								<p>Babu wani ɗayan tsakiya wanda yake riƙe da kuma yin duka biyan kudin.  Maimakon haka, ƙididdigar da masu amfani ke sanyawa suna da alaka da juna, kuma da zarar ka ƙara sabon ma'amala, wasu masu amfani zasu fara ƙara nasu a saman naka, kuma yawan adadin sauran ma'amaloli da suka danganta da ma'amalarka suna girma kamar snowball (shi ya sa muka kira shi Byteball).</p>
 
 							</div>
 							<div class="col-md-6">
@@ -598,41 +594,37 @@
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
 					<h3 class="media-heading">Atomic exchange</h3>
-					<p>When two parties sign a single unit that executes both legs of the exchange, the two transactions either happen simultaneously
-						or don't happen at all. It is no longer necessary to trust any centralized exchanges.</p>
+					<p>Idan jam'iyyun biyu suka sa hannu guda ɗaya da ke ɗauke da ƙafafu biyu na musayar, waɗannan ma'amaloli biyu suna faruwa a lokaci ɗaya ko ba su faru ba. Ba dole ba ne a amince da musayar ra'ayi.</p>
 					<div class="space-res"></div>
 				</div>
 				<div class="col-sm-4">
 					<h3 class="media-heading">Regulated assets</h3>
-					<p>Regulated institutions can issue assets that are compatible with KYC/AML requirements. Every transfer of such asset
-						is to be cosigned by the issuer, and if there is anything that contradicts the regulations, the issuer won't cosign.</p>
+					<p>Ƙididdigar hukumomi za su iya ba da dukiya waɗanda suke dacewa da bukatun KYC / AML. Kowane canja wurin irin wannan kadari dole ne a bayar da shi ta hanyar mai bayarwa, kuma idan akwai wani abin da ya saba wa ka'idojin, mai ba da kyauta ba zai daɗe ba.</p>
 				</div>
 			</div>
 			<div class="space"></div>
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
 					<h3 class="media-heading">Multi signature</h3>
-					<p>For security, you can require that your funds be spendable only when several signatures are provided, e.g. from your
-						laptop and from your phone. For shared control of funds, signatures from different people may be required.</p>
+					<p>Don tsaro, zaka iya buƙatar kuɗin ne kawai idan an bayar da takardun yawa, misali. daga kwamfutar tafi-da-gidanka da kuma daga wayarka. Domin kula da kuɗin, ana iya buƙatar sa hannu daga mutane daban-daban.</p>
 					<div class="space-res"></div>
 				</div>
 
 				<div class="col-sm-4">
 					<h3 class="media-heading">On-chain oracles</h3>
-					<p>When dealing with untrusted counterparties, you can lock the funds on an address that is spendable either by you or
-						by the counterparty, depending on the events registered to the database by trusted data providers &mdash; oracles.</p>
+					<p>Lokacin da ake hulɗa da takwarorinsu ba tare da izini ba, za ka iya kulle kudi a kan adireshin da yake da amfani ko dai ta hanyarka ko ta abokin ciniki, dangane da abubuwan da aka yi rajista zuwa ga bayanai ta hanyar masu bada bayanai - asali.</p>
 				</div>
 			</div>
 			<div class="space"></div>
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
 					<h3 class="media-heading">Immutable storage</h3>
-					<p>Once stored in the Byteball database, the data can neither be revised nor removed.</p>
+					<p>Da zarar an adana shi a cikin Asusun Byteball, ba za a sake sabunta bayanan ba.</p>
 					<div class="space-res"></div>
 				</div>
 				<div class="col-sm-4">
 					<h3 class="media-heading">Settlement finality</h3>
-							<p>After certain criteria are met, a new transaction becomes final. It cannot be revised even by a powerful attacker.  No guesswork about the right number of confirmations, no 51% attacks.</p>
+							<p>Bayan an cika wasu sharuddan, sabon ma'amala ya zama karshe. Ba za a iya sake bita ko da wani mai karfi hari ba. Babu wani abu game da hakikanin adadin tabbatarwa, babu hare-haren 51%.</p>
 				</div>
 			</div>
 		</div>
@@ -672,27 +664,26 @@
 						<div><a target="_blank" href="https://play.google.com/store/apps/details?id=org.byteball.wallet">Android</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-win64.exe"><img src="img/icon-microsoft.svg"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-win64.exe">Windows</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-win64.exe"><img src="img/icon-microsoft.svg"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-win64.exe">Windows</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-osx64.dmg"><img src="img/icon-mac-os-x.svg"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-osx64.dmg">Mac</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-osx64.dmg"><img src="img/icon-mac-os-x.svg"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-osx64.dmg">Mac</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/byteball-linux64.zip"><img src="img/linux.png"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/byteball-linux64.zip">Linux</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/byteball-linux64.zip"><img src="img/linux.png"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/byteball-linux64.zip">Linux</a></div>
 					</div>
 					<div class="app">
 						<div><a target="_blank" href="https://github.com/byteball/byteball"><img src="img/fi-social-github.svg"/></a></div>
-						<div><a target="_blank" href="https://github.com/byteball/byteball">GitHub</a></div>
+						<div><a target="_blank" href="https://github.com/byteball/byteball">Github</a></div>
 					</div>
 					<div class="space"></div>
 					<ul class="list-unstyled text-left">
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">Buy or sell bytes</a> by chatting	with a trading bot</li>
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="https://medium.com/byteball/making-p2p-great-again-episode-ii-bitcoin-exchange-d98adfbde2a5" target="_blank">P2P exchange bytes vs bitcoins</a>,
-						get your merkle proof by chatting with <a href="byteball:A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@byteball.org/bb#0000">BTC Oracle</a><br></li>
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> View public transactions on the <a href="https://explorer.byteball.org" target="_blank">DAG explorer</a></li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">Saya ko sayar da bytes</a> ta hanyar yin hira tare da bakar kasuwanci</li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="https://medium.com/byteball/making-p2p-great-again-episode-ii-bitcoin-exchange-d98adfbde2a5" target="_blank">P2P musayar bytes da bitcoins</a>, samun hujjar kuɗi ta hanyar hira da <a href="byteball:A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@byteball.org/bb#0000">BTC Oracle</a><br></li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> Duba tallan jama'a a kan mai <a href="https://explorer.byteball.org" target="_blank">bincike na DAG</a></li>
 								<!-- <li><i class="fa fa-caret-right pr-10 text-colored"></i> Dignissimos molestiae necessitatibus</li> -->
 							</ul>
 					 <!-- <h4 style="font-weight: 500;">After installing, <a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">chat with the Transition Bot</a>	to participate in the next distribution round</br> -->
@@ -729,23 +720,25 @@
 						<p class="lead text-left">Free distribution for mass adoption.</p>
 						<p>Mass adoption requires wide distribution, that's why 99% of all bytes and blackbytes are to be distributed for free.  Currently, we use several ways to distribute them:</p>
 						<ul>
-							<li><a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Cashback</a> for purchases at the merchant stores we partner with.  In most cases, the offered cashback is 10% of the purchase amount.  <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Fill out the application form</a> or <script>document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">');</script>contact us<script>document.write('</a>');</script> if you run a store or a payment processor and want to be part of the cashback program.</li>
+							<li><a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Cashback</a> for purchases at the merchant stores we partner with.  A mafi yawan lokuta, tsabar kudi da aka bayar yana da kashi 10% na adadin sayan.  <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Cika fom na takardar shaidar</a> ko <script>tuntube mu idan('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">');</script> kuna da kantin<script> sayarwa ko kuma ('</a>');</script>mai biyan kuɗi kuma kuna so ku kasance wani ɓangare na shirin cashback.</li>
 							<li><a href="https://medium.com/byteball/distribution-to-verified-users-and-referrals-ed00b9b2a30e" target="_blank">Verification rewards and referral rewards</a> to those who verify their real name.</li>
+							<li><a href="https://medium.com/byteball/distribution-to-verified-emails-and-sending-cryptocurrency-to-email-episode-ii-cb955fe19d7e" target="_blank">Verification rewards and referral rewards</a> to those who verify their email address.</li>
+							<li>Rewards to those who participate in <a href="https://bitcointalk.org/index.php?topic=3162547.0">our signature campaign on Bitcointalk</a>.</li>
 							<li>Giveaways distributed e.g. through youtube channels of our supporters.  See e.g. <a href="https://www.youtube.com/watch?v=hycluITNDBM" target="_blank">https://www.youtube.com/watch?v=hycluITNDBM</a>.</li>
 							<li><a href="https://medium.com/byteball-help/using-mailchimp-to-mass-send-payments-as-textcoins-5c1db06342e3" target="_blank">Mass sending of textcoins</a> to subscribers of our partners.  See the <a href="https://docs.google.com/spreadsheets/d/1heT6TUSpTJgRW-FUM0LbcoVjXZRCb3PbXQQLmzvNRvM/edit#gid=323859176" target="_blank">results of the previous campaigns</a>.</li>
 						</ul>
 						
-						<p>In the past, we also distributed Bytes to BTC holders and existing holders of Bytes.  Users used to link their BTC and Byteball addresses and were receiving new Bytes in proportion to their existing balances in BTC and Bytes.  This distribution was split into several rounds.  The first distribution round took place on Dec 25, 2016 when the network launched, over 70,000 BTC was linked, and 10% of the total supply of bytes and blackbytes was distributed.  In the subsequent rounds, the total distributed supply reached 64.5%:</p>
+						<p>In the past, we also distributed Bytes to BTC holders and existing holders of Bytes.  Users used to link their BTC and Byteball addresses and were receiving new Bytes in proportion to their existing balances in BTC and Bytes.  This distribution was split into several rounds.  An fara rukunin farko a ranar 25 ga watan Disamba, 2016 lokacin da cibiyar sadarwa ta kaddamar, an hada da 70,000 BTC, kuma kashi 10 cikin 100 na dukiyar da aka ba da bytes da blackbytes aka rarraba.  In the subsequent rounds, the total distributed supply reached 64.5%:</p>
 						<ul>
-							<li>2nd round on Feb 11, 2017: 121,763 BTC linked, 1.8% distributed;</li>
-							<li>3rd round on Mar 12, 2017: 129,139 BTC linked, 2.0% distributed;</li>
-							<li>4th round on Apr 11, 2017: 145,441 BTC linked, 2.3% distributed;</li>
-							<li>5th round on May 10, 2017: 207,672 BTC linked, 2.9% distributed;</li>
-							<li>6th round on Jun 9, 2017: 453,621 BTC linked, 6.6% distributed;</li>
-							<li>7th round on Jul 9, 2017: 949,004 BTC linked, 11.0% distributed.</li>
-							<li>8th round on Aug 7, 2017: 1,395,899 BTC linked, 16.0% distributed.</li>
-							<li>9th round on Sep 6, 2017: 1,306,573 BTC linked, 5.7% distributed.</li>
-							<li>10th round on Nov 4, 2017: 1,093,155 BTC linked, 6.1% distributed.</li>
+							<li>2nd zagaye a Feb 11, 2017: 121,763 BTC nasaba, 1.8% rarraba;</li>
+							<li>3rd round on Mar 12, 2017: 129,139 BTC nasaba, 2.0% rarraba;</li>
+							<li>4th round on Apr 11, 2017: 145,441 BTC nasaba, 2.3% rarraba;</li>
+							<li>5th round on May 10, 2017: 207,672 BTC nasaba, 2.9% rarraba;</li>
+							<li>6th round on Jun 9, 2017: 453,621 BTC nasaba, 6.6% rarraba;</li>
+							<li>7th round Jul 9, 2017: 949,004 BTC nasaba, 11.0% rarraba.</li>
+							<li>8th round on Aug 7, 2017: 1,395,899 BTC nasaba, 16.0% rarraba.</li>
+							<li>9th round on Sep 6, 2017: 1,306,573 BTC nasaba, 5.7% rarraba.</li>
+							<li>Ranar 10 ga watan Nuwamba, 2017: 1,093,155 BTC ta haɗa, 6.1% rarraba.</li>
 						</ul>
 					</div>
 				</div>
@@ -774,13 +767,10 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<p class="lead text-left">Unbounded scalability, fast confirmations, no miners, no blocks, low fees.</p>
-						<p>Byteball data is stored and ordered using <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">directed acyclic graph</a>							(DAG) rather than blockchain. This allows all users to secure each other's data by referencing earlier data units
-							created by other users, and also removes scalability limits common for blockchains, such as blocksize issue.</p>
-						<p>Blockless design is simpler because there are no blocks, there are only transactions.  Users just add their transactions to the end of the DAG themselves, they don't have to wait when miners create a new block and there is no guesswork whether miners will include your transaction in the block.</p>
-						<p>The consensus algorithm used to protect from double-spends is based on establishing a total order within the DAG. This
-							is achieved by selecting a chain, called main chain, which gravitates towards units issued by commonly recognized
-							reputable users &mdash; witnesses. See the <a href="Byteball.pdf">white paper</a> for details.</p>
+						<p class="lead text-left">Ƙarfafawa marar daidaituwa, tabbatarwa mai ƙarfi, ba masu aiki ba, ko tubalan, ƙananan kudade.</p>
+						<p>Ana adana Byteball data ne da kuma yin umurni ta yin <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">amfani da hotunan</a> (DAG) maimakon blockchain. Wannan yana bawa duk masu amfani damar tabbatar da bayanan wasu ta hanyar yin la'akari da rahotannin bayanan da wasu masu amfani suka tsara, kuma yana kawar da iyakokin da ake amfani da shi don batutuwan, kamar su batun blocksize.</p>
+						<p>Bincike marar iyaka ya fi sauƙi saboda babu tubalan, akwai kawai ma'amaloli.  Masu amfani kawai ƙara haɗarsu zuwa ƙarshen DAG kansu, ba sa jira lokacin da masu hakar ma'adinai suka kirkiro sabon sashi kuma babu wani abin da za a yi idan masu hakar gwal za su haɗa da ma'amala a cikin toshe.</p>
+						<p>Abinda aka yi amfani da shi don kare shi daga biyan kuɗi yana dogara ne akan kafa tsari a cikin DAG. Ana samun wannan ta hanyar zaɓin sarkar, wanda ake kira sakin sakonni, wanda yake ƙaddamarwa zuwa ɓangaren da aka ba da shaidar masu amfani - masu shaida. Dubi <a href="Byteball.pdf">farin takarda</a> don cikakkun bayanai.</p>
 
 					</div>
 				</div>
@@ -797,8 +787,7 @@
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
 						<h2 class="text-left">Testnet</h2>
-						<p><a href="testnet.html">Testnet wallet</a> is also available if you are a developer or want to experience the features
-							of Byteball without spending a penny.</p>
+						<p><a href="testnet.html">Testnet wallet</a> yana samuwa idan kun kasance mai tasowa ko kuma so ku san abubuwan da ke cikin Byteball ba tare da kuɗin din din din din ba.</p>
 
 					</div>
 				</div>
@@ -814,8 +803,7 @@
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
 						<h2 class="text-left">Community and Support</h2>
-						<p>Join Byteball on <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>! There are many channels with lively discussions about future developments, trading, auctions,
-							to name just a few. If you have any issues with the Byteball wallet, our competent support staff will take care of
+						<p>Join Byteball on <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>! Akwai tashoshi da yawa tare da tattaunawar da ta dace game da abubuwan da zasu faru a nan gaba, ciniki, auctions, don suna kawai kaɗan. If you have any issues with the Byteball wallet, our competent support staff will take care of
 							it at the #helpdesk channel in our slack <a href="https://slack.byteball.org" target="_blank" title="Slack">slack.byteball.org</a>.</p>
 
 					</div>
@@ -832,7 +820,7 @@
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
 						<h2 class="text-left">Exchanges</h2>
-						<p>You can buy or sell bytes without leaving the wallet by <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">chatting with a trading bot</a>.
+						<p>Zaku iya saya ko sayar da bytes ba tare da barin walat ta <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">hanyar hira da trading bot ba</a>.
 							You can also trade on the exchanges listed below.</p>
 						<p>To buy or sell blackbytes, see or post orders in <a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a>							channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>, then exchange peer-to-peer
 							using <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">bound (conditional) payments.</a></p>

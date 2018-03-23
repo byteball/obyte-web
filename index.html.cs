@@ -68,7 +68,7 @@
 						<!-- Toggle get grouped for better mobile display -->
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-									<span class="sr-only">Toggle navigation</span>
+									<span class="sr-only">Navigace</span>
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
@@ -78,11 +78,11 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 							<ul class="nav navbar-nav">
-								<li><a href="#why">Why</a></li>
-								<li><a href="#core">Features</a></li>
-								<li><a href="#download">Download</a></li>
-								<li><a href="#dist">Distribution</a></li>
-								<li><a href="#tech">Technology</a></li>
+								<li><a href="#why">Proč</a></li>
+								<li><a href="#core">Vlastnosti</a></li>
+								<li><a href="#download">Ke stažení</a></li>
+								<li><a href="#dist">Distribuce</a></li>
+								<li><a href="#tech">Technologie</a></li>
 								<li><a href="https://wiki.byteball.org" target="_blank" title="Wiki">Wiki</a></li>
 								<li><a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
 								<li><a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
@@ -230,8 +230,8 @@
 					<div class="row text-center">
 						<h2>Chytré platby jednoduše</h2>
 
-						<p><a class="btn btn-lg btn-success" href="#download" role="button">Get Byteball wallet</a></p>
-						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> Read the whitepaper</a></p>
+						<p><a class="btn btn-lg btn-success" href="#download" role="button">Získejte Byteball peněženku</a></p>
+						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> Přečtěte si whitepaper</a></p>
 					</div>
 					<div class="space"></div>
 					
@@ -239,8 +239,8 @@
 					<!--p class="lead what-is">Byteball is an alternative legal system based on smart contracts.</p>
 					<p class="lead what-is">When a contract is created on Byteball, it just works exactly as agreed upon.  Trust in the counterparty and reliance on the slow and expensive conventional legal system are not required any more as the contracts are enforced by the immutable rules of the decentralized platform.  See below the types of contracts available today.</p-->
 					
-					<p class="lead what-is">Byteball enables trust where trust couldn’t exist before.</p>
-					<p class="lead what-is">When a contract is created on Byteball platform, it can be trusted to work exactly as agreed upon.  Why? Because it is validated by multiple nodes on the decentralized network, which all follow the same immutable rules.  The counterparty, even if it is a total stranger, has to behave honestly because only the rules have authority.  Such a contract is called a smart contract.  See below for examples of working smart contracts available today.</p>
+					<p class="lead what-is">Byteball umožňuje důvěřovat tam, kde doposud důvěra nemohla existovat.</p>
+					<p class="lead what-is">Když je smlouva vytvořena v rámci platformy Byteball, je možné věřit, že vše proběhne přesně podle dohody.  Proč? Protože je v decentralizované síti potvrzena mnoha uzly, které mají všechny stejná neměnná pravidla.  Protistrana, i kdyby to byl úplný cizinec, se musí chovat čestně, neboť pouze pravidla mají výkonnou moc.  Taková smlouva je nazývána smart kontrakt.  Níže naleznete příklady fungujících smart kontraktů, které jsou již dostupné.</p>
 					
 					
 				</div>
@@ -259,7 +259,7 @@
 		<div id="why" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Why use Byteball?</h2>
+					<h2 class="text-center">Proč využívat Byteball?</h2>
 				</div>
 			</div>
 		</div>
@@ -273,11 +273,11 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-								<h2 class="title text-left">Risk-free conditional smart payments</h2>
-								<p class="lead text-left">Byteball allows you to do something that traditional currencies can't: <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
-								 target="_blank">conditional payments.</a></p>
+								<h2 class="title text-left">Bezrizikové podmíněné chytré platby</h2>
+								<p class="lead text-left">Byteball vám umožní něco, co tradiční měny nedovedou: <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
+								 target="_blank">podmíněné platby.</a></p>
 
-								<p>You set a condition when the payee receives the money. If the condition is not met, you get your money back.</p>
+								<p>Nastavíte podmínku, za které má příjemce platbu obdržet. Pokud podmínka není splněna, dostanete své peníze zpátky.</p>
 								<div class="space"></div>
 							</div>
 							<div class="col-md-6">
@@ -301,12 +301,11 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-4 col-md-push-6">
-							<h2 class="title text-left">P2P insurance</h2>
-							<p class="lead text-left">Hedge against negative events.</p>
-							<p>Buy insurance from peers to get paid in case a negative event occurs. Sell insurance for profit.</p>
-							<p>Insurance is just <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527"
-								 target="_blank">a simple smart contract</a> that can be unlocked by the insured &mdash; if the event in question
-								did occur, or by the insurer &mdash; otherwise.</p>
+							<h2 class="title text-left">P2P pojištění</h2>
+							<p class="lead text-left">Zajistěte se proti nepříjemným událostem.</p>
+							<p>Pořiďte si pojištění od rovnocenných uživatelů, abyste byli vyplaceni, když se vám přihodí nepříjemná událost. Nabídněte pojištění jiným za účelem zisku.</p>
+							<p>Pojištění je jen <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527"
+								 target="_blank">jednoduchým smart kontraktem</a>, který může být odemčen pojištěncem &mdash; pokud ke zmíněné události došlo, nebo pojistitelem &mdash; v opačném případě.</p>
 							<p>To insure against flight delay, find your counterpart in <a href="https://byteball.slack.com/messages/C54CDJATB/"
 								 target="_blank">#p2p_insurance</a> channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>,
 								create a contract, and if your flight arrives late, <a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000">chat with flight delays oracle</a>								to have it post the data about the delay, then unlock the contract.</p>
@@ -334,10 +333,10 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Prediction markets</h2>
-							<p class="lead text-left">Make money by correctly predicting future events.</p>
-							<p>Create a P2P smart contract that can be unlocked if a specific event occurs. Use it for <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
-								 target="_blank">betting on price movements</a>, sports betting, and insurance.</p>
+							<h2 class="title text-left">Predikční trhy</h2>
+							<p class="lead text-left">Vydělávejte přesnými předpověďmi budoucích událostí.</p>
+							<p>Vytvořte P2P smart kontrakt, který bude odemčen, pokud nastane určitá událost. Využívejte jej pro <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
+								 target="_blank">sázení na změny cen na trhu</a>, sportovní sázky a pojištění.</p>
 							<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack.</a></p>
 							<div class="space"></div>
 							</div>
@@ -361,11 +360,11 @@
 						<div class="space"></div> 
 						<div class="row">
 							<div class="col-md-4 col-md-push-6">
-								<h2 class="title text-left">P2P betting</h2>
-								<p class="lead text-left">Bet against other users on sports events.</p>
+								<h2 class="title text-left">P2P sázení</h2>
+								<p class="lead text-left">Sázejte na sportovní výsledky proti ostatním uživatelům.</p>
 								<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a>								channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a> and create a contract
 									that can be unlocked by you or your peer depending on the results of a future game.</p>
-								<p>After the result is known, <a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">chat with sports oracle</a>								to have it post the data about the outcome, then unlock the contract.</p>
+								<p>Když je výsledek znám, <a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">požádejte sports oracle</a>, aby publikoval údaje o výsledku a odemkněte kontrakt.</p>
 
 								<div class="space"></div>
 							</div>
@@ -449,8 +448,8 @@
 					<div class="space"></div> 
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">P2P payments in chat</h2>
-							<p class="lead text-left">Chat and pay in the same app just by clicking links.</p>
+							<h2 class="title text-left">P2P platby v chatu</h2>
+							<p class="lead text-left">Chatujte a plaťte v jediné aplikaci pouhým kliknutím na odkaz.</p>
 							<div class="space"></div>
 						</div>
 						<div class="col-md-6">
@@ -474,10 +473,9 @@
 					 <div class="space"></div> 
 					<div class="row">
 						<div class="col-md-4 col-md-push-6">
-							<h2 class="title text-left">Chatbots</h2>
-							<p class="lead text-left">Talk to a bot like you would talk to a human.</p>
-							<p>Shop by chatting with a merchant's bot, pay in two clicks. Exchanges and other services are also easy to use in conversational
-								interface.</p>
+							<h2 class="title text-left">Chatovací boti</h2>
+							<p class="lead text-left">Komunikujte s botem tak, jak byste komunikovali s člověkem.</p>
+							<p>Nakupujte pomocí konverzace s obchodníkovým botem a zaplaťte dvěma kliknutími. Směnárny a další služby lze také snadno využívat v konverzačním rozhraní.</p>
 						<div class="space"></div>
 						</div>
 						<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
@@ -503,10 +501,10 @@
 					 <div class="space"></div> 
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Bot Store</h2>
-							<p class="lead text-left">Easily discover and add new chatbots via the built-in Bot Store.</p>
-							<p>Developers have instant access to all users by publishing their chatbot on the Bot Store. See the <a href="https://github.com/byteball/byteballcore/wiki/Writing-chatbots-for-Byteball"
-								 target="_blank">developer guide about building chatbots.</a></p>
+							<h2 class="title text-left">Boty</h2>
+							<p class="lead text-left">Jednoduše vyhledávejte a přidávejte nové chatovací roboty prostřednictvím zabudovaného Bot Store.</p>
+							<p>Díky publikování chatovacího bota v Bot Store mají vývojáři okamžitý přístup ke všem uživatelům. Více viz <a href="https://github.com/byteball/byteballcore/wiki/Writing-chatbots-for-Byteball"
+								 target="_blank">příručka o tvorbě chatovacích botů pro vývojáře.</a></p>
 						<div class="space"></div>
 						</div>
 						<div class="col-md-6">
@@ -529,11 +527,10 @@
 					 <div class="space"></div> 
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Untraceable currency: Blackbytes</h2>
-							<p class="lead text-left">Cash-like privacy.</p>
-							<p>When you want complete privacy, pay in Blackbytes, a cash-like untraceable currency whose transactions are not visible
-								on the public database, they are sent peer-to-peer instead.</p>
-							<p>Use built-in TOR switch straight from the wallet to increase your privacy even further.</p>
+							<h2 class="title text-left">Nevystopovatelná měna: Blackbytes</h2>
+							<p class="lead text-left">Soukromí podobné hotovosti.</p>
+							<p>Chcete-li úplné soukromí, plaťte s blackbytes, nevystopovatelnou hotovosti se podobající měnou, jejíž transakce nejsou viditelné ve veřejných databázích. Namísto toho jsou posílány jen peer-to-peer mezi uživateli.</p>
+							<p>Vaše soukromí můžete ještě zvýšit spuštěním zabudovaného TOR přímo ve vaší peněžence.</p>
 
 
 						</div>
@@ -563,10 +560,9 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-								<h2 class="title text-left">Users help each other</h2>
-								<p class="lead text-left">Secure each other's transactions.</p>
-								<p>There is no central entity that stores and processes all the payments.  Instead, transactions created by users are
-									cryptographically linked to each other, and once you add your new transaction, other users start adding theirs on top of yours, and the number of other transactions that link to your transaction grows like snowball (that's why we call it Byteball).</p>
+								<h2 class="title text-left">Uživatelé si pomáhají navzájem</h2>
+								<p class="lead text-left">Zabezpečte si transakce navzájem.</p>
+								<p>Neexistuje žádná centrální autorita, která ukládá a zpracovává všechny platby.  Namísto toho jsou transakce vytvořené uživateli kryptograficky propojeny jedna s druhou a jakmile přidáte novou transakci, ostatní uživatelé za ni začnou přidávat své. Transakce se propojují a nabalují se na sebe jako sněhová koule (anglicky snowball, proto jsme vybrali název Byteball).</p>
 
 							</div>
 							<div class="col-md-6">
@@ -586,7 +582,7 @@
 		<div id="core" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Core features</h2>
+					<h2 class="text-center">Základní funkce</h2>
 				</div>
 			</div>
 		</div>
@@ -597,42 +593,38 @@
 		<div class="container ">
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
-					<h3 class="media-heading">Atomic exchange</h3>
-					<p>When two parties sign a single unit that executes both legs of the exchange, the two transactions either happen simultaneously
-						or don't happen at all. It is no longer necessary to trust any centralized exchanges.</p>
+					<h3 class="media-heading">Atomická burza</h3>
+					<p>Když dvě strany podepíší jedinou dohodu, která vykoná obě části výměny, dvě transakce buďto proběhnou zároveň, nebo neproběhnou vůbec. Není tedy nadále nutné svěřovat důvěru žádné centralizované směnárně.</p>
 					<div class="space-res"></div>
 				</div>
 				<div class="col-sm-4">
-					<h3 class="media-heading">Regulated assets</h3>
-					<p>Regulated institutions can issue assets that are compatible with KYC/AML requirements. Every transfer of such asset
-						is to be cosigned by the issuer, and if there is anything that contradicts the regulations, the issuer won't cosign.</p>
+					<h3 class="media-heading">Regulovaná aktiva</h3>
+					<p>Regulované instituce mohou vydávat jen aktiva, která jsou slučitelná s požadavky KYC/AML legislativy. Každý transfer takových aktiv musí být schválen jejich vydavatelem, a pokud se naskytne něco, co odporuje regulím, vydavatel transfer neschválí.</p>
 				</div>
 			</div>
 			<div class="space"></div>
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
-					<h3 class="media-heading">Multi signature</h3>
-					<p>For security, you can require that your funds be spendable only when several signatures are provided, e.g. from your
-						laptop and from your phone. For shared control of funds, signatures from different people may be required.</p>
+					<h3 class="media-heading">Mnohanásobné podpisy</h3>
+					<p>Z bezpečnostních důvodů můžete požadovat, aby vaše prostředky bylo možné utratit jen v případě, že je k dispozici několik podpisů, například vašeho notebooku a telefonu. Při sdílení kontroly nad prostředky mohou být také vyžadovány podpisy různých lidí.</p>
 					<div class="space-res"></div>
 				</div>
 
 				<div class="col-sm-4">
-					<h3 class="media-heading">On-chain oracles</h3>
-					<p>When dealing with untrusted counterparties, you can lock the funds on an address that is spendable either by you or
-						by the counterparty, depending on the events registered to the database by trusted data providers &mdash; oracles.</p>
+					<h3 class="media-heading">Blockchainové oracle</h3>
+					<p>Když jednáte s nedůvěryhodnými protistranami, můžete prostředky uzamknout na adrese, která je dostupná buďto vám, nebo protistraně v závislosti na událostech zaznamenaných v databázi důvěryhodnými poskytovateli informací &mdash; oracle.</p>
 				</div>
 			</div>
 			<div class="space"></div>
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
-					<h3 class="media-heading">Immutable storage</h3>
-					<p>Once stored in the Byteball database, the data can neither be revised nor removed.</p>
+					<h3 class="media-heading">Neměnné úložiště</h3>
+					<p>Jakmile jsou data uložena do databáze Byteball, nelze je ani upravit, ani odstranit.</p>
 					<div class="space-res"></div>
 				</div>
 				<div class="col-sm-4">
-					<h3 class="media-heading">Settlement finality</h3>
-							<p>After certain criteria are met, a new transaction becomes final. It cannot be revised even by a powerful attacker.  No guesswork about the right number of confirmations, no 51% attacks.</p>
+					<h3 class="media-heading">Definitivnost dohod</h3>
+							<p>Jakmile jsou splněna stanovená kritéria, nová transakce se stává definitivní. Nemůže být změněna ani silným útočníkem. Žádné spory o počet konfirmací, žádné 51% útoky.</p>
 				</div>
 			</div>
 		</div>
@@ -645,7 +637,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2  id="download"  class="text-center">Get your Byteball wallet</h2>
+					<h2  id="download"  class="text-center">Získejte svou Byteball peněženku</h2>
 				</div>
 			</div>
 		</div>
@@ -672,16 +664,16 @@
 						<div><a target="_blank" href="https://play.google.com/store/apps/details?id=org.byteball.wallet">Android</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-win64.exe"><img src="img/icon-microsoft.svg"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-win64.exe">Windows</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-win64.exe"><img src="img/icon-microsoft.svg"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-win64.exe">Windows</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-osx64.dmg"><img src="img/icon-mac-os-x.svg"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/Byteball-osx64.dmg">Mac</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-osx64.dmg"><img src="img/icon-mac-os-x.svg"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-osx64.dmg">Mac</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/byteball-linux64.zip"><img src="img/linux.png"/></a></div>
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.1.0/byteball-linux64.zip">Linux</a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/byteball-linux64.zip"><img src="img/linux.png"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/byteball-linux64.zip">Linux</a></div>
 					</div>
 					<div class="app">
 						<div><a target="_blank" href="https://github.com/byteball/byteball"><img src="img/fi-social-github.svg"/></a></div>
@@ -689,10 +681,9 @@
 					</div>
 					<div class="space"></div>
 					<ul class="list-unstyled text-left">
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">Buy or sell bytes</a> by chatting	with a trading bot</li>
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="https://medium.com/byteball/making-p2p-great-again-episode-ii-bitcoin-exchange-d98adfbde2a5" target="_blank">P2P exchange bytes vs bitcoins</a>,
-						get your merkle proof by chatting with <a href="byteball:A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@byteball.org/bb#0000">BTC Oracle</a><br></li>
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> View public transactions on the <a href="https://explorer.byteball.org" target="_blank">DAG explorer</a></li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">Kupujte a prodávejte bytes</a> při rozhovoru s obchodním botem</li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="https://medium.com/byteball/making-p2p-great-again-episode-ii-bitcoin-exchange-d98adfbde2a5" target="_blank">P2P směnárna bytes za bitcoin</a>, hašový důkaz získáte chatováním s <a href="byteball:A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@byteball.org/bb#0000">BTC Oracle</a><br></li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> Zobrazte si veřejné transakce v <a href="https://explorer.byteball.org" target="_blank">DAG exploreru</a></li>
 								<!-- <li><i class="fa fa-caret-right pr-10 text-colored"></i> Dignissimos molestiae necessitatibus</li> -->
 							</ul>
 					 <!-- <h4 style="font-weight: 500;">After installing, <a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">chat with the Transition Bot</a>	to participate in the next distribution round</br> -->
@@ -713,7 +704,7 @@
 		<div id="dist" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Fair initial distribution</h2>
+					<h2 class="text-center">Spravedlivé počáteční rozdělení</h2>
 				</div>
 			</div>
 		</div>
@@ -729,23 +720,25 @@
 						<p class="lead text-left">Free distribution for mass adoption.</p>
 						<p>Mass adoption requires wide distribution, that's why 99% of all bytes and blackbytes are to be distributed for free.  Currently, we use several ways to distribute them:</p>
 						<ul>
-							<li><a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Cashback</a> for purchases at the merchant stores we partner with.  In most cases, the offered cashback is 10% of the purchase amount.  <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Fill out the application form</a> or <script>document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">');</script>contact us<script>document.write('</a>');</script> if you run a store or a payment processor and want to be part of the cashback program.</li>
+							<li><a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Cashback</a> for purchases at the merchant stores we partner with.  Ve většině případů je nabízený cashback ve výši 10 % celkové kupní ceny.  Chcete-li váš obchod nebo platební bránu zařadit do našeho cashback systému, <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">vyplňte kontaktní formulář</a> nebo <script>document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">');</script>nás kontaktujte<script>document.write('</a>');</script>.</li>
 							<li><a href="https://medium.com/byteball/distribution-to-verified-users-and-referrals-ed00b9b2a30e" target="_blank">Verification rewards and referral rewards</a> to those who verify their real name.</li>
+							<li><a href="https://medium.com/byteball/distribution-to-verified-emails-and-sending-cryptocurrency-to-email-episode-ii-cb955fe19d7e" target="_blank">Verification rewards and referral rewards</a> to those who verify their email address.</li>
+							<li>Rewards to those who participate in <a href="https://bitcointalk.org/index.php?topic=3162547.0">our signature campaign on Bitcointalk</a>.</li>
 							<li>Giveaways distributed e.g. through youtube channels of our supporters.  See e.g. <a href="https://www.youtube.com/watch?v=hycluITNDBM" target="_blank">https://www.youtube.com/watch?v=hycluITNDBM</a>.</li>
 							<li><a href="https://medium.com/byteball-help/using-mailchimp-to-mass-send-payments-as-textcoins-5c1db06342e3" target="_blank">Mass sending of textcoins</a> to subscribers of our partners.  See the <a href="https://docs.google.com/spreadsheets/d/1heT6TUSpTJgRW-FUM0LbcoVjXZRCb3PbXQQLmzvNRvM/edit#gid=323859176" target="_blank">results of the previous campaigns</a>.</li>
 						</ul>
 						
-						<p>In the past, we also distributed Bytes to BTC holders and existing holders of Bytes.  Users used to link their BTC and Byteball addresses and were receiving new Bytes in proportion to their existing balances in BTC and Bytes.  This distribution was split into several rounds.  The first distribution round took place on Dec 25, 2016 when the network launched, over 70,000 BTC was linked, and 10% of the total supply of bytes and blackbytes was distributed.  In the subsequent rounds, the total distributed supply reached 64.5%:</p>
+						<p>In the past, we also distributed Bytes to BTC holders and existing holders of Bytes.  Users used to link their BTC and Byteball addresses and were receiving new Bytes in proportion to their existing balances in BTC and Bytes.  This distribution was split into several rounds.  První kolo rozdělování mincí proběhlo 25. prosince 2016, kdy byla síť spuštěna. Celkem bylo propojeno více než 70 000 BTC a rozdáno 10 % celkové zásoby bytes a blackbytes.  In the subsequent rounds, the total distributed supply reached 64.5%:</p>
 						<ul>
-							<li>2nd round on Feb 11, 2017: 121,763 BTC linked, 1.8% distributed;</li>
-							<li>3rd round on Mar 12, 2017: 129,139 BTC linked, 2.0% distributed;</li>
-							<li>4th round on Apr 11, 2017: 145,441 BTC linked, 2.3% distributed;</li>
-							<li>5th round on May 10, 2017: 207,672 BTC linked, 2.9% distributed;</li>
-							<li>6th round on Jun 9, 2017: 453,621 BTC linked, 6.6% distributed;</li>
-							<li>7th round on Jul 9, 2017: 949,004 BTC linked, 11.0% distributed.</li>
-							<li>8th round on Aug 7, 2017: 1,395,899 BTC linked, 16.0% distributed.</li>
-							<li>9th round on Sep 6, 2017: 1,306,573 BTC linked, 5.7% distributed.</li>
-							<li>10th round on Nov 4, 2017: 1,093,155 BTC linked, 6.1% distributed.</li>
+							<li>2. kolo dne 11. února 2017: propojeno 121 763 BTC, rozdáno 1,8 % celkové zásoby bytes;</li>
+							<li>3. kolo dne 12. března 2017: propojeno 129 139 BTC, rozdáno 2 % celkové zásoby bytes;</li>
+							<li>4. kolo dne 11. dubna 2017: propojeno 145 441 BTC, rozdáno 2,3 % celkové zásoby bytes;</li>
+							<li>5. kolo dne 10. května 2017: propojeno 207 672 BTC, rozdáno 2,9 % celkové zásoby bytes;</li>
+							<li>6. kolo dne 9. června 2017: propojeno 453 621 BTC, rozdáno 6,6 % celkové zásoby bytes;</li>
+							<li>7. kolo dne 9. července 2017: propojeno 949 004 BTC, rozdáno 11 % celkové zásoby bytes.</li>
+							<li>8. kolo dne 7. srpna 2017: propojeno 1 395 899 BTC, rozdáno 16 % celkové zásoby bytes.</li>
+							<li>9. kolo dne 6. září 2017: propojeno 1 306 573 BTC, rozdáno 5.7 % celkové zásoby bytes.</li>
+							<li>10. kolo dne 4. listopadu 2017: propojeno 1 093 155 BTC, rozdáno 6.1 % celkové zásoby bytes.</li>
 						</ul>
 					</div>
 				</div>
@@ -760,7 +753,7 @@
 		<div id="tech" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Completely new technology</h2>
+					<h2 class="text-center">Zcela nová technologie</h2>
 				</div>
 			</div>
 		</div>
@@ -774,13 +767,10 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<p class="lead text-left">Unbounded scalability, fast confirmations, no miners, no blocks, low fees.</p>
-						<p>Byteball data is stored and ordered using <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">directed acyclic graph</a>							(DAG) rather than blockchain. This allows all users to secure each other's data by referencing earlier data units
-							created by other users, and also removes scalability limits common for blockchains, such as blocksize issue.</p>
-						<p>Blockless design is simpler because there are no blocks, there are only transactions.  Users just add their transactions to the end of the DAG themselves, they don't have to wait when miners create a new block and there is no guesswork whether miners will include your transaction in the block.</p>
-						<p>The consensus algorithm used to protect from double-spends is based on establishing a total order within the DAG. This
-							is achieved by selecting a chain, called main chain, which gravitates towards units issued by commonly recognized
-							reputable users &mdash; witnesses. See the <a href="Byteball.pdf">white paper</a> for details.</p>
+						<p class="lead text-left">Neomezená škálovatelnost, rychlé potvrzení transakcí, žádní težaři, žádné bloky, nízké poplatky.</p>
+						<p>Data Byteballu jsou ukládána a čtena pomocí <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">přímého acyklického grafu</a> (DAG), nikoli blockchainu. To umožňuje všem uživatelům zabezpečovat si vzájemně data pomocí odkazů na datové jednotky vytvořené jinými uživateli, a také odstraňuje limity škálování obvyklé pro blockchain, například problematiku velikosti bloku.</p>
+						<p>Design bez bloků je jednodušší, namísto bloků jsou jen transakce.  Uživatelé jednoduše sami přidávají své transakce na konec DAG. Nemusí tedy čekat, až těžaři vytvoří nový blok, a není třeba odhadovat, zda těžaři jejich transakci do bloku zařadí.</p>
+						<p>Konsensuální algoritmus, který je využíván k ochraně před dvojím utrácením, je založen na stanovení celkového pořadí v rámci DAG. Toho je dosaženo volbou řetězce zvaného mlutiřetězec, který spoléhá na jednotky vydané obecně uznanými uživateli s dobrou reputací &mdash; svědky. Více informací naleznete ve <a href="Byteball.pdf">white paper</a>.</p>
 
 					</div>
 				</div>
@@ -797,8 +787,7 @@
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
 						<h2 class="text-left">Testnet</h2>
-						<p><a href="testnet.html">Testnet wallet</a> is also available if you are a developer or want to experience the features
-							of Byteball without spending a penny.</p>
+						<p>Jste-li developer nebo chcete-li vyzkoušet všechny vlastnost Byteball, aniž by vás to stálo jediný halíři, můžete využít <a href="testnet.html">testnet peněženku</a>.</p>
 
 					</div>
 				</div>
@@ -813,9 +802,8 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<h2 class="text-left">Community and Support</h2>
-						<p>Join Byteball on <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>! There are many channels with lively discussions about future developments, trading, auctions,
-							to name just a few. If you have any issues with the Byteball wallet, our competent support staff will take care of
+						<h2 class="text-left">Komunita a podpora</h2>
+						<p>Join Byteball on <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>! Je tam celá řada kanálů se živou diskusí, jmenujme alespoň ty věnované budoucímu vývoji, obchodování či aukcím. If you have any issues with the Byteball wallet, our competent support staff will take care of
 							it at the #helpdesk channel in our slack <a href="https://slack.byteball.org" target="_blank" title="Slack">slack.byteball.org</a>.</p>
 
 					</div>
@@ -831,8 +819,8 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<h2 class="text-left">Exchanges</h2>
-						<p>You can buy or sell bytes without leaving the wallet by <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">chatting with a trading bot</a>.
+						<h2 class="text-left">Burzy</h2>
+						<p>Bytes můžete snadno kupovat nebo prodávat přímo ve vaší peněžence <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">chatováním s trading bot</a>.
 							You can also trade on the exchanges listed below.</p>
 						<p>To buy or sell blackbytes, see or post orders in <a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a>							channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>, then exchange peer-to-peer
 							using <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">bound (conditional) payments.</a></p>
@@ -904,7 +892,7 @@
 					<p>The attestation bot will let you know as soon the result is known.</p>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Zavřit</button>
 				</div>
 			</div>
 

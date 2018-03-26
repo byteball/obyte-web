@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!-->
-<html lang="et">
+<html lang="ar">
 <!--<![endif]-->
 
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="Smart payments made simple">
+	<meta name="description" content="المدفوعات الذكية المبسطة">
 	<meta name="author" content="Byteball">
 	<link rel="icon" href="img/icon_16x16@2x.png">
 
@@ -56,7 +56,7 @@
 						 <a href="#banner"><img id="logo" src="img/icon-white-outline-1024.png" alt="Byteball logo" style="max-width: 55px;"></a> 
 					</div>
 					<div class="site-name">
-						 <a href="#banner">Byteball</a> 
+						 <a href="#banner">بايتبل</a> 
 					</div>
 				</div>
 
@@ -68,7 +68,7 @@
 						<!-- Toggle get grouped for better mobile display -->
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-									<span class="sr-only">Toggle navigation</span>
+									<span class="sr-only">تبديل التصفح</span>
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
@@ -78,12 +78,12 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 							<ul class="nav navbar-nav">
-								<li><a href="#why">Why</a></li>
-								<li><a href="#core">Features</a></li>
-								<li><a href="#download">Download</a></li>
-								<li><a href="#dist">Distribution</a></li>
-								<li><a href="#tech">Technology</a></li>
-								<li><a href="https://wiki.byteball.org" target="_blank" title="Wiki">Wiki</a></li>
+								<li><a href="#why">لماذا؟</a></li>
+								<li><a href="#core">الميزات</a></li>
+								<li><a href="#download">تحميل</a></li>
+								<li><a href="#dist">التوزيع</a></li>
+								<li><a href="#tech">التكنولوجيا</a></li>
+								<li><a href="https://wiki.byteball.org" target="_blank" title="ويكي">ويكي</a></li>
 								<li><a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
 								<li><a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
 								<li><a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="BitcoinTalk thread"><i class="fa fa-bitcoin"></i></a></li>
@@ -224,14 +224,14 @@
 						<svg height="128" width="128">
 							<circle cx="64" cy="64" r="56" stroke="#2c3e50" stroke-width="8" fill="white" />
 						</svg> 
-						<div style="margin-top: -15px;">Byteball</div>
+						<div style="margin-top: -15px;">بايتبل</div>
 					</div>
 					<div class="space"></div>
 					<div class="row text-center">
-						<h2>Smart payments made simple</h2>
+						<h2>المدفوعات الذكية المبسطة</h2>
 
-						<p><a class="btn btn-lg btn-success" href="#download" role="button">Get Byteball wallet</a></p>
-						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> Read the whitepaper</a></p>
+						<p><a class="btn btn-lg btn-success" href="#download" role="button">احصل على محفظة بايتبل</a></p>
+						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> اقرأ الوثيقة البيضاء</a></p>
 					</div>
 					<div class="space"></div>
 					
@@ -239,8 +239,8 @@
 					<!--p class="lead what-is">Byteball is an alternative legal system based on smart contracts.</p>
 					<p class="lead what-is">When a contract is created on Byteball, it just works exactly as agreed upon.  Trust in the counterparty and reliance on the slow and expensive conventional legal system are not required any more as the contracts are enforced by the immutable rules of the decentralized platform.  See below the types of contracts available today.</p-->
 					
-					<p class="lead what-is">Byteball enables trust where trust couldn’t exist before.</p>
-					<p class="lead what-is">When a contract is created on Byteball platform, it can be trusted to work exactly as agreed upon.  Why? Because it is validated by multiple nodes on the decentralized network, which all follow the same immutable rules.  The counterparty, even if it is a total stranger, has to behave honestly because only the rules have authority.  Such a contract is called a smart contract.  See below for examples of working smart contracts available today.</p>
+					<p class="lead what-is">بايتبل يجلب الثقة حيث لم تكون موجودة من قبل.</p>
+					<p class="lead what-is">عندما يتم إنشاء عقد على منصة بايتبال، يمكن الوثوق به للعمل بالضبط كما اتفق عليه.  لماذا؟ لأنه يتم التحقق من صحتها من قبل عقد متعددة على الشبكة اللامركزية، والتي تتبع جميع نفس القواعد الغير قابل للتغيير.  وعلى الطرف المقابل، حتى لو كان غريبا أو مجهول، يتوجب عليه أن يتصرف بأمانة لأن القواعد وحدها هي التي تتمتع بالسلطة.  هذا العقد يسمى بالعقود الذكية.  انظر أدناه أمثلة حول كيفية عمل العقود الذكية المتاحة في وقتنا الحالي.</p>
 					
 					
 				</div>
@@ -259,7 +259,7 @@
 		<div id="why" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Why use Byteball?</h2>
+					<h2 class="text-center">لماذا استخدم بايتبل؟</h2>
 				</div>
 			</div>
 		</div>
@@ -273,11 +273,11 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-								<h2 class="title text-left">Risk-free conditional smart payments</h2>
-								<p class="lead text-left">Byteball allows you to do something that traditional currencies can't: <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
-								 target="_blank">conditional payments.</a></p>
+								<h2 class="title text-left">المدفوعات الذكية المشروطة خالية من المخاطر</h2>
+								<p class="lead text-left">بايتبل يتيح لك القيام بأشياء لا تتيحها لك العملات الأخرى:<a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
+								 target="_blank">المدفوعات المشروطة.</a></p>
 
-								<p>You set a condition when the payee receives the money. If the condition is not met, you get your money back.</p>
+								<p>يمكنك تعيين الشرط عندما يتلقى المستفيد المال. إذا لم يتحقق الشرط، يمكنك استرجاع أموالك.</p>
 								<div class="space"></div>
 							</div>
 							<div class="col-md-6">
@@ -301,12 +301,11 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-4 col-md-push-6">
-							<h2 class="title text-left">P2P insurance</h2>
-							<p class="lead text-left">Hedge against negative events.</p>
-							<p>Buy insurance from peers to get paid in case a negative event occurs. Sell insurance for profit.</p>
-							<p>Insurance is just <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527"
-								 target="_blank">a simple smart contract</a> that can be unlocked by the insured &mdash; if the event in question
-								did occur, or by the insurer &mdash; otherwise.</p>
+							<h2 class="title text-left">التأمين P2P</h2>
+							<p class="lead text-left">تدابير ضد الأحداث السلبية.</p>
+							<p>شراء التأمين من أقرانهم للحصول المدفوعات في حال وقوع أي حدث سلبي. و بيع التأمين لتحقيق الربح.</p>
+							<p>التأمين هو مجرد <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527"
+								 target="_blank">عقد ذكي بسيط</a> الذي يمكن أن يتم فتحه من طرف الشخص المؤمن عليه &mdash; إذا حدث الحدث المعني، أو من قبل شركة المؤمن &mdash; عند الاقتضاء.</p>
 							<p>To insure against flight delay, find your counterpart in <a href="https://byteball.slack.com/messages/C54CDJATB/"
 								 target="_blank">#p2p_insurance</a> channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>,
 								create a contract, and if your flight arrives late, <a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000">chat with flight delays oracle</a>								to have it post the data about the delay, then unlock the contract.</p>
@@ -334,10 +333,10 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Prediction markets</h2>
-							<p class="lead text-left">Make money by correctly predicting future events.</p>
-							<p>Create a P2P smart contract that can be unlocked if a specific event occurs. Use it for <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
-								 target="_blank">betting on price movements</a>, sports betting, and insurance.</p>
+							<h2 class="title text-left">التنبؤ بالأسواق</h2>
+							<p class="lead text-left">حقق أرباح من خلال التنبؤ بشكل صحيح للأحداث المستقبلية.</p>
+							<p>قم بانشاء عقد P2P ذكي الذي يمكن فتحه في حالة وقوع أي حدث. استخدمه للمراهنة <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
+								 target="_blank">على تحركات أسعار السوق</a>،والمراهنات الرياضية، والتأمين.</p>
 							<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack.</a></p>
 							<div class="space"></div>
 							</div>
@@ -361,7 +360,7 @@
 						<div class="space"></div> 
 						<div class="row">
 							<div class="col-md-4 col-md-push-6">
-								<h2 class="title text-left">P2P betting</h2>
+								<h2 class="title text-left">الرهان P2P</h2>
 								<p class="lead text-left">Bet against other users on sports events.</p>
 								<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a>								channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a> and create a contract
 									that can be unlocked by you or your peer depending on the results of a future game.</p>
@@ -906,7 +905,7 @@
 					<p>The attestation bot will let you know as soon the result is known.</p>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal">إغلاق</button>
 				</div>
 			</div>
 

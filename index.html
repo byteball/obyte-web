@@ -35,7 +35,35 @@
 	<!-- Worthy core CSS file -->
 	<link href="css/style.css?v11" rel="stylesheet">
 	
-
+<style>
+.btnn {
+        
+        background-color: #E67E22 !important;
+        color: #FFFFFF !important;
+        font-family: 'Arial', sans-serif !important;
+        font-size: 16px !important;
+        text-align: center !important;
+       
+    }
+	
+.bbt {
+    font-size: 13px;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    letter-spacing: .03em;
+    color: #fff;
+    background-color: #E67E22;
+    box-sizing: border-box;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 18px;
+    display: inline-block;
+    margin: 0;
+    transition: all 0.23s ease-in-out 0s;
+}
+</style>
 	
 </head>
 
@@ -735,7 +763,6 @@
 							<li><a href="https://medium.com/byteball/attestation-of-accredited-investors-d4a8dabf683b" target="_blank">Verification rewards and referral rewards</a> to accredited investors who verify their accredited status.</li>
 							<li>Rewards to those who pass a <a href="https://medium.com/byteball/money-for-knowledge-distribution-via-telegram-quiz-bot-2dd400e22997">quiz in Telegram</a>.</li>
 							<li>Subsidies that offset part of the fees paid when <a href="https://medium.com/byteball/buying-bytes-with-visa-or-mastercard-d8ee2d1a2b07">buying Bytes with Visa or Mastercard</a>.</li>
-							<li>Rewards for donating one's computing resources to the <a href="https://medium.com/byteball/computing-for-good-again-3795336bdaed">World Community Grid</a>.</li>
 							<li>Rewards to those who participate in <a href="https://bitcointalk.org/index.php?topic=3162547.0">our signature campaign on Bitcointalk</a>.</li>
 							<li>Rewards to those who participate in <a href="https://bitcointalk.org/index.php?topic=3218859.0">our twitter campaign on Bitcointalk</a>.</li>
 							<li>Giveaways distributed e.g. through youtube channels of our supporters.  See e.g. <a href="https://www.youtube.com/watch?v=hycluITNDBM" target="_blank">https://www.youtube.com/watch?v=hycluITNDBM</a>.</li>
@@ -861,15 +888,29 @@
 				</div>
 			</div>
 		</div>
+		  <script>
+            function ml_webform_success_8574594() {
+                var $ = ml_jQuery || jQuery;
+
+                $('.ml-subscribe-form-8574594 .ml-block-success').show();
+                $('.ml-subscribe-form-8574594 .ml-block-form').hide();
+            };
+        </script>
 		<div class="gap">				
 			<div id="mc_embed_signup">
-				<form action="https://byteball.us12.list-manage.com/subscribe/post?u=8375ddcbb541577ef0292094a&amp;id=10f3306c05" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				 <form class="ml-block-form" action="https://landing.mailerlite.com/webforms/submit/q4s2a8" data-id="854744" data-code="q4s2a8" method="POST" target="_blank">
 					<div id="mc_embed_signup_scroll">
 						<label for="mce-EMAIL">Subscribe for the latest Byteball updates: </label>
-						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
+						<input  type="email" name="fields[email]" class="email" placeholder="Email*" value="" required>
 						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 						<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8375ddcbb541577ef0292094a_10f3306c05" tabindex="-1" value=""></div>
-						<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+						 <input type="hidden" name="ml-submit" value="1" />
+						<button type="submit" class="primary bbt">
+                        Subscribe
+                    </button>
+                    <button disabled="disabled" style="display: none;" type="button" class="loading ">
+                        <img src="https://static.mailerlite.com/images/rolling@2x.gif" width="20" height="20" style="width: 20px; height: 20px;">
+                    </button>
 					</div>
 				</form>
 			</div>
@@ -892,8 +933,7 @@
 		<a href="https://medium.com/byteball" target="_blank" title="Medium"><i class="fa fa-medium"></i></a> &nbsp;
 		<a href="https://slack.byteball.org" target="_blank" title="Slack"><i class="fa fa-slack"></i></a> &nbsp;
 		<a href="https://www.reddit.com/r/ByteBall/" target="_blank" title="Reddit"><i class="fa fa-reddit-alien"></i></a> &nbsp;
-		<a href="https://t.me/byteball" target="_blank" title="Telegram"><i class="fa fa-telegram"></i></a> &nbsp;
-		<a href="https://mp.weixin.qq.com/s/JB0_MlK6w--D6pO5zPHAQQ" target="_blank" title="WeChat"><i class="fa fa-weixin"></i></a>
+		<a href="https://t.me/byteball" target="_blank" title="Telegram"><i class="fa fa-telegram"></i></a>
 	</footer>
 
 	
@@ -1057,6 +1097,7 @@
 			NativeAppLauncher.init();
 		}
 	</script>
+	<script type="text/javascript" src="https://static.mailerlite.com/js/w/webforms.min.js?v3772b61f1ec61c541c401d4eadfdd02f"></script>
 </body>
 
 </html>

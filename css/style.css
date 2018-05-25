@@ -463,7 +463,8 @@ textarea {
 @media (max-width: 1200px) {
 	.header .navbar {
 		margin-bottom: 0;
-		 display: inline; 
+		display: inline; 
+		width: 100%;
 	}
 	.main-navigation {
 		text-align: center;

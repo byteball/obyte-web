@@ -421,7 +421,7 @@ textarea {
 }
 .main-navigation .navbar-default .navbar-nav > li > a {
 	color: #fff;
-	padding: 10px 8px;
+	padding: 10px 7px;
 	font-size: 18px;
 	font-weight: 300;
 }
@@ -463,7 +463,8 @@ textarea {
 @media (max-width: 1200px) {
 	.header .navbar {
 		margin-bottom: 0;
-		 display: inline; 
+		display: inline; 
+		width: 100%;
 	}
 	.main-navigation {
 		text-align: center;

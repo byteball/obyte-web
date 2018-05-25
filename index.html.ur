@@ -872,6 +872,13 @@
 		<!--p>&copy; 2016 Byteball</p-->
 
 		&nbsp;
+		<a href="terms.html">Terms</a>
+		&nbsp;
+		<a href="privacy.html">Privacy</a>
+		&nbsp;
+		<a href="https://docs.google.com/document/d/1LXYchOifJ8eRJ8ZKRNr1K-jkiFYWLiHS1yaUpRMf8JA/edit?usp=sharing" target="_blank">Media Kit</a>
+
+		&nbsp;
 		<script>
 			document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">byteball'); document.write('@'); document.write('byteball.org</a>');
 		</script>

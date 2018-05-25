@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!-->
-<html lang="yo">
+<html lang="vi">
 <!--<![endif]-->
 
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="Smart payment lati se ni irorun">
+	<meta name="description" content="Thanh toán thông minh dễ dàng
+">
 	<meta name="author" content="Byteball">
 	<link rel="icon" href="img/icon_16x16@2x.png">
 
-	<title>Byteball &mdash; smati sisan di irorun</title>
+	<title>Byteball &mdash; Thanh toán thông minh dễ dàng</title>
 
 	<!-- Mobile Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -81,7 +82,7 @@
 			<div class="row main-navigation animated">
 				<div class="col-xs-2">
 					<div class="logo smooth-scroll text-center">
-						 <a href="#banner"><img id="logo" src="img/icon-white-outline-1024.png" alt="Byteball logo" style="max-width: 55px;"></a> 
+						 <a href="#banner"><img id="logo" src="img/icon-white-outline-1024.png" alt="Logo Byteball" style="max-width: 55px;"></a> 
 					</div>
 					<div class="site-name">
 						 <a href="#banner">Byteball</a> 
@@ -96,7 +97,7 @@
 						<!-- Toggle get grouped for better mobile display -->
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-									<span class="sr-only">Lilo togulu</span>
+									Chuyển điều hướng
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
@@ -106,16 +107,16 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 							<ul class="nav navbar-nav">
-								<li><a href="#why">Kilode</a></li>
-								<li><a href="#core">Awon eyaa</a></li>
-								<li><a href="#download">Download</a></li>
-								<li><a href="#dist">Pinpin</a></li>
-								<li><a href="#tech">Tekinologi</a></li>
+								<li><a href="#why">Tại sao</a></li>
+								<li><a href="#core">Tính năng</a></li>
+								<li><a href="#download">Tải xuống</a></li>
+								<li><a href="#dist">Phân phối</a></li>
+								<li><a href="#tech">Công nghệ</a></li>
 								<li><a href="https://wiki.byteball.org" target="_blank" title="Wiki">Wiki</a></li>
 								<li><a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
 								<li><a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="Bitcoin Talk thread"><i class="fa fa-bitcoin"></i></a></li>
-								<li><a href="https://medium.com/byteball" target="_blank" title="Medium blog"><i class="fa fa-medium"></i></a></li>
+								<li><a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="Chủ đề BitcoinTalk"><i class="fa fa-bitcoin"></i></a></li>
+								<li><a href="https://medium.com/byteball" target="_blank" title="Blog Medium"><i class="fa fa-medium"></i></a></li>
 								<li><a href="https://slack.byteball.org" target="_blank" title="Slack"><i class="fa fa-slack"></i></a></li>
 								<li><a href="https://www.reddit.com/r/ByteBall/" target="_blank" title="Reddit"><i class="fa fa-reddit-alien"></i></a></li>
 								<li><a href="https://t.me/byteball" target="_blank" title="Telegram"><i class="fa fa-telegram"></i></a></li>
@@ -216,19 +217,19 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-md-5 col-md-push-5 text-center text-md-left">
-					<h2>O ti gba owo!</h2>
+					<h2>You received money!</h2>
 					<p class="android" style="display: none;">
-						Te botini to wa labe yi tabi ko fi Byteball app si ori ero e lati gba owo.
+						Click the button below to open or install Byteball app on your device and claim your funds.
 					</p>
 					<p class="desktop">
-						<a href="#download">Dawunlodi kosi fi Byteball apamowo</a> lakoko, ko wa te botini toun be la be yi lati shi app lori ero e lati gba owo.
+						<a href="#download">Download and install Byteball Wallet</a> first, then Click the button below to open app on your device and claim your funds.
 					</p>
 					<p id="warning" class="alert alert-danger m10" style="display: none">
-							O she ni laanu, Apamowo Byteball o ti si lori iOS platifomu. Gbinyanju lati lo ero e lati gba owo e.
+							Unfortunately, Byteball Wallet is not yet available for iOS platform. Try to use another device to claim your funds.
 					</p>
-					<p><button id="openInApp" class="btn btn-lg btn-success m10">O ti gba owo</button></p>
+					<p><button id="openInApp" class="btn btn-lg btn-success m10">Receive funds</button></p>
 					<p>
-						Ti botini o ba shishe, <a href="#download">fi apamowo Byteball</a>, lo kiri lati <i>gba</i> &rarr; <i>gba owo nipa lilo textcoin</i> ko wa fi awon nkan yi si:<br>
+						If the button doesn't work, <a href="#download">install Byteball Wallet</a>, navigate to <i>Receive</i> 	&rarr; <i>Claim funds using textcoin</i> and paste the following string:<br>
 						<b id="mnemonic"></b><br>
 					</p>
 				</div>
@@ -256,10 +257,10 @@
 					</div>
 					<div class="space"></div>
 					<div class="row text-center">
-						<h2>Smart payment lati se ni irorun</h2>
+						<h2>Phương thức thanh toán thông minh đã được đơn giản hóa</h2>
 
-						<p><a class="btn btn-lg btn-success" href="#download" role="button">Gba Byteball wallet</a></p>
-						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> Ka awon iwefunfun</a></p>
+						<p><a class="btn btn-lg btn-success" href="#download" role="button">Nhận ví Byteball</a></p>
+						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> Đọc bản cáo bạch</a></p>
 					</div>
 					<div class="space"></div>
 					
@@ -267,8 +268,8 @@
 					<!--p class="lead what-is">Byteball is an alternative legal system based on smart contracts.</p>
 					<p class="lead what-is">When a contract is created on Byteball, it just works exactly as agreed upon.  Trust in the counterparty and reliance on the slow and expensive conventional legal system are not required any more as the contracts are enforced by the immutable rules of the decentralized platform.  See below the types of contracts available today.</p-->
 					
-					<p class="lead what-is">Byteball a maa fi ifi okan tan sibi ti ko si.</p>
-					<p class="lead what-is">Nigbati ibasepo/ida owopo bati duro, aridaju npe yio ri baa ti se sr adehun nbe  Kinidi? Nitori ti o ti wa ni ojulowo ni opolopo opa lori awon fifunka netiwoki, ti gbogbo won si tele awon aileyipada ofin.  Awon asopo apejo, ti won ba ti e je alejo patapata, ni lati uwa pelu otito nitoripe ofin nikan loni ase.  Iru awon adehun ni a n peni adehun daradara.  Woo isale fun awon apere ti ise adehun daradar ti o wa ni oniyi.</p>
+					<p class="lead what-is">Byteball cho phép sự tin tưởng nơi mà niềm tin không thể tồn tại trước đó.</p>
+					<p class="lead what-is">Khi hợp đồng được tạo ra trên nền tảng Byteball, nó có thể được tin cậy để làm việc đúng như đã thỏa thuận.  Tại sao ư? Bởi vì nó được xác nhận bởi nhiều các nút trên mạng phân quyền, mà tất cả các thực hiện theo các quy tắc tương tự không thay đổi.  Các đối tác, thậm chí nếu đó là một hoàn toàn xa lạ, phải cư xử một cách trung thực bởi vì chỉ có các quy tắc đã đặt ra là có thẩm quyền.  Một hợp đồng ở đây được gọi là một hợp đồng thông minh.  Xem dưới đây cho các ví dụ làm việc về hợp đồng thông minh đang khả dụng.</p>
 					
 					
 				</div>
@@ -287,7 +288,7 @@
 		<div id="why" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Ki ni eredi lilo Byteball?</h2>
+					<h2 class="text-center">Tại sao nên sử dụng Byteball?</h2>
 				</div>
 			</div>
 		</div>
@@ -301,10 +302,11 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-								<h2 class="title text-left">Aa-lewu ona iwa smart payments</h2>
-								<p class="lead text-left">Byteball fi aye gba e lati se ohunkohun ti awon ibile owo ko lese: ona iwa owo sisan.</p>
+								<h2 class="title text-left">Điều kiện thanh toán thông minh phi rủi ro</h2>
+								<p class="lead text-left">Byteball cho phép bạn làm một cái gì đó mà tiền tệ truyền thống không thể: <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
+								 target="_blank">điều kiện thanh toán.</a></p>
 
-								<p>Iwo yio o fi iwa ona kale nigbati awon olugbowo bagba owo, ti iwa ona ko ba se n se. iwo yio o gba owo re pada.</p>
+								<p>Bạn đặt một điều kiện khi thanh toán tiền. Nếu điều kiện không được đáp ứng, bạn nhận được tiền của bạn trở lại.</p>
 								<div class="space"></div>
 							</div>
 							<div class="col-md-6">
@@ -328,14 +330,13 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-4 col-md-push-6">
-							<h2 class="title text-left">P2P imudaju</h2>
-							<p class="lead text-left">Hejii lodi si awon odi isele.</p>
-							<p>Ra imudaju lati owo egbe lati ri owo gba ni iru odi isele ba sele. Ta imudaju re fun ere.</p>
-							<p>Imudaju je <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527"
-								 target="_blank">ododo irorun adehun daradara</a> ti o le si ilekun nipa awon ohun igbepamo &mdash; ti ohun isele ti a beere ba sele, abi nipa awon agbo ohunpamo &mdash; bibeko.</p>
-							<p>Lati ni idaju pe ko si idaduro ofurufu, wa alabasepo re ninu ona <a href="https://byteball.slack.com/messages/C54CDJATB/"
-								 target="_blank">#p2p_insoransi</a> lori <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>,
- se adehun, ti oko ofurufu e ba pe ko to de,<a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000">se oro enu pelu idaduro oko ofurufu </a> lati ni je ki o firanse data nipa idaduro, kosi shi adehun na.</p>
+							<h2 class="title text-left">Bảo hiểm ngang hàng</h2>
+							<p class="lead text-left">Rào cản chống lại các biến cố tiêu cực.</p>
+							<p>Mua bảo hiểm ngang hàng để được trả tiền trong trường hợp xảy ra các tình huống xấu. Bán bảo hiểm để kiếm lời.</p>
+							<p>Bảo hiểm chỉ là <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527"
+								 target="_blank"> một hợp đồng thông minh đơn giản </a> có thể mở khóa bởi người được bảo hiểm &mdash; nếu các sự kiện trong câu hỏi đã xảy ra, hoặc do người được bảo hiểm &mdash; và ngược lại.</p>
+							<p>Để đảm bảo không bị chậm chễ, tìm đối tác của bạn trên kênh <a href="https://byteball.slack.com/messages/C54CDJATB/"
+								 target="_blank">#Bảo_Hiểm_Ngang_Hàng</a> trên kênh <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a> của chúng tôi, tạo một hợp đồng, và nếu chuyến bay của bạn chậm chễ, <a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000"> giao lưu với sự chậm chễ </a> để có nó gửi dữ liệu về sự chậm trễ, sau đó mở khóa hợp đồng.</p>
 							<div class="space"></div>
 							</div>
 							<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
@@ -360,11 +361,11 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Asotele awon oja</h2>
-							<p class="lead text-left">Gba owo nipa sisotele kedere ohun isele ojowaju.</p>
-							<p>Da P2P adehun daradara kan ti a le dasile ni gbati ikan gbogi isele ba sele. Lo fun sise<a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
-								 target="_blank"> ohun ikile lori rinrin owo rira</a>, ere ikile, ati imudaju.</p>
-							<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack.</a></p>
+							<h2 class="title text-left">Dự báo thị trường</h2>
+							<p class="lead text-left">Kiếm tiền bằng cách dự đoán chính xác các sự kiện tương lai.</p>
+							<p>Tạo ra một hợp đồng thông minh ngang hàng có thể được mở khóa nếu xảy ra một sự kiện cụ thể. Sử dụng nó để đặt cược <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
+								 target="_blank">các biến động giá</a>, cá cược thể thao và bảo hiểm.</p>
+							<p>Tìm đối tác của bạn trên kênh <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#dự_báo_thị_trường</a> trên của chúng tôi <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack.</a></p>
 							<div class="space"></div>
 							</div>
 							<div class="col-md-6">
@@ -387,11 +388,10 @@
 						<div class="space"></div> 
 						<div class="row">
 							<div class="col-md-4 col-md-push-6">
-								<h2 class="title text-left">P2P ikile</h2>
-								<p class="lead text-left">Se ohun ikile dojuko awon elomiran lori awon ere isele.</p>
-								<p>Find your counterpart in <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a>								channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a> and create a contract
-									that can be unlocked by you or your peer depending on the results of a future game.</p>
-								<p>Leyin ti ati mo esi na,<a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">soro pelu awon oni idije oro enu</a> sun siwaju data nipa aboesi, le yin na tu adehun na ka.</p>
+								<h2 class="title text-left">Cá cược ngang hàng</h2>
+								<p class="lead text-left">Đặt cược chống lại những người dùng khác trên các sự kiện thể thao.</p>
+								<p>Tìm đối tác của bạn trên kênh <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#Dự_báo_thị_trường</a> trên <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a> của chúng tôi và tạo ra một hợp đồng có thể được mở khóa của bạn hoặc của những người ngang hàng tùy thuộc vào kết quả của một trò chơi trong tương lai.</p>
+								<p>Sau khi kết quả được tìm thấy, <a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">trò chuyện với nhà dự đoán thể thao</a> để có nó gửi dữ liệu về kết quả, sau đó mở khóa các hợp đồng.</p>
 
 								<div class="space"></div>
 							</div>
@@ -421,9 +421,9 @@
 					<div class="space"></div> 
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Textcoins</h2>
-							<p class="lead text-left">Send cryptocurrency to email or via chat.</p>
-							<p>The sender just writes an email address where he would normally write a Byteball address. The recipient just clicks a link received in email or chat. If the recipient is not in Byteball yet, he will be prompted to install the wallet.  On Android, the install is started automatically. <a href="https://medium.com/byteball/sending-cryptocurrency-to-email-5c9bce22b8a9" target="_blank">Learn more</a>.</p>
+							<h2 class="title text-left">Tiền Chữ</h2>
+							<p class="lead text-left">Gửi tiền kỹ thuật số đến thư điện từ hoặc thông qua chat.</p>
+							<p>Người gửi chỉ cần viết địa chỉ email mà anh thường viết địa chỉ Byteball. Người nhận chỉ cần nhấp chuột đến một liên kết đã nhận được trong email hoặc chat. Nếu người nhận không có ví Byteball, anh ta sẽ được nhắc nhở để cài đặt các ví.  Trên Android, các cài đặt được khởi chạy tự động. <a href="https://medium.com/byteball/sending-cryptocurrency-to-email-5c9bce22b8a9" target="_blank">Tìm hiểu thêm</a>.</p>
 							<div class="space"></div>
 						</div>
 						<div class="col-md-6">
@@ -447,9 +447,9 @@
 					 <div class="space"></div> 
 					<div class="row">
 						<div class="col-md-4 col-md-push-6">
-							<h2 class="title text-left">Idoju ara eni fun ijoba</h2>
-							<p class="lead text-left">Store your ID in your wallet, choose what to disclose and to whom.</p>
-							<p>Have your real identity verified and securely stored in your wallet.  <a href="https://www.jumio.com/" target="_blank">Jumio</a> helps in ID verification.  When you want to disclose your identity to a service provider, e.g. to participate in an ICO, you just pull it out of your wallet in a few clicks.  <a href="https://medium.com/byteball/bringing-identity-to-crypto-b35964feee8e" target="_blank">Learn more</a>.</p>
+							<h2 class="title text-left">Có chủ quyền về danh tính</h2>
+							<p class="lead text-left">Lưu trữ danh tính trong ví của bạn, chọn những gì để tiết lộ và cho ai đó.</p>
+							<p>Có danh tính thực sự của bạn xác nhận và lưu trữ một cách an toàn trong ví của bạn.  <a href="https://www.jumio.com/" target="_blank">Jumio</a> giúp xác minh danh tính.  Khi bạn muốn tiết lộ danh tính của bạn tới một nhà cung cấp dịch vụ, ví dụ như tham gia vào một ICO, bạn chỉ cần xuất nó ra khỏi ví của bạn trong một vài cú nhấp chuột.  <a href="https://medium.com/byteball/bringing-identity-to-crypto-b35964feee8e" target="_blank">Tìm hiểu thêm</a>.</p>
 						<div class="space"></div>
 						</div>
 						<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
@@ -475,8 +475,8 @@
 					<div class="space"></div> 
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">P2P owo sisan ninu sisoro</h2>
-							<p class="lead text-left">Soro pelu san owo ninu app kaanna nipa lilu awon ategun ni kan.</p>
+							<h2 class="title text-left">Thanh toán ngang hàng thông qua Chat</h2>
+							<p class="lead text-left">Trò chuyện và thanh toán trong các ứng dụng tương tự chỉ bằng cách nhấp vào liên kết.</p>
 							<div class="space"></div>
 						</div>
 						<div class="col-md-6">
@@ -500,9 +500,9 @@
 					 <div class="space"></div> 
 					<div class="row">
 						<div class="col-md-4 col-md-push-6">
-							<h2 class="title text-left">Chatbots</h2>
-							<p class="lead text-left">Soro si ero bot bi o sefe soro si eniyan.</p>
-							<p>Ra oja nipa sisoro pelu ero ountaja bot, san owo nipa lilu le e meji. Exchanges pelu awon ise omiran ni ororun lati lo ni sisoro ni oju-ewe.</p>
+							<h2 class="title text-left">Trò chuyện bot</h2>
+							<p class="lead text-left">Nói chuyện với một con bot giống như bạn đang nói chuyện với một con người.</p>
+							<p>Cửa hàng bằng cách trò chuyện với một thương gia bot, trả trong hai lần nhấp chuột. Trao đổi và các dịch vụ khác cũng được dễ dàng sử dụng trong giao diện đàm thoại.</p>
 						<div class="space"></div>
 						</div>
 						<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
@@ -528,10 +528,10 @@
 					 <div class="space"></div> 
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Itaja Botu</h2>
-							<p class="lead text-left">Ni irorun se awari pele ifikun titun chatbots nipa dida- Bot Store.</p>
-							<p>Oniseda ni logan awon ona si awon onilo nipa tite gbangba chatbot lori Bot Store. Wo awon <a href="https://github.com/byteball/byteballcore/wiki/Writing-chatbots-for-Byteball"
-								 target="_blank"> iwe akaye oniseda nipa dida awon chatbots.</a></p>
+							<h2 class="title text-left">Cửa hàng Bot</h2>
+							<p class="lead text-left">Dễ dàng khám phá và thêm chatbots mới thông qua các cửa hàng bot được xây dựng trong Bot.</p>
+							<p>Nhà phát triển có truy cập ngay đến tất cả người dùng bằng cách xuất bản của chatbot trên Bot Store. Hãy xem các <a href="https://github.com/byteball/byteballcore/wiki/Writing-chatbots-for-Byteball"
+								 target="_blank"> hướng dẫn phát triển về xây dựng chatbots.</a></p>
 						<div class="space"></div>
 						</div>
 						<div class="col-md-6">
@@ -554,10 +554,10 @@
 					 <div class="space"></div> 
 					<div class="row">
 						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Owo ti a ko le se awari: Blackbytes</h2>
-							<p class="lead text-left">Gbowo-bi ikoko.</p>
-							<p>Ti o ba fe se asepari ikoko, san ninu Blackbytes, gbigbowo kan-bi aileseiwadi owo ti ojanina re ko se n fi oju ri lori igbagede gbogbo iwedata, ni won ran si egbe-si-egbe dipo.</p>
-							<p>Lo dida-ninu TOR yipada gigun lati apamowo lati mu asiri re ani asiwaju.</p>
+							<h2 class="title text-left">Tiền tệ không thể tách rời: Blackbytes</h2>
+							<p class="lead text-left">Giống như sự riêng tư ở tiền mặt.</p>
+							<p>Khi bạn muốn hoàn toàn riêng tư, thanh toán bằng Blackbytes, một loại tiền tệ như tiền mặt không thể tách rời giao dịch và nó không thể nhìn thấy trên cơ sở dữ liệu công cộng, họ sẽ được gửi thẳng giữa ngang hàng giữa 2 người với nhau.</p>
+							<p>Sử dụng tích hợp TOR chuyển thẳng từ  ví để tăng sự bảo mật của bạn hơn nữa.</p>
 
 
 						</div>
@@ -587,9 +587,9 @@
 						 <div class="space"></div> 
 						<div class="row">
 							<div class="col-md-5 col-md-offset-1">
-								<h2 class="title text-left">Awon onilu ran ara won lowo</h2>
-								<p class="lead text-left">Se oluso kookan miran idunadura.</p>
-								<p>Nibe ni ko si aringbungbun nkankan ti oja ati ilana gbogbo awon owo.  Dipo, idunadura da nipa olumulo ni o wa cryptographically sopo si okookan miiran, ati ni kete ti o fi titun re idunadura, miiran awon olumulo bere fif won lori oke ti re, ati awon nuba awon idundura miiran ti o sopo mo ti idunadura ti re dagba bi snowball ( idi ti a fi pe ni Byteball ni yen).</p>
+								<h2 class="title text-left">Người dùng giúp đỡ lẫn nhau</h2>
+								<p class="lead text-left">Đảm bảo các giao dịch của nhau.</p>
+								<p>Không có đơn vị trung tâm nào lưu trữ và xử lý tất cả các khoản thanh toán.  Thay vào đó, các giao dịch được tạo ra bởi người dùng được mã hóa liên kết với nhau, và một khi bạn thêm giao dịch mới, những người khác bắt đầu thêm giao dịch của họ lên trên giao dịch của bạn, và số lượng các giao dịch khác liên kết đến giao dịch của bạn phát triển như một quả cầu tuyết (đó là lý do tại sao chúng ta gọi là nó Byteball).</p>
 
 							</div>
 							<div class="col-md-6">
@@ -609,7 +609,7 @@
 		<div id="core" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Core features</h2>
+					<h2 class="text-center">Tính năng chính</h2>
 				</div>
 			</div>
 		</div>
@@ -620,38 +620,38 @@
 		<div class="container ">
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
-					<h3 class="media-heading">Atomic exchange</h3>
-					<p>Nigba ti egbe meji ba fowo si ohun kan ni apopo lati se mejei ese exchange, awon idunadura boya ti isele lesekese abi ti ko sele rara. Ko je didan rara lati gbekele ohunkohun pinpin exchanges.</p>
+					<h3 class="media-heading">Giao dịch nguyên tử</h3>
+					<p>Khi hai bên ký một đơn vị duy nhất thực hiện hoàn tất của việc dịch, hai giao dịch hoặc xảy ra đồng thời hoặc đều không xảy ra. Nó không còn cần thiết để tin tưởng vào giao dịch tập trung bất kỳ.</p>
 					<div class="space-res"></div>
 				</div>
 				<div class="col-sm-4">
-					<h3 class="media-heading">Ofin ini</h3>
-					<p>Ofin ajo le oro ohun ini ti wa ni ibamu pelu KYC/AML ibeere. Gbogbo gbigbe ti iru dukia ni lati wa ni ajofowosi nipase awon olufun, ati awon ti o ba ti wa nibe ni ohunkohun ti tako awon ilana, awon olufun yoo fowosi.</p>
+					<h3 class="media-heading">Quy định tài sản</h3>
+					<p>Các tổ chức quy định có thể phát hành các tài sản phù hợp với yêu cầu KYC / AML. Mỗi chuyển nhượng tài sản như vậy là để được bảo lãnh bởi người phát hành, và nếu có bất cứ điều gì mâu thuẫn với các quy định, tổ chức phát hành sẽ không bảo lãnh</p>
 				</div>
 			</div>
 			<div class="space"></div>
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
-					<h3 class="media-heading">Multi signature</h3>
-					<p>Fun abo, iwo le beere fun owo re ni lati jenina nikan nigba ti opolopo ibuwolu ba wa, bi apeere. lati ero computa agbeletan pelu ero phooni. Fun pinpin eto owo, onte ibuowolu lati odo opo eniyan to yato ni o le beere.</p>
+					<h3 class="media-heading">Đa chữ ký</h3>
+					<p>Để bảo mật, bạn có thể yêu cầu tiền của bạn chỉ được chi tiêu khi một số chữ ký được cung cấp, ví dụ: từ máy tính xách tay và từ điện thoại của bạn Để kiểm soát chia sẻ của các quỹ, chữ ký của những người khác nhau có thể được yêu cầu.</p>
 					<div class="space-res"></div>
 				</div>
 
 				<div class="col-sm-4">
 					<h3 class="media-heading">On-chain oracles</h3>
-					<p>Nigbati awon olugbagbo ba sise pelu awon alabasepo, o le pa awon owo lori ohun adiresi ti o je nina boya nipa ti awon alabasepo, ti o da lori awon isele aami si awon database nipa gbigbekele data olupese &mdash; oro enu.</p>
+					<p>Khi giao dịch với các đối tác thiếu đáng tin cậy, bạn có thể khóa các khoản tiền trên địa chỉ tín dụng bởi bạn hoặc bởi đối tác, tùy thuộc vào việc đăng ký vào cơ sở dữ liệu bởi nhà cung cấp dữ liệu đáng tin cậy & mdash; oracles.</p>
 				</div>
 			</div>
 			<div class="space"></div>
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
-					<h3 class="media-heading">Ifipamo alaise</h3>
-					<p>Logan ti a fi pamo si nu Byteball ibi ipamo data, awon data na a le tun yipada abi yokuro.</p>
+					<h3 class="media-heading">Lưu trữ bất biến</h3>
+					<p>Sau khi được lưu trữ trong cơ sở dữ liệu Byteball, dữ liệu không thể được sửa đổi hoặc loại bỏ.</p>
 					<div class="space-res"></div>
 				</div>
 				<div class="col-sm-4">
-					<h3 class="media-heading">Pinpin ini patapata</h3>
-							<p>Lehin ti awon awari muti wa ni pade, a titun idunadura di opin. O le ko wa tunwa efa nipa alagbara onikolu. Ko si riroise nip awon otun nomba ti imudaju. ko si idamewa aadota ati okan ninu ogorun onikolu.</p>
+					<h3 class="media-heading">Quyết toán</h3>
+							<p>Sau khi các tiêu chí nhất định được đáp ứng, một giao dịch mới sẽ trở thành chính thức. Nó không thể được sửa đổi ngay cả bởi một kẻ tấn công mạnh mẽ. Không có phỏng đoán về số lượng xác nhận, không có tấn công với 51% .</p>
 				</div>
 			</div>
 		</div>
@@ -664,7 +664,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2  id="download"  class="text-center">Gba Byteball wallet re</h2>
+					<h2  id="download"  class="text-center">Tạo ví Byteball của bạn</h2>
 				</div>
 			</div>
 		</div>
@@ -699,7 +699,7 @@
 						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-osx64.dmg">Mac</a></div>
 					</div>
 					<div class="app">
-						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/byteball-linux64.zip"><img src="img/linux.png"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/byteball-linux64.zip"><img src="Linux"/></a></div>
 						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/byteball-linux64.zip">Linux</a></div>
 					</div>
 					<div class="app">
@@ -708,9 +708,10 @@
 					</div>
 					<div class="space"></div>
 					<ul class="list-unstyled text-left">
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">Ra abi ta bytes</a> nipa sisoro pelu ero karakata boti</li>
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="https://medium.com/byteball/making-p2p-great-again-episode-ii-bitcoin-exchange-d98adfbde2a5" target="_blank">P2P fifiparo bytes ati bitcoin</a> je ki merkie re ni ifidimule nipa bi ba soro oro <a href="byteball:A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@byteball.org/bb#0000">enu BTC</a><br></li>
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> Wo akosile gbangba idunadura lori <a href="https://explorer.byteball.org" target="_blank">DAG explorer</a></li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">Mua hoặc bán  bytes</a> bằng trò chuyện với bot giao dịch</li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="https://medium.com/byteball/making-p2p-great-again-episode-ii-bitcoin-exchange-d98adfbde2a5" target="_blank">Giao dịch ngang hàng byte với bitcoin</a>,
+						có được xác nhận merkle của bạn bằng cách trò chuyện với <a href="byteball:A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@byteball.org/bb#0000">BTC Oracle</a><br></li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> Xem giao dịch công khai trên <a href="https://explorer.byteball.org" target="_blank">giao diện DAG</a></li>
 								<!-- <li><i class="fa fa-caret-right pr-10 text-colored"></i> Dignissimos molestiae necessitatibus</li> -->
 							</ul>
 					 <!-- <h4 style="font-weight: 500;">After installing, <a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">chat with the Transition Bot</a>	to participate in the next distribution round</br> -->
@@ -731,7 +732,7 @@
 		<div id="dist" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Ite ibeere pinpin</h2>
+					<h2 class="text-center">Phân phối tối ưu ban đầu</h2>
 				</div>
 			</div>
 		</div>
@@ -744,12 +745,13 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<p class="lead text-left">Free distribution for mass adoption.</p>
-						<p>Mass adoption requires wide distribution, that's why 99% of all bytes and blackbytes are to be distributed for free.  Currently, we use several ways to distribute them:</p>
+						<p class="lead text-left">Phân phối miễn phí cho chấp nhận hàng loạt.</p>
+						<p>Việc chấp nhận hàng loạt yêu cầu phân phối rộng khắp, đó là lý do tại sao 99% tất cả byte và blackbyte đang được phân phối miễn phí. Hiện tại, chúng tôi sử dụng một số cách để phân phối chúng:</p>
 						<ul>
-							<li><a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Cashback</a> for purchases at the merchant stores we partner with.  Ni opolopo igba, awon ti a nse cashback ti idamewa ti o ra ni iye.  <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Fowosi foomu ohun elo</a> tabi <script>iwe.kiko('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">');</script> ko kan si wa <script>iwe.ko('<2>');</script> ti o ba sise a ataja tabi owo isise, osi fe kopa ninu awon eto idawo pada.</li>
-							<li><a href="https://medium.com/byteball/distribution-to-verified-users-and-referrals-ed00b9b2a30e" target="_blank">Verification rewards and referral rewards</a> to those who verify their real name.</li>
-							<li><a href="https://medium.com/byteball/distribution-to-verified-emails-and-sending-cryptocurrency-to-email-episode-ii-cb955fe19d7e" target="_blank">Verification rewards and referral rewards</a> to those who verify their email address.</li>
+							<li><a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Hoàn tiền</a> cho việc mua bán tại các cửa hàng thương mại mà chúng tôi hợp tác.
+  Với hầu hết các trường hợp, hoàn tiền được đưa ra là 10% số tiền mua.  <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Điền vào mẫu đơn</a> hoặc <script>document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">');</script>liên hệ chúng tôi<script>document.write('</a>');</script>nếu bạn muốn chạy một cửa hàng hoặc một bộ xử lý thanh toán và muốn trở thành một phần của chương trình hoàn tiền.</li>
+							<li><a href="https://medium.com/byteball/distribution-to-verified-users-and-referrals-ed00b9b2a30e" target="_blank">Xác minh tiền thưởng và phần thưởng giới thiệu</a> cho những người xác minh tên thật của họ.</li>
+							<li><a href="https://medium.com/byteball/distribution-to-verified-emails-and-sending-cryptocurrency-to-email-episode-ii-cb955fe19d7e" target="_blank">Xác minh tiền thưởng và phần thưởng giới thiệu</a> cho những người xác minh địa chỉ email của họ.</li>
 							<li><a href="https://medium.com/byteball/attestation-of-accredited-investors-d4a8dabf683b" target="_blank">Verification rewards and referral rewards</a> to accredited investors who verify their accredited status.</li>
 							<li>Rewards to those who pass a <a href="https://medium.com/byteball/money-for-knowledge-distribution-via-telegram-quiz-bot-2dd400e22997">quiz in Telegram</a>.</li>
 							<li>Subsidies that offset part of the fees paid when <a href="https://medium.com/byteball/buying-bytes-with-visa-or-mastercard-d8ee2d1a2b07">buying Bytes with Visa or Mastercard</a>.</li>
@@ -760,17 +762,17 @@
 							<li><a href="https://medium.com/byteball-help/using-mailchimp-to-mass-send-payments-as-textcoins-5c1db06342e3" target="_blank">Mass sending of textcoins</a> to subscribers of our partners.  See the <a href="https://docs.google.com/spreadsheets/d/1heT6TUSpTJgRW-FUM0LbcoVjXZRCb3PbXQQLmzvNRvM/edit#gid=323859176" target="_blank">results of the previous campaigns</a>.</li>
 						</ul>
 						
-						<p>In the past, we also distributed Bytes to BTC holders and existing holders of Bytes.  Users used to link their BTC and Byteball addresses and were receiving new Bytes in proportion to their existing balances in BTC and Bytes.  This distribution was split into several rounds.  Akoko pinpin ykika mu ibi on ni ojo karun lelogun osu kejila odun 2016 nigbati awon netiwoki se igbekale, lori 70,000 BTC ti a ti soo mo ki o si ti lapapo ipese ti awon bytes ati blackbytes ti a ti pin tele.  In the subsequent rounds, the total distributed supply reached 64.5%:</p>
+						<p>Trong quá khứ, chúng tôi cũng phân phối bytes cho BTC chủ sở hữu và chủ sở hữu hiện tại của bytes.  Người dùng sử dụng liên kết địa chỉ BTC và Byteball của họ và nhận được Bytes mới tương ứng với số dư BTC và Bytes hiện có của họ.  Phân phối này được chia thành nhiều vòng.  Vòng phân phối đầu tiên diễn ra vào ngày 25, tháng mười hai 2016 khi khởi động mạng, hơn 70.000 BTC đã được liên kết, và 10% tổng số nguồn cung cấp của byte và blackbytes đã được phân phối.  Trong các vòng tiếp theo, tổng cung phân phối đạt 64,5%:</p>
 						<ul>
-							<li>Ni yipo keji osu Feburari ojo kankanla, odun 2017: 121,763 BTC asopo, idamewa 1.8 ni apin;</li>
-							<li>Ni yipo keta osu keta Mar ojo kejila, odun 2017: 129,139 BTC asopo, idamewa 2.0 ni apin;</li>
-							<li>Ni yipo kerin osu kerin Apr ojo kankanla, odun 2017: 145,441 BTC asopo;</li>
-							<li>Ni yipo karun osu karun May ojo kewa, odun 2017: 207,672 BTC asopo, idamewa 2.9 ni apin;</li>
-							<li>Ni yipo kefa ni osu kefa Jun ojo kesan, odun 2017: 453,621 BTC asopo, idamewa 6.6 ni apin;</li>
-							<li>Ni yipo keje osun keje Jul ojo kesan, odun 2017: 949,004 BTC, idamewa 11.0 ni apin.</li>
-							<li>Ni yipo kejo ni osu kejo Aug ojo keje, odun 2017: 1,395,899 BTC asopo, idamewa 16.0 ni apin.</li>
-							<li>Ni yipo kesan ni osu kesan Sep ojo kefa, odun 2017: 1,306,573 BTC asopo, idamewa 5.7 ni apin.</li>
-							<li>Ni yipo kewa ni osun kewa Nov ojo kerin, odun 2017: 1,093,155 BTC asopo, idamewa 6.1 ni apin.</li>
+							<li>Vòng 2 vào ngày 11 tháng hai, 2017: 121,763 BTC liên kết, phân phối 1,8%;</li>
+							<li>Vòng 3 vào ngày 12 tháng ba, 2017: 129,139 BTC liên kết, phân phối 2.0%;</li>
+							<li>Vòng 4 vào ngày 11 tháng tư 2017: 145,441 BTC liên kết, phân phối 2,3%;</li>
+							<li>Vòng 5 vào ngày 10 tháng năm 2017: 207,672 BTC liên kết, phân phối 2,9%;</li>
+							<li>Vòng 6 vào ngày 9 tháng sáu 2017: 453,621 BTC liên kết, phân phối 6,6%;</li>
+							<li>Vòng 7 vào ngày 9 tháng bảy 2017: 949.004 BTC liên kết, phân phối 11,0%.</li>
+							<li>Vòng 8 vào ngày 7 tháng tám 2017: 1.395.899 BTC được liên kết, phân phối 16,0%.</li>
+							<li>Vòng 9 vào ngày 6 tháng chín 2017: 1,306,573 BTC liên kết, phân phối 5,7%.</li>
+							<li>Vòng 10 vào ngày 4 tháng mười một 2017: 1.093.155 BTC liên kết, phân phối 6,1%.</li>
 						</ul>
 					</div>
 				</div>
@@ -785,7 +787,7 @@
 		<div id="tech" class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Pipe titun ona ero</h2>
+					<h2 class="text-center">Công nghệ hoàn toàn mới</h2>
 				</div>
 			</div>
 		</div>
@@ -799,10 +801,10 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<p class="lead text-left">Aikojopo piparo, jara imudaju, ko si awa koto, ko si ohun amoridun, ko si sisan owo kekere.</p>
-						<p>Byteball data ti o ti fipamo ati ki o pase lilo <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">itosana acyclic graph</a> (DAG) yala blockchain. E leyi gba gbogbo awon olumulo lati oluso kookan miirn data nipa ijiwe seyin data kuro dida nipa awon olumulo iiran, ki o si tun yo asepiparo ifilele lo wopo fun akosile blockchains, gege bi awon akosile blocksize oro.</p>
-						<p>Blockless aradida je irorun nitori nitori nibe ni o wa ti ko si blocks, nibe ni o wa nikan idunadura.  Awon olumulo okan fi awon idunadura to opin ti awon DAG ara won, nwon si mase ni lati duro nigbati awakusa ba seda titun block ati nibe ni ko si riro ise boya awakusa yio fikun idunadura re ninu block.</p>
-						<p>Awon ipohunpo alugoridimu lo lati daboobo lati e lo ni da lori igbekele kan lapapo ibere laarin awon DAG. Eyi ti n waye nippa yiyan ewon kan, ti a n pe ni ogidi ewon, eyi ti o sunsoke si ona sipo ti onisowo wopo mo olokiki awon olumulo &mdash; eleri. Wo awon<a href="Byteball.pdf"> iwe funfun</a> fun awon ekunre.</p>
+						<p class="lead text-left">khả năng mở rộng không giới hạn, xác nhận nhanh chóng, không có thợ mỏ, không có block, lệ phí thấp.</p>
+						<p>Dữ liệu Byteball được lưu trữ và thiết lập sử dụng <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">directed acyclic graph</a> (DAG)(một đồ thị chu trình không định hướng) thay cho blockchain. Điều này cho phép tất cả người dùng đảm bảo dữ liệu của nhau bằng cách tham chiếu đơn vị dữ liệu trước đó được tạo ra bởi những người dùng khác, và cũng có thể loại bỏ giới hạn khả năng mở rộng phổ biến đối với blockchain, chẳng hạn như vấn kích thước block.</p>
+						<p>Blockless thiết kế đơn giản vì không có các khối, có chỉ giao dịch.  Người dùng chỉ cần thêm các giao dịch của mình vào cuối DAG, họ không phải đợi khi các thợ mỏ tạo ra một block mới và không có phỏng đoán liệu các thợ mỏ sẽ tích hợp giao dịch của bạn trong block.</p>
+						<p>Thuật toán đồng thuận được sử dụng để bảo vệ khỏi lỗi xác nhận kép được dựa trên việc thiết lập thông số thứ tự trong DAG. Điều này đạt được bằng cách chọn một chuỗi, được gọi là chuỗi chính, mà thu hút đối với các đơn vị do người dùng có ảnh hưởng thường được công nhận &mdash; người công nhận. Xem <a href="Byteball.pdf">Bản cáo bạch</a> để biết thêm.</p>
 
 					</div>
 				</div>
@@ -818,8 +820,8 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<h2 class="text-left">Testnet</h2>
-						<p><a href="testnet.html">Testnet wallet</a> o tun wa ti iwo ba je onidasile abi ofe ni oye awon iriri eya ti Byteball lai na epini.</p>
+						<h2 class="text-left">Thử nghiệm hệ thống</h2>
+						<p>Thử nghiệm ví là có sẵn nếu bạn là một nhà phát triển hoặc muốn trải nghiệm các tính năng của Byteball mà không cần tốn một xu.</p>
 
 					</div>
 				</div>
@@ -834,9 +836,8 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<h2 class="text-left">Awujo ati Riranlowo</h2>
-						<p>Join Byteball on <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>! Awon ero ona ti opo pelu jijero ti o lemi nipa ojo iwaju idagbasoke, isowo, awon oja lati daruko kekere shaa. If you have any issues with the Byteball wallet, our competent support staff will take care of
-							it at the #helpdesk channel in our slack <a href="https://slack.byteball.org" target="_blank" title="Slack">slack.byteball.org</a>.</p>
+						<h2 class="text-left">Cộng đồng và hỗ trợ</h2>
+						<p>Tham gia Byteball trên <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>! Có rất nhiều kênh với các cuộc thảo luận sôi nổi về những diễn biến trong tương lai, giao dịch, đấu giá, đặt tên chỉ là một trong số đó. Nếu bạn gặp vấn đề bất kỳ với ví Byteball, nhân viên hỗ trợ của chúng tôi sẽ giải quyết nó tại kênh #helpdesk tại slack của chúng tôi <a href="https://slack.byteball.org" target="_blank" title="Slack">slack.byteball.org</a>.</p>
 
 					</div>
 				</div>
@@ -851,11 +852,10 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row margin-zero">
-						<h2 class="text-left">Paaro</h2>
-						<p>Iwo le ra abi ta bytes lai fi wallet si le nipa <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">sisoro iweregbe pele isowo boti</a>.
-							You can also trade on the exchanges listed below.</p>
-						<p>To buy or sell blackbytes, see or post orders in <a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a>							channel on our <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>, then exchange peer-to-peer
-							using <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">bound (conditional) payments.</a></p>
+						<h2 class="text-left">Giao dịch</h2>
+						<p>Bạn có thể mua hoặc bán bytes mà không rời ví bằng cách <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">giao tiếp với bot giao dịch</a>.
+							Bạn cũng có thể giao dịch tại các sàn giao dịch dưới đây.</p>
+						<p>Để mua hoặc bán blackbyte, xem hoặc đăng đơn đặt hàng trong kênh <a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a> trên <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a> của chúng tôi, sau đó trao đổi ngang hàng bằng cách sử dụng <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">thanh toán ràng buộc (có điều kiện).</a></p>
 
 					</div>
 				</div>
@@ -922,7 +922,7 @@
 		&nbsp;
 		<a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a> &nbsp;
 		<a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a> &nbsp;
-		<a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="Bitcoin Talk thread"><i class="fa fa-bitcoin"></i></a>		&nbsp;
+		<a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="Chủ đề BitcoinTalk"><i class="fa fa-bitcoin"></i></a>		&nbsp;
 		<a href="https://medium.com/byteball" target="_blank" title="Medium"><i class="fa fa-medium"></i></a> &nbsp;
 		<a href="https://slack.byteball.org" target="_blank" title="Slack"><i class="fa fa-slack"></i></a> &nbsp;
 		<a href="https://www.reddit.com/r/ByteBall/" target="_blank" title="Reddit"><i class="fa fa-reddit-alien"></i></a> &nbsp;
@@ -940,14 +940,14 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4 class="modal-title">Scan finished</h4>
+					<h4 class="modal-title">Quét hoàn tất</h4>
 				</div>
 				<div class="modal-body">
-					<p>Now Jumio will process your photos, it usually takes a few minutes but sometimes may take hours.</p>
-					<p>The attestation bot will let you know as soon the result is known.</p>
+					<p>Bây giờ Jumio sẽ xử lý ảnh của bạn, sẽ mất một vài phút nhưng đôi khi có thể mất hàng giờ.</p>
+					<p>Bot xác thực sẽ cho bạn biết kết quả ngay khi có được</p>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Pade</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
 				</div>
 			</div>
 

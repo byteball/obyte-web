@@ -39,6 +39,7 @@ h1 {
 h2 {
 	font-size: 28px;
 	margin-bottom: 15px;
+	font-weight: 700;
 }
 h3 {
 	font-size: 22px;
@@ -60,6 +61,9 @@ h2 span,
 h3 span,
 h4 span {
 	color: #339BEB;
+}
+.lead, .section {
+	line-height: 1.7;
 }
 .text-colored {
 	color: #55acee;
@@ -162,7 +166,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 }
 .banner-caption {
 	position: absolute;
-	top: 22%;
+	top: 130px;
 	width: 100%;
 	z-index: 2;
 }
@@ -729,10 +733,12 @@ textarea {
 }
 
 .what-is{
-	max-width: 800px;
-	margin: 0 auto;
+/*	max-width: 800px;
+	margin: 0 auto;*/
 	padding: 10px;
-	text-align: center;
+	display: inline-block;
+	line-height: 2 !important;
+/*	text-align: center;*/
 }
 
 .clock{

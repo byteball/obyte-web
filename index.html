@@ -27,7 +27,7 @@
 	<link href="static/vendor/lightbox2/css/lightbox.min.css" rel="stylesheet" media="all">
 
 	<!-- Main CSS-->
-	<link href="static/css/theme.css" rel="stylesheet" media="all">
+	<link href="static/css/theme.css?v2" rel="stylesheet" media="all">
 
 	<!--Favicons-->
 	<link rel="shortcut icon" href="static/favicon.ico">
@@ -776,19 +776,19 @@
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-win64.exe" target="_blank">
+							<a href="https://github.com/byteball/byteball/releases/download/v2.3.0/Byteball-win64.exe" target="_blank">
 								<img src="static/images/app/icon-microsoft.svg">
 								Windows
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-osx64.dmg" target="_blank">
+							<a href="https://github.com/byteball/byteball/releases/download/v2.3.0/Byteball-osx64.dmg" target="_blank">
 								<img src="static/images/app/icon-mac-os-x.svg">
 								Mac
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball/releases/download/v2.2.0/byteball-linux64.zip" target="_blank">
+							<a href="https://github.com/byteball/byteball/releases/download/v2.3.0/byteball-linux64.zip" target="_blank">
 								<img src="static/images/app/linux.png">
 								Linux
 							</a>
@@ -835,7 +835,7 @@
 						<div class="box box-style-2">
 							<div class="box-image">
 								<img src="static/images/team/tony.png" alt="Tony Churyumoff" />
-								<a class="bg-overlay" href="#"></a>
+								<div class="bg-overlay"></div>
 								<ul class="list-socials" style="margin: auto; left: 41%;">
 									<li class="list-item">
 										<a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/anton-churyumov-32112b7/" target="_blank"></a>
@@ -846,9 +846,9 @@
 								</ul>
 							</div>
 							<div class="box-body">
-								<h4 class="box-title noto-sans-symbols-bold">
-									<a href="#">Tony Churyumoff</a>
-								</h4>
+								<h5 class="box-title noto-sans-symbols-bold">
+									Tony Churyumoff
+								</h5>
 								<p class="box-author-job source-sans-pro-regular">Founder and Lead Developer</p>
 							</div>
 						</div>
@@ -859,7 +859,7 @@
 					<div class="box box-style-2">
 						<div class="box-image">
 							<img src="static/images/team/mikhail.png" alt="Mikhail Pustovalov" />
-							<a class="bg-overlay" href="#"></a>
+							<div class="bg-overlay"></div>
 							<ul class="list-socials" style="margin: auto; left: 45%;">
 								<li class="list-item">
 									<a class="fab fa-github" href="https://github.com/kakysha" target="_blank"></a>
@@ -867,9 +867,9 @@
 							</ul>
 						</div>
 						<div class="box-body">
-							<h4 class="box-title noto-sans-symbols-bold">
-								<a href="#">Mikhail Pustovalov</a>
-							</h4>
+							<h5 class="box-title noto-sans-symbols-bold">
+								Mikhail Pustovalov
+							</h5>
 							<p class="box-author-job source-sans-pro-regular">Developer</p>
 						</div>
 					</div>
@@ -878,7 +878,7 @@
 					<div class="box box-style-2">
 						<div class="box-image">
 							<img src="static/images/team/evgenii.png" alt="Evgeniy Stulnikov" />
-							<a class="bg-overlay" href="#"></a>
+							<div class="bg-overlay"></div>
 							<ul class="list-socials" style="margin: auto; left: 45%;">
 								<li class="list-item">
 									<a class="fab fa-github" href="https://github.com/xJeneKx" target="_blank"></a>
@@ -886,9 +886,9 @@
 							</ul>
 						</div>
 						<div class="box-body">
-							<h4 class="box-title noto-sans-symbols-bold">
-								<a href="#">Evgeniy Stulnikov</a>
-							</h4>
+							<h5 class="box-title noto-sans-symbols-bold">
+								Evgeniy Stulnikov
+							</h5>
 							<p class="box-author-job source-sans-pro-regular">Developer</p>
 						</div>
 					</div>
@@ -897,7 +897,7 @@
 					<div class="box box-style-2">
 						<div class="box-image">
 							<img src="static/images/team/artem.png" alt="Artem Nagorny" />
-							<a class="bg-overlay" href="#"></a>
+							<div class="bg-overlay"></div>
 							<ul class="list-socials" style="margin: auto; left: 45%;">
 								<li class="list-item">
 									<a class="fab fa-github" href="https://github.com/temikng" target="_blank"></a>
@@ -905,9 +905,9 @@
 							</ul>
 						</div>
 						<div class="box-body">
-							<h4 class="box-title noto-sans-symbols-bold">
-								<a href="#">Artem Nagorny</a>
-							</h4>
+							<h5 class="box-title noto-sans-symbols-bold">
+								Artem Nagorny
+							</h5>
 							<p class="box-author-job source-sans-pro-regular">Developer</p>
 						</div>
 					</div>
@@ -917,7 +917,7 @@
 					<div class="box box-style-2">
 						<div class="box-image">
 							<img src="static/images/team/steve.png" alt="Steve Safronoff" />
-							<a class="bg-overlay" href="#"></a>
+							<div class="bg-overlay"></div>
 							<ul class="list-socials" style="margin: auto; left: 45%;">
 								<li class="list-item">
 									<a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/vyacheslav-safronov-5607a04b/" target="_blank"></a>
@@ -925,9 +925,9 @@
 							</ul>
 						</div>
 						<div class="box-body">
-							<h4 class="box-title noto-sans-symbols-bold">
-								<a href="#">Steve Safronoff</a>
-							</h4>
+							<h5 class="box-title noto-sans-symbols-bold">
+								Steve Safronoff
+							</h5>
 							<p class="box-author-job source-sans-pro-regular">Partner and Head of Business Development</p>
 						</div>
 					</div>
@@ -936,7 +936,7 @@
 					<div class="box box-style-2">
 						<div class="box-image">
 							<img src="static/images/team/valerius.png" alt="Valerius Coppens" />
-							<a class="bg-overlay" href="#"></a>
+							<div class="bg-overlay"></div>
 							<ul class="list-socials" style="margin: auto; left: 45%;">
 								<li class="list-item">
 									<a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/valerius-coppens-29941a1" target="_blank"></a>
@@ -944,9 +944,9 @@
 							</ul>
 						</div>
 						<div class="box-body">
-							<h4 class="box-title noto-sans-symbols-bold">
-								<a href="#">Valerius Coppens</a>
-							</h4>
+							<h5 class="box-title noto-sans-symbols-bold">
+								Valerius Coppens
+							</h5>
 							<p class="box-author-job source-sans-pro-regular">Head of Marketing and Strategy Development</p>
 						</div>
 					</div>
@@ -955,7 +955,7 @@
 					<div class="box box-style-2">
 						<div class="box-image">
 							<img src="static/images/team/elena.png" alt="Elena Tairova" />
-							<a class="bg-overlay" href="#"></a>
+							<div class="bg-overlay"></div>
 							<ul class="list-socials" style="margin: auto; left: 45%;">
 								<li class="list-item">
 									<a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/elena-tairova/" target="_blank"></a>
@@ -963,9 +963,9 @@
 							</ul>
 						</div>
 						<div class="box-body">
-							<h4 class="box-title noto-sans-symbols-bold">
-								<a href="#">Elena Tairova</a>
-							</h4>
+							<h5 class="box-title noto-sans-symbols-bold">
+								Elena Tairova
+							</h5>
 							<p class="box-author-job source-sans-pro-regular">Head of PR and Communications</p>
 						</div>
 					</div>
@@ -974,7 +974,7 @@
 					<div class="box box-style-2">
 						<div class="box-image">
 							<img src="static/images/team/paul.png" alt="Paul Murray" />
-							<a class="bg-overlay" href="#"></a>
+							<div class="bg-overlay"></div>
 							<ul class="list-socials" style="margin: auto; left: 45%;">
 								<li class="list-item">
 									<a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/pauljvmurray/" target="_blank"></a>
@@ -982,9 +982,9 @@
 							</ul>
 						</div>
 						<div class="box-body">
-							<h4 class="box-title noto-sans-symbols-bold">
-								<a href="#">Paul Murray</a>
-							</h4>
+							<h5 class="box-title noto-sans-symbols-bold">
+								Paul Murray
+							</h5>
 							<p class="box-author-job source-sans-pro-regular">Head of Digital Content</p>
 						</div>
 					</div>
@@ -994,7 +994,7 @@
 					<div class="box box-style-2">
 						<div class="box-image">
 							<img src="static/images/team/luke.png" alt="Luke Angell" />
-							<a class="bg-overlay" href="#"></a>
+							<div class="bg-overlay"></div>
 							<ul class="list-socials" style="margin: auto; left: 45%;">
 								<li class="list-item">
 									<a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/lukezangell/" target="_blank"></a>
@@ -1002,9 +1002,9 @@
 							</ul>
 						</div>
 						<div class="box-body">
-							<h4 class="box-title noto-sans-symbols-bold">
-								<a href="#">Luke Angell</a>
-							</h4>
+							<h5 class="box-title noto-sans-symbols-bold">
+								Luke Angell
+							</h5>
 							<p class="box-author-job source-sans-pro-regular">Events and Partnerships Manager</p>
 						</div>
 					</div>
@@ -1013,7 +1013,7 @@
 					<div class="box box-style-2">
 						<div class="box-image">
 							<img src="static/images/team/milan.png" alt="Milan Horvath" />
-							<a class="bg-overlay" href="#"></a>
+							<div class="bg-overlay"></div>
 							<ul class="list-socials" style="margin: auto; left: 45%;">
 								<li class="list-item">
 									<a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/mil%C3%A1n-horv%C3%A1th-97480486/" target="_blank"></a>
@@ -1021,9 +1021,9 @@
 							</ul>
 						</div>
 						<div class="box-body">
-							<h4 class="box-title noto-sans-symbols-bold">
-								<a href="#">Milan Horvath</a>
-							</h4>
+							<h5 class="box-title noto-sans-symbols-bold">
+								Milan Horvath
+							</h5>
 							<p class="box-author-job source-sans-pro-regular">Community Manager</p>
 						</div>
 					</div>
@@ -1032,7 +1032,7 @@
 					<div class="box box-style-2">
 						<div class="box-image">
 							<img src="static/images/team/chen.png" alt="Chen Weijun" />
-							<a class="bg-overlay" href="#"></a>
+							<div class="bg-overlay"></div>
 							<ul class="list-socials" style="margin: auto; left: 45%;">
 								<li class="list-item">
 									<a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/%E5%B7%8D%E5%B3%BB-%E9%99%88-4b702b145/" target="_blank"></a>
@@ -1040,9 +1040,9 @@
 							</ul>
 						</div>
 						<div class="box-body">
-							<h4 class="box-title noto-sans-symbols-bold">
-								<a href="#">Chen Weijun</a>
-							</h4>
+							<h5 class="box-title noto-sans-symbols-bold">
+								Chen Weijun
+							</h5>
 							<p class="box-author-job source-sans-pro-regular">Area Representative, China</p>
 						</div>
 					</div>
@@ -1051,7 +1051,7 @@
 					<div class="box box-style-2">
 						<div class="box-image">
 							<img src="static/images/team/casper.png" alt="Casper Niebe" />
-							<a class="bg-overlay" href="#"></a>
+							<div class="bg-overlay"></div>
 							<ul class="list-socials" style="margin: auto; left: 45%;">
 								<li class="list-item">
 									<a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/cniebe/" target="_blank"></a>
@@ -1059,9 +1059,9 @@
 							</ul>
 						</div>
 						<div class="box-body">
-							<h4 class="box-title noto-sans-symbols-bold">
-								<a href="#">Casper Niebe</a>
-							</h4>
+							<h5 class="box-title noto-sans-symbols-bold">
+								Casper Niebe
+							</h5>
 							<p class="box-author-job source-sans-pro-regular">User Acquisition Manager</p>
 						</div>
 					</div>
@@ -1070,7 +1070,7 @@
 					<div class="box box-style-2">
 						<div class="box-image">
 							<img src="static/images/team/david.png" alt="David Meister" />
-							<a class="bg-overlay" href="#"></a>
+							<div class="bg-overlay"></div>
 							<ul class="list-socials" style="margin: auto; left: 45%;">
 								<li class="list-item">
 									<a class="fab fa-github" href="https://github.com/thedavidmeister" target="_blank"></a>
@@ -1078,9 +1078,9 @@
 							</ul>
 						</div>
 						<div class="box-body">
-							<h4 class="box-title noto-sans-symbols-bold">
-								<a href="#">David Meister</a>
-							</h4>
+							<h5 class="box-title noto-sans-symbols-bold">
+								David Meister
+							</h5>
 							<p class="box-author-job source-sans-pro-regular">Contributor</p>
 						</div>
 					</div>
@@ -1090,7 +1090,7 @@
 					<div class="box box-style-2">
 						<div class="box-image">
 							<img src="static/images/team/tarmo.png" alt="Tarmo" />
-							<a class="bg-overlay" href="#"></a>
+							<div class="bg-overlay"></div>
 							<ul class="list-socials" style="margin: auto; left: 45%;">
 								<li class="list-item">
 									<a class="fab fa-github" href="https://github.com/tarmo888" target="_blank"></a>
@@ -1098,9 +1098,9 @@
 							</ul>
 						</div>
 						<div class="box-body">
-							<h4 class="box-title noto-sans-symbols-bold">
-								<a href="#">Tarmo</a>
-							</h4>
+							<h5 class="box-title noto-sans-symbols-bold">
+								Tarmo
+							</h5>
 							<p class="box-author-job source-sans-pro-regular">Contributor</p>
 						</div>
 					</div>
@@ -1109,7 +1109,7 @@
 					<div class="box box-style-2">
 						<div class="box-image">
 							<img src="static/images/team/papabyte.jpg" alt="Papabyte" />
-							<a class="bg-overlay" href="#"></a>
+							<div class="bg-overlay"></div>
 							<ul class="list-socials" style="margin: auto; left: 45%;">
 								<li class="list-item">
 									<a class="fab fa-github" href="https://github.com/Papabyte" target="_blank"></a>
@@ -1117,9 +1117,9 @@
 							</ul>
 						</div>
 						<div class="box-body">
-							<h4 class="box-title noto-sans-symbols-bold">
-								<a href="#">Papabyte</a>
-							</h4>
+							<h5 class="box-title noto-sans-symbols-bold">
+								Papabyte
+							</h5>
 							<p class="box-author-job source-sans-pro-regular">Contributor</p>
 						</div>
 					</div>
@@ -1188,7 +1188,34 @@
 
 					</div>
 
-					<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc" style="font-weight: normal; max-width: 550px; margin: auto; text-transform: uppercase;">Our most active community is on Slack, so please join us there.</h2>
+					<div class="com-sup-block slack_img">
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Our most active community is on Slack, so please join us there.</h2>
+					</div>
+					<div class="com-sup-block medium_img" style="display:none;">
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">We post news on Medium.</h2>
+					</div>
+					<div class="com-sup-block bitcoin_talk_img" style="display:none;">
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">A long and active Bitcointalk thread with nearly 1,000 posts.</h2>
+					</div>
+					<div class="com-sup-block telegram_img" style="display:none;">
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Our Telegram channel is popular too.</h2>
+					</div>
+					<div class="com-sup-block we_chat_img" style="display:none;">
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Our Chinese community can be found on WeChat.</h2>
+					</div>
+					<div class="com-sup-block reddit_img" style="display:none;">
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">We also have an active sub-reddit.</h2>
+					</div>
+					<div class="com-sup-block twitter_img" style="display:none;">
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Of course we are on Twitter.</h2>
+					</div>
+					<div class="com-sup-block facebook_img" style="display:none;">
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Of course we are on Facebook too.</h2>
+					</div>
+					<div class="com-sup-block youtube_img" style="display:none;">
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Our Youtube Channel</h2>
+					</div>
+
 				</div>
 			</div>
 		</div>
@@ -1226,23 +1253,35 @@
 						<div class="clearfix"></div>
 					</div>
 
-					<h3 class="section-heading section-heading--center section-heading--dark m-b-40 noto-sans-display-bold medium-info-blocks" style="text-transform: uppercase; color: black;">Introduction to Byteball</h3>
-					<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc" style="color: #666666; font-weight: normal; max-width: 900px;margin: auto;font-size: 22px;line-height: 1.4;">The 4 articles below are an excellent introduction to Byteball. The articles use graphics, video and are written in easy to understand language. We suggest starting here for most people that are new to Byteball.</h3>
+					<div class="learn-more-block medium2_img">
+						<h3 class="section-heading section-heading--center section-heading--dark m-b-40 noto-sans-display-bold medium-info-blocks">Introduction to Byteball</h3>
+						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">The 4 articles below are an excellent introduction to Byteball. The articles use graphics, video and are written in easy to understand language. We suggest starting here for most people that are new to Byteball.</h3>
 
-					<div class="section-btn-group m-b-30 wow zoomIn section-heading--center m-t-30 medium-info-blocks" data-wow-delay="0.6s">
-						<a class="au-btn au-btn-pill au-btn-icon new-part-btn m-b-30 download-btn" href="https://medium.com/@Suirelav/introduction-to-byteball-part-1-why-ab3ff6a7a8f2" target="_blank">
-							<span class="btn-text">PART ONE</span>
-						</a>
-						<a class="au-btn au-btn-pill au-btn-icon new-part-btn m-b-30 download-btn" href="https://medium.com/@Suirelav/introduction-to-byteball-part-2-the-dag-ce84ca4c4e01" target="_blank">
-							<span class="btn-text">PART TWO</span>
-						</a>
-						<a class="au-btn au-btn-pill au-btn-icon new-part-btn m-b-30 download-btn" href="https://medium.com/@Suirelav/introduction-to-byteball-part-3-smart-contracts-81efa010a0b3" target="_blank">
-							<span class="btn-text">PART THREE</span>
-						</a>
-						<a class="au-btn au-btn-pill au-btn-icon new-part-btn m-b-30 download-btn" href="https://medium.com/@Suirelav/introduction-to-byteball-part-4-adoption-ff37d87615c9" target="_blank">
-							<span class="btn-text">PART FOUR</span>
-						</a>
+						<div class="section-btn-group m-b-30 wow zoomIn section-heading--center m-t-30 medium-info-blocks" data-wow-delay="0.6s">
+							<a class="au-btn au-btn-pill au-btn-icon new-part-btn m-b-30 download-btn" href="https://medium.com/@Suirelav/introduction-to-byteball-part-1-why-ab3ff6a7a8f2" target="_blank">
+								<span class="btn-text">PART ONE</span>
+							</a>
+							<a class="au-btn au-btn-pill au-btn-icon new-part-btn m-b-30 download-btn" href="https://medium.com/@Suirelav/introduction-to-byteball-part-2-the-dag-ce84ca4c4e01" target="_blank">
+								<span class="btn-text">PART TWO</span>
+							</a>
+							<a class="au-btn au-btn-pill au-btn-icon new-part-btn m-b-30 download-btn" href="https://medium.com/@Suirelav/introduction-to-byteball-part-3-smart-contracts-81efa010a0b3" target="_blank">
+								<span class="btn-text">PART THREE</span>
+							</a>
+							<a class="au-btn au-btn-pill au-btn-icon new-part-btn m-b-30 download-btn" href="https://medium.com/@Suirelav/introduction-to-byteball-part-4-adoption-ff37d87615c9" target="_blank">
+								<span class="btn-text">PART FOUR</span>
+							</a>
+						</div>
 					</div>
+					<div class="learn-more-block whitepaper_img" style="display:none;">
+						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">The Byteball whitepaper is very detailed and quite technical. If you are not a developer or do not have a technical mind you may struggle to understand it. If so we suggest reading some of the 4 introduction articles listed above. However if you have a technical mind by all means read the whitepaper! It was written by Tony Churyumoff, the Byteball founder, and is the single most comprehensive resource on Byteball that exists.</h3>
+					</div>
+					<div class="learn-more-block wiki_img" style="display:none;">
+						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">The wiki is an excellent resource with articles on a wide range of features of the Byteball platform. However there is a lot of information and you may feel a bit lost! If you are totally new to Byteball we suggest reading the 4 articles listed below. If you read the 4 articles and want to learn more (which you will) then explore the wiki.</h3>
+					</div>
+					<div class="learn-more-block github_img" style="display:none;">
+						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">Byteball is in continual development, see our code on Github.</h3>
+					</div>
+
 				</div>
 			</div>
 		</div>
@@ -1250,7 +1289,7 @@
 	<!-- Pricing Tables end-->
 
 	<!-- Pricing Tables start-->
-	<section class="section section-partner bg-white p-t-10 p-b-100">
+	<section class="section section-partner bg-white p-t-10 p-b-100" id="exchanges">
 		<div class="container">
 			<hr class="new-breaker-line">
 
@@ -1458,59 +1497,24 @@
 	
 	<script>
 		$(document).ready(function(){
-			$(".community-item img").on("mouseover",function(){
-				data_img = $(this).data("img");
-				$(this).attr("src","static/images/" + data_img + "_active.png");
-
-				if(data_img == "slack_img"){
-					$(".com-sup-desc").html("Our most active community is on Slack, so please join us there.");
-				}
-				else if(data_img == "medium_img"){
-					$(".com-sup-desc").html("We post news on Medium.");
-				}
-				else if(data_img == "bitcoin_talk_img"){
-					$(".com-sup-desc").html("A long and active Bitcointalk thread with nearly 1,000 posts.");
-				}
-				else if(data_img == "telegram_img"){
-					$(".com-sup-desc").html("Our Telegram channel is popular too.");
-				}
-				else if(data_img == "we_chat_img"){
-					$(".com-sup-desc").html("Our Chinese community can be found on WeChat.");
-				}
-				else if(data_img == "reddit_img"){
-					$(".com-sup-desc").html("We also have an active sub-reddit.");
-				}
-				else if(data_img == "twitter_img"){
-					$(".com-sup-desc").html("Of course we are on Twitter.");
-				}
-				else if(data_img == "facebook_img"){
-					$(".com-sup-desc").html("Of course we are on Facebook too.");
-				}
-				else if(data_img == "youtube_img"){
-					$(".com-sup-desc").html("Our Youtube Channel");
-				}
-				else if(data_img == "medium2_img"){
-					$(".medium-info-blocks").fadeIn(200);
-					$(".learn-more-desc").html("The 4 articles below are an excellent introduction to Byteball. The articles use graphics, video and are written in easy to understand language. We suggest starting here for most people that are new to Byteball.");
-				}
-				else if(data_img == "whitepaper_img"){
-					$(".medium-info-blocks").fadeOut(200);
-					$(".learn-more-desc").html("The Byteball whitepaper is very detailed and quite technical. If you are not a developer or do not have a technical mind you may struggle to understand it. If so we suggest reading some of the 4 introduction articles listed above. However if you have a technical mind by all means read the whitepaper! It was written by Tony Churyumoff, the Byteball founder, and is the single most comprehensive resource on Byteball that exists.");
-				}
-				else if(data_img == "wiki_img"){
-					$(".medium-info-blocks").fadeOut(200);
-					$(".learn-more-desc").html("The wiki is an excellent resource with articles on a wide range of features of the Byteball platform. However there is a lot of information and you may feel a bit lost! If you are totally new to Byteball we suggest reading the 4 articles listed below. If you read the 4 articles and want to learn more (which you will) then explore the wiki.");
-				}
-				else if(data_img == "github_img"){
-					$(".medium-info-blocks").fadeOut(200);
-					$(".learn-more-desc").html("Byteball is in continual development, see our code on Github.");
-				}
+			$(".community-item img").on("mouseover", function(){
+				$(this).attr("src","static/images/" + $(this).data("img") + "_active.png");
 			});
 
-			$(".community-item img").on("mouseout",function(){
-				data_img = $(this).data("img");
-				$(this).attr("src","static/images/" + data_img + ".png");
+			$(".community-item img").on("mouseout", function(){
+				$(this).attr("src","static/images/" + $(this).data("img") + ".png");
 			});
+
+			$("#community .community-item img").on("mouseover", function(){
+				$("#community .com-sup-block").hide();
+				$("#community .com-sup-block."+ $(this).data("img")).show();
+			});
+
+			$("#learn_more .community-item img").on("mouseover", function(){
+				$("#learn_more .learn-more-block").hide();
+				$("#learn_more .learn-more-block."+ $(this).data("img")).show();
+			});
+
 		})
 	</script>
 

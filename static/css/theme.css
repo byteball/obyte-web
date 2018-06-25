@@ -4755,8 +4755,8 @@ body.lb-disable-scrolling .section-header {
 	min-width: 52px;
 	background: none;
 	border: none;
-	padding-bottom: 10px;
-	margin: 10px;
+	padding-left: 5px;
+    padding-bottom: 10px;
 }
 
 .download-wallet-btn{
@@ -4847,8 +4847,7 @@ body.lb-disable-scrolling .section-header {
 	.language-nav-item .language-block li, .language-nav-item .language-block{
 		width: auto;
 		float: left;
-		margin-right: 10px;
-		margin-bottom: 0px;
+		padding-left: 10px;
 		max-width: 300px;
 	}
 
@@ -5340,7 +5339,7 @@ p.box-author-job.source-sans-pro-regular{
 	}
 	.navbar-expand-lg .navbar-nav .dropdown-menu {
 		background: black;
-		left: -20px;
+		left: -10px;
 	}
 }
 

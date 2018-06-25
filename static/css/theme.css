@@ -3022,14 +3022,16 @@ ul.list-reset {
 	margin-bottom: 10px;
 }
 
-.box-style-2 .box-body .box-title a {
+.box-style-2 .box-body .box-title a,
+.box-style-2 .box-body .box-title {
 	font-size: 18px;
 	color: #333333;
-	font-weight: 700;
-	font-family: "Poppins", sans-serif;
+	font-weight: 700 !important;
+	font-family: "Poppins", sans-serif !important;
 }
 
-.box-style-2 .box-body .box-title a:hover {
+.box-style-2 .box-body .box-title a:hover,
+.box-style-2 .box-body .box-title:hover {
 	color: #4285f4;
 }
 

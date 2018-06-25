@@ -3940,7 +3940,7 @@ ul.list-reset {
 		-webkit-align-items: center;
 		-moz-box-align: center;
 		-ms-flex-align: center;
-		align-items: center;
+		align-items: normal;
 	}
 	.section-about-2 .list-text-icon {
 		margin-top: 0;

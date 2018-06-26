@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="vi">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Thanh toán thông minh dễ dàng
+">
+	<meta name="author" content="Byteball">
+	<link rel="icon" href="img/icon_16x16@2x.png">
+
+	<title>Byteball &mdash; Thanh toán thông minh dễ dàng</title>
+
+	<!-- Mobile Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="img/icon_16x16@2x.png">
+
+	<!-- Web Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+
+	<!-- Font Awesome CSS -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Plugins -->
+	<link href="css/animations.css" rel="stylesheet">
+	
+	<link href="https://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+
+	<!-- Worthy core CSS file -->
+	<link href="css/style.css?v11" rel="stylesheet">
+	<style>
+.btnn {
+        
+        background-color: #E67E22 !important;
+        color: #FFFFFF !important;
+        font-family: 'Arial', sans-serif !important;
+        font-size: 16px !important;
+        text-align: center !important;
+       
+    }
+	
+.bbt {
+    font-size: 13px;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    letter-spacing: .03em;
+    color: #fff;
+    background-color: #E67E22;
+    box-sizing: border-box;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 18px;
+    display: inline-block;
+    margin: 0;
+    transition: all 0.23s ease-in-out 0s;
+}
+</style>
+
+	
+</head>
+
+<body class="no-trans">
+	<!--div id="particles-js"></div-->
+
+	<!-- scrollToTop -->
+	<!-- ================ -->
+	<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+
+	<!-- header start -->
+	<!-- ================ -->
+	<header class="header fixed clearfix navbar navbar-fixed-top">
+		<div class="container">
+			<div class="row main-navigation animated">
+				<div class="col-xs-2">
+					<div class="logo smooth-scroll text-center">
+						 <a href="#banner"><img id="logo" src="img/icon-white-outline-1024.png" alt="Logo Byteball" style="max-width: 55px;"></a> 
+					</div>
+					<div class="site-name">
+						 <a href="#banner">Byteball</a> 
+					</div>
+				</div>
+
+				<!-- navbar start -->
+				<!-- ================ -->
+				<nav class="navbar navbar-default col-xs-10" role="navigation">
+					<div class="container-fluid">
+
+						<!-- Toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+									Chuyển điều hướng
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li><a href="#why">Tại sao</a></li>
+								<li><a href="#core">Tính năng</a></li>
+								<li><a href="#download">Tải xuống</a></li>
+								<li><a href="#dist">Phân phối</a></li>
+								<li><a href="#tech">Công nghệ</a></li>
+								<li><a href="https://wiki.byteball.org" target="_blank" title="Wiki">Wiki</a></li>
+								<li><a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="Chủ đề BitcoinTalk"><i class="fa fa-bitcoin"></i></a></li>
+								<li><a href="https://medium.com/byteball" target="_blank" title="Blog Medium"><i class="fa fa-medium"></i></a></li>
+								<li><a href="https://slack.byteball.org" target="_blank" title="Slack"><i class="fa fa-slack"></i></a></li>
+								<li><a href="https://www.reddit.com/r/ByteBall/" target="_blank" title="Reddit"><i class="fa fa-reddit-alien"></i></a></li>
+								<li><a href="https://t.me/byteball" target="_blank" title="Telegram"><i class="fa fa-telegram"></i></a></li>
+								<!--<li class="social-dropdown">
+									<button class="btn-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+										<span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+										<li><a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="BitcoinTalk thread"><i class="fa fa-bitcoin"></i></a></li>
+										<li><a href="https://medium.com/byteball" target="_blank" title="Medium blog"><i class="fa fa-medium"></i></a></li>
+										<li><a href="https://byteball.slack.com" target="_blank" title="Slack"><i class="fa fa-slack"></i></a></li>
+										<li><a href="https://www.reddit.com/r/ByteBall/" target="_blank" title="Reddit"><i class="fa fa-reddit-alien"></i></a></li>
+										<li><a href="https://t.me/byteball" target="_blank" title="Telegram"><i class="fa fa-telegram"></i></a></li>
+									</ul>
+								</li>-->
+								<li class="dropdown lang">
+									<button class="btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+										<img class="flag" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAAAjUlEQVQoU2M004h/cY1XR5yRjYXh/68/DNjompOFDDjAMUYe0+7/u2YnMsS1XmFYVK2DlT41zwKr/inzljIw8lr3/xeXMsSpmYWLjWHLsTCsBqy9/4RhOLkA5Nc/334xYKPxhkHTxLn/c5KicUUTXnFwLHSyMPwPVpQhywBwLFDDBUcZGBisyHICA8NxAHf1hEyWpj+2AAAAAElFTkSuQmCC"/>
+										<span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+										<!-- English -->
+										<li><a href="/index.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAAAjUlEQVQoU2M004h/cY1XR5yRjYXh/68/DNjompOFDDjAMUYe0+7/u2YnMsS1XmFYVK2DlT41zwKr/inzljIw8lr3/xeXMsSpmYWLjWHLsTCsBqy9/4RhOLkA5Nc/334xYKPxhkHTxLn/c5KicUUTXnFwLHSyMPwPVpQhywBwLFDDBUcZGBisyHICA8NxAHf1hEyWpj+2AAAAAElFTkSuQmCC"/>EN</a></li>
+
+										<!-- Chinese -->
+										<li><a href="/index.html.zh"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAABCUlEQVQ4T62SPU7DQBCFvx2b2MiItQsENNwmAoSQ6KHhBlwEcQloASHRQEPNBaip+CsCUTBxnN1FXsVWiig/iCdNs9r95s28VfeBvPSs3eAPSkTe1JXC7aUZQ+co1xzyAUsoLPizUClfk3T72cEDdnRK1xjisxb5zZDowSFKsXweURwVxCLTAe1MMzgJ0MctTNfROx0QXlqMdf5hJDLRReOgvarpbFk2rxOKZ8PXwQ+ZhJTOEU1x0QC2dUq5r8ifDEGqiJUgj9YD5nKwq1PMaMpqcbYqYOUinm8HVQq1+tZ62/lhn2CUwMwUxgGVg1nx1c2aHYwDFvlP/wO4C+T129r1RTrXdxOR919kd4kyT7xXQgAAAABJRU5ErkJggg=="/>ZH</a></li>
+
+										<!-- Danish -->
+										<li><a href="/index.html.da"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAkklEQVQ4T2Ocz8Bw5D8DgzUDEngycS6YJ5OfjCyMjX2McR4Dw/9gcR0USY5HZ8H8H3LGeA1Y+/IKw3AwoGni3P9l6TGEAgurfNfMJQyMIANKUqPIMqBn9jLsgch05yTYwH8q5uTFwr8bx8AamTSsyDPg19UjYI1s2jbkGfD90iGwRk49O6IMOMrAwIDiVhKS8nEA/C1UGlAm6fkAAAAASUVORK5CYII="/>DA</a></li>
+
+										<!-- Dutch -->
+										<li><a href="/index.html.nl"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAV0lEQVQ4T2PsY2CdzsDAkMFAHpjF2MfA+t9PiJcs7ZvefWYYBAY0TZz7vzg9jiwv9M5cxMA4DAwQsWz7r6RpSVYY3Lt+nIFxMBjQOpOBgTGNLD/8Z5gNAIXgOI0BqcDYAAAAAElFTkSuQmCC"/>NL</a></li>
+
+										<!-- Estonian-->
+										<li><a href="/index.html.et"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAYElEQVQ4T2PUz5j86OJfVlkGMoAe8+/HjAypM/5LOQSRoZ2B4dmBdQyDwQAGhv8mhoZkeeHM+fMMjAxD34CmiXP/F6fHkRUGvTMXMTAOvAHTl6zf/frtOxdy/CAmLLQXAOQZPLwK8Il6AAAAAElFTkSuQmCC"/>ET</a></li>
+										
+										<!-- German -->
+										<li><a href="/index.html.de"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAVklEQVQ4T2NkYGCYzsDAkMFAHpjFyMDA8F9dXZ0s7Tdv3mQYBAbsYmT4rykjQ5YXrj95wsA4DAw41cDw3zRAgqwwOL3hBQPjoDBgJgMDQxpZfmBkmA0Ap4wzS+Kj08UAAAAASUVORK5CYII="/>DE</a></li>
+										
+										<!-- Japanese -->
+										<li><a href="/index.html.ja"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAyElEQVQ4T2NsmjT3CMN/BmsGMgAjA8MxxqaJc/8Xp8eRoZ2BoXfmIgbaGPD/10+G13WVDJ9WLgO7jC88ikG0qZ2BkY0dxaU4XfCmpZ7h/dSJKIoFs/MZRGoaiTPgnp4aw9/Xr1AUM4uKMihduk2cAfcNNBj+vHyBophFTJxB8eJN4gx419vJ8LanHUWxcEklg1BxOXEG/P/zh+FtZwvD51XLwRp4wyIZhMtrGBhZWIgzgNhEQZ10MHPJ+v8v374j1lIUdWLCQgwAG1htQzGt2mgAAAAASUVORK5CYII="/>JA</a></li>
+
+										<!-- Spanish -->
+										<li><a href="/index.html.es"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAA9ElEQVQ4T2PsY2Y48p+BwZqBPHCMsZeZ4X+RjiZZ2vuuXGeg3IBTDQz/TUMswS64fvMPw8//ggzP3oky8HD+ZuDi+M0gIfiRQUbiO1YXnl5znIER2QCG/wwMB3ZbMqjNWsPAuvcQw4Nr+xhMpJYxMP7/SpwBF26JMYgZtDHw33nI8DEvg+Hb6uUM3x4tYtCTv0ScAYcuyDAomFUxnN63muHfg/sMkrYhDF+frmJwt3pEnAE/frIwvPjtznDm+DkGUREWBmV1DQYJjsMMLEw/iDMApurPHyYGFpZ/BKMWHIgDnw56mRmOMjAwWBF0LxYFjAwMxwHj5XGr1M6PtQAAAABJRU5ErkJggg=="/>ES</a></li>
+
+										<!-- French -->
+										<li><a href="/index.html.fr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAATklEQVQ4T2N01Z8/nZHhfwYDErBJ+o/MhbOVK3PRxWcxuunP+68gHIIi0b+NE6sBH1SVUMQPvH3LMGrAaBhQLR3MZGBgSCMnKTMyMMwGACAMWONtJSw3AAAAAElFTkSuQmCC"/>FR</a></li>
+										
+										<!-- Indonesian -->
+										<li><a href="/index.html.id"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAUElEQVQ4T2NcwM666/PP364MZAA+dtY9jJMZGP57qUqToZ2BYdvtpwyjBjxlYGyaOPd/cXocWYHYO3PRqAGgMJi+ZP3u12/fuZATimLCQnsBItU/YSoyxUcAAAAASUVORK5CYII="/>ID</a></li>
+
+										<!-- Italian -->
+										<li><a href="/index.html.it"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAUUlEQVQ4T2NkqPKazsDAkMGABJrEg5G5cLZmfhaK+H8GhlmMDFVe//XNdFEkjnm0YDXgv7c/ivj2vXsZRg0YDQNqpQPPmQwMjGnkJGUGBobZAEtLVo37EG2TAAAAAElFTkSuQmCC"/>IT</a></li>
+										
+										<!-- Korean -->
+										<li><a href="/index.html.ko"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAABgElEQVQ4T2NsmjT3CMN/BmsGMgAjA8MxxqaJc/8Xp8fBtf///5+BkZERq3Hocr0zFzGgGLBm9SqGLZs3MSxYtASrAf6+3gwFhUUMjk7OYHkUA3Zs38aQnprCsGnrNgYDcQkGtpoqBqYjR8AK//r5MfxqbWc4ePQIQ1REOMP6TZsZzMzMUQ0IDvRnKCwqZrCxtWPg8PdlYDpzGsUVv6trGX5nZTNs2rSRYfPGDQyz585HNQDuv///GT7oGDNIfXjG8I2FnSErfCLDDT5ZhuJPxxm8u3JQDEXxAnIARXScZPB9epxhtYAhw+4fQmBN0rzMDLfqtHAbAAogkBccHJ0YqrY8Z5h48A2KYi9NPobVSfIM69auYdi0cQM4oFFcsG/vHob42BhwAGnpGzPkrnnKsP7iRwYOViYGD01ehi5/SYaLx/czJCXEM6zdsJHBxMQU1QCQdSCTQXjOvAVYoxEU0PkFhQx29g6Y0UhMQsSakGYuWf//5dt3xOjHUCMmLMQAAArvukNTiC2gAAAAAElFTkSuQmCC"/>KO</a></li>
+
+										<!-- Polish -->
+										<li><a href="/index.html.pl"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAUElEQVQ4T2OcvnTdrtdv3rsykAFEhYX2MDZNnPu/OD2ODO0MDL0zFzGMGrCIgXEyA8N/L1VpsgJx2+2nowaAwmAhO+vuTz9/u5ATinzsrHsBqd8/YFeteyoAAAAASUVORK5CYII="/>PL</a></li>
+
+										<!-- Russian -->
+										<li><a href="/index.html.ru"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAXklEQVQ4T2OcvnTdrtdv3rsykAFEhYX2MDZNnPu/OD2ODO0MDL0zFzEMAgMYNev/23mnkuWFQ1tnMzAOAwOWCzD8t5aRICsMjj55wcA4CAwQZJjJ8J8hjSw/MDLMBgDbJjvTGKiw3wAAAABJRU5ErkJggg=="/>RU</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+				<!-- navbar end -->
+
+				<div class="col-md-12 col-xs-12 col-sm-12">
+
+					
+					<!-- header-right start -->
+					<!-- ================ -->
+					<div class="header-right clearfix">
+
+						<!-- main-navigation start -->
+						<!-- ================ -->
+						<div class="main-navigation animated">
+
+
+						</div>
+						<!-- main-navigation end -->
+
+					</div>
+					<!-- header-right end -->
+
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- header end -->
+
+	<!-- textcoin block start -->
+	<!-- ================ -->
+	<div class="section clearfix" id="textcoin" style="display: none;">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-5 col-md-push-5 text-center text-md-left">
+					<h2>You received money!</h2>
+					<p class="android" style="display: none;">
+						Click the button below to open or install Byteball app on your device and claim your funds.
+					</p>
+					<p class="desktop">
+						<a href="#download">Download and install Byteball Wallet</a> first, then Click the button below to open app on your device and claim your funds.
+					</p>
+					<p id="warning" class="alert alert-danger m10" style="display: none">
+							Unfortunately, Byteball Wallet is not yet available for iOS platform. Try to use another device to claim your funds.
+					</p>
+					<p><button id="openInApp" class="btn btn-lg btn-success m10">Receive funds</button></p>
+					<p>
+						If the button doesn't work, <a href="#download">install Byteball Wallet</a>, navigate to <i>Receive</i> 	&rarr; <i>Claim funds using textcoin</i> and paste the following string:<br>
+						<b id="mnemonic"></b><br>
+					</p>
+				</div>
+				<div class="col-md-2"></div>
+				<div class="col-xs-12 col-md-3 col-md-offset-2 col-md-pull-7 text-center">
+					<img src="img/inphone/wallet.png?v2" style="display: inline; max-height: 547px" /> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- textcoin block end -->
+
+	<!-- banner start -->
+	<!-- ================ -->
+	<div id="banner" class="banner">
+		<div class="banner-caption">
+			<div class="container">
+				
+				<div class="row smooth-scroll">
+					<div class="row text-center logo-main">
+						<svg height="128" width="128">
+							<circle cx="64" cy="64" r="56" stroke="#2c3e50" stroke-width="8" fill="white" />
+						</svg> 
+						<div style="margin-top: -15px;">Byteball</div>
+					</div>
+					<div class="space"></div>
+					<div class="row text-center">
+						<h2>Phương thức thanh toán thông minh đã được đơn giản hóa</h2>
+
+						<p><a class="btn btn-lg btn-success" href="#download" role="button">Nhận ví Byteball</a></p>
+						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> Đọc bản cáo bạch</a></p>
+					</div>
+					<div class="space"></div>
+					
+					
+					<!--p class="lead what-is">Byteball is an alternative legal system based on smart contracts.</p>
+					<p class="lead what-is">When a contract is created on Byteball, it just works exactly as agreed upon.  Trust in the counterparty and reliance on the slow and expensive conventional legal system are not required any more as the contracts are enforced by the immutable rules of the decentralized platform.  See below the types of contracts available today.</p-->
+					
+					<p class="lead what-is">Byteball cho phép sự tin tưởng nơi mà niềm tin không thể tồn tại trước đó.</p>
+					<p class="lead what-is">Khi hợp đồng được tạo ra trên nền tảng Byteball, nó có thể được tin cậy để làm việc đúng như đã thỏa thuận.  Tại sao ư? Bởi vì nó được xác nhận bởi nhiều các nút trên mạng phân quyền, mà tất cả các thực hiện theo các quy tắc tương tự không thay đổi.  Các đối tác, thậm chí nếu đó là một hoàn toàn xa lạ, phải cư xử một cách trung thực bởi vì chỉ có các quy tắc đã đặt ra là có thẩm quyền.  Một hợp đồng ở đây được gọi là một hợp đồng thông minh.  Xem dưới đây cho các ví dụ làm việc về hợp đồng thông minh đang khả dụng.</p>
+					
+					
+				</div>
+			</div>
+			<!-- /.countdown-wrapper -->
+
+		</div>
+	</div>
+	<!-- banner end -->
+	
+	
+	
+	<!-- section start -->
+	<!-- ================ -->
+	<div class="default-bg">
+		<div id="why" class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<h2 class="text-center">Tại sao nên sử dụng Byteball?</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+			<div class="section clearfix">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						
+						 <div class="space"></div> 
+						<div class="row">
+							<div class="col-md-5 col-md-offset-1">
+								<h2 class="title text-left">Điều kiện thanh toán thông minh phi rủi ro</h2>
+								<p class="lead text-left">Byteball cho phép bạn làm một cái gì đó mà tiền tệ truyền thống không thể: <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
+								 target="_blank">điều kiện thanh toán.</a></p>
+
+								<p>Bạn đặt một điều kiện khi thanh toán tiền. Nếu điều kiện không được đáp ứng, bạn nhận được tiền của bạn trở lại.</p>
+								<div class="space"></div>
+							</div>
+							<div class="col-md-6">
+								  <!-- <div class="frame-it"></div>  -->
+								<img src="img/inphone/payment-with-bind-full.png" alt="" class="img-feature">
+								<!-- <img src="img/inphone/bind.png" alt="" class="max-w320"> -->
+								<!-- <div class="space"></div> -->
+							</div>
+						</div>
+					 </div> 
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+			<!-- section end -->
+			<div class="section clearfix">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						
+						 <div class="space"></div> 
+						<div class="row">
+							<div class="col-md-4 col-md-push-6">
+							<h2 class="title text-left">Bảo hiểm ngang hàng</h2>
+							<p class="lead text-left">Rào cản chống lại các biến cố tiêu cực.</p>
+							<p>Mua bảo hiểm ngang hàng để được trả tiền trong trường hợp xảy ra các tình huống xấu. Bán bảo hiểm để kiếm lời.</p>
+							<p>Bảo hiểm chỉ là <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527"
+								 target="_blank"> một hợp đồng thông minh đơn giản </a> có thể mở khóa bởi người được bảo hiểm &mdash; nếu các sự kiện trong câu hỏi đã xảy ra, hoặc do người được bảo hiểm &mdash; và ngược lại.</p>
+							<p>Để đảm bảo không bị chậm chễ, tìm đối tác của bạn trên kênh <a href="https://byteball.slack.com/messages/C54CDJATB/"
+								 target="_blank">#Bảo_Hiểm_Ngang_Hàng</a> trên kênh <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a> của chúng tôi, tạo một hợp đồng, và nếu chuyến bay của bạn chậm chễ, <a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000"> giao lưu với sự chậm chễ </a> để có nó gửi dữ liệu về sự chậm trễ, sau đó mở khóa hợp đồng.</p>
+							<div class="space"></div>
+							</div>
+							<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
+								<img src="img/inphone/flight-delays-oracle-full.png" alt="" class="img-wallet-left img-feature">
+								<!-- <img src="img/inphone/flight-delays-oracle-top-no-border.png" alt="" class="img-wallet-left"> -->
+								<!-- <div class="space"></div> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+	<!-- section start -->
+	<!-- ================ -->
+			<div class="section clearfix">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						
+						 <div class="space"></div> 
+						<div class="row">
+							<div class="col-md-5 col-md-offset-1">
+							<h2 class="title text-left">Dự báo thị trường</h2>
+							<p class="lead text-left">Kiếm tiền bằng cách dự đoán chính xác các sự kiện tương lai.</p>
+							<p>Tạo ra một hợp đồng thông minh ngang hàng có thể được mở khóa nếu xảy ra một sự kiện cụ thể. Sử dụng nó để đặt cược <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
+								 target="_blank">các biến động giá</a>, cá cược thể thao và bảo hiểm.</p>
+							<p>Tìm đối tác của bạn trên kênh <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#dự_báo_thị_trường</a> trên của chúng tôi <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack.</a></p>
+							<div class="space"></div>
+							</div>
+							<div class="col-md-6">
+								<img src="img/inphone/offer-contract.png" alt="" class="img-feature">
+								<!-- <img src="img/inphone/offer-contract-unlock-condition.png" alt=""> -->
+								<!-- <div class="space"></div> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+	<!-- section end -->
+			<div class="section clearfix">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						
+						<div class="space"></div> 
+						<div class="row">
+							<div class="col-md-4 col-md-push-6">
+								<h2 class="title text-left">Cá cược ngang hàng</h2>
+								<p class="lead text-left">Đặt cược chống lại những người dùng khác trên các sự kiện thể thao.</p>
+								<p>Tìm đối tác của bạn trên kênh <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#Dự_báo_thị_trường</a> trên <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a> của chúng tôi và tạo ra một hợp đồng có thể được mở khóa của bạn hoặc của những người ngang hàng tùy thuộc vào kết quả của một trò chơi trong tương lai.</p>
+								<p>Sau khi kết quả được tìm thấy, <a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">trò chuyện với nhà dự đoán thể thao</a> để có nó gửi dữ liệu về kết quả, sau đó mở khóa các hợp đồng.</p>
+
+								<div class="space"></div>
+							</div>
+							<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
+								
+							<!-- <div style="position:relative; display: inline-block;">
+								<div class="frame-it1"></div> -->
+								<img src="img/inphone/sports-oracle-chat-full.png" alt="" class="img-wallet-left img-feature">
+								<!-- <img src="img/inphone/payment-in-chat.png" alt="" class="img-wallet-left max-w320"> -->
+							<!-- </div> -->
+								<!-- <div class="space"></div> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+	
+	<!-- section start -->
+	<!-- ================ -->
+		<div class="section clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					
+					<div class="space"></div> 
+					<div class="row">
+						<div class="col-md-5 col-md-offset-1">
+							<h2 class="title text-left">Tiền Chữ</h2>
+							<p class="lead text-left">Gửi tiền kỹ thuật số đến thư điện từ hoặc thông qua chat.</p>
+							<p>Người gửi chỉ cần viết địa chỉ email mà anh thường viết địa chỉ Byteball. Người nhận chỉ cần nhấp chuột đến một liên kết đã nhận được trong email hoặc chat. Nếu người nhận không có ví Byteball, anh ta sẽ được nhắc nhở để cài đặt các ví.  Trên Android, các cài đặt được khởi chạy tự động. <a href="https://medium.com/byteball/sending-cryptocurrency-to-email-5c9bce22b8a9" target="_blank">Tìm hiểu thêm</a>.</p>
+							<div class="space"></div>
+						</div>
+						<div class="col-md-6">
+							 <!-- <div class="frame-it"></div> -->
+							<img src="img/inphone/send-crypto-to-email.png" alt="" class="img-feature">
+							<!-- <img src="img/inphone/sports-oracle-chat-top-no-border.png" alt=""> -->
+							<!-- <div class="space"></div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+		<!-- section end -->
+		<div class="section clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					
+					 <div class="space"></div> 
+					<div class="row">
+						<div class="col-md-4 col-md-push-6">
+							<h2 class="title text-left">Có chủ quyền về danh tính</h2>
+							<p class="lead text-left">Lưu trữ danh tính trong ví của bạn, chọn những gì để tiết lộ và cho ai đó.</p>
+							<p>Có danh tính thực sự của bạn xác nhận và lưu trữ một cách an toàn trong ví của bạn.  <a href="https://www.jumio.com/" target="_blank">Jumio</a> giúp xác minh danh tính.  Khi bạn muốn tiết lộ danh tính của bạn tới một nhà cung cấp dịch vụ, ví dụ như tham gia vào một ICO, bạn chỉ cần xuất nó ra khỏi ví của bạn trong một vài cú nhấp chuột.  <a href="https://medium.com/byteball/bringing-identity-to-crypto-b35964feee8e" target="_blank">Tìm hiểu thêm</a>.</p>
+						<div class="space"></div>
+						</div>
+						<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
+							<img src="img/inphone/attestation-choose-profile-pixelated.png" alt="" class="img-wallet-left img-feature">
+							<!-- <img src="img/inphone/merchant-chatbot-top.png" alt="" class="img-wallet-left"> -->
+							<!-- <div class="space"></div> -->
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+
+	<!-- section start -->
+	<!-- ================ -->
+		<div class="section clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					
+					<div class="space"></div> 
+					<div class="row">
+						<div class="col-md-5 col-md-offset-1">
+							<h2 class="title text-left">Thanh toán ngang hàng thông qua Chat</h2>
+							<p class="lead text-left">Trò chuyện và thanh toán trong các ứng dụng tương tự chỉ bằng cách nhấp vào liên kết.</p>
+							<div class="space"></div>
+						</div>
+						<div class="col-md-6">
+							 <!-- <div class="frame-it"></div> -->
+							<img src="img/inphone/payment-in-chat-full.png" alt="" class="img-feature">
+							<!-- <img src="img/inphone/sports-oracle-chat-top-no-border.png" alt=""> -->
+							<!-- <div class="space"></div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+		<!-- section end -->
+		<div class="section clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					
+					 <div class="space"></div> 
+					<div class="row">
+						<div class="col-md-4 col-md-push-6">
+							<h2 class="title text-left">Trò chuyện bot</h2>
+							<p class="lead text-left">Nói chuyện với một con bot giống như bạn đang nói chuyện với một con người.</p>
+							<p>Cửa hàng bằng cách trò chuyện với một thương gia bot, trả trong hai lần nhấp chuột. Trao đổi và các dịch vụ khác cũng được dễ dàng sử dụng trong giao diện đàm thoại.</p>
+						<div class="space"></div>
+						</div>
+						<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
+							<img src="img/inphone/merchant-chatbot-1.png" alt="" class="img-wallet-left img-feature">
+							<!-- <img src="img/inphone/merchant-chatbot-top.png" alt="" class="img-wallet-left"> -->
+							<!-- <div class="space"></div> -->
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+
+		<!-- section end -->
+		<!-- section end -->
+		<div class="section clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					
+					 <div class="space"></div> 
+					<div class="row">
+						<div class="col-md-5 col-md-offset-1">
+							<h2 class="title text-left">Cửa hàng Bot</h2>
+							<p class="lead text-left">Dễ dàng khám phá và thêm chatbots mới thông qua các cửa hàng bot được xây dựng trong Bot.</p>
+							<p>Nhà phát triển có truy cập ngay đến tất cả người dùng bằng cách xuất bản của chatbot trên Bot Store. Hãy xem các <a href="https://github.com/byteball/byteballcore/wiki/Writing-chatbots-for-Byteball"
+								 target="_blank"> hướng dẫn phát triển về xây dựng chatbots.</a></p>
+						<div class="space"></div>
+						</div>
+						<div class="col-md-6">
+							<img src="img/inphone/bot-store.png" alt="" class="img-feature">
+							<!-- <img src="img/inphone/bot-store-top-no-border.png" alt=""> -->
+							<!-- <div class="space"></div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+			<!-- section end -->
+		<div class="section clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					
+					 <div class="space"></div> 
+					<div class="row">
+						<div class="col-md-5 col-md-offset-1">
+							<h2 class="title text-left">Tiền tệ không thể tách rời: Blackbytes</h2>
+							<p class="lead text-left">Giống như sự riêng tư ở tiền mặt.</p>
+							<p>Khi bạn muốn hoàn toàn riêng tư, thanh toán bằng Blackbytes, một loại tiền tệ như tiền mặt không thể tách rời giao dịch và nó không thể nhìn thấy trên cơ sở dữ liệu công cộng, họ sẽ được gửi thẳng giữa ngang hàng giữa 2 người với nhau.</p>
+							<p>Sử dụng tích hợp TOR chuyển thẳng từ  ví để tăng sự bảo mật của bạn hơn nữa.</p>
+
+
+						</div>
+						<div class="col-md-6" style="position: relative">
+							<!--img src="img/black-byteball-logo-big.png" alt="" style="max-width: 142px; margin-top: 60px; margin-left: 110px;"-->
+							<svg height="128" width="128" style="position: relative">
+								<circle cx="64" cy="64" r="56" stroke="#2c3e50" stroke-width="8" fill="transparent" />
+							</svg>
+							<i class="fa fa-eye-slash" style="font-size: 80px; position: absolute; top: 19px; left: 39px; color: #2c3e50"></i>
+							<!-- <div class="space"></div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+	<!-- section start -->
+	<!-- ================ -->
+		<!-- section start -->
+	<!-- ================ -->
+	<div class="section clearfix ">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					
+						 <div class="space"></div> 
+						<div class="row">
+							<div class="col-md-5 col-md-offset-1">
+								<h2 class="title text-left">Người dùng giúp đỡ lẫn nhau</h2>
+								<p class="lead text-left">Đảm bảo các giao dịch của nhau.</p>
+								<p>Không có đơn vị trung tâm nào lưu trữ và xử lý tất cả các khoản thanh toán.  Thay vào đó, các giao dịch được tạo ra bởi người dùng được mã hóa liên kết với nhau, và một khi bạn thêm giao dịch mới, những người khác bắt đầu thêm giao dịch của họ lên trên giao dịch của bạn, và số lượng các giao dịch khác liên kết đến giao dịch của bạn phát triển như một quả cầu tuyết (đó là lý do tại sao chúng ta gọi là nó Byteball).</p>
+
+							</div>
+							<div class="col-md-6">
+								<img src="img/DAG-transparent.png" alt="" style="margin-top: 60px;">
+								
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+	<!-- section start -->
+	<!-- section start -->
+	<!-- ================ -->
+	<div class="default-bg">
+		<div id="core" class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<h2 class="text-center">Tính năng chính</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+	<!-- ================ -->
+	<div class="section clearfix">
+		<div class="container ">
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
+					<h3 class="media-heading">Giao dịch nguyên tử</h3>
+					<p>Khi hai bên ký một đơn vị duy nhất thực hiện hoàn tất của việc dịch, hai giao dịch hoặc xảy ra đồng thời hoặc đều không xảy ra. Nó không còn cần thiết để tin tưởng vào giao dịch tập trung bất kỳ.</p>
+					<div class="space-res"></div>
+				</div>
+				<div class="col-sm-4">
+					<h3 class="media-heading">Quy định tài sản</h3>
+					<p>Các tổ chức quy định có thể phát hành các tài sản phù hợp với yêu cầu KYC / AML. Mỗi chuyển nhượng tài sản như vậy là để được bảo lãnh bởi người phát hành, và nếu có bất cứ điều gì mâu thuẫn với các quy định, tổ chức phát hành sẽ không bảo lãnh</p>
+				</div>
+			</div>
+			<div class="space"></div>
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
+					<h3 class="media-heading">Đa chữ ký</h3>
+					<p>Để bảo mật, bạn có thể yêu cầu tiền của bạn chỉ được chi tiêu khi một số chữ ký được cung cấp, ví dụ: từ máy tính xách tay và từ điện thoại của bạn Để kiểm soát chia sẻ của các quỹ, chữ ký của những người khác nhau có thể được yêu cầu.</p>
+					<div class="space-res"></div>
+				</div>
+
+				<div class="col-sm-4">
+					<h3 class="media-heading">On-chain oracles</h3>
+					<p>Khi giao dịch với các đối tác thiếu đáng tin cậy, bạn có thể khóa các khoản tiền trên địa chỉ tín dụng bởi bạn hoặc bởi đối tác, tùy thuộc vào việc đăng ký vào cơ sở dữ liệu bởi nhà cung cấp dữ liệu đáng tin cậy & mdash; oracles.</p>
+				</div>
+			</div>
+			<div class="space"></div>
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
+					<h3 class="media-heading">Lưu trữ bất biến</h3>
+					<p>Sau khi được lưu trữ trong cơ sở dữ liệu Byteball, dữ liệu không thể được sửa đổi hoặc loại bỏ.</p>
+					<div class="space-res"></div>
+				</div>
+				<div class="col-sm-4">
+					<h3 class="media-heading">Quyết toán</h3>
+							<p>Sau khi các tiêu chí nhất định được đáp ứng, một giao dịch mới sẽ trở thành chính thức. Nó không thể được sửa đổi ngay cả bởi một kẻ tấn công mạnh mẽ. Không có phỏng đoán về số lượng xác nhận, không có tấn công với 51% .</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+
+	<!-- section start -->
+	<!-- ================ -->
+	<div class="default-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<h2  id="download"  class="text-center">Tạo ví Byteball của bạn</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+	<!-- section start -->
+
+	<div class="section clearfix ">
+		<div class="container">
+			<div class="row apps">
+
+				<div class="col-md-8 col-md-offset-2 text-center">
+
+					 <div>
+						 <img style="max-width: 33%;" src="img/inphone/wallet.png?v2" /> 
+					</div> 
+					<div class="space"></div>
+					<div class="app">
+						<div><a target="_blank" href="https://github.com/byteball/byteball/blob/master/building-for-ios.md"><img src="img/icon-applestore.svg"/></a></div>
+						<div><a target="_blank" href="https://github.com/byteball/byteball/blob/master/building-for-ios.md">iOS</a></div>
+					</div>
+					<div class="app">
+						<div><a target="_blank" href="https://play.google.com/store/apps/details?id=org.byteball.wallet"><img src="img/android_robot.svg"/></a></div>
+						<div><a target="_blank" href="https://play.google.com/store/apps/details?id=org.byteball.wallet">Android</a></div>
+					</div>
+					<div class="app">
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-win64.exe"><img src="img/icon-microsoft.svg"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-win64.exe">Windows</a></div>
+					</div>
+					<div class="app">
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-osx64.dmg"><img src="img/icon-mac-os-x.svg"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/Byteball-osx64.dmg">Mac</a></div>
+					</div>
+					<div class="app">
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/byteball-linux64.zip"><img src="Linux"/></a></div>
+						<div><a href="https://github.com/byteball/byteball/releases/download/v2.2.0/byteball-linux64.zip">Linux</a></div>
+					</div>
+					<div class="app">
+						<div><a target="_blank" href="https://github.com/byteball/byteball"><img src="img/fi-social-github.svg"/></a></div>
+						<div><a target="_blank" href="https://github.com/byteball/byteball">GitHub</a></div>
+					</div>
+					<div class="space"></div>
+					<ul class="list-unstyled text-left">
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">Mua hoặc bán  bytes</a> bằng trò chuyện với bot giao dịch</li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="https://medium.com/byteball/making-p2p-great-again-episode-ii-bitcoin-exchange-d98adfbde2a5" target="_blank">Giao dịch ngang hàng byte với bitcoin</a>,
+						có được xác nhận merkle của bạn bằng cách trò chuyện với <a href="byteball:A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@byteball.org/bb#0000">BTC Oracle</a><br></li>
+								<li><i class="fa fa-caret-right pr-10 text-colored"></i> Xem giao dịch công khai trên <a href="https://explorer.byteball.org" target="_blank">giao diện DAG</a></li>
+								<!-- <li><i class="fa fa-caret-right pr-10 text-colored"></i> Dignissimos molestiae necessitatibus</li> -->
+							</ul>
+					 <!-- <h4 style="font-weight: 500;">After installing, <a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">chat with the Transition Bot</a>	to participate in the next distribution round</br> -->
+						<!-- <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">Buy or sell bytes</a> by chatting
+						with a trading bot</br> -->
+						<!-- <a href="https://medium.com/byteball/making-p2p-great-again-episode-ii-bitcoin-exchange-d98adfbde2a5" target="_blank">P2P exchange bytes vs bitcoins</a>,
+						get your merkle proof by chatting with <a href="byteball:A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@byteball.org/bb#0000">BTC Oracle</a></br>
+						View public transactions on the <a href="https://explorer.byteball.org" target="_blank">DAG explorer</a></h4>  -->
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+	<!-- section start -->
+	<!-- ================ -->
+	<div class="default-bg">
+		<div id="dist" class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<h2 class="text-center">Phân phối tối ưu ban đầu</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+	<!-- section start -->
+	<!-- ================ -->
+	<div class="section clearfix ">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row margin-zero">
+						<p class="lead text-left">Phân phối miễn phí cho chấp nhận hàng loạt.</p>
+						<p>Việc chấp nhận hàng loạt yêu cầu phân phối rộng khắp, đó là lý do tại sao 99% tất cả byte và blackbyte đang được phân phối miễn phí. Hiện tại, chúng tôi sử dụng một số cách để phân phối chúng:</p>
+						<ul>
+							<li><a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Hoàn tiền</a> cho việc mua bán tại các cửa hàng thương mại mà chúng tôi hợp tác.
+  Với hầu hết các trường hợp, hoàn tiền được đưa ra là 10% số tiền mua.  <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Điền vào mẫu đơn</a> hoặc <script>document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">');</script>liên hệ chúng tôi<script>document.write('</a>');</script>nếu bạn muốn chạy một cửa hàng hoặc một bộ xử lý thanh toán và muốn trở thành một phần của chương trình hoàn tiền.</li>
+							<li><a href="https://medium.com/byteball/distribution-to-verified-users-and-referrals-ed00b9b2a30e" target="_blank">Xác minh tiền thưởng và phần thưởng giới thiệu</a> cho những người xác minh tên thật của họ.</li>
+							<li><a href="https://medium.com/byteball/distribution-to-verified-emails-and-sending-cryptocurrency-to-email-episode-ii-cb955fe19d7e" target="_blank">Xác minh tiền thưởng và phần thưởng giới thiệu</a> cho những người xác minh địa chỉ email của họ.</li>
+							<li><a href="https://medium.com/byteball/attestation-of-accredited-investors-d4a8dabf683b" target="_blank">Verification rewards and referral rewards</a> to accredited investors who verify their accredited status.</li>
+							<li>Rewards to those who pass a <a href="https://medium.com/byteball/money-for-knowledge-distribution-via-telegram-quiz-bot-2dd400e22997">quiz in Telegram</a>.</li>
+							<li>Subsidies that offset part of the fees paid when <a href="https://medium.com/byteball/buying-bytes-with-visa-or-mastercard-d8ee2d1a2b07">buying Bytes with Visa or Mastercard</a>.</li>
+							<li>Rewards for donating one's computing resources to the <a href="https://medium.com/byteball/computing-for-good-again-3795336bdaed">World Community Grid</a>.</li>
+							<li>Rewards to those who participate in <a href="https://bitcointalk.org/index.php?topic=3162547.0">our signature campaign on Bitcointalk</a>.</li>
+							<li>Rewards to those who participate in <a href="https://bitcointalk.org/index.php?topic=3218859.0">our twitter campaign on Bitcointalk</a>.</li>
+							<li>Giveaways distributed e.g. through youtube channels of our supporters.  See e.g. <a href="https://www.youtube.com/watch?v=hycluITNDBM" target="_blank">https://www.youtube.com/watch?v=hycluITNDBM</a>.</li>
+							<li><a href="https://medium.com/byteball-help/using-mailchimp-to-mass-send-payments-as-textcoins-5c1db06342e3" target="_blank">Mass sending of textcoins</a> to subscribers of our partners.  See the <a href="https://docs.google.com/spreadsheets/d/1heT6TUSpTJgRW-FUM0LbcoVjXZRCb3PbXQQLmzvNRvM/edit#gid=323859176" target="_blank">results of the previous campaigns</a>.</li>
+						</ul>
+						
+						<p>Trong quá khứ, chúng tôi cũng phân phối bytes cho BTC chủ sở hữu và chủ sở hữu hiện tại của bytes.  Người dùng sử dụng liên kết địa chỉ BTC và Byteball của họ và nhận được Bytes mới tương ứng với số dư BTC và Bytes hiện có của họ.  Phân phối này được chia thành nhiều vòng.  Vòng phân phối đầu tiên diễn ra vào ngày 25, tháng mười hai 2016 khi khởi động mạng, hơn 70.000 BTC đã được liên kết, và 10% tổng số nguồn cung cấp của byte và blackbytes đã được phân phối.  Trong các vòng tiếp theo, tổng cung phân phối đạt 64,5%:</p>
+						<ul>
+							<li>Vòng 2 vào ngày 11 tháng hai, 2017: 121,763 BTC liên kết, phân phối 1,8%;</li>
+							<li>Vòng 3 vào ngày 12 tháng ba, 2017: 129,139 BTC liên kết, phân phối 2.0%;</li>
+							<li>Vòng 4 vào ngày 11 tháng tư 2017: 145,441 BTC liên kết, phân phối 2,3%;</li>
+							<li>Vòng 5 vào ngày 10 tháng năm 2017: 207,672 BTC liên kết, phân phối 2,9%;</li>
+							<li>Vòng 6 vào ngày 9 tháng sáu 2017: 453,621 BTC liên kết, phân phối 6,6%;</li>
+							<li>Vòng 7 vào ngày 9 tháng bảy 2017: 949.004 BTC liên kết, phân phối 11,0%.</li>
+							<li>Vòng 8 vào ngày 7 tháng tám 2017: 1.395.899 BTC được liên kết, phân phối 16,0%.</li>
+							<li>Vòng 9 vào ngày 6 tháng chín 2017: 1,306,573 BTC liên kết, phân phối 5,7%.</li>
+							<li>Vòng 10 vào ngày 4 tháng mười một 2017: 1.093.155 BTC liên kết, phân phối 6,1%.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+
+	<!-- section start -->
+	<!-- ================ -->
+	<div class="default-bg">
+		<div id="tech" class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<h2 class="text-center">Công nghệ hoàn toàn mới</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+	
+	<!-- section start -->
+	<!-- ================ -->
+	<div class="section clearfix ">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row margin-zero">
+						<p class="lead text-left">khả năng mở rộng không giới hạn, xác nhận nhanh chóng, không có thợ mỏ, không có block, lệ phí thấp.</p>
+						<p>Dữ liệu Byteball được lưu trữ và thiết lập sử dụng <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">directed acyclic graph</a> (DAG)(một đồ thị chu trình không định hướng) thay cho blockchain. Điều này cho phép tất cả người dùng đảm bảo dữ liệu của nhau bằng cách tham chiếu đơn vị dữ liệu trước đó được tạo ra bởi những người dùng khác, và cũng có thể loại bỏ giới hạn khả năng mở rộng phổ biến đối với blockchain, chẳng hạn như vấn kích thước block.</p>
+						<p>Blockless thiết kế đơn giản vì không có các khối, có chỉ giao dịch.  Người dùng chỉ cần thêm các giao dịch của mình vào cuối DAG, họ không phải đợi khi các thợ mỏ tạo ra một block mới và không có phỏng đoán liệu các thợ mỏ sẽ tích hợp giao dịch của bạn trong block.</p>
+						<p>Thuật toán đồng thuận được sử dụng để bảo vệ khỏi lỗi xác nhận kép được dựa trên việc thiết lập thông số thứ tự trong DAG. Điều này đạt được bằng cách chọn một chuỗi, được gọi là chuỗi chính, mà thu hút đối với các đơn vị do người dùng có ảnh hưởng thường được công nhận &mdash; người công nhận. Xem <a href="Byteball.pdf">Bản cáo bạch</a> để biết thêm.</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+
+	<!-- section start -->
+	<!-- ================ -->
+	<div class="section clearfix ">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row margin-zero">
+						<h2 class="text-left">Thử nghiệm hệ thống</h2>
+						<p>Thử nghiệm ví là có sẵn nếu bạn là một nhà phát triển hoặc muốn trải nghiệm các tính năng của Byteball mà không cần tốn một xu.</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+	<!-- section start -->
+	<!-- ================ -->
+	<div class="section clearfix ">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row margin-zero">
+						<h2 class="text-left">Cộng đồng và hỗ trợ</h2>
+						<p>Tham gia Byteball trên <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>! Có rất nhiều kênh với các cuộc thảo luận sôi nổi về những diễn biến trong tương lai, giao dịch, đấu giá, đặt tên chỉ là một trong số đó. Nếu bạn gặp vấn đề bất kỳ với ví Byteball, nhân viên hỗ trợ của chúng tôi sẽ giải quyết nó tại kênh #helpdesk tại slack của chúng tôi <a href="https://slack.byteball.org" target="_blank" title="Slack">slack.byteball.org</a>.</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section end -->
+	<!-- section start -->
+	<!-- ================ -->
+	<div class="section clearfix ">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row margin-zero">
+						<h2 class="text-left">Giao dịch</h2>
+						<p>Bạn có thể mua hoặc bán bytes mà không rời ví bằng cách <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">giao tiếp với bot giao dịch</a>.
+							Bạn cũng có thể giao dịch tại các sàn giao dịch dưới đây.</p>
+						<p>Để mua hoặc bán blackbyte, xem hoặc đăng đơn đặt hàng trong kênh <a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a> trên <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a> của chúng tôi, sau đó trao đổi ngang hàng bằng cách sử dụng <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">thanh toán ràng buộc (có điều kiện).</a></p>
+
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<a class='exchange-icon' href="https://bittrex.com/Market/Index?MarketName=BTC-GBYTE" target="_blank"><img src="img/exchanges/bittrex-logo-white-no-tagline.png" alt="Bittrex"></a>
+					<a class='exchange-icon' style='margin-bottom: 6px; background-color: #342533' href="https://cryptox.pl" target="_blank"><img src="https://cryptox.pl/images/logo.png" alt="Cryptox"></a>
+					<a class='exchange-icon' href="https://www.cryptopia.co.nz/Exchange/?market=GBYTE_BTC" target="_blank"><img src="img/exchanges/Cryptopia-Light2x.png" alt="Cryptopia"></a>
+					<a class='exchange-icon' href="https://changelly.com/exchange/btc/gbyte" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALwAAAA1CAMAAADMKHGJAAADAFBMVEUQ0Hj///8Q0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HisG82fAAAA/3RSTlMAAAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmJygpKissLS4vMDEyMzQ1Njc4OTo7PD0+P0BBQkNERUZHSElKS0xN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" alt="Changelly"></a>
+					<a class='exchange-icon' style='margin-bottom: -11px;' href="https://bisq.network" target="_blank" title="Bisq (formerly Bitsquare)"><img src="img/exchanges/bisq_logo_820_460.png" alt="Bisq"></a>
+					<a class='exchange-icon' style='margin-bottom: 12px;' href="https://www.kaiserex.com" target="_blank"><img src="img/exchanges/kaiserex-logo.png" alt="Kaiserex"></a>
+					<!--a class='exchange-icon' href="https://cryptochangex.com" target="_blank"><img src="img/exchanges/cryptochangex.png" alt="Cryptochangex"></a-->
+					<a class='exchange-icon' style='margin-bottom: 11px;' href="https://kkex.com" target="_blank"><img src="img/exchanges/KKEX_logo.png" alt="KKEX"></a>
+					<a class='exchange-icon' style='margin-bottom: 11px; background-color: #35a6c0' href="https://indacoin.com/en_GB/change/buy-Bytes-with-cardusd" target="_blank" title="Indacoin: buy Bytes with Visa or Mastercard"><img src="img/exchanges/indacoin.svg" alt="Indacoin: buy Bytes with Visa or Mastercard"></a>
+				</div>
+			</div>
+		</div>
+		<script>
+            function ml_webform_success_8574594() {
+                var $ = ml_jQuery || jQuery;
+
+                $('.ml-subscribe-form-8574594 .ml-block-success').show();
+                $('.ml-subscribe-form-8574594 .ml-block-form').hide();
+            };
+        </script>
+		<div class="gap">				
+			<div id="mc_embed_signup">
+				 <form class="ml-block-form" action="https://landing.mailerlite.com/webforms/submit/q4s2a8" data-id="854744" data-code="q4s2a8" method="POST" target="_blank">
+					<div id="mc_embed_signup_scroll">
+						<label for="mce-EMAIL">Subscribe for the latest Byteball updates: </label>
+						<input  type="email" name="fields[email]" class="email" placeholder="Email address" value="" required>
+						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8375ddcbb541577ef0292094a_10f3306c05" tabindex="-1" value=""></div>
+						 <input type="hidden" name="ml-submit" value="1" />
+						<button type="submit" class="primary bbt">
+                        Subscribe
+                    </button>
+                    <button disabled="disabled" style="display: none;" type="button" class="loading ">
+                        <img src="https://static.mailerlite.com/images/rolling@2x.gif" width="20" height="20" style="width: 20px; height: 20px;">
+                    </button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- sectionimg/exchanges/bitsqare.png end -->
+	<!-- footer start -->
+	<!-- Site footer -->
+	<footer class="footer text-center">
+		<!--p>&copy; 2016 Byteball</p-->
+
+		&nbsp;
+		<a href="terms.html">Terms</a>
+		&nbsp;
+		<a href="privacy.html">Privacy</a>
+		&nbsp;
+		<a href="https://docs.google.com/document/d/1LXYchOifJ8eRJ8ZKRNr1K-jkiFYWLiHS1yaUpRMf8JA/edit?usp=sharing" target="_blank">Media Kit</a>
+
+		&nbsp;
+		<script>
+			document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">byteball'); document.write('@'); document.write('byteball.org</a>');
+		</script>
+		&nbsp;
+		<a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a> &nbsp;
+		<a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a> &nbsp;
+		<a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="Chủ đề BitcoinTalk"><i class="fa fa-bitcoin"></i></a>		&nbsp;
+		<a href="https://medium.com/byteball" target="_blank" title="Medium"><i class="fa fa-medium"></i></a> &nbsp;
+		<a href="https://slack.byteball.org" target="_blank" title="Slack"><i class="fa fa-slack"></i></a> &nbsp;
+		<a href="https://www.reddit.com/r/ByteBall/" target="_blank" title="Reddit"><i class="fa fa-reddit-alien"></i></a> &nbsp;
+		<a href="https://t.me/byteball" target="_blank" title="Telegram"><i class="fa fa-telegram"></i></a> &nbsp;
+		<a href="https://mp.weixin.qq.com/s/JB0_MlK6w--D6pO5zPHAQQ" target="_blank" title="WeChat"><i class="fa fa-weixin"></i></a>
+	</footer>
+
+	
+
+	
+	<div id="jumioModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Quét hoàn tất</h4>
+				</div>
+				<div class="modal-body">
+					<p>Bây giờ Jumio sẽ xử lý ảnh của bạn, sẽ mất một vài phút nhưng đôi khi có thể mất hàng giờ.</p>
+					<p>Bot xác thực sẽ cho bạn biết kết quả ngay khi có được</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	
+	
+	
+
+	<!-- JavaScript files placed at the end of the document so the pages load faster
+		================================================== -->
+	<!-- Jquery and Bootstap core js files -->
+	<script type="text/javascript" src="plugins/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<!-- Modernizr javascript -->
+	<script type="text/javascript" src="plugins/modernizr.js"></script>
+
+
+	<!-- Initialization of Plugins -->
+	<script type="text/javascript" src="js/template.js?v5"></script>
+
+	<script src="js/kinetic.js"></script>
+	<script src="js/jquery.final-countdown.min.js"></script>
+	<script>
+		if (location.hash === '#jumio-done' || location.search.match('jumio-done'))
+			$("#jumioModal").modal();
+	</script>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-83607123-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+
+	<script>
+		var NativeAppLauncher = (function() {
+			var textcoin = window.location.hash.replace("#textcoin?", "");
+			var IOS_VERSION_RE = /OS\s+(\d)_/;
+			var timers = [];
+			var userAgent = window.navigator.userAgent;
+			var isAndroid = function() {
+				return /Android/.test(userAgent);
+			};
+			var isIOS = function() {
+				return /(?:i(?:Phone|P(?:o|a)d))/.test(userAgent);
+			};
+			var iOSVersion = function() {
+				return isIOS() ? parseInt(userAgent.match(IOS_VERSION_RE)[1], 10) : 0;
+			};
+			var isChrome = function() {
+				// Opera (OPR) also identifies itself as Chrome and has to be corrected for.
+				// OPR is used on Android but on iOS it is OPiOS where Opera does NOT identify as Chrome. Go figure!
+				// Probably because on iOS it is Opera Mini and has all browser have to be based on Safari/WebKit.
+				return /Chrome/.test(userAgent) && !/OPR/.test(userAgent);
+			};
+			var isFirefox = function() {
+				return /Firefox/.test(userAgent);
+			};
+
+			return {
+				// Stop any running timers.
+				clearTimers: function() {
+					timers.map(clearTimeout);
+					timers = [];
+				},
+				getDeepLink: function() {
+					return "byteball:textcoin?" + textcoin;
+				},
+				openApp: function(deeplink, storeURI) {
+					console.log(textcoin);
+					var launcher = this;
+					var storeLaunched = false;
+					var gotStoreURI = "string" == typeof storeURI;
+					// If this handler is part of the UI thread, i.e. the `direct` result of a user action then
+					// redirecting to the App Store will happen immediately. When not part of the UI thread however,
+					// the redirect will bring up an Open in App dialog. Unless there is already a dialog showing,
+					// in which case the redirect dialog will wait for the currently shown dialog to be dismissed.
+					
+					gotStoreURI && timers.push(window.setTimeout(function() {
+						if (!isIOS()) {
+							storeLaunched = true;
+							window.top.location = storeURI;
+						} else {
+							document.getElementById('warning').style.display = 'block';
+						}
+					}, 1000));
+					isIOS() && timers.push(window.setTimeout(function() {
+						storeLaunched && window.location.reload()
+					}, 2000));
+					
+					window.location = deeplink;
+				},
+				// Get the deep link URI to the Byteball app in the store appropriate for the OS.
+				// Using a deep link guarantees that the app store opens even when using an alternate browser (e.g. Puffin or Firefox)
+				getStoreURI: function() {
+					return isAndroid() ?
+						"market://details?id=org.byteball.wallet&referrer=" + textcoin :
+						"https://github.com/byteball/byteball/releases";
+				},
+				// Try to launch the native app on iOS/Android. Redirect to the app store if launch fails.
+				init: function() {
+					var launcher = this;
+					var events = ["pagehide", "blur"];
+					if (isIOS() || (isAndroid() && !isChrome())) {
+						events.push("beforeunload");
+					}
+
+					function addListenerMulti(element, eventNames, listener) {
+						var events = eventNames.split(' ');
+						for (var i = 0, iLen = events.length; i < iLen; i++) {
+							element.addEventListener(events[i], listener, false);
+						}
+					}
+					addListenerMulti(window, events.join(" "), function(e) {
+						launcher.clearTimers();
+					});
+					document.getElementById('openInApp')
+						.onclick = function() {
+							// Detach the app launcher from the UI thread so that the Open in App dialog won't be
+							// interrupted when the delayed redirect to the App Store fires.
+							setTimeout(function() {
+								launcher.openApp.call(launcher, launcher.getDeepLink(), launcher.getStoreURI());
+							}.bind(this), 0);
+							return false;
+						};
+					document.getElementById('mnemonic').innerHTML = textcoin;
+					if (isAndroid) {
+						$('.android').show();
+						$('.desktop').hide();
+					}
+					$('#textcoin').show();
+					$('.header').addClass('visible-logo');
+				}
+			};
+		})();
+		if (window.location.hash.indexOf("#textcoin?") == 0) {
+			NativeAppLauncher.init();
+		}
+	</script>
+	<script type="text/javascript" src="js/mailerlite-webforms.min.js"></script>
+</body>
+
+</html>

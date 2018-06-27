@@ -3940,10 +3940,10 @@ ul.list-reset {
 
 @media (max-width: 1199px) {
 	.section-about-2 .section-content-inner {
-		-webkit-box-align: center;
-		-webkit-align-items: center;
-		-moz-box-align: center;
-		-ms-flex-align: center;
+		-webkit-box-align: normal;
+		-webkit-align-items: normal;
+		-moz-box-align: normal;
+		-ms-flex-align: normal;
 		align-items: normal;
 	}
 	.section-about-2 .list-text-icon {

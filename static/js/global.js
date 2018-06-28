@@ -437,6 +437,11 @@ $(document).ready(function(){
 	$(".language-block").find("img").on("click",function(){
 		$('#imgBtnSel').attr("src",$(this).attr("src"));
 	});
+
+	// lang picker, currently selected item
+	var url = window.location.pathname;
+	var filename = url.substring(url.lastIndexOf('/')+1);
+	$('#imgBtnSel').attr('src', $('a[href="' + filename + '"].language img').first().attr('src'));
 });
 
 function scrollToBlock(block_name){

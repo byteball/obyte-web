@@ -2392,7 +2392,6 @@ a {
 
 .au-btn-pill .btn-text {
 	vertical-align: middle;
-	margin-right: 10px;
 }
 
 .au-btn-pill:hover {
@@ -4760,7 +4759,13 @@ body.lb-disable-scrolling .section-header {
 }
 
 .download-wallet-btn{
-	background-color: #ec650a;color: white;border: none;padding: 8px 0;width: 200px;margin-top: -10px;font-size: 12px;
+	background-color: #ec650a;
+	color: white;
+	border: none;
+	padding: 8px;
+	width: 200px;
+	margin-top: -10px;
+	font-size: 12px;
 }
 
 .language-nav-item .dropdown-toggle::after{
@@ -4869,13 +4874,13 @@ body.lb-disable-scrolling .section-header {
 .block1-btn{
 	padding: 10px 0px 5px 8px;
 	height: 45px;
-	width: 240px;
+	width: 250px;
 }
 
 .new-part-btn{
 	padding: 8px 0px 5px 8px;
 	height: 45px;
-	width: 140px;
+	width: 150px;
 	font-family: 'NotoSansDisplayBold';
 	color: #4285f4;
 }

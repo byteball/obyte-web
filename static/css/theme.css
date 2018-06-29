@@ -2943,7 +2943,8 @@ ul.list-reset {
 	position: relative;
 }
 
-.box-style-2 .box-image:hover .bg-overlay {
+.box-style-2 .box-image:hover .bg-overlay,
+.box-style-2 .box-image:focus .bg-overlay {
 	opacity: 1;
 	visibility: visible;
 	-webkit-transition: all 0.3s ease;
@@ -2952,7 +2953,8 @@ ul.list-reset {
 	transition: all 0.3s ease;
 }
 
-.box-style-2 .box-image:hover .list-socials {
+.box-style-2 .box-image:hover .list-socials,
+.box-style-2 .box-image:focus .list-socials {
 	visibility: visible;
 	-webkit-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
@@ -3030,7 +3032,9 @@ ul.list-reset {
 }
 
 .box-style-2 .box-body .box-title a:hover,
-.box-style-2 .box-body .box-title:hover {
+.box-style-2 .box-body .box-title:hover,
+.box-style-2 .box-image:hover + .box-body .box-title,
+.box-style-2 .box-image:focus + .box-body .box-title {
 	color: #4285f4;
 }
 
@@ -4096,6 +4100,7 @@ ul.list-reset {
 
 .section-download-app .section-btn-group a {
 	margin: 0 3px;
+	padding: 9px;
 }
 
 .section-download-app .section-content-image {
@@ -4872,13 +4877,13 @@ body.lb-disable-scrolling .section-header {
 }
 
 .block1-btn{
-	padding: 10px 0px 5px 8px;
+	padding: 9px;
 	height: 45px;
 	width: 250px;
 }
 
 .new-part-btn{
-	padding: 8px 0px 5px 8px;
+	padding: 9px;
 	height: 45px;
 	width: 150px;
 	font-family: 'NotoSansDisplayBold';
@@ -4901,7 +4906,6 @@ body.lb-disable-scrolling .section-header {
 	background-color: white !important;
 	color: black !important;
 	border: 1px solid #0060c1 !important;
-	padding-top: 9px !important;
 }
 
 .block1{

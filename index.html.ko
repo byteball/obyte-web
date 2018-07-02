@@ -178,11 +178,11 @@
 				</div>
 			</div>
 			<div class="section-btn-group m-b-70 wow zoomIn" data-wow-delay="0.6s">
-				<a class="au-btn au-btn-pill au-btn-icon subscribe-to-news-btn block1-btn noto-sans-bold" href="#" onclick="ml_account('webforms', '884262', 'i1z6x7', 'show')" style="background-color: #1560bd; border-color: #1560bd !important; color: white; border: none;">
+				<a class="au-btn au-btn-pill au-btn-icon subscribe-to-news-btn block1-btn noto-sans-bold" href="#" onclick="ml_account('webforms', '884262', 'i1z6x7', 'show')" style="background-color: #1560bd; color: white; border: 1px solid transparent;">
 					<span class="btn-text">뉴스레터 구독하기</span>
 				</a>
 
-				<a class="au-btn au-btn-pill au-btn-icon block1-btn noto-sans-bold download-wallet-header-btn2" href="#" onclick="scrollToBlock('download')" style="padding: 9px 0px 5px 8px; border: 1px solid #0060c1 !important;">
+				<a class="au-btn au-btn-pill au-btn-icon block1-btn noto-sans-bold download-wallet-header-btn2" href="#" onclick="scrollToBlock('download')" style="border: 1px solid #0060c1 !important;">
 					<span class="btn-text">지갑 다운로드</span>
 				</a>
 			</div>
@@ -761,7 +761,7 @@
 
 					<ul class="footer-menu-list app-icons h-list footer-social-new-ul m-b-50">
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball/blob/master/building-for-ios.md" target="_blank">
+							<a href="https://itunes.apple.com/us/app/byteball/id1147137332?ls=1&amp;mt=8" target="_blank">
 								<img src="static/images/app/icon-applestore.svg">
 								iOS
 							</a>
@@ -1306,6 +1306,13 @@
 						</a>
 					</div>
 				</li>
+				<li class="wow zoomIn col-lg-3 col-md-4 col-sm-6 col-xs-6 m-b-15 left-float" data-wow-duration="0.5s" data-wow-delay="0.8s">
+					<div class="iconbox iconbox-style-4">
+						<a class="iconbox-image" href="https://upbit.com/exchange?code=CRIX.UPBIT.BTC-GBYTE" target="_blank">
+							<img src="static/images/upbit_img.png"/>
+						</a>
+					</div>
+				</li>
 				<li class="wow zoomIn col-lg-3 col-md-4 col-sm-6 col-xs-6 m-b-15 left-float" data-wow-duration="0.5s" data-wow-delay="0.4s">
 					<div class="iconbox iconbox-style-4">
 						<a class="iconbox-image" href="https://cryptox.pl/" target="_blank">
@@ -1317,13 +1324,6 @@
 					<div class="iconbox iconbox-style-4">
 						<a class="iconbox-image" href="https://www.cryptopia.co.nz/Exchange/?market=GBYTE_BTC" target="_blank">
 							<img src="static/images/cryptopia_img.png"/>
-						</a>
-					</div>
-				</li>
-				<li class="wow zoomIn col-lg-3 col-md-4 col-sm-6 col-xs-6 m-b-15 left-float" data-wow-duration="0.5s" data-wow-delay="0.8s">
-					<div class="iconbox iconbox-style-4">
-						<a class="iconbox-image" href="https://changelly.com/exchange/btc/gbyte" target="_blank">
-							<img src="static/images/changelly_img.png"/>
 						</a>
 					</div>
 				</li>

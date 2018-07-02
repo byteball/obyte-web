@@ -685,8 +685,8 @@ oleh pihak lawan, tergantung pada acara yang terdaftar di database oleh penyedia
 					</div> 
 					<div class="space"></div>
 					<div class="app">
-						<div><a target="_blank" href="https://github.com/byteball/byteball/blob/master/building-for-ios.md"><img src="img/icon-applestore.svg"/></a></div>
-						<div><a target="_blank" href="https://github.com/byteball/byteball/blob/master/building-for-ios.md">iOS</a></div>
+						<div><a target="_blank" href="https://itunes.apple.com/us/app/byteball/id1147137332?ls=1&amp;mt=8"><img src="img/icon-applestore.svg"/></a></div>
+						<div><a target="_blank" href="https://itunes.apple.com/us/app/byteball/id1147137332?ls=1&amp;mt=8">iOS</a></div>
 					</div>
 					<div class="app">
 						<div><a target="_blank" href="https://play.google.com/store/apps/details?id=org.byteball.wallet"><img src="img/android_robot.svg"/></a></div>

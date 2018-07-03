@@ -664,8 +664,8 @@
 					</div> 
 					<div class="space"></div>
 					<div class="app">
-						<div><a target="_blank" href="https://github.com/byteball/byteball/blob/master/building-for-ios.md"><img src="img/icon-applestore.svg"/></a></div>
-						<div><a target="_blank" href="https://github.com/byteball/byteball/blob/master/building-for-ios.md">iOS</a></div>
+						<div><a target="_blank" href="https://itunes.apple.com/us/app/byteball/id1147137332?ls=1&amp;mt=8"><img src="img/icon-applestore.svg"/></a></div>
+						<div><a target="_blank" href="https://itunes.apple.com/us/app/byteball/id1147137332?ls=1&amp;mt=8">iOS</a></div>
 					</div>
 					<div class="app">
 						<div><a target="_blank" href="https://play.google.com/store/apps/details?id=org.byteball.wallet"><img src="img/android_robot.svg"/></a></div>
@@ -872,6 +872,13 @@
 	<!-- Site footer -->
 	<footer class="footer text-center">
 		<!--p>&copy; 2016 Byteball</p-->
+
+		&nbsp;
+		<a href="terms.html">Terms</a>
+		&nbsp;
+		<a href="privacy.html">Privacy</a>
+		&nbsp;
+		<a href="https://docs.google.com/document/d/1LXYchOifJ8eRJ8ZKRNr1K-jkiFYWLiHS1yaUpRMf8JA/edit?usp=sharing" target="_blank">Media Kit</a>
 
 		&nbsp;
 		<script>

@@ -98,22 +98,7 @@
 									<span class="caret"></span>
 								</button>
 
-								<ul class="dropdown-menu language-block" role="menu">
-									<li><a href="/" class="language"> <img src="static/images/flags/united-states.png" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.zh" class="language"> <img src="static/images/flags/china.png" alt="Κινέζικα" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.da" class="language"><img src="static/images/flags/denmark.png" alt="Δανικά" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.nl" class="language"><img src="static/images/flags/netherlands.png" alt="Ολλανδικά" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.et" class="language"><img src="static/images/flags/estonia.png" alt="Εσθονικά" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.de" class="language"><img src="static/images/flags/germany.png" alt="Γερμανικά" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.ja" class="language"><img src="static/images/flags/japan.png" alt="Ιαπωνικά" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.es" class="language"><img src="static/images/flags/spain.png" alt="Ισπανικά" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.fr" class="language"><img src="static/images/flags/france.png" alt="Γαλλικά" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.id" class="language"><img src="static/images/flags/indonesia.png" alt="Ινδονησιακά" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.it" class="language"><img src="static/images/flags/italy.png" alt="Ιταλικά" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.ko" class="language"><img src="static/images/flags/south-korea.png" alt="Κορεάτικα" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.pl" class="language"><img src="static/images/flags/poland.png" alt="Πολωνικά" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.ru" class="language"><img src="static/images/flags/russia.png" alt="Ρωσσικά" class="img-thumbnail icon-medium"></a></li>
-								</ul>
+								<ul class="dropdown-menu language-block" role="menu"></ul>
 							</div>
 						</li>
 						<li class="nav-item">
@@ -143,12 +128,9 @@
 					<p class="desktop">
 						<a href="#download">Κατεβάστε και εγκαταστήστε το πορτοφόλι του Byteball</a> πρώτα, έπειτα κάντε κλικ στο παρακάτω κουμπί για να ανοίξετε την εφαρμογή στη συσκευή σας και να διεκδικήσετε τα χρήματά σας.
 					</p>
-					<p id="warning" class="alert alert-danger m10" style="display: none">
-							Δυστυχώς, το Byteball πορτοφόλι δεν είναι προς το παρόν διαθέσιμο για την πλατφόρμα iOS. Προσπαθήστε να χρησιμοποιήσετε κάποια άλλη συσκευή για να διεκδικήσετε τα χρήματά σας.
-					</p>
 					<p><button id="openInApp" class="btn btn-lg btn-success m10" style="cursor: pointer">Λάβετε χρήματα</button></p>
 					<p>
-						Εάν δε λειτουργεί το κουμπί,  <a href="#download">εγκαταστήστε το Byteball πορτοφόλι</a>, μεταβείτε στο <i>Λάβετε</i> 	&rarr; <i>Διεκδικήστε κεφάλαια χρησιμοποιώντας textcoin</i> και επικολλήστε την παρακάτω συμβολοσειρά:<br>
+						Εάν το κουμπί δεν λειτουργεί, <a href="#download">εγκαταστήστε το Byteball πορτοφόλι</a>, μεταβείτε στο <i>Λήψη</i> 	&rarr; <i>Διεκδικήστε κεφάλαια χρησιμοποιώντας textcoin</i> και επικολλήστε την παρακάτω συμβολοσειρά:<br>
 						<b id="mnemonic"></b><br>
 					</p>
 				</div>
@@ -764,7 +746,7 @@
 
 					<ul class="footer-menu-list app-icons h-list footer-social-new-ul m-b-50">
 						<li class="list-item">
-							<a href="https://itunes.apple.com/us/app/byteball/id1147137332?ls=1&mt=8" target="_blank">
+							<a href="https://itunes.apple.com/us/app/byteball/id1147137332?ls=1&amp;mt=8" target="_blank">
 								<img src="static/images/app/icon-applestore.svg">
 								iOS
 							</a>
@@ -947,7 +929,7 @@
 							<h5 class="box-title noto-sans-symbols-bold">
 								Valerius Coppens
 							</h5>
-							<p class="box-author-job source-sans-pro-regular">Επικεφαλής Marketing και Ανάπτυξης Στρατηγικής</p>
+							<p class="box-author-job source-sans-pro-regular">Επικεφαλής Στρατηγικής</p>
 						</div>
 					</div>
 				</li>
@@ -1515,6 +1497,14 @@
 				$("#learn_more .learn-more-block."+ $(this).data("img")).show();
 			});
 
+			$("a").on('click', function(){
+				var href = $(this).attr('href');
+				var text = $(this).text().trim();
+				var is_download_link = $(this).parent().parent().hasClass("app-icons");
+				var goal = (is_download_link && href !== 'https://github.com/byteball/byteball') ? 1 : 0;
+				console.log('click', href, text, goal);
+				ga('send', 'event', 'click', href, text, goal);
+			});
 		})
 	</script>
 
@@ -1578,12 +1568,8 @@
 					// in which case the redirect dialog will wait for the currently shown dialog to be dismissed.
 					
 					gotStoreURI && timers.push(window.setTimeout(function() {
-						if (!isIOS()) {
-							storeLaunched = true;
-							window.top.location = storeURI;
-						} else {
-							document.getElementById('warning').style.display = 'block';
-						}
+						storeLaunched = true;
+						window.top.location = storeURI;
 					}, 1000));
 					isIOS() && timers.push(window.setTimeout(function() {
 						storeLaunched && window.location.reload()
@@ -1596,7 +1582,7 @@
 				getStoreURI: function() {
 					return isAndroid() ?
 						"market://details?id=org.byteball.wallet&referrer=" + textcoin :
-						"https://github.com/byteball/byteball/releases";
+						"https://itunes.apple.com/us/app/byteball/id1147137332?ls=1&mt=8";
 				},
 				// Try to launch the native app on iOS/Android. Redirect to the app store if launch fails.
 				init: function() {

@@ -98,22 +98,7 @@
 									<span class="caret"></span>
 								</button>
 
-								<ul class="dropdown-menu language-block" role="menu">
-									<li><a href="/" class="language"> <img src="static/images/flags/united-states.png" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.zh" class="language"> <img src="static/images/flags/china.png" alt="中国語" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.da" class="language"><img src="static/images/flags/denmark.png" alt="デンマーク語" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.nl" class="language"><img src="static/images/flags/netherlands.png" alt="オランダ語" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.et" class="language"><img src="static/images/flags/estonia.png" alt="エストニア語" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.de" class="language"><img src="static/images/flags/germany.png" alt="ドイツ語" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.ja" class="language"><img src="static/images/flags/japan.png" alt="日本語" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.es" class="language"><img src="static/images/flags/spain.png" alt="スペイン語" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.fr" class="language"><img src="static/images/flags/france.png" alt="フランス語" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.id" class="language"><img src="static/images/flags/indonesia.png" alt="インドネシア語" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.it" class="language"><img src="static/images/flags/italy.png" alt="イタリア語" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.ko" class="language"><img src="static/images/flags/south-korea.png" alt="韓国語" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.pl" class="language"><img src="static/images/flags/poland.png" alt="ポーランド語" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.ru" class="language"><img src="static/images/flags/russia.png" alt="ロシア語" class="img-thumbnail icon-medium"></a></li>
-								</ul>
+								<ul class="dropdown-menu language-block" role="menu"></ul>
 							</div>
 						</li>
 						<li class="nav-item">

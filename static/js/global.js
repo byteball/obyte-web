@@ -441,6 +441,7 @@ $(document).ready(function(){
 	languages['/'] = 'united-states';
 	languages['index.html.ar'] = 'arabic';
 	languages['index.html.da'] = 'denmark';
+	languages['index.html.de'] = 'germany';
 	languages['index.html.el'] = 'greece';
 	languages['index.html.es'] = 'spain';
 	languages['index.html.et'] = 'estonia';
@@ -450,7 +451,7 @@ $(document).ready(function(){
 	languages['index.html.ja'] = 'japan';
 	languages['index.html.ko'] = 'south-korea';
 	languages['index.html.nl'] = 'netherlands';
-	languages['index.html.pl'] = 'poland';
+	//languages['index.html.pl'] = 'poland';
 	languages['index.html.ru'] = 'russia';
 	languages['index.html.zh'] = 'china';
 

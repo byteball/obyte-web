@@ -27,7 +27,7 @@
 	<link href="static/vendor/lightbox2/css/lightbox.min.css" rel="stylesheet" media="all">
 
 	<!-- Main CSS-->
-	<link href="static/css/theme.css?v2" rel="stylesheet" media="all">
+	<link href="static/css/theme.css?v3" rel="stylesheet" media="all">
 
 	<!--Favicons-->
 	<link rel="shortcut icon" href="static/favicon.ico">
@@ -265,8 +265,8 @@
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
 								<span class="iconbox-text iconbox-text-100 open-sans-regular"> للمطورين إمكانية الوصول الفوري إلى جميع مستخدمي منصة Byteball عبر متجر بوتات (Bot) مدمج في الحافظة. <br> <br>
-يمكنك أن ترى متجر بوتات يشبه متجر تطبيقات آبل أو مثل متجر Google Play باستثناء أنك لا تتنافس مع الآلاف من التطبيقات الأخرى... الآن! <1 > <br>
-كمكافأة ، فإنه من الأسهل بكثير أن تطور على Byteball أكثر من معظم منصات التشفير الأخرى.  راجع <a href="https://github.com/byteball/byteballcore/wiki/Byteball-Developer-Guides" target="_blank"> أدلة المطور في github</ 0>. </ 1>
+يمكنك أن ترى متجر بوتات يشبه متجر تطبيقات آبل أو مثل متجر Google Play باستثناء أنك لا تتنافس مع الآلاف من التطبيقات الأخرى... الآن! <br>
+كمكافأة ، فإنه من الأسهل بكثير أن تطور على Byteball أكثر من معظم منصات التشفير الأخرى.  راجع <a href="https://github.com/byteball/byteballcore/wiki/Byteball-Developer-Guides" target="_blank"> أدلة المطور في github. </a>
 							</div>
 						</li>
 					</ul>
@@ -1460,7 +1460,7 @@
 	<script src="static/vendor/lightbox2/js/lightbox.min.js"></script>
 
 	<!-- Main JS-->
-	<script src="static/js/global.js"></script>
+	<script src="static/js/global.js?v3"></script>
 
 	<!-- Special Vendor-->
 	<script src="static/vendor/validator/validator.min.js"></script>

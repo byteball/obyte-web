@@ -755,19 +755,19 @@
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball/releases/download/v2.3.0/Byteball-win64.exe" target="_blank">
+							<a href="/downloads/Byteball-win64.exe" target="_blank">
 								<img src="static/images/app/icon-microsoft.svg">
 								Windows
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball/releases/download/v2.3.0/Byteball-osx64.dmg" target="_blank">
+							<a href="/downloads/Byteball-osx64.dmg" target="_blank">
 								<img src="static/images/app/icon-mac-os-x.svg">
 								Mac
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball/releases/download/v2.3.0/byteball-linux64.zip" target="_blank">
+							<a href="/downloads/Byteball-linux64.zip" target="_blank">
 								<img src="static/images/app/linux.png">
 								리눅스
 							</a>

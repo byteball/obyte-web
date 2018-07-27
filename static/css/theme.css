@@ -5336,7 +5336,8 @@ p.box-author-job.source-sans-pro-regular{
 }
 
 .dybw-list-item .list-item{
-	width: 100px;
+	width: 110px;
+	vertical-align: top;
 }
 
 #why .iconbox .iconbox-item-title.collapsed .iconbox-text{

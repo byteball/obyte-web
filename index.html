@@ -132,6 +132,9 @@
 
 	<!-- textcoin block start -->
 	<!-- ================ -->
+	<div id="wechat_overlay" style="position: fixed; top:0;right:0;left:0;bottom:0; z-index: 9999; background: white; display: none;">
+		To continue, open this page in system default browser (<b>"Open in <span class="browser">Safari</span>"</b>) by clicking <img src="img/dots.gif"/> in the upper right corner of this screen.
+	</div>
 	<div class="section clearfix open-sans-regular" id="textcoin" style="display: none;">
 		<div class="container">
 			<div class="row">
@@ -1627,7 +1630,12 @@
 			};
 		})();
 		if (window.location.hash.indexOf("#textcoin?") == 0) {
-			NativeAppLauncher.init();
+			if (/micromessenger/i.test(navigator.userAgent)) {
+				if (/android/i.test(navigator.userAgent))
+					$('#wechat_overlay .browser').text('browser');
+				$('#wechat_overlay').show();
+			} else
+				NativeAppLauncher.init();
 		}
 	</script>
 

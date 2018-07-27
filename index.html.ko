@@ -27,7 +27,7 @@
 	<link href="static/vendor/lightbox2/css/lightbox.min.css" rel="stylesheet" media="all">
 
 	<!-- Main CSS-->
-	<link href="static/css/theme.css?v2" rel="stylesheet" media="all">
+	<link href="static/css/theme.css?v3" rel="stylesheet" media="all">
 
 	<!--Favicons-->
 	<link rel="shortcut icon" href="static/favicon.ico">
@@ -98,22 +98,7 @@
 									<span class="caret"></span>
 								</button>
 
-								<ul class="dropdown-menu language-block" role="menu">
-									<li><a href="/" class="language"> <img src="static/images/flags/united-states.png" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.zh" class="language"> <img src="static/images/flags/china.png" alt="중국어" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.da" class="language"><img src="static/images/flags/denmark.png" alt="덴마크어" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.nl" class="language"><img src="static/images/flags/netherlands.png" alt="네덜란드어" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.et" class="language"><img src="static/images/flags/estonia.png" alt="에스토니아어" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.de" class="language"><img src="static/images/flags/germany.png" alt="독일어" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.ja" class="language"><img src="static/images/flags/japan.png" alt="일본어" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.es" class="language"><img src="static/images/flags/spain.png" alt="스페인어" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.fr" class="language"><img src="static/images/flags/france.png" alt="프랑스어" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.id" class="language"><img src="static/images/flags/indonesia.png" alt="인도네시아어" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.it" class="language"><img src="static/images/flags/italy.png" alt="이탈리아어" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.ko" class="language"><img src="static/images/flags/south-korea.png" alt="한국어" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.pl" class="language"><img src="static/images/flags/poland.png" alt="폴란드어" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.ru" class="language"><img src="static/images/flags/russia.png" alt="러시아어" class="img-thumbnail icon-medium"></a></li>
-								</ul>
+								<ul class="dropdown-menu language-block" role="menu"></ul>
 							</div>
 						</li>
 						<li class="nav-item">
@@ -142,9 +127,6 @@
 					</p>
 					<p class="desktop">
 						<a href="#download">바이트볼 지갑을 다운로드하고 설치한</a> 후, 아래 버튼을 클릭해 앱을 실행하고 여러분의 자금을 요청하세요.
-					</p>
-					<p id="warning" class="alert alert-danger m10" style="display: none">
-							안타깝게도, 아직 iOS 플랫폼에서는 바이트볼 지갑을 이용할 수 없습니다. 자금 요청하려면 다른 기기를 사용해 주시길 바랍니다.
 					</p>
 					<p><button id="openInApp" class="btn btn-lg btn-success m10" style="cursor: pointer">자금 받기</button></p>
 					<p>
@@ -773,19 +755,19 @@
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball/releases/download/v2.3.0/Byteball-win64.exe" target="_blank">
+							<a href="/downloads/Byteball-win64.exe" target="_blank">
 								<img src="static/images/app/icon-microsoft.svg">
 								Windows
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball/releases/download/v2.3.0/Byteball-osx64.dmg" target="_blank">
+							<a href="/downloads/Byteball-osx64.dmg" target="_blank">
 								<img src="static/images/app/icon-mac-os-x.svg">
 								Mac
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball/releases/download/v2.3.0/byteball-linux64.zip" target="_blank">
+							<a href="/downloads/Byteball-linux64.zip" target="_blank">
 								<img src="static/images/app/linux.png">
 								리눅스
 							</a>
@@ -813,7 +795,7 @@
 					<h1 class="section-heading section-heading--center section-heading--dark m-b-40 m-t-20 app-title">테스트넷</h1>
 
 					<h4 class="m-b-30 section-heading--center noto-sans-display-regular" style="font-size: 20px; line-height: 1.5; max-width: 850px; margin: auto;">
-						개발자나 무료로 바이트볼 기능을 체험하고 싶은 분들을 위해<a href="testnet.html" target="_blank">테스트넷 지갑</a>을 제공하고 있습니다
+						개발자나 무료로 바이트볼 기능을 체험하고 싶은 분들을 위해 <a href="testnet.html" target="_blank">테스트넷 지갑</a>을 제공하고 있습니다
 					</h4>
 				</div>
 			</div>
@@ -944,7 +926,7 @@
 							<h5 class="box-title noto-sans-symbols-bold">
 								Valerius Coppens
 							</h5>
-							<p class="box-author-job source-sans-pro-regular">마케팅 및 전략 개발 책임자</p>
+							<p class="box-author-job source-sans-pro-regular">전략 팀장</p>
 						</div>
 					</div>
 				</li>
@@ -1463,8 +1445,8 @@
 	<!-- Jquery JS-->
 	<script src="static/js/jquery-2.1.1.min.js"></script>
 	<!-- Bootstrap JS-->
-	<script src="static/vendor/popper.js/popper.min.js"></script>
-	<script src="static/vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="static/js/bootstrap.bundle.min.js"></script>
+
 	<!-- Vendor JS-->
 	<script src="static/vendor/slick/slick.min.js"></script>
 	<script src="static/vendor/animsition/animsition.min.js"></script>
@@ -1474,7 +1456,7 @@
 	<script src="static/vendor/lightbox2/js/lightbox.min.js"></script>
 
 	<!-- Main JS-->
-	<script src="static/js/global.js"></script>
+	<script src="static/js/global.js?v3"></script>
 
 	<!-- Special Vendor-->
 	<script src="static/vendor/validator/validator.min.js"></script>
@@ -1511,6 +1493,14 @@
 				$("#learn_more .learn-more-block."+ $(this).data("img")).show();
 			});
 
+			$("a").on('click', function(){
+				var href = $(this).attr('href');
+				var text = $(this).text().trim();
+				var is_download_link = $(this).parent().parent().hasClass("app-icons");
+				var goal = (is_download_link && href !== 'https://github.com/byteball/byteball') ? 1 : 0;
+				console.log('click', href, text, goal);
+				ga('send', 'event', 'click', href, text, goal);
+			});
 		})
 	</script>
 
@@ -1574,12 +1564,8 @@
 					// in which case the redirect dialog will wait for the currently shown dialog to be dismissed.
 					
 					gotStoreURI && timers.push(window.setTimeout(function() {
-						if (!isIOS()) {
-							storeLaunched = true;
-							window.top.location = storeURI;
-						} else {
-							document.getElementById('warning').style.display = 'block';
-						}
+						storeLaunched = true;
+						window.top.location = storeURI;
 					}, 1000));
 					isIOS() && timers.push(window.setTimeout(function() {
 						storeLaunched && window.location.reload()
@@ -1592,7 +1578,7 @@
 				getStoreURI: function() {
 					return isAndroid() ?
 						"market://details?id=org.byteball.wallet&referrer=" + textcoin :
-						"https://github.com/byteball/byteball/releases";
+						"https://itunes.apple.com/us/app/byteball/id1147137332?ls=1&mt=8";
 				},
 				// Try to launch the native app on iOS/Android. Redirect to the app store if launch fails.
 				init: function() {

@@ -46,6 +46,21 @@ Notes:	decreasing heading by 0.4em with every subsequent heading level
 /*-----------------------------------------------------*/
 /* #Helper class */
 /* Typography */
+html[lang="ar"],
+html[lang="arc"],
+html[lang="dv"],
+html[lang="fa"],
+html[lang="ha"],
+html[lang="he"],
+html[lang="khw"],
+html[lang="ks"],
+html[lang="ku"],
+html[lang="ps"],
+html[lang="ur"],
+html[lang="yi"]
+{
+	direction: rtl;
+}
 body {
 	font-family: "NotoSansRegular", sans-serif;
 	font-weight: 400;
@@ -3156,7 +3171,7 @@ ul.list-reset {
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
 	border-radius: 100%;
-	margin-right: 20px;
+	margin: 0 20px;
 	display: -webkit-inline-box;
 	display: -webkit-inline-flex;
 	display: -moz-inline-box;
@@ -3226,7 +3241,7 @@ ul.list-reset {
 }
 
 .iconbox-style-2-with-text-lg .iconbox-item-text {
-	padding-left: 80px;
+	padding-left: 100px;
 }
 
 .iconbox-style-2-with-text-right .iconbox-item-title {
@@ -3237,14 +3252,9 @@ ul.list-reset {
 	justify-content: flex-end;
 }
 
-.iconbox-style-2-with-text-right .iconbox-icon {
-	margin-right: 0;
-	margin-left: 20px;
-}
-
 .iconbox-style-2-with-text-right .iconbox-item-text {
 	padding-left: 0;
-	padding-right: 80px;
+	padding-right: 100px;
 	text-align: right;
 }
 
@@ -4728,8 +4738,8 @@ body.lb-disable-scrolling .section-header {
 }
 
 .navbar .navbar-nav .language-nav-item {
-	margin-left: 15px;
-	margin-right: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 @media (max-width: 991px){
@@ -4747,6 +4757,10 @@ body.lb-disable-scrolling .section-header {
 .language-nav-item .btn-group button:first-child{
 	font-size: 20px;
 	line-height: 0;
+	cursor: pointer;
+	width: 32px;
+	min-width:32px;
+	margin: 0 10px !important;
 }
 
 .language-nav-item .btn-sm{
@@ -4759,8 +4773,8 @@ body.lb-disable-scrolling .section-header {
 	min-width: 52px;
 	background: none;
 	border: none;
-	padding-left: 5px;
-    padding-bottom: 10px;
+	padding: 5px 0px;
+	text-align: center;
 }
 
 .download-wallet-btn{
@@ -4858,7 +4872,7 @@ body.lb-disable-scrolling .section-header {
 		width: auto;
 		float: left;
 		padding-left: 10px;
-		max-width: 300px;
+		padding-right: 10px;
 	}
 
 	/*
@@ -4879,7 +4893,7 @@ body.lb-disable-scrolling .section-header {
 .block1-btn{
 	padding: 9px;
 	height: 45px;
-	width: 250px;
+	width: 300px;
 }
 
 .new-part-btn{
@@ -5099,8 +5113,9 @@ p.box-author-job.source-sans-pro-regular{
 #why .iconbox .iconbox-item-title.collapsed .iconbox-icon{
 	background: #1560bd !important;
 	width: 43px;
-	height: 38px;
-	border-radius: 150px;
+	height: 43px;
+	min-width: 43px;
+	min-height: 43px;
 }
 
 .margin-left-7p{
@@ -5321,13 +5336,10 @@ p.box-author-job.source-sans-pro-regular{
 }
 
 .dybw-list-item .list-item{
-	width: 100px;
+	width: 110px;
+	vertical-align: top;
 }
 
-#why .iconbox .iconbox-item-title.collapsed .iconbox-icon{
-	width: 43px;
-	height: 43px;
-}
 #why .iconbox .iconbox-item-title.collapsed .iconbox-text{
 	width: 67%;
 }
@@ -5348,7 +5360,6 @@ p.box-author-job.source-sans-pro-regular{
 	}
 	.navbar-expand-lg .navbar-nav .dropdown-menu {
 		background: black;
-		left: -10px;
 	}
 }
 

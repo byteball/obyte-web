@@ -27,7 +27,7 @@
 	<link href="static/vendor/lightbox2/css/lightbox.min.css" rel="stylesheet" media="all">
 
 	<!-- Main CSS-->
-	<link href="static/css/theme.css?v2" rel="stylesheet" media="all">
+	<link href="static/css/theme.css?v3" rel="stylesheet" media="all">
 
 	<!--Favicons-->
 	<link rel="shortcut icon" href="static/favicon.ico">
@@ -98,22 +98,7 @@
 									<span class="caret"></span>
 								</button>
 
-								<ul class="dropdown-menu language-block" role="menu">
-									<li><a href="/" class="language"> <img src="static/images/flags/united-states.png" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.zh" class="language"> <img src="static/images/flags/china.png" alt="Chinois" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.da" class="language"><img src="static/images/flags/denmark.png" alt="Danois" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.nl" class="language"><img src="static/images/flags/netherlands.png" alt="Néerlandais" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.et" class="language"><img src="static/images/flags/estonia.png" alt="Estonien" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.de" class="language"><img src="static/images/flags/germany.png" alt="Allemand" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.ja" class="language"><img src="static/images/flags/japan.png" alt="Japonais" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.es" class="language"><img src="static/images/flags/spain.png" alt="Espagnol" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.fr" class="language"><img src="static/images/flags/france.png" alt="Français" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.id" class="language"><img src="static/images/flags/indonesia.png" alt="Indonésien" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.it" class="language"><img src="static/images/flags/italy.png" alt="Italien" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.ko" class="language"><img src="static/images/flags/south-korea.png" alt="Coréen" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.pl" class="language"><img src="static/images/flags/poland.png" alt="Polonais" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.ru" class="language"><img src="static/images/flags/russia.png" alt="Russe" class="img-thumbnail icon-medium"></a></li>
-								</ul>
+								<ul class="dropdown-menu language-block" role="menu"></ul>
 							</div>
 						</li>
 						<li class="nav-item">
@@ -764,7 +749,7 @@
 
 					<ul class="footer-menu-list app-icons h-list footer-social-new-ul m-b-50">
 						<li class="list-item">
-							<a href="https://itunes.apple.com/us/app/byteball/id1147137332?ls=1&amp;mt=8" target="_blank">
+							<a href="https://itunes.apple.com/us/app/byteball/id1147137332?ls=1&mt=8" target="_blank">
 								<img src="static/images/app/icon-applestore.svg">
 								iOS
 							</a>
@@ -776,19 +761,19 @@
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball/releases/download/v2.3.0/Byteball-win64.exe" target="_blank">
+							<a href="/downloads/Byteball-win64.exe" target="_blank">
 								<img src="static/images/app/icon-microsoft.svg">
 								Windows
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball/releases/download/v2.3.0/Byteball-osx64.dmg" target="_blank">
+							<a href="/downloads/Byteball-osx64.dmg" target="_blank">
 								<img src="static/images/app/icon-mac-os-x.svg">
 								Mac
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball/releases/download/v2.3.0/byteball-linux64.zip" target="_blank">
+							<a href="/downloads/Byteball-linux64.zip" target="_blank">
 								<img src="static/images/app/linux.png">
 								Linux
 							</a>
@@ -1456,8 +1441,8 @@
 	<!-- Jquery JS-->
 	<script src="static/js/jquery-2.1.1.min.js"></script>
 	<!-- Bootstrap JS-->
-	<script src="static/vendor/popper.js/popper.min.js"></script>
-	<script src="static/vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="static/js/bootstrap.bundle.min.js"></script>
+
 	<!-- Vendor JS-->
 	<script src="static/vendor/slick/slick.min.js"></script>
 	<script src="static/vendor/animsition/animsition.min.js"></script>
@@ -1467,7 +1452,7 @@
 	<script src="static/vendor/lightbox2/js/lightbox.min.js"></script>
 
 	<!-- Main JS-->
-	<script src="static/js/global.js"></script>
+	<script src="static/js/global.js?v3"></script>
 
 	<!-- Special Vendor-->
 	<script src="static/vendor/validator/validator.min.js"></script>

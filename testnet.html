@@ -25,7 +25,7 @@
 	<link href="static/vendor/lightbox2/css/lightbox.min.css" rel="stylesheet" media="all">
 
 	<!-- Main CSS-->
-	<link href="static/css/theme.css" rel="stylesheet" media="all">
+	<link href="static/css/theme.css?v3" rel="stylesheet" media="all">
 
 	<!--Favicons-->
 	<link rel="shortcut icon" href="static/favicon.ico">
@@ -95,22 +95,7 @@
 									<span class="caret"></span>
 								</button>
 
-								<ul class="dropdown-menu language-block" role="menu">
-									<li><a href="/" class="language"> <img src="static/images/flags/united-states.png" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.zh" class="language"> <img src="static/images/flags/china.png" alt="Chinese" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.da" class="language"><img src="static/images/flags/denmark.png" alt="Danish" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.nl" class="language"><img src="static/images/flags/netherlands.png" alt="Dutch" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.et" class="language"><img src="static/images/flags/estonia.png" alt="Estonian" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.de" class="language"><img src="static/images/flags/germany.png" alt="German" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.ja" class="language"><img src="static/images/flags/japan.png" alt="Japanese" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.es" class="language"><img src="static/images/flags/spain.png" alt="Spanish" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.fr" class="language"><img src="static/images/flags/france.png" alt="French" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.id" class="language"><img src="static/images/flags/indonesia.png" alt="Indonesian" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.it" class="language"><img src="static/images/flags/italy.png" alt="Italian" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.ko" class="language"><img src="static/images/flags/south-korea.png" alt="Korean" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.pl" class="language"><img src="static/images/flags/poland.png" alt="Polish" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.ru" class="language"><img src="static/images/flags/russia.png" alt="Russian" class="img-thumbnail icon-medium"></a></li>
-								</ul>
+								<ul class="dropdown-menu language-block" role="menu"></ul>
 							</div>
 						</li>
 						<li class="nav-item">
@@ -143,37 +128,43 @@
 						<li class="list-item">
 							<a href="https://github.com/byteball/byteball/blob/master/building-for-ios.md" target="_blank">
 								<img src="static/images/app/icon-applestore.svg">
-								iOS
+								iOS<br />guideline
 							</a>
 						</li>
 						<li class="list-item">
 							<a href="https://play.google.com/store/apps/details?id=org.byteball.wallet.testnet" target="_blank">
 								<img src="static/images/app/android_robot.svg">
-								Android
+								Android<br />Play Store
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball/releases/download/v1.9.1t/Byteball-TN-win64.exe" target="_blank">
+							<a href="/downloads/Byteball-test-win64.exe">
 								<img src="static/images/app/icon-microsoft.svg">
-								Windows
+								Windows<br />64bit
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball/releases/download/v2.3.0t/Byteball-TN-osx64.dmg" target="_blank">
+							<a href="/downloads/Byteball-test-win32.exe">
+								<img src="static/images/app/icon-microsoft.svg">
+								Windows<br />32bit
+							</a>
+						</li>
+						<li class="list-item">
+							<a href="/downloads/Byteball-test-osx64.dmg">
 								<img src="static/images/app/icon-mac-os-x.svg">
-								Mac
+								Mac<br />64bit
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball/releases/download/v1.9.1t/byteball-tn-linux64.zip" target="_blank">
+							<a href="/downloads/Byteball-test-linux64.zip">
 								<img src="static/images/app/linux.png">
-								Linux
+								Linux<br />64bit
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball" target="_blank">
+							<a href="https://github.com/byteball/byteball/releases" target="_blank">
 								<img src="static/images/app/fi-social-github.svg">
-								GitHub
+								GitHub<br />releases
 							</a>
 						</li>
 					</ul>
@@ -256,8 +247,8 @@
 	<!-- Jquery JS-->
 	<script src="static/js/jquery-2.1.1.min.js"></script>
 	<!-- Bootstrap JS-->
-	<script src="static/vendor/popper.js/popper.min.js"></script>
-	<script src="static/vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="static/js/bootstrap.bundle.min.js"></script>
+
 	<!-- Vendor JS-->
 	<script src="static/vendor/slick/slick.min.js"></script>
 	<script src="static/vendor/animsition/animsition.min.js"></script>
@@ -267,7 +258,7 @@
 	<script src="static/vendor/lightbox2/js/lightbox.min.js"></script>
 
 	<!-- Main JS-->
-	<script src="static/js/global.js"></script>
+	<script src="static/js/global.js?v3"></script>
 
 	<!-- Special Vendor-->
 	<script src="static/vendor/validator/validator.min.js"></script>

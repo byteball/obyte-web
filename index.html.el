@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="el">
 
 <head>
 	<!-- Required meta tags-->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Byteball &mdash; Een cryptocurrency platform klaar voor adoptie in de echte wereld">
-	<meta name="keywords" content="Byteball &mdash; Een cryptocurrency platform klaar voor adoptie in de echte wereld">
+	<meta name="description" content="Byteball &mdash; Μια πλατφόρμα κρυπτονομισμάτων έτοιμη για αποδοχή από τον πραγματικό κόσμο">
+	<meta name="keywords" content="Byteball &mdash; Μια πλατφόρμα κρυπτονομισμάτων έτοιμη για αποδοχή από τον πραγματικό κόσμο">
 
 	<!-- Title Page-->
-	<title>Byteball &mdash; Een cryptocurrency platform klaar voor adoptie in de echte wereld</title>
+	<title>Byteball &mdash; Μια πλατφόρμα κρυπτονομισμάτων έτοιμη για αποδοχή από τον πραγματικό κόσμο</title>
 
 	<!-- Fontfaces CSS-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -67,22 +67,22 @@
 				<div class="navbar-collapse collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav navbar-nav-new">
 						<li class="nav-item active">
-							<a class="nav-link" href="#why">WAAROM</a>
+							<a class="nav-link" href="#why">ΓΙΑΤΙ</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link noto-sans-bold" href="#features">KENMERKEN</a>
+							<a class="nav-link noto-sans-bold" href="#features">ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link noto-sans-bold" href="#dist">DISTRIBUTIE</a>
+							<a class="nav-link noto-sans-bold" href="#dist">ΔΙΑΝΟΜΗ</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link noto-sans-bold" href="#tech">TECHNOLOGIE</a>
+							<a class="nav-link noto-sans-bold" href="#tech">ΤΕΧΝΟΛΟΓΙΑ</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link noto-sans-bold" href="#team">TEAM</a>
+							<a class="nav-link noto-sans-bold" href="#team">ΟΜΑΔΑ</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link noto-sans-bold" href="#community">GEMEENSCHAP</a>
+							<a class="nav-link noto-sans-bold" href="#community">ΚΟΙΝΟΤΗΤΑ</a>
 						</li>
 
 					</ul>
@@ -104,7 +104,7 @@
 						<li class="nav-item">
 							<a class="au-btn au-btn-pill au-btn-border au-btn-icon m-l-5 download-wallet-btn noto-sans-bold download-wallet-header-btn1" href="#download" style="background-color: #1560bd">
 								<span class="btn-text">
-									PORTEFEUILLE DOWNLOADEN                               
+									ΚΑΤΕΒΑΣΤΕ ΤΟ ΠΟΡΤΟΦΟΛΙ                               
 								</span>
 							</a>
 						</li>
@@ -121,16 +121,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-md-6 col-md-push-6 text-center text-md-left order-md-2">
-					<h3 class="m-b-30 open-sans-bold">Je hebt geld ontvangen!</h3>
+					<h3 class="m-b-30 open-sans-bold">Λάβατε χρήματα!</h3>
 					<p class="android" style="display: none;">
-						Klik op de knop hieronder om de Byteball app te openen of op uw apparaat te installeren, en claim uw geld.
+						Κάντε κλικ στο παρακάτω κουμπί για να ανοίξετε ή να εγκαταστήσετε την εφαρμογή Byteball στη συσκευή σας και να διεκδικήσετε τα χρήματά σας.
 					</p>
 					<p class="desktop">
-						<a href="#download">Download en installeer de Byteball Portefeuille</a> eerst, klik vervolgens op de onderstaande knop om de app op uw apparaat te openen en uw geld te claimen.
+						<a href="#download">Κατεβάστε και εγκαταστήστε το πορτοφόλι του Byteball</a> πρώτα, έπειτα κάντε κλικ στο παρακάτω κουμπί για να ανοίξετε την εφαρμογή στη συσκευή σας και να διεκδικήσετε τα χρήματά σας.
 					</p>
-					<p><button id="openInApp" class="btn btn-lg btn-success m10" style="cursor: pointer">Geld ontvangen</button></p>
+					<p><button id="openInApp" class="btn btn-lg btn-success m10" style="cursor: pointer">Λάβετε χρήματα</button></p>
 					<p>
-						Als de knop niet werkt, <a href="#download">installeer dan de Byteball Portefeuille</a>, navigeer naar <i>Ontvang</i>	&rarr;<i>Claim je geld met behulp van textcoin</i> en plak de volgende tekenreeks:<br>
+						Εάν το κουμπί δεν λειτουργεί, <a href="#download">εγκαταστήστε το Byteball πορτοφόλι</a>, μεταβείτε στο <i>Λήψη</i> 	&rarr; <i>Διεκδικήστε κεφάλαια χρησιμοποιώντας textcoin</i> και επικολλήστε την παρακάτω συμβολοσειρά:<br>
 						<b id="mnemonic"></b><br>
 					</p>
 				</div>
@@ -145,32 +145,32 @@
 	<!-- Download start-->
 	<section class="section section-download-app bg-white p-t-90 p-b-40 block1">
 		<div class="container">
-			<h3 class="section-heading section-heading1 section-heading--center m-b-0 noto-sans-bold" style="max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.5">Een cryptocurrency platform klaar voor adoptie in de echte wereld</h3>
+			<h3 class="section-heading section-heading1 section-heading--center m-b-0 noto-sans-bold" style="max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.5">Μια πλατφόρμα κρυπτονομισμάτων έτοιμη για αποδοχή από τον πραγματικό κόσμο</h3>
 			<div class="row justify-content-center">
 				<div class="col-md-9 text-center">
 					<p class="text-left m-b-70 noto-sans-display-regular" style="color: black; line-height: 2; max-width: 760px; margin-left: auto; margin-right: auto; display: inline-block;">
-						<i class="far fa-check-square"></i> met onschendbare contracten<br>
-						<i class="far fa-check-square"></i> met gebruiker gecontroleerde identiteit<br>
-						<i class="far fa-check-square"></i> met betalingen die gemakkelijk over elk netwerk kunnen worden verstuurd<br>
-						<i class="far fa-check-square"></i> met gemakkelijk te ontwikkelen apps die het bovenstaande verbinden<br>
-						<i class="far fa-check-square"></i> gebouwd op schaalbaar DAG-gebaseerde technologie<br>
-						<i class="far fa-check-square"></i> onmiddelijk volledig functioneel<br>
-						<i class="far fa-square"></i> op zoek naar brede adoptie<br>
+						<i class="far fa-check-square"></i>  με απαραβίαστες συμβάσεις<br>
+                                                  <i class="far fa-check-square"></i> με ελεγχόμενη ταυτότητα χρήστη<br>
+                                                  <i class="far fa-check-square"></i> με πληρωμές που μπορούν να αποσταλούν εύκολα μέσω οποιουδήποτε δικτύου<br>
+                                                  <i class="far fa-check-square"></i> με εύκολα υλοποιήσιμες εφαρμογές που συνδέουν τα ανωτέρω<br>
+                                                  <i class="far fa-check-square"></i> σχεδιασμένη με βάση την επεκτάσιμη τεχνολογία DAG<br>
+                                                  <i class="far fa-check-square"></i> πλήρως λειτουργήσιμη σήμερα<br>
+                                                  <i class="far fa-square"></i> αναζητά ευρεία αποδοχή<br>
 					</p>
 				</div>
 			</div>
 			<div class="section-btn-group m-b-70 wow zoomIn" data-wow-delay="0.6s">
 				<a class="au-btn au-btn-pill au-btn-icon subscribe-to-news-btn block1-btn noto-sans-bold" href="#" onclick="ml_account('webforms', '884262', 'i1z6x7', 'show')" style="background-color: #1560bd; color: white; border: 1px solid transparent;">
-					<span class="btn-text">ABONNEER JE OP DE NIEUWSBRIEF </span>
+					<span class="btn-text">ΕΓΓΡΑΦΕΙΤΕ ΣΤΟ ΕΝΗΜΕΡΩΤΙΚΟ ΔΕΛΤΙΟ</span>
 				</a>
 
 				<a class="au-btn au-btn-pill au-btn-icon block1-btn noto-sans-bold download-wallet-header-btn2" href="#" onclick="scrollToBlock('download')" style="border: 1px solid #0060c1 !important;">
-					<span class="btn-text">DOWNLOAD PORTEFEUILLE</span>
+					<span class="btn-text">ΚΑΤΕΒΑΣΤΕ ΤΟ ΠΟΡΤΟΦΟΛΙ</span>
 				</a>
 			</div>
 
 			<p class="box-title section-heading--center noto-sans-display-semibold" style="font-weight: bold; color: black;">
-				Meer informatie            
+				Μάθετε περισσότερα            
 			</p>
 
 			<div class="section section-footer" style="background: none;">
@@ -179,7 +179,7 @@
 						<a href="#" class="noto-sans-display-regular" onclick="scrollToBlock('learn_more')">Whitepaper</a>
 					</li>
 					<li class="list-item">
-						<a href="#" class="noto-sans-display-regular" onclick="scrollToBlock('learn_more')">Introductie gidsen</a>
+						<a href="#" class="noto-sans-display-regular" onclick="scrollToBlock('learn_more')">Εισαγωγικοί Οδηγοί</a>
 					</li>
 					<li class="list-item">
 						<a href="#" class="noto-sans-display-regular" onclick="scrollToBlock('learn_more')">Wiki</a>
@@ -197,7 +197,7 @@
 	<section class="section section-about-1 bg-white why-us-main-block p-t-20" id="why">
 		<div class="container">
 
-			<h1 class="section-heading section-heading1 section-heading--center m-b-40 why-use-h1 noto-sans-symbols-regular">WAAROM BYTEBALL GEBRUIKEN</h1>
+			<h1 class="section-heading section-heading1 section-heading--center m-b-40 why-use-h1 noto-sans-symbols-regular">ΓΙΑΤΙ ΝΑ ΧΡΗΣΙΜΟΠΟΙΗΣΕΤΕ ΤΟ BYTEBALL</h1>
 
 			<div class="row">
 				<div class="col-md-6">
@@ -207,36 +207,36 @@
 				</div>
 
 				<div class="col-md-5 margin-left-7p">
-					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">ICO Platform</h3>
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Πλατφόρμα ICO</h3>
 					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular">Het enige ICO-platform op de markt dat de conforme verkoop van gebruiksklare beveiligingstokens aanbiedt.</span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Η μοναδική πλατφόρμα ICO της αγοράς που προσφέρει τη δυνατότητα αυτοματοποιημένων συμμορφούμενων πωλήσεων tokens ασφαλείας.</span>
 							</div>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular">Ongeregistreerde effecten verkopen aan erkende beleggers met behulp van ingebouwde investeerder accreditatie.</span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Πουλήστε μη καταγεγραμμένους τίτλους σε διαπιστευμένους επενδυτές με τη χρήση ενδογενούς συστήματος διαπίστευσης επενδυτών.</span>
 							</div>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular">Mogelijkheid om Know-your-Customer te vereisen door middel van ingebouwde identiteitsverificatie. </span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Ζητήστε προαιρετικά τη συμπλήρωση φόρμας KYC με τη χρήση ενδογενούς συστήματος επαλήθευσης ταυτότητας.</span>
 							</div>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular">Verkopen voor Bytes, BTC, ETH.</span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Πουλήστε για Bytes, BTC, ETH.</span>
 							</div>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular">Stats in real-time weergegeven.</span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Απεικόνιση στατιστικών σε πραγματικό χρόνο.</span>
 							</div>
 						</li>
 					</ul>
@@ -253,20 +253,20 @@
 				</div>
 
 				<div class="col-md-5 margin-left-7p">
-					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Ontwikkelaar vriendelijk</h3>
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Φιλική προς τους προγραμματιστές</h3>
 					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Vind gemakkelijk nieuwe gebruikers voor je apps</span>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Βρείτε εύκολα νέους χρήστες για τις εφαρμογές σας.</span>
 							</a>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular">Ontwikkelaars die apps maken hebben direct toegang tot alle gebruikers van het Byteball platform via de Bot Store in de portefeuille.<br><br>
-De Bot Store is een beetje zoals de Apple App Store of de Google Play Store, alleen is er (nog) geen sprake van competitie met duizenden andere apps.<br><br>
-Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor andere crypto-platformen.  Zie <a href="https://github.com/byteball/byteballcore/wiki/Byteball-Developer-Guides" target="_blank">Gidsen voor ontwikkelaars op github</a>.</span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Προγραμματιστές που δημιουργούν εφαρμογές έχουν άμεση πρόσβαση σε όλους τους χρήστες στην πλατφόρμα του Byteball μέσω του καταστήματος Bot που βρίσκεται στο πορτοφόλι.<br><br> 
+                                                                          Το κατάστημα Bot είναι κάτι σαν το Apple App Store ή το Google Play Store, με τη διαφορά ότι δεν έχετε να ανταγωνιστείτε χιλιάδες άλλες εφαρμογές....ακόμα!<br><br>
+                                                                          Σαν επιπρόσθετο bonus, είναι πολύ ευκολότερο να προγραμματίσετε για το Byteball σε σχέση με τις λοιπές πλατφόρμες κρυπτονομισμάτων.  Δείτε <a href="https://github.com/byteball/byteballcore/wiki/Byteball-Developer-Guides" target="_blank">οδηγούς προγραμματιστών στο github</a>.</span>
 							</div>
 						</li>
 					</ul>
@@ -289,19 +289,19 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 				</div>
 
 				<div class="col-md-5 margin-left-7p">
-					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Risico-vrije voorwaardelijke smart payments</h3>
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Έξυπνες υπό συνθήκη πληρωμές χωρίς ρίσκο</h3>
 					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Byteball stelt je in staat iets te doen wat traditionele valuta niet kunnen: <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
-								 target="_blank" style="text-decoration: underline; color: #4285f4">voorwaardelijke betalingen</a></span>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Το Byteball σας επιτρέπει να κάνετε κάτι που τα παραδοσιακά νομίσματα αδυνατούν: <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
+								 target="_blank" style="text-decoration: underline; color: #4285f4">υπό συνθήκη πληρωμές</a></span>
 							</div>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular">Je stelt een voorwaarde waarmee de ontvanger het geld kan ontvangen. Als aan de voorwaarde niet is voldaan, krijg je je geld terug.</span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Μπορείτε να θέσετε μια συνθήκη για τη στιγμή που ο δικαιούχος λαμβάνει τα χρήματα. Αν η συνθήκη δεν ικανοποιείται, σας επιστρέφονται τα χρήματά σας.</span>
 							</div>
 						</li>
 					</ul>
@@ -318,18 +318,18 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 				</div>
 
 				<div class="col-md-5 margin-left-7p">
-					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">P2P verzekering</h3>
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">P2P ασφάλιση</h3>
 					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Dek je in tegen negatieve gebeurtenissen.</span>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Αντισταθμίστε το ρίσκο από αρνητικά γεγονότα.</span>
 							</a>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular">Koop verzekering van gelijken om betaald te krijgen in het geval van een negatieve gebeurtenis. Verkoop verzekering voor winst.<br><br>Verzekering is gewoon <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527" target="_blank">een eenvoudig smart contract</a> dat kan worden ontgrendeld door de verzekerde &mdash; in het geval dat hetgeen waarvoor verzekerd is heeft plaatsgevonden, of anders &mdash; door de verzekeraar.<br><br>Om je te verzekeren tegen vertraging van je vlucht, vind je tegenhanger in het <a href="https://byteball.slack.com/messages/C54CDJATB/" target="_blank">#p2p_insurance</a> kanaal in onze <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>, maak een contract aan en als je vlucht laat aankomt, <a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000">chat met het vlucht-vertragingen orakel</a> om deze data te laten posten over de vertraging, om vervolgens het contract te ontgrendelen.</span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Αγοράστε ασφάλιση από τους συναλλασσόμενούς σας προκειμένου να πληρωθείτε σε περίπτωση που λάβει χώρα κάποιο αρνητικό γεγονός. Πουλήστε ασφάλιση για κέρδος.<br><br>Η ασφάλιση είναι <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527" target="_blank">ένα απλό έξυπνο συμβόλαιο</a> που μπορεί να αποδεσμευτεί από τον ασφαλιζόμενο &mdash; εάν το εν λόγω γεγονός πράγματι έλαβε χώρα, ή από τον ασφαλιστή &mdash; σε κάθε άλλη περίπτωση.<br><br> Προκειμένου να ασφαλιστείτε ενάντια σε ενδεχόμενη καθυστέρηση πτήσης, βρείτε τον αντισυμβαλλόμενό σας στο <a href="https://byteball.slack.com/messages/C54CDJATB/" target="_blank">#p2p_insurance</a> κανάλι του <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a> μας, δημιουργήστε ένα συμβόλαιο, και αν η πτήση σας καθυστερήσει να φτάσει, <a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000">επικοινωνήστε με το oracle καθυστέρησης πτήσεων μέσω συνομιλίας</a> προκειμένου να αναρτηθούν τα δεδομένα σχετικά με την καθυστέρηση, στη συνέχεια μπορείτε να αποδεσμεύσετε το συμβόλαιο.</span>
 							</div>
 						</li>
 					</ul>
@@ -352,18 +352,18 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 				</div>
 
 				<div class="col-md-5 margin-left-7p">
-					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Voorspellingsmarkten</h3>
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Αγορές προβλέψεων</h3>
 					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Verdien geld door toekomstige gebeurtenissen correct te voorspellen.</span>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Κερδίστε χρήματα προβλέποντας σωστά μελλοντικά γεγονότα.</span>
 							</a>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular">Maak een smart P2P contract aan dat kan worden ontgrendeld als een specifieke gebeurtenis plaatsvindt. Gebruik het om te <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab" target="_blank"> wedden op prijsbewegingen</a>, sportweddenschappen en verzekering.<br><br>Vind je tegenhanger in het <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> kanaal in onze <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>.</span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Δημιουργήστε ένα έξυπνο συμβόλαιο P2P που να αποδεσμεύεται εάν κάποιο συγκεκριμένο γεγονός πραγματοποιηθεί. Χρησιμοποιήστε το για <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab" target="_blank">στοιχήματα σχετικά με τις διακυμάνσεις των τιμών</a>, αθλητικά στοιχήματα και ασφάλιση.<br><br> Βρείτε τον αντισυμβαλλόμενό σας στο <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> κανάλι στο <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a> μας.</span>
 							</div>
 						</li>
 					</ul>
@@ -380,18 +380,19 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 				</div>
 
 				<div class="col-md-5 margin-left-7p">
-					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">P2P weddenschappen</h3>
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">P2P στοιχηματισμός</h3>
 					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Wed tegen anderen op de uitslag van sportevenementen.</span>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Ποντάρετε εναντίον άλλων χρηστών σε αθλητικές εκδηλώσεις.</span>
 							</a>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular">Vind je tegenhanger in het <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> kanaal in onze <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a> en maak een contract dat kan worden ontgrendeld door jou of je peer afhankelijk van de uitslag van een toekomstig spel.<br><br> Wanneer het resultaat bekend is <a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">chat je met het sport orakel</a> om het informatie te laten plaatsen over de uitslag, waarna je het contract kan ontgrendelen.</span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular"> Βρείτε τον αντισυμβαλλόμενό σας στο <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> κανάλι στο <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a> μας και δημιουργήστε ένα συμβόλαιο που να αποδεσμεύεται από εσάς ή από τους συναλλασσόμενούς σας ανάλογα με τα αποτελέσματα κάποιου μελλοντικού παιχνιδιού.<br><br>
+                                                                         Έπειτα από τη γνωστοποίηση του αποτελέσματος, <a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">επικοινωνήστε με το oracle αγώνων μέσω συνομιλίας</a> προκειμένου να αναρτηθούν τα δεδομένα σχετικά με το αποτέλεσμα, στη συνέχεια μπορείτε να αποδεσμεύσετε το συμβόλαιο.
 							</div>
 						</li>
 					</ul>
@@ -419,13 +420,13 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Stuur cryptocurrency via email of via chat.</span>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Στείλτε κρυπτονομίσματα μέσω email ή μέσω συνομιλίας.</span>
 							</a>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular">De afzender vult simpelweg een e-mailadres in waar hij normaal een Byteball adres in zou vullen. De ontvanger klikt gewoon op een link ontvangen in een e-mail of chat-gesprek. Als de ontvanger nog geen Byteball portefeuille heeft, zal hij worden gevraagd deze te installeren. Op Android wordt de installatie automatisch gestart. <a href="https://medium.com/byteball/sending-cryptocurrency-to-email-5c9bce22b8a9" target="_blank">Meer informatie</a>.</span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Ο αποστολέας εισάγει απλά μια διεύθυνση email εκεί που κανονικά θα εισήγαγε μια διεύθυνση Byteball. Ο παραλήπτης απλώς κάνει κλικ σε έναν σύνδεσμο που λαμβάνει μέσω email ή μέσω συνομιλίας. Εάν ο παραλήπτης δεν έχει ακόμα εγγραφεί στο Byteball, θα του ζητηθεί να εγκαταστήσει το πορτοφόλι. Η εγκατάσταση ξεκινάει αυτόματα σε λογισμικό Android. <a href="https://medium.com/byteball/sending-cryptocurrency-to-email-5c9bce22b8a9" target="_blank">Μάθετε περισσότερα</a>.</span>
 							</div>
 						</li>
 					</ul>
@@ -442,18 +443,18 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 				</div>
 
 				<div class="col-md-5 margin-left-7p">
-					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Soevereine identiteit</h3>
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Κυριαρχική ταυτότητα</h3>
 					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Sla je ID op in je portefeuille, kies wat je openbaar wil maken en aan wie.</span>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Αποθηκεύστε το ID σας στο πορτοφόλι σας, επιλέξτε τι πληροφορίες αποκαλύπτετε και σε ποιόν.</span>
 							</a>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular">Verifieer je echte identiteit en sla deze veilig op in je portefeuille. <a href="https://www.jumio.com/" target="_blank">Jumio</a> helpt bij ID verificatie. Wanneer je je identiteit wilt verstrekken aan een servicebureau, bijvoorbeeld om deel te nemen aan een ICO, haal je het gewoon in een paar klikken uit je portefeuille. <a href="https://medium.com/byteball/bringing-identity-to-crypto-b35964feee8e" target="_blank">Meer informatie</a>.</span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Επαληθεύστε την πραγματική σας ταυτότητα και αποθηκεύστε την με ασφάλεια στο πορτοφόλι σας. Ο ιστότοπος <a href="https://www.jumio.com/" target="_blank">Jumio</a> διευκολύνει την επαλήθευση της ταυτότητας. Όταν θέλετε να αποκαλύψετε την ταυτότητά σας σε κάποιο πάροχο υπηρεσιών, π.χ. για να συμμετάσχετε σε κάποιο ICO, μπορείτε εύκολα να την βρείτε στο πορτοφόλι σας με ελάχιστα κλικ. <a href="https://medium.com/byteball/bringing-identity-to-crypto-b35964feee8e" target="_blank">Μάθετε περισσότερα</a>.</span>
 							</div>
 						</li>
 					</ul>
@@ -476,18 +477,18 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 				</div>
 
 				<div class="col-md-5 margin-left-7p">
-					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">P2P betalingen in chats</h3>
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">P2P πληρωμές στη συνομιλία</h3>
 					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Chatten en betalen in dezelfde app door simpelweg op links te klikken.</span>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Μπορείτε να συνομιλείτε και να πληρώνετε με την ίδια εφαρμογή κάνοντας κλικ σε συνδέσμους.</span>
 							</a>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular">Geen noodzaak om lange crypto adressen te kopiëren en plakken. <br><br>Je hoeft alleen maar te klikken om je adres in de chat te plakken, waarna de betaler op je adres klikt om geld te sturen.</span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Δεν χρειάζεται να αντιγράψετε και να επικολλήσετε μεγάλες διευθύνσεις κρυπτονομισμάτων.<br><br>Απλά κάνετε κλικ για να εισάγετε τη διεύθυνσή σας στη συνομιλία και ο πληρωτής κάνει κλικ στη διεύθυνσή σας για να αποστείλει χρήματα.</span>
 							</div>
 						</li>
 					</ul>
@@ -504,18 +505,18 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 				</div>
 
 				<div class="col-md-5 margin-left-7p">
-					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Chatbots</h3>
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Bots Συνομιλίας</h3>
 					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Praat tegen een bot zoals je tegen een mens zou praten.</span>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Μιλήστε με ένα bot όπως θα μιλούσατε με έναν άνθρωπο.</span>
 							</a>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular">Winkel door met een handelaar's bot te praten, betaal in twee klikken. De handelsbeurs en andere diensten zijn ook eenvoudig te gebruiken in de conversatie-achtige interface.</span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Πραγματοποιήστε αγορές συνομιλώντας με το bot κάποιου εμπόρου, πληρώστε με δύο κλικ. Ανταλλακτήρια και άλλες υπηρεσίες είναι επίσης ιδιαίτερα εύκολο να χρησιμοποιηθούν με διεπαφή συνομιλίας.</span>
 							</div>
 						</li>
 					</ul>
@@ -538,18 +539,18 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 				</div>
 
 				<div class="col-md-5 margin-left-7p">
-					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Ontraceerbaar geld: Blackbytes</h3>
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Μη ανιχνεύσιμο νόμισμα: Blackbytes</h3>
 					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Cash-achtige privacy.</span>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Ιδιωτικότητα μετρητού χρήματος.</span>
 							</a>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular">Wanneer je complete privacy wilt kan je betalen met Blackbytes, een cash-achtige onvindbare valuta waarvan transacties niet zichtbaar zijn in de openbare database maar in plaats daarvan peer-to-peer worden verzonden.<br><br>Maak gebruik van het ingebouwde Tor om je privacy nog meer te verhogen.</span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Όταν επιθυμείτε πλήρη ιδιωτικότητα μπορείτε να πραγματοποιείτε πληρωμές με Blackbytes, ένα μη ανιχνεύσιμο νόμισμα με ιδιότητες μετρητού χρήματος, οι συναλλαγές του οποίου στέλνονται peer-to-peer και δεν είναι ορατές στη δημόσια βάση δεδομένων.<br> <br>Χρησιμοποιήστε τον ενδογενή TOR διακόπτη κατευθείαν από το πορτοφόλι προκειμένου να διασφαλίσετε την ιδιωτικότητά σας περαιτέρω.</span>
 							</div>
 						</li>
 					</ul>
@@ -566,18 +567,18 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 				</div>
 
 				<div class="col-md-5 margin-left-7p">
-					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Gebruikers helpen elkaar</h3>
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Οι χρήστες βοηθούν ο ένας τον άλλο</h3>
 					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Beveilig elkaars transacties.</span>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Διασφαλίζουν ο ένας τις συναλλαγές του άλλου.</span>
 							</a>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular">Er is geen centrale entiteit die alle betalingen verwerkt en opslaat. In plaats daarvan zijn transacties van gebruikers met cryptografie aan elkaar gelinkt en wanneer je een nieuwe transactie toevoegt, voegen andere gebruikers hun transacties daaraan toe waardoor het aantal transacties dat naar jouw transactie linkt groeit als een sneeuwbal (dat is waarom we het Byteball noemen).</span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Δεν υπάρχει κάποια κεντρική οντότητα που να αποθηκεύει και να επεξεργάζεται όλες τις πληρωμές. Αντίθετα, οι συναλλαγές που εκτελούνται από χρήστες συνδέονται κρυπτογραφικά μεταξύ τους, οπότε όταν προσθέσετε μια νέα συναλλαγή, άλλοι χρήστες αρχίζουν να προσθέτουν τις δικές τους συναλλαγές πάνω από τη δική σας, επομένως ο αριθμός τον συναλλαγών που συνδέονται με την συναλλαγή σας αυξάνει όπως το φαινόμενο της χιονοστιβάδας (γνωστό ως snowball effect, που είναι και ο λόγος που το ονομάζουμε Byteball).</span>
 							</div>
 						</li>
 					</ul>
@@ -598,30 +599,30 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 	<!-- Features start-->
 	<section class="section section-about-2 p-b-40 p-t-20 feature-block" id="features">
 		<div class="container">
-			<h3 class="section-heading section-heading--center section-heading--dark m-b-50 core-feature-title">Kerneigenschappen</h3>
+			<h3 class="section-heading section-heading--center section-heading--dark m-b-50 core-feature-title">Βασικά Χαρακτηριστικά</h3>
 			<div class="row section-content-inner">
 				<div class="col-sm-12 col-xs-12 col-md-12 col-lg-5 features-col1">
 					<ul class="v-list list-text-icon">
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text iconbox-style-2-with-text-lg iconbox-style-2-with-text-right wow fadeInLeft col1-feature" data-wow-duration="0.8s" data-wow-delay="0.2s">
 							<p class="iconbox-item-title" href="#">
-								<span class="iconbox-text">ATOMISCHE BEURS</span>
+								<span class="iconbox-text">ΑΤΟΜΙΚΗ ΣΥΝΑΛΛΑΓΗ</span>
 								<i class="iconbox-icon" style="background-color: #0060C1"></i>
 							</p>
-							<p class="collapse show iconbox-item-text source-sans-pro-regular">Wanneer twee partijen een enkele eenheid tekenen die beide onderdelen van de uitwisseling uitvoert, vinden de twee transacties ofwel tegelijkertijd plaats of helemaal niet. Het is niet langer noodzakelijk om gecentraliseerde beurzen te vertrouwen.</p>
+							<p class="collapse show iconbox-item-text source-sans-pro-regular">Όταν δύο συμβαλλόμενα μέρη υπογράφουν μια μεμονωμένη σύμβαση που εκτελεί και τα δύο σκέλη της ανταλλαγής, οι δύο συναλλαγές είτε πραγματοποιούνται ταυτόχρονα είτε δεν πραγματοποιούνται καθόλου. Δεν είναι πια αναγκαίο να εμπιστεύεστε επικεντρωμένα ανταλλακτήρια.</p>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text iconbox-style-2-with-text-lg iconbox-style-2-with-text-right wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.4s">
 							<p class="iconbox-item-title" href="#">
-								<span class="iconbox-text">MEERDERE HANDTEKENINGEN</span>
+								<span class="iconbox-text">ΠΟΛΛΑΠΛΕΣ ΥΠΟΓΡΑΦΕΣ</span>
 								<i class="iconbox-icon" style="background-color: #0060C1"></i>
 							</p>
-							<p class="collapse show iconbox-item-text source-sans-pro-regular">Voor veiligheid kan je bepalen dat je geld alleen uit kan worden gegeven wanneer diverse handtekeningen zijn gezet, bijvoorbeeld vanaf je laptop en vanaf je telefoon. Voor gedeelde controle over geld, kunnen verschillende handtekeningen van verschillende personen nodig zijn.</p>
+							<p class="collapse show iconbox-item-text source-sans-pro-regular">Για ασφάλεια, μπορείτε να απαιτήσετε να είναι διαθέσιμα τα κεφάλαιά σας μόνο όταν παρέχονται διάφορες υπογραφές, π.χ. από τον φορητό υπολογιστή σας και από το τηλέφωνό σας. Για κοινό έλεγχο των κεφαλαίων, ενδέχεται να απαιτούνται υπογραφές από διαφορετικούς ανθρώπους.</p>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text iconbox-style-2-with-text-lg iconbox-style-2-with-text-right wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.6s">
 							<p class="iconbox-item-title" href="#">
-								<span class="iconbox-text">ONVERANDERBARE OPSLAG</span>
+								<span class="iconbox-text">ΑΜΕΤΑΒΛΗΤΗ ΑΠΟΘΗΚΕΥΣΗ</span>
 								<i class="iconbox-icon" style="background-color: #0060C1"></i>
 							</p>
-							<p class="collapse show iconbox-item-text source-sans-pro-regular">Eenmaal opgeslagen in de Byteball database, kan de data niet meer worden gewijzigd of verwijderd.</p>
+							<p class="collapse show iconbox-item-text source-sans-pro-regular">Εφόσον αποθηκευτούν στη βάση δεδομένων του Byteball, τα δεδομένα δεν γίνεται να αναθεωρηθούν ούτε να αφαιρεθούν.</p>
 						</li>
 					</ul>
 				</div>
@@ -632,23 +633,23 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text iconbox-style-2-with-text-lg wow fadeInRight" data-wow-duration="0.8s" data-wow-delay="0.2s">
 							<p class="iconbox-item-title" href="#">
 								<i class="iconbox-icon" style="background-color: #0060C1"></i>
-								<span class="iconbox-text">GEREGULEERD BEZIT</span>
+								<span class="iconbox-text">ΡΥΘΜΙΖΟΜΕΝΑ ΚΕΦΑΛΑΙΑ</span>
 							</p>
-							<p class="collapse show iconbox-item-text source-sans-pro-regular">Gereguleerde instellingen kunnen bezittingen uitgeven die voldoen aan de eisen voor Know-Your-Customer/Anti-Money-Laundering. Iedere overdracht van een dergelijk bezit moet medeondertekend worden door de uitgevende partij en in geval van tegenstrijdigheid met de voorwaarden zal de uitgevende partij niet bijtekenen.</p>
+							<p class="collapse show iconbox-item-text source-sans-pro-regular">Τα εξουσιοδοτημένα ιδρύματα μπορούν να εκδίδουν κεφάλαια που να ικανοποιούν τις απαιτήσεις KYC/AML. Κάθε μεταφορά κεφαλαίων αυτού του είδους θα πρέπει να συνυπογράφεται από τον εκδότη, και αν υπάρχει οτιδήποτε που να αντιτίθεται στους κανονισμούς, τότε ο εκδότης δεν θα συνυπογράφει.</p>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text iconbox-style-2-with-text-lg wow fadeInRight col4-feature" data-wow-duration="0.8s" data-wow-delay="0.4s">
 							<p class="iconbox-item-title" href="#">
 								<i class="iconbox-icon" style="background-color: #0060C1"></i>
-								<span class="iconbox-text">ON-CHAIN ORAKELS</span>
+								<span class="iconbox-text">ON-CHAIN ORACLES</span>
 							</p>
-							<p class="collapse show iconbox-item-text source-sans-pro-regular">In het geval dat er met niet-vertrouwde tegenpartijen wordt gewerkt, kan je geld vastzetten op een adres dat, hetzij door jou, hetzij door de tegenpartij kan worden uitgegeven, afhankelijk van gebeurtenissen, genoteerd in de database, door vertrouwde data providers &mdash; orakels.</p>
+							<p class="collapse show iconbox-item-text source-sans-pro-regular">Όταν συναλλάσσεστε με μη αξιόπιστους αντισυμβαλλόμενους, μπορείτε να κλειδώσετε τα κεφάλαια σε μια διεύθυνση όπου να είναι διαθέσιμα είτε σε εσάς είτε στον αντισυμβαλλόμενο, ανάλογα με τα γεγονότα που έχουν καταγραφεί στη βάση δεδομένων από αξιόπιστους παρόχους υπηρεσιών &mdash; oracles.</p>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text iconbox-style-2-with-text-lg wow fadeInRight col6-feature" data-wow-duration="0.8s" data-wow-delay="0.6s">
 							<p class="iconbox-item-title" href="#">
 								<i class="iconbox-icon" style="background-color: #0060C1"></i>
-								<span class="iconbox-text">FINALITEITSRICHTLIJN</span>
+								<span class="iconbox-text">ΟΡΙΣΤΙΚΟΤΗΤΑ ΤΗΣ ΣΥΜΦΩΝΙΑΣ</span>
 							</p>
-							<p class="collapse show iconbox-item-text source-sans-pro-regular">Nadat bepaalde criteria zijn vervuld wordt een nieuwe transactie finaal en kan deze niet meer worden aangepast, ook niet door een sterke aanvaller. Geen twijfel over het juiste aantal bevestigingen, geen 51% aanvallen.</p>
+							<p class="collapse show iconbox-item-text source-sans-pro-regular">Εφόσον κάποια ορισμένα κριτήρια πληρούνται, μια νέα συναλλαγή οριστικοποιείται. Δεν μπορεί να αναθεωρηθεί ούτε από έναν ισχυρό επιτιθέμενο. Ούτε εικασίες σχετικά με το σωστό αριθμό επιβεβαιώσεων, ούτε επιθέσεις του 51%.</p>
 						</li>
 					</ul>
 				</div>
@@ -663,46 +664,46 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 			<hr class="new-breaker-line">
 			<div class="row justify-content-md-center">
 				<div class="col-md-12">
-					<h1 class="section-heading section-heading--center section-heading--dark m-b-40 m-t-20 distribution-title">Eerlijke eerste verdeling</h1>
-					<h4 class="m-b-30 section-heading--center distribution-title2">Gratis distributie voor massale adoptie.</h4>
+					<h1 class="section-heading section-heading--center section-heading--dark m-b-40 m-t-20 distribution-title">Δίκαιη αρχική διανομή</h1>
+                                         <h4 class="m-b-30 section-heading--center distribution-title2">Δωρεάν διανομή για μαζική αποδοχή.</h4>
 				</div>
 			</div>
 			<div class="row bg-gray-50">
 				<div class="col-lg-12 distibution-desc-div-padding">
-					<h3 class="m-b-30 distribution-text">Massale acceptatie vereist brede distributie en dat is waarom 99% van alle Bytes en Blackbytes gratis worden verdeeld. Op dit moment maken we gebruik van verschillende manieren om deze te distribueren:</h3>
+					<h3 class="m-b-30 distribution-text">Η μαζική αποδοχή απαιτεί ευρεία διανομή, για αυτό το λόγο το 99% όλων των bytes και blackbytes πρόκειται να διανεμηθούν δωρεάν. Προς το παρόν, χρησιμοποιούμε διάφορους τρόπους για να τα διανείμουμε:</h3>
 					<p class="distribution-text2">
-						- <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Cashback</a> voor aankopen bij winkels van handelaren waarmee we samenwerken. In de meeste gevallen is de aangeboden cashback 10% van het aankoopbedrag.
-						<br>- <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Vul het aanmeldingsformulier in</a> of <script>document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">');</script>neem contact met ons op<script>document.write('</a>');</script> als je een winkel of betalingsverwerker hebt en deel wilt nemen aan het cashback programma.
-						<br>- <a href="https://medium.com/byteball/distribution-to-verified-users-and-referrals-ed00b9b2a30e" target="_blank">Verificatie beloningen en verwijzing beloningen</a> voor zij die hun echte naam verifiëren.
-						<br>- <a href="https://medium.com/byteball/distribution-to-verified-emails-and-sending-cryptocurrency-to-email-episode-ii-cb955fe19d7e" target="_blank">Verificatie beloningen en beloningen voor doorverwijzen</a> voor zij die hun e-mailadres verifiëren.
-						<br>- <a href="https://medium.com/byteball/attestation-of-accredited-investors-d4a8dabf683b" target="_blank">Verificatie beloningen en beloningen voor doorverwijzen</a> voor geaccrediteerde investeerders die hun erkende status verifiëren.
-						<br>-Beloningen voor degenen die een <a href="https://medium.com/byteball/money-for-knowledge-distribution-via-telegram-quiz-bot-2dd400e22997">quiz in Telegram</a> halen.
-						<br>- Subsidies die een deel van de kosten betalen wanneer er <a href="https://medium.com/byteball/buying-bytes-with-visa-or-mastercard-d8ee2d1a2b07">Bytes worden gekocht met een Visa of Mastercard</a>.
-						<br>- Beloningen voor het doneren van computerbronnen aan het <a href="https://medium.com/byteball/computing-for-good-again-3795336bdaed">World Community Grid</a>.
-						<br>- Giveaways verspreid bijvoorbeeld via YouTube kanalen van onze supporters. Zie bijvoorbeeld <a href="https://www.youtube.com/watch?v=hycluITNDBM" target="_blank">https://www.youtube.com/watch?v=hycluITNDBM</a>.
-						<br>- <a href="https://medium.com/byteball-help/using-mailchimp-to-mass-send-payments-as-textcoins-5c1db06342e3" target="_blank">Massale verzending van textcoins</a> naar abonnees van onze partners. Bekijk de <a href="https://docs.google.com/spreadsheets/d/1heT6TUSpTJgRW-FUM0LbcoVjXZRCb3PbXQQLmzvNRvM/edit#gid=323859176" target="_blank">resultaten van eerdere campagnes</a>.                    </p>
+						<a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Επιστροφή χρημάτων</a> για αγορές σε εμπορικά καταστήματα με τα οποία συνεργαζόμαστε. Στις περισσότερες περιπτώσεις, η προσφερόμενη επιστροφή χρημάτων ισούται με το 10% του ποσού αγοράς.
+						<br>- <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Συμπληρώστε το έντυπο αίτησης</a> ή <script>document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">');</script>επικοινωνήστε μαζί μας<script>document.write('</a>');</script> αν διευθύνετε κάποιο κατάστημα ή κάποια υπηρεσία επεξεργασίας πληρωμών και θέλετε να συμμετάσχετε στο πρόγραμμα επιστροφής χρημάτων.
+						<br>-  <a href="https://medium.com/byteball/distribution-to-verified-users-and-referrals-ed00b9b2a30e" target="_blank">Ανταμοιβές επαλήθευσης και ανταμοιβές από παραπομπές</a> σε όσους επαληθεύουν το πραγματικό τους όνομα.
+						<br>-  <a href="https://medium.com/byteball/distribution-to-verified-emails-and-sending-cryptocurrency-to-email-episode-ii-cb955fe19d7e" target="_blank">Ανταμοιβές επαλήθευσης και ανταμοιβές από παραπομπές</a> σε όσους επαληθεύουν τη διεύθυνση email τους.
+						<br>-  <a href="https://medium.com/byteball/attestation-of-accredited-investors-d4a8dabf683b" target="_blank">Ανταμοιβές επαλήθευσης και ανταμοιβές από παραπομπές</a> σε διαπιστευμένους επενδυτές που επαληθεύουν τη διαπιστευμένη τους κατάσταση.
+						<br>-  Ανταμοιβές σε όσους επιτύχουν σε ένα <a href="https://medium.com/byteball/money-for-knowledge-distribution-via-telegram-quiz-bot-2dd400e22997">quiz στο Telegram</a>.
+						<br>-  Επιδοτήσεις που αντισταθμίζουν μέρος των προμηθειών όταν <a href="https://medium.com/byteball/buying-bytes-with-visa-or-mastercard-d8ee2d1a2b07">αγοράζετε Bytes με Visa ή Mastercard</a>.
+						<br>-  Ανταμοιβές για όσους δωρίζουν τους υπολογιστικούς τους πόρους στο <a href="https://medium.com/byteball/computing-for-good-again-3795336bdaed">World Community Grid</a>.
+						<br>-  Δωρεές μοιράζονται π.χ. μέσω των καναλιών YouTube των υποστηρικτών μας. Δείτε π.χ. <a href="https://www.youtube.com/watch?v=hycluITNDBM" target="_blank">https://www.youtube.com/watch?v=hycluITNDBM</a>.
+						<br>-  <a href="https://medium.com/byteball-help/using-mailchimp-to-mass-send-payments-as-textcoins-5c1db06342e3" target="_blank">Μαζική αποστολή textcoins</a> στους συνδρομητές των συνεργατών μας. Δείτε τα <a href="https://docs.google.com/spreadsheets/d/1heT6TUSpTJgRW-FUM0LbcoVjXZRCb3PbXQQLmzvNRvM/edit#gid=323859176" target="_blank">αποτελέσματα από προηγούμενες καμπάνιες</a>.                    </p>
 				</div>
 			</div>
 			<div class="row justify-content-md-center m-t-40 m-b-10">
 				<div class="col-md-12">
-					<h4 class="m-b-30 section-heading--center distribution-title2">Eerdere distributies</h4>
+					<h4 class="m-b-30 section-heading--center distribution-title2">Παλαιότερες διανομές</h4>
 				</div>
 			</div>
 			<div class="row bg-gray-50">
 				<div class="col-lg-12 distibution-desc-div-padding">
 					<h3 class="m-b-40 distribution-text">
-						In het verleden hebben we ook Bytes verdeeld aan BTC houders en bestaande houders van Bytes. Gebruikers linkten hun BTC en Byteball adressen en kregen nieuwe Bytes in verhouding tot hun bestaande BTC en Bytes saldi. Deze verdeling werd opgesplitst in verschillende rondes.
-						<br><br>De eerste distributie vond plaats op 25 december 2016 toen het netwerk werd gelanceerd. Meer dan 70.000 BTC werd gelinkt en 10% van de totale voorraad aan bytes en blackbytes werd uitgegeven. In de latere rondes bereikte het totale gedistribueerde aanbod 64,5%:
+						Στο παρελθόν διανείμαμε επίσης Bytes σε κατόχους BTC αλλά και υπάρχοντες κατόχους Bytes. Οι χρήστες συνέδεαν τις διευθύνσεις BTC και Byteball τους και λάμβαναν νέα Bytes κατ' αναλογία προς το υπάρχον υπόλοιπό τους σε BTC και Bytes. Η διανομή είχε χωριστεί σε αρκετούς γύρους.
+						<br><br>Ο πρώτος γύρος διανομής έλαβε χώρα στις 25 Δεκεμβρίου 2016, όταν ξεκίνησε το δίκτυο, συνδέθηκαν περισσότερα από 70.000 BTC, και διανεμήθηκε το 10% του συνολικού όγκου bytes και blackbytes. Στους επόμενους γύρους, το συνολικό διανεμημένο ποσό έφτασε το 64,5%:
 					</h3>
-					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">2e ronde op 11 februari 2017: 121.763 BTC gelinkt, 1,8% gedistribueerd;</p>
-					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">3e ronde op 12 maart 2017: 129.139 BTC gelinkt, 2,0% gedistribueerd;</p>
-					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">4e ronde op 11 april 2017: 145.441 BTC gelinkt, 2,3% gedistribueerd;</p>
-					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">5e ronde op 10 mei 2017: 207.672 BTC gelinkt, 2,9% gedistribueerd;</p>
-					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">6e ronde op 9 juni 2017: 453.621 BTC gelinkt, 6,6% gedistribueerd;</p>
-					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">7e ronde op 9 juli 2017: 949.004 BTC gelinkt, 11,0% gedistribueerd;</p>
-					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">8e ronde op 7 augustus 2017: 1.395.899 BTC gelinkt, 16,0% gedistribueerd;</p>
-					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">9e ronde op 6 september 2017: 1.306.573 BTC gelinkt, 5,7% gedistribueerd;</p>
-					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">10e ronde op 4 november 2017: 1.093.155 BTC gelinkt, 6,1% gedistribueerd;</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">2ος γύρος στις 11 Φεβρουαρίου 2017: συνδέθηκαν 121.763 BTC, διανεμήθηκε το 1,8%,</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">3ος γύρος στις 12 Μαρτίου 2017: συνδέθηκαν 129.139 BTC, διανεμήθηκε το 2,0%,</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">4ος γύρος στις 11 Απριλίου 2017: συνδέθηκαν 145.441 BTC, διανεμήθηκε το 2,3%,</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">5ος γύρος στις 10 Μαΐου 2017: συνδέθηκαν 207.672 BTC, διανεμήθηκε το 2,9%,</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">6ος γύρος στις 9 Ιουνίου 2017: συνδέθηκαν 453.621 BTC, διανεμήθηκε το 6,6%,</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">7ος γύρος στις 9 Ιουλίου 2017: συνδέθηκαν 949.004 BTC, διανεμήθηκε το 11,0%.</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">8ος γύρος στις 7 Αυγούστου 2017: συνδέθηκαν 1.395.899 BTC, διανεμήθηκε το 16,0%.</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">9ος γύρος στις 6 Σεπτεμβρίου 2017: συνδέθηκαν 1.306.573 BTC, διανεμήθηκε το 5,7%.</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">10ος γύρος στις 4 Νοεμβρίου 2017: συνδέθηκαν 1.093.155 BTC, διανεμήθηκε το 6,1%.</p>
 				</div>
 			</div>
 
@@ -710,18 +711,20 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 
 			<div class="row justify-content-md-center" id="tech">
 				<div class="col-md-12">
-					<h1 class="section-heading section-heading--center section-heading--dark m-b-40 m-t-20 distribution-title">Volledig nieuwe technologie</h1> 
- <h4 class="m-b-30 section-heading--center distribution-title2" style="max-width: 550px; margin-left: auto; margin-right: auto;">Onbegrensde schaalbaarheid, snelle bevestigingen, geen mijnwerkers, geen blokken, lage kosten.</h4>
+					<h1 class="section-heading section-heading--center section-heading--dark m-b-40 m-t-20 distribution-title">Εντελώς καινούρια τεχνολογία</h1>
+					<h4 class="m-b-30 section-heading--center distribution-title2" style="max-width: 550px; margin-left: auto; margin-right: auto;">Απεριόριστη επεκτασιμότητα, γρήγορες επιβεβαιώσεις, χωρίς miners, χωρίς blocks, χαμηλές προμήθειες.</h4>
 				</div>
 			</div>
 
 			<div class="row bg-gray-50">
 				<div class="col-lg-12 distibution-desc-div-padding">
 					<p class="distribution-text3">
-						Byteball data wordt opgeslagen en geordend door het gebruik van <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">directed acyclic graph</a> (DAG) in plaats van een blockchain. Dit stelt gebruikers in staat om elkaars data veilig te stellen door naar eerdere, door andere gebruikers gecreëerde, data units te verwijzen en neemt ook schaalbaarheidslimieten weg die gebruikelijk zijn bij blockchains, zoals de kwestie van de grootte van blokken.
-						<br><br> Een blokloos ontwerp is eenvoudiger omdat er geen blokken zijn, er zijn alleen transacties. Gebruikers voegen simpelweg zelf hun transacties toe aan het einde van de DAG, ze hoeven niet te wachten op een miner die een nieuw blok aanmaakt en er is geen twijfel of miners jouw transactie aan een blok toe zullen voegen.
-						<br><br>Het consensus algoritme ter bescherming tegen dubbel spenderen is gebaseerd op het creëren van een totale ordening binnen de DAG. Dit wordt bereikt door een ketting te selecteren, dit heet de hoofdketting, die richting units beweegt die zijn uitgegeven door algemeen erkende vertrouwde gebruikers &mdash; getuigen.
-						<br><a href="https://byteball.org/Byteball.pdf" target="_blank">Zie het white paper voor meer informatie.</a>
+						Τα δεδομένα του Byteball αποθηκεύονται και ταξινομούνται με τη χρήση ενός <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank"> directed acyclic graph </a> (DAG) και όχι ενός blockchain. Αυτό επιτρέπει σε όλους τους χρήστες να διασφαλίσουν ο ένας τα δεδομένα του άλλου, παραπέμποντας σε προηγούμενα δεδομένα που έχουν δημιουργηθεί από άλλους χρήστες, και επιπλέον δεν επιφέρει προβλήματα με τα συνήθη όρια επεκτασιμότητας στη χρήση του blockchain, όπως προβλήματα στο μέγεθος των blocks.
+						<br><br>
+						Ο σχεδιασμός χωρίς blocks είναι απλούστερος καθώς δεν υπάρχουν blocks, υπάρχουν μόνο συναλλαγές. Οι χρήστες απλώς προσθέτουν οι ίδιοι τις συναλλαγές τους στο τέλος του DAG, δε χρειάζεται να περιμένουν τους miners να δημιουργήσουν ένα νέο block και δεν υπάρχουν εικασίες για το εάν οι miners θα συμπεριλάβουν τη δική σας συναλλαγή στο block.
+						<br>
+						<br>Ο αλγόριθμος συναίνεσης που χρησιμοποιείται για την προστασία από διπλές συναλλαγές βασίζεται στην καθιέρωση μιας καθολικής σειράς ταξινόμησης στα πλαίσια του DAG. Αυτό επιτυγχάνεται με την επιλογή μιας αλυσίδας, η οποία ονομάζεται βασική αλυσίδα, και κλίνει προς το βάρος των μονάδων που έχουν εκδοθεί από κοινά αναγνωρίσιμους και αξιόπιστους χρήστες &mdash; witnesses.
+						<br><a href="https://byteball.org/Byteball.pdf" target="_blank">Δείτε το white paper για λεπτομέρειες.</a>
 					</p>
 				</div>
 			</div>
@@ -735,7 +738,7 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 			<hr class="new-breaker-line">
 			<div class="row justify-content-md-center">
 				<div class="col-md-12 dybw-list-item">
-					<h1 class="section-heading section-heading--center section-heading--dark m-b-40 m-t-20 app-title">Download je Byteball portefeuille</h1>
+					<h1 class="section-heading section-heading--center section-heading--dark m-b-40 m-t-20 app-title">Κατεβάστε το Byteball πορτοφόλι σας</h1>
 
 					<div class="section-heading--center">
 						<img src="img/inphone/wallet.png?v2" style="max-width: 300px">
@@ -792,9 +795,10 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 			<div class="row justify-content-md-center">
 				<div class="col-md-12">
 
-					<h1 class="section-heading section-heading--center section-heading--dark m-b-40 m-t-20 app-title">Testnet</h1>
-<h4 class="m-b-30 section-heading--center noto-sans-display-regular" style="font-size: 20px; line-height: 1.5; max-width: 850px; margin: auto;">
-<a href="testnet.html" target="_blank">Testnet portefeuille</a> is tevens beschikbaar als je een ontwikkelaar bent of de kenmerken van Byteball wilt ervaren zonder geld uit te geven.
+					<h1 class="section-heading section-heading--center section-heading--dark m-b-40 m-t-20 app-title">Έλεγχος λειτουργίας δικτύου</h1>
+
+					<h4 class="m-b-30 section-heading--center noto-sans-display-regular" style="font-size: 20px; line-height: 1.5; max-width: 850px; margin: auto;">
+						<a href="testnet.html" target="_blank">Το πορτοφόλι ελέγχου λειτουργίας δικτύου</a> είναι επίσης διαθέσιμο εάν είστε προγραμματιστής ή θέλετε να δοκιμάσετε τις λειτουργίες του Byteball χωρίς να ξοδέψετε ούτε cent.
 					</h4>
 				</div>
 			</div>
@@ -806,7 +810,7 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 	<section class="section section-team p-b-40" id="team">
 		<div class="container">
 			<hr class="new-breaker-line">
-			<h3 class="section-heading section-heading--center m-b-45">Maak kennis met het team</h3>
+			<h3 class="section-heading section-heading--center m-b-45">Γνωρίστε Την Ομάδα</h3>
 			<ul class="row list-reset">
 				<li class="col-lg-12 col-md-12 col-sm-12" style="margin: auto">
 					<div class="col-lg-3 col-md-6 col-sm-6 section-heading--center" style="margin: auto;">
@@ -827,7 +831,7 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 								<h5 class="box-title noto-sans-symbols-bold">
 									Tony Churyumoff
 								</h5>
-								<p class="box-author-job source-sans-pro-regular">Oprichter en Hoofdontwikkelaar</p>
+								<p class="box-author-job source-sans-pro-regular">Ιδρυτής και Επικεφαλής Προγραμματιστής</p>
 							</div>
 						</div>
 					</div>
@@ -848,7 +852,7 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 							<h5 class="box-title noto-sans-symbols-bold">
 								Mikhail Pustovalov
 							</h5>
-							<p class="box-author-job source-sans-pro-regular">Ontwikkelaar</p>
+							<p class="box-author-job source-sans-pro-regular">Προγραμματιστής</p>
 						</div>
 					</div>
 				</li>
@@ -867,7 +871,7 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 							<h5 class="box-title noto-sans-symbols-bold">
 								Evgeniy Stulnikov
 							</h5>
-							<p class="box-author-job source-sans-pro-regular">Ontwikkelaar</p>
+							<p class="box-author-job source-sans-pro-regular">Προγραμματιστής</p>
 						</div>
 					</div>
 				</li>
@@ -886,7 +890,7 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 							<h5 class="box-title noto-sans-symbols-bold">
 								Artem Nagorny
 							</h5>
-							<p class="box-author-job source-sans-pro-regular">Ontwikkelaar</p>
+							<p class="box-author-job source-sans-pro-regular">Προγραμματιστής</p>
 						</div>
 					</div>
 				</li>
@@ -906,7 +910,7 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 							<h5 class="box-title noto-sans-symbols-bold">
 								Steve Safronoff
 							</h5>
-							<p class="box-author-job source-sans-pro-regular">Partner en hoofd van Business Development</p>
+							<p class="box-author-job source-sans-pro-regular">Συνεργάτης και Επικεφαλής Επιχειρηματικής Ανάπτυξης</p>
 						</div>
 					</div>
 				</li>
@@ -925,7 +929,7 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 							<h5 class="box-title noto-sans-symbols-bold">
 								Valerius Coppens
 							</h5>
-							<p class="box-author-job source-sans-pro-regular">Hoofd van Strategie</p>
+							<p class="box-author-job source-sans-pro-regular">Επικεφαλής Στρατηγικής</p>
 						</div>
 					</div>
 				</li>
@@ -944,7 +948,7 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 							<h5 class="box-title noto-sans-symbols-bold">
 								Elena Tairova
 							</h5>
-							<p class="box-author-job source-sans-pro-regular">Hoofd van PR en Communicatie</p>
+							<p class="box-author-job source-sans-pro-regular">Επικεφαλής Δημοσίων Σχέσεων και Επικοινωνίας</p>
 						</div>
 					</div>
 				</li>
@@ -963,7 +967,7 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 							<h5 class="box-title noto-sans-symbols-bold">
 								Paul Murray
 							</h5>
-							<p class="box-author-job source-sans-pro-regular">Hoofd van Digitale Inhoud</p>
+							<p class="box-author-job source-sans-pro-regular">Επικεφαλής Ψηφιακού Περιεχομένου</p>
 						</div>
 					</div>
 				</li>
@@ -983,14 +987,14 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 							<h5 class="box-title noto-sans-symbols-bold">
 								Luke Angell
 							</h5>
-							<p class="box-author-job source-sans-pro-regular">Evenementen en Partnerships Manager</p>
+							<p class="box-author-job source-sans-pro-regular">Υπεύθυνος Εκδηλώσεων και Συνεργασιών</p>
 						</div>
 					</div>
 				</li>
 				<li class="col-lg-3 col-md-6 col-sm-6 section-heading--center">
 					<div class="box box-style-2">
 						<div class="box-image">
-							<img src="static/images/team/milan.png" alt="Milaan Horvath" />
+							<img src="static/images/team/milan.png" alt="Milan Horvath" />
 							<div class="bg-overlay"></div>
 							<ul class="list-socials" style="margin: auto; left: 45%;">
 								<li class="list-item">
@@ -1000,9 +1004,9 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 						</div>
 						<div class="box-body">
 							<h5 class="box-title noto-sans-symbols-bold">
-								Milaan Horvath
+								Milan Horvath
 							</h5>
-							<p class="box-author-job source-sans-pro-regular">Community Manager</p>
+							<p class="box-author-job source-sans-pro-regular">Υπεύθυνος Κοινότητας</p>
 						</div>
 					</div>
 				</li>
@@ -1021,7 +1025,7 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 							<h5 class="box-title noto-sans-symbols-bold">
 								Chen Weijun
 							</h5>
-							<p class="box-author-job source-sans-pro-regular">Gebiedsvertegenwoordiger, China</p>
+							<p class="box-author-job source-sans-pro-regular">Αντιπρόσωπος Περιφέρειας, Κίνα</p>
 						</div>
 					</div>
 				</li>
@@ -1040,7 +1044,7 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 							<h5 class="box-title noto-sans-symbols-bold">
 								Casper Niebe
 							</h5>
-							<p class="box-author-job source-sans-pro-regular">Manager Gerbuikerswerving</p>
+							<p class="box-author-job source-sans-pro-regular">Υπεύθυνος Προσέλκυσης Χρηστών</p>
 						</div>
 					</div>
 				</li>
@@ -1059,7 +1063,7 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 							<h5 class="box-title noto-sans-symbols-bold">
 								David Meister
 							</h5>
-							<p class="box-author-job source-sans-pro-regular">Bijdrager</p>
+							<p class="box-author-job source-sans-pro-regular">Συνεισφέρων</p>
 						</div>
 					</div>
 				</li>
@@ -1079,7 +1083,7 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 							<h5 class="box-title noto-sans-symbols-bold">
 								Tarmo
 							</h5>
-							<p class="box-author-job source-sans-pro-regular">Bijdrager</p>
+							<p class="box-author-job source-sans-pro-regular">Συνεισφέρων</p>
 						</div>
 					</div>
 				</li>
@@ -1098,7 +1102,7 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 							<h5 class="box-title noto-sans-symbols-bold">
 								Papabyte
 							</h5>
-							<p class="box-author-job source-sans-pro-regular">Bijdrager</p>
+							<p class="box-author-job source-sans-pro-regular">Συνεισφέρων</p>
 						</div>
 					</div>
 				</li>
@@ -1113,7 +1117,7 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 			<hr class="new-breaker-line">
 			<div class="row justify-content-md-center">
 				<div class="col-md-12">
-					<h1 class="section-heading section-heading--center section-heading--dark m-b-40 m-t-20 distribution-title">Gemeenschap en Ondersteuning</h1>
+					<h1 class="section-heading section-heading--center section-heading--dark m-b-40 m-t-20 distribution-title">Κοινότητα και Υποστήριξη</h1>
 					<div class="section-heading--center m-t-0 m-b-40">
 						<ul class="footer-menu-list h-list footer-social-new-ul">
 							<li class="list-item community-item">
@@ -1167,31 +1171,31 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 					</div>
 
 					<div class="com-sup-block slack_img">
-						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Onze meest actieve gemeenschap is op Slack, bezoek ons daar.</h2>
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Η πιο ενεργή μας κοινότητα βρίσκεται στο Slack, οπότε θα σας παρακαλούσαμε να μας βρείτε εκεί.</h2>
 					</div>
 					<div class="com-sup-block medium_img" style="display:none;">
-						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">We plaatsen nieuws op Medium.</h2>
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Δημοσιεύουμε ειδήσεις στο Medium.</h2>
 					</div>
 					<div class="com-sup-block bitcoin_talk_img" style="display:none;">
-						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Een lange en actieve Bitcointalk draad met bijna 1.000 posts.</h2>
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Ένα μακρύ και ενεργό νήμα στο Bitcointalk με σχεδόν 1.000 αναρτήσεις.</h2>
 					</div>
 					<div class="com-sup-block telegram_img" style="display:none;">
-						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Ons Telegram kanaal is ook populair.</h2>
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Το κανάλι μας στο Telegram είναι επίσης δημοφιλές.</h2>
 					</div>
 					<div class="com-sup-block we_chat_img" style="display:none;">
-						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Onze Chinese gemeenschap kan worden gevonden op WeChat.</h2>
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Μπορείτε να βρείτε την Κινέζικη κοινότητά μας στο WeChat.</h2>
 					</div>
 					<div class="com-sup-block reddit_img" style="display:none;">
-						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">We hebben ook een actief subreddit.</h2>
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Έχουμε επίσης ένα ενεργό sub-reddit.</h2>
 					</div>
 					<div class="com-sup-block twitter_img" style="display:none;">
-						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Natuurlijk zijn we ook op Twitter.</h2>
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Φυσικά είμαστε στο Twitter.</h2>
 					</div>
 					<div class="com-sup-block facebook_img" style="display:none;">
-						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Daarnaast zijn we ook op Facebook.</h2>
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Φυσικά είμαστε και στο Facebook.</h2>
 					</div>
 					<div class="com-sup-block youtube_img" style="display:none;">
-						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Ons YouTube Kanaal</h2>
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Το κανάλι μας στο YouTube</h2>
 					</div>
 
 				</div>
@@ -1205,7 +1209,7 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 			<hr class="new-breaker-line">
 			<div class="row justify-content-md-center">
 				<div class="col-md-12">
-					<h1 class="section-heading section-heading--center section-heading--dark m-b-40 m-t-20 distribution-title">Meer informatie</h1>
+					<h1 class="section-heading section-heading--center section-heading--dark m-b-40 m-t-20 distribution-title">Μάθετε περισσότερα</h1>
 
 					<div class="section-heading--center m-t-80 m-b-40">
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 left-float m-b-40 community-item">
@@ -1232,32 +1236,32 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 					</div>
 
 					<div class="learn-more-block medium2_img">
-						<h3 class="section-heading section-heading--center section-heading--dark m-b-40 noto-sans-display-bold medium-info-blocks">Introductie tot Byteball</h3>
-						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">De vier onderstaande artikelen zijn een uitstekende introductie tot Byteball. De artikelen maken gebruik van afbeeldingen en video's en zijn geschreven in eenvoudig te begrijpen taal. We raden voor de meeste mensen die nieuw zijn bij Byteball aan om hier te starten.</h3>
+						<h3 class="section-heading section-heading--center section-heading--dark m-b-40 noto-sans-display-bold medium-info-blocks">Εισαγωγή στο Byteball</h3>
+						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">Τα 4 παρακάτω άρθρα αποτελούν μια εξαιρετική εισαγωγή στο Byteball. Τα άρθρα χρησιμοποιούν γραφικά, βίντεο και είναι γραμμένα σε μια γλώσσα που είναι εύκολα κατανοητή. Σας συστήνουμε να ξεκινήσετε από εδώ για τους περισσότερους που είναι καινούριοι στο Byteball.</h3>
 
 						<div class="section-btn-group m-b-30 wow zoomIn section-heading--center m-t-30 medium-info-blocks" data-wow-delay="0.6s">
 							<a class="au-btn au-btn-pill au-btn-icon new-part-btn m-b-30 download-btn" href="https://medium.com/@Suirelav/introduction-to-byteball-part-1-why-ab3ff6a7a8f2" target="_blank">
-<span class="btn-text">DEEL EEN</span>
-</a>
-<a class="au-btn au-btn-pill au-btn-icon new-part-btn m-b-30 download-btn" href="https://medium.com/@Suirelav/introduction-to-byteball-part-2-the-dag-ce84ca4c4e01" target="_blank">
-<span class="btn-text">DEEL TWEE</span>
-</a>
-<a class="au-btn au-btn-pill au-btn-icon new-part-btn m-b-30 download-btn" href="https://medium.com/@Suirelav/introduction-to-byteball-part-3-smart-contracts-81efa010a0b3" target="_blank">
-<span class="btn-text">DEEL DRIE</span>
-</a>
-<a class="au-btn au-btn-pill au-btn-icon new-part-btn m-b-30 download-btn" href="https://medium.com/@Suirelav/introduction-to-byteball-part-4-adoption-ff37d87615c9" target="_blank">
-<span class="btn-text">DEEL VIER</span>
-</a>
+								<span class="btn-text">ΜΕΡΟΣ ΕΝΑ</span>
+							</a>
+							<a class="au-btn au-btn-pill au-btn-icon new-part-btn m-b-30 download-btn" href="https://medium.com/@Suirelav/introduction-to-byteball-part-2-the-dag-ce84ca4c4e01" target="_blank">
+								<span class="btn-text">ΜΕΡΟΣ ΔΥΟ</span>
+							</a>
+							<a class="au-btn au-btn-pill au-btn-icon new-part-btn m-b-30 download-btn" href="https://medium.com/@Suirelav/introduction-to-byteball-part-3-smart-contracts-81efa010a0b3" target="_blank">
+								<span class="btn-text">ΜΕΡΟΣ ΤΡΙΑ</span>
+							</a>
+							<a class="au-btn au-btn-pill au-btn-icon new-part-btn m-b-30 download-btn" href="https://medium.com/@Suirelav/introduction-to-byteball-part-4-adoption-ff37d87615c9" target="_blank">
+								<span class="btn-text">ΜΕΡΟΣ ΤΕΣΣΕΡΑ</span>
+							</a>
 						</div>
 					</div>
 					<div class="learn-more-block whitepaper_img" style="display:none;">
-						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">De Byteball-whitepaper is zeer gedetailleerd en heel technisch. Als je geen ontwikkelaar bent of geen technische geest hebt dan kan je er moeite mee hebben om het te begrijpen. Als dit het geval is raden we het aan om de vier bovenstaande introductie artikelen te lezen. Als je echter een technische geest hebt lees dan vooral de whitepaper! Het is geschreven door Tony Churyumoff, de oprichter van Byteball, en is de meest uitgebreide bron van Byteball die bestaat.</h3>
+						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">Το whitepaper του Byteball είναι πολύ λεπτομερές και με αρκετές τεχνικές λεπτομέρειες. Εάν δεν είστε προγραμματιστής ή δεν διαθέτετε τεχνικές γνώσεις ίσως να δυσκολευτείτε να το κατανοήσετε. Εάν ναι, σας προτείνουμε να διαβάσετε κάποια από τα 4 εισαγωγικά άρθρα που αναφέρονται παραπάνω. Ωστόσο, εάν διαθέτετε τεχνικές γνώσεις, σας παροτρύνουμε να διαβάσετε το whitepaper! Έχει γραφτεί από τον Tony Churyumoff, τον ιδρυτή του Byteball, και είναι η μοναδική πιο κατανοητή πηγή που υπάρχει για το Byteball.</h3>
 					</div>
 					<div class="learn-more-block wiki_img" style="display:none;">
-						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">De wiki is een uitstekende bron met artikelen over een breed scala van functies van het Byteball platform. Er is echter een boel informatie en dit kan er voor zorgen dat je door de bomen het bos niet meer ziet! Als je helemaal nieuw bent bij Byteball dan raden we het aan om de vier onderstaande artikelen te lezen. Als je de vier artikelen hebt gelezen en meer informatie wilt (wat zeker zo zal zijn) verken dan de wiki.</h3>
+						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">Το wiki είναι μια εξαιρετική πηγή με άρθρα που καλύπτουν μεγάλη ποικιλία χαρακτηριστικών της πλατφόρμας του Byteball. Παρόλα αυτά, υπάρχουν πολλές πληροφορίες και ίσως νιώσετε να χάνεστε! Εάν είστε εντελώς νέος στο Byteball, σας προτείνουμε να διαβάσετε τα 4 άρθρα που αναφέρονται παρακάτω. Εάν διαβάσατε τα 4 άρθρα και θέλετε να μάθετε περισσότερα (που θα θέλετε), τότε εξερευνήστε το wiki.</h3>
 					</div>
 					<div class="learn-more-block github_img" style="display:none;">
-						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">Byteball is constant in ontwikkeling, zie onze code op Github.</h3>
+						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">Το Byteball βρίσκεται υπό συνεχή εξέλιξη, δείτε τον κώδικά μας στο Github.</h3>
 					</div>
 
 				</div>
@@ -1271,13 +1275,13 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 		<div class="container">
 			<hr class="new-breaker-line">
 
-			<h3 class="section-heading section-heading--center m-b-45 distribution-title">Beurzen</h3>
+			<h3 class="section-heading section-heading--center m-b-45 distribution-title">Ανταλλακτήρια</h3>
 			<div class="row justify-content-center">
 				<div class="col-md-9">
 					<p class="text-center section-content-text m-b-50 noto-sans-display-regular after-before-delete" style="color: #666666; font-weight: normal; max-width: 900px;margin-left: auto; margin-right: auto; font-size: 22px;line-height: 1.4;">
-						Je kan bytes kopen of verkopen zonder de portemonnee te verlaten door <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">met een handelsbot te chatten</a>. U kunt ook handelen op de hieronder vermelde beurzen.
+						Μπορείτε να αγοράσετε ή να πουλήσετε bytes χωρίς να βγείτε από το πορτοφόλι με το να <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">συνομιλήσετε με ένα bot συναλλαγών</a>. Μπορείτε επίσης να κάνετε trading στα ανταλλακτήρια που αναφέρονται παρακάτω.
 						<br><br>
-Om Blackbytes the kopen over verkopen, bekijk of plaats biedingen in het <a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a> kanaal in onze <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>, en wissel deze peer-to-peer door gebruik te maken van <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">gebonden (voorwaardelijke) betalingen</a>.</p>
+						Για να αγοράσετε ή να πουλήσετε blackbytes, δείτε ή δημοσιεύστε εντολές στο<a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a> κανάλι μας στο <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>, έπειτα ανταλλάξτε peer-to-peer με τη χρήση <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">συνδεδεμένων (υπό συνθήκη) πληρωμών</a>.</p>
 				</div>
 			</div>
 			<ul class="list-reset partner-list p-b-30">
@@ -1354,7 +1358,7 @@ Om Blackbytes the kopen over verkopen, bekijk of plaats biedingen in het <a href
 	<footer class="section section-footer p-t-80 p-b-60" style="background-color: white;">
 		<div class="container">
 			<a href="https://s3.amazonaws.com/lkbr/18/5/Byteball-Media-Kit.pdf" target="_blank">
-				<h3 class="section-heading section-heading--center m-b-75 noto-sans-display-bold after-before-delete" style="color: black; border: 3px solid black;width: 100%;margin-left: auto;margin-right: auto;padding-top: 20px;padding-bottom: 20px;max-width: 280px;">MEDIA KIT</h3>
+				<h3 class="section-heading section-heading--center m-b-75 noto-sans-display-bold after-before-delete" style="color: black; border: 3px solid black;width: 100%;margin-left: auto;margin-right: auto;padding-top: 20px;padding-bottom: 20px;max-width: 280px;">ΕΡΓΑΛΕΙΟΘΗΚΗ ΠΟΛΥΜΕΣΩΝ</h3>
 			</a>
 
 			<ul class="footer-menu-list h-list footer-social-new-ul m-b-50">
@@ -1408,9 +1412,9 @@ Om Blackbytes the kopen over verkopen, bekijk of plaats biedingen in het <a href
 			<h3 class="section-heading section-heading--center m-t-50 noto-sans-display-bold after-before-delete" style="color: black; cursor: pointer;">
 				<script>document.write('<a style="color: black" href="mailto:byteball'); document.write('@'); document.write('byteball.org">byteball'); document.write('@'); document.write('byteball.org</a>');</script>
 				&nbsp;
-				<a style="color: black" href="terms.html">Voorwaarden</a>
+				<a style="color: black" href="terms.html">Όροι</a>
 				&nbsp;
-				<a style="color: black" href="privacy.html">Privacy</a>
+				<a style="color: black" href="privacy.html">Απόρρητο</a>
 			</h3>
 		</div>
 	</footer>
@@ -1426,15 +1430,15 @@ Om Blackbytes the kopen over verkopen, bekijk of plaats biedingen in het <a href
 			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4 class="modal-title">Scan compleet</h4>
-<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Η σάρωση ολοκληρώθηκε</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
 				</div>
 				<div class="modal-body">
-					<p>Jumio zal nu uw foto's verwerken, dit duurt meestal een paar minuten maar kan soms uren duren.</p>
-					<p>De getuigenis bot zal u laten weten zodra het resultaat bekend is.</p>
+					<p>Τώρα η Jumio θα επεξεργαστεί τις φωτογραφίες σας, αυτό συνήθως παίρνει μερικά λεπτά όμως μερικές φορές μπορεί να πάρει και ώρες.</p>
+					<p>Το bot επιβεβαίωσης θα σας ενημερώσει μόλις γίνει γνωστό το αποτέλεσμα.</p>
 				</div>
 				<div class="modal-footer" style="justify-content: center">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Afsluiten</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Κλείσιμο</button>
 				</div>
 			</div>
 

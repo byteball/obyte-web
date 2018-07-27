@@ -27,7 +27,7 @@
 	<link href="static/vendor/lightbox2/css/lightbox.min.css" rel="stylesheet" media="all">
 
 	<!-- Main CSS-->
-	<link href="static/css/theme.css?v2" rel="stylesheet" media="all">
+	<link href="static/css/theme.css?v3" rel="stylesheet" media="all">
 
 	<!--Favicons-->
 	<link rel="shortcut icon" href="static/favicon.ico">
@@ -98,22 +98,7 @@
 									<span class="caret"></span>
 								</button>
 
-								<ul class="dropdown-menu language-block" role="menu">
-									<li><a href="/" class="language"> <img src="static/images/flags/united-states.png" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.zh" class="language"> <img src="static/images/flags/china.png" alt="Hiina" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.da" class="language"><img src="static/images/flags/denmark.png" alt="Taani" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.nl" class="language"><img src="static/images/flags/netherlands.png" alt="Hollandi" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.et" class="language"><img src="static/images/flags/estonia.png" alt="Eesti" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.de" class="language"><img src="static/images/flags/germany.png" alt="Saksa" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.ja" class="language"><img src="static/images/flags/japan.png" alt="Jaapani" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.es" class="language"><img src="static/images/flags/spain.png" alt="Hispaania" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.fr" class="language"><img src="static/images/flags/france.png" alt="Prantsuse" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.id" class="language"><img src="static/images/flags/indonesia.png" alt="Indoneesia" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.it" class="language"><img src="static/images/flags/italy.png" alt="Itaalia" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.ko" class="language"><img src="static/images/flags/south-korea.png" alt="Korea" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.pl" class="language"><img src="static/images/flags/poland.png" alt="Poola" class="img-thumbnail icon-medium"></a></li>
-									<li><a href="index.html.ru" class="language"><img src="static/images/flags/russia.png" alt="Vene" class="img-thumbnail icon-medium"></a></li>
-								</ul>
+								<ul class="dropdown-menu language-block" role="menu"></ul>
 							</div>
 						</li>
 						<li class="nav-item">
@@ -142,9 +127,6 @@
 					</p>
 					<p class="desktop">
 						Kõigepealt <a href="#download">lae alla ja installeeri Byteball rahakott</a>, siis klõpsa allolevat nuppu, et avada rakendus oma seadmel ja võta vahendid omaks.
-					</p>
-					<p id="warning" class="alert alert-danger m10" style="display: none">
-							Kahjuks ei ole Byteball rakendus saadaval saadaval iOS platvormil. Proovi kasutada mõnda teist seadet, et võtta vahendid omaks.
 					</p>
 					<p><button id="openInApp" class="btn btn-lg btn-success m10" style="cursor: pointer">Võta vahendid vastu</button></p>
 					<p>
@@ -776,19 +758,19 @@
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball/releases/download/v2.3.0/Byteball-win64.exe" target="_blank">
+							<a href="/downloads/Byteball-win64.exe" target="_blank">
 								<img src="static/images/app/icon-microsoft.svg">
 								Windows
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball/releases/download/v2.3.0/Byteball-osx64.dmg" target="_blank">
+							<a href="/downloads/Byteball-osx64.dmg" target="_blank">
 								<img src="static/images/app/icon-mac-os-x.svg">
 								Mac
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball/releases/download/v2.3.0/byteball-linux64.zip" target="_blank">
+							<a href="/downloads/Byteball-linux64.zip" target="_blank">
 								<img src="static/images/app/linux.png">
 								Linux
 							</a>
@@ -947,7 +929,7 @@
 							<h5 class="box-title noto-sans-symbols-bold">
 								Valerius Coppens
 							</h5>
-							<p class="box-author-job source-sans-pro-regular">Turundus ja strateegia arendusjuht</p>
+							<p class="box-author-job source-sans-pro-regular">Strateegia juht</p>
 						</div>
 					</div>
 				</li>
@@ -1467,8 +1449,8 @@
 	<!-- Jquery JS-->
 	<script src="static/js/jquery-2.1.1.min.js"></script>
 	<!-- Bootstrap JS-->
-	<script src="static/vendor/popper.js/popper.min.js"></script>
-	<script src="static/vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="static/js/bootstrap.bundle.min.js"></script>
+
 	<!-- Vendor JS-->
 	<script src="static/vendor/slick/slick.min.js"></script>
 	<script src="static/vendor/animsition/animsition.min.js"></script>
@@ -1478,7 +1460,7 @@
 	<script src="static/vendor/lightbox2/js/lightbox.min.js"></script>
 
 	<!-- Main JS-->
-	<script src="static/js/global.js"></script>
+	<script src="static/js/global.js?v3"></script>
 
 	<!-- Special Vendor-->
 	<script src="static/vendor/validator/validator.min.js"></script>
@@ -1515,6 +1497,14 @@
 				$("#learn_more .learn-more-block."+ $(this).data("img")).show();
 			});
 
+			$("a").on('click', function(){
+				var href = $(this).attr('href');
+				var text = $(this).text().trim();
+				var is_download_link = $(this).parent().parent().hasClass("app-icons");
+				var goal = (is_download_link && href !== 'https://github.com/byteball/byteball') ? 1 : 0;
+				console.log('click', href, text, goal);
+				ga('send', 'event', 'click', href, text, goal);
+			});
 		})
 	</script>
 
@@ -1578,12 +1568,8 @@
 					// in which case the redirect dialog will wait for the currently shown dialog to be dismissed.
 					
 					gotStoreURI && timers.push(window.setTimeout(function() {
-						if (!isIOS()) {
-							storeLaunched = true;
-							window.top.location = storeURI;
-						} else {
-							document.getElementById('warning').style.display = 'block';
-						}
+						storeLaunched = true;
+						window.top.location = storeURI;
 					}, 1000));
 					isIOS() && timers.push(window.setTimeout(function() {
 						storeLaunched && window.location.reload()
@@ -1596,7 +1582,7 @@
 				getStoreURI: function() {
 					return isAndroid() ?
 						"market://details?id=org.byteball.wallet&referrer=" + textcoin :
-						"https://github.com/byteball/byteball/releases";
+						"https://itunes.apple.com/us/app/byteball/id1147137332?ls=1&mt=8";
 				},
 				// Try to launch the native app on iOS/Android. Redirect to the app store if launch fails.
 				init: function() {

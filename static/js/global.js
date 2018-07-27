@@ -400,8 +400,11 @@ $(document).ready(function(){
 		menuItems = topMenu.find(".nav-item a"),
 		// Anchors corresponding to menu items
 		scrollItems = menuItems.map(function(){
-			var item = $($(this).attr("href"));
-			if (item.length) { return item; }
+			// check if starts with anchor
+			if ($(this).attr("href").indexOf('#') === 0) {
+				var item = $($(this).attr("href"));
+				if (item.length) { return item; }
+			}
 		});
 
 	// Bind to scroll
@@ -433,6 +436,28 @@ $(document).ready(function(){
 			$(".hamburger").click()
 		});
 	}
+
+	var languages = [];
+	languages['/'] = 'united-states';
+	languages['index.html.ar'] = 'arabic';
+	languages['index.html.da'] = 'denmark';
+	languages['index.html.de'] = 'germany';
+	languages['index.html.el'] = 'greece';
+	languages['index.html.es'] = 'spain';
+	languages['index.html.et'] = 'estonia';
+	languages['index.html.fr'] = 'france';
+	languages['index.html.id'] = 'indonesia';
+	languages['index.html.it'] = 'italy';
+	languages['index.html.ja'] = 'japan';
+	languages['index.html.ko'] = 'south-korea';
+	languages['index.html.nl'] = 'netherlands';
+	//languages['index.html.pl'] = 'poland';
+	languages['index.html.ru'] = 'russia';
+	languages['index.html.zh'] = 'china';
+
+	Object.keys(languages).forEach(function(key) {
+		$(".language-block").append('<li><a href="'+ key +'" class="language" title="'+ languages[key] +'"> <img src="static/images/flags/'+ languages[key] +'.png" class="img-thumbnail icon-medium" alt="'+ languages[key] +'"></a></li>');
+	});
 
 	$(".language-block").find("img").on("click",function(){
 		$('#imgBtnSel').attr("src",$(this).attr("src"));

@@ -27,7 +27,7 @@
 	<link href="static/vendor/lightbox2/css/lightbox.min.css" rel="stylesheet" media="all">
 
 	<!-- Main CSS-->
-	<link href="static/css/theme.css?v3" rel="stylesheet" media="all">
+	<link href="static/css/theme.css?v4" rel="stylesheet" media="all">
 
 	<!--Favicons-->
 	<link rel="shortcut icon" href="static/favicon.ico">
@@ -90,7 +90,7 @@
 					<ul class="navbar-nav">
 						<li class="language-nav-item">
 							<div class="btn-group">
-								<button type="button" class="btn btn-default btn-sm" data-toggle="dropdown" aria-expanded="false" style="cursor: pointer; width: 32px; margin-right: 7px;">
+								<button type="button" class="btn btn-default btn-sm" data-toggle="dropdown" aria-expanded="false">
 									<img id="imgBtnSel" src="static/images/flags/united-states.png" alt="..." class="img-thumbnail icon-medium" style="border: none">   
 									<span id="lanBtnSel"></span>
 								</button>
@@ -679,7 +679,8 @@
 						<br>-  <a href="https://medium.com/byteball/buying-bytes-with-visa-or-mastercard-d8ee2d1a2b07">Visa나 Mastercard로 바이트를 구매할 때</a> 발생하는 수수료에 대한 보조금.
 						<br>-  <a href="https://medium.com/byteball/computing-for-good-again-3795336bdaed">World Community Grid</a>에 컴퓨팅 리소스를 제공한 사람들에 대한 보상.
 						<br>-  바이트볼 후원자 유투브 채널에서 경품 형태로 분배. <a href="https://www.youtube.com/watch?v=hycluITNDBM" target="_blank">https://www.youtube.com/watch?v=hycluITNDBM</a>을 참고하세요.
-						<br>-  제휴사 독자에게 <a href="https://medium.com/byteball-help/using-mailchimp-to-mass-send-payments-as-textcoins-5c1db06342e3" target="_blank">다량의 텍스트코인</a> 제공. 지난 캠페인 결과는 <a href="https://docs.google.com/spreadsheets/d/1heT6TUSpTJgRW-FUM0LbcoVjXZRCb3PbXQQLmzvNRvM/edit#gid=323859176" target="_blank">이곳</a>에서 확인하실 수 있습니다.                    </p>
+						<br>-  제휴사 독자에게 <a href="https://medium.com/byteball-help/using-mailchimp-to-mass-send-payments-as-textcoins-5c1db06342e3" target="_blank">다량의 텍스트코인</a> 제공. 지난 캠페인 결과는 <a href="https://docs.google.com/spreadsheets/d/1heT6TUSpTJgRW-FUM0LbcoVjXZRCb3PbXQQLmzvNRvM/edit#gid=323859176" target="_blank">이곳</a>에서 확인하실 수 있습니다.
+						<br>-  스팀 계정을 인증한 사용자에 대한 <a href="https://medium.com/byteball/introducing-a-bridge-between-byteball-and-steem-and-an-airdrop-548d7958b9e9" target="_blank"> 스팀 인증 보상 및 추천인 보상</a></p>
 				</div>
 			</div>
 			<div class="row justify-content-md-center m-t-40 m-b-10">
@@ -745,37 +746,43 @@
 						<li class="list-item">
 							<a href="https://itunes.apple.com/us/app/byteball/id1147137332?ls=1&amp;mt=8" target="_blank">
 								<img src="static/images/app/icon-applestore.svg">
-								iOS
+								iOS<br />앱스토어
 							</a>
 						</li>
 						<li class="list-item">
 							<a href="https://play.google.com/store/apps/details?id=org.byteball.wallet" target="_blank">
 								<img src="static/images/app/android_robot.svg">
-								안드로이드
+								안드로이드<br />플레이 스토어
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="/downloads/Byteball-win64.exe" target="_blank">
+							<a href="/downloads/Byteball-win64.exe">
 								<img src="static/images/app/icon-microsoft.svg">
-								Windows
+								Windows<br />64비트
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="/downloads/Byteball-osx64.dmg" target="_blank">
+							<a href="/downloads/Byteball-win32.exe">
+								<img src="static/images/app/icon-microsoft.svg">
+								Windows<br />32비트
+							</a>
+						</li>
+						<li class="list-item">
+							<a href="/downloads/Byteball-osx64.dmg">
 								<img src="static/images/app/icon-mac-os-x.svg">
-								Mac
+								Mac<br />64비트
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="/downloads/Byteball-linux64.zip" target="_blank">
+							<a href="/downloads/Byteball-linux64.zip">
 								<img src="static/images/app/linux.png">
-								리눅스
+								리눅스<br />64b비트
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball" target="_blank">
+							<a href="https://github.com/byteball/byteball/releases" target="_blank">
 								<img src="static/images/app/fi-social-github.svg">
-								GitHub
+								GitHub<br />릴리즈
 							</a>
 						</li>
 					</ul>
@@ -1022,7 +1029,7 @@
 							<h5 class="box-title noto-sans-symbols-bold">
 								Chen Weijun
 							</h5>
-							<p class="box-author-job source-sans-pro-regular">중국 지역 대리인</p>
+							<p class="box-author-job source-sans-pro-regular">중국 지역 대표</p>
 						</div>
 					</div>
 				</li>

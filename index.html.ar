@@ -5,11 +5,11 @@
 	<!-- Required meta tags-->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Byteball &mdash; منصة لعملة مشفرة جاهزة للتبني في العالم الحقيقي">
-	<meta name="keywords" content="Byteball &mdash; منصة لعملة مشفرة جاهزة للتبني في العالم الحقيقي">
+	<meta name="description" content="Byteball &mdash; منصة تعرض عملة مشفرة جاهزة للتبني في العالم الحقيقي">
+	<meta name="keywords" content="Byteball &mdash; منصة تعرض عملة مشفرة جاهزة للتبني في العالم الحقيقي">
 
 	<!-- Title Page-->
-	<title>Byteball &mdash; منصة لعملة مشفرة جاهزة للتبني في العالم الحقيقي</title>
+	<title>Byteball &mdash; منصة تعرض عملة مشفرة جاهزة للتبني في العالم الحقيقي</title>
 
 	<!-- Fontfaces CSS-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -27,7 +27,7 @@
 	<link href="static/vendor/lightbox2/css/lightbox.min.css" rel="stylesheet" media="all">
 
 	<!-- Main CSS-->
-	<link href="static/css/theme.css?v3" rel="stylesheet" media="all">
+	<link href="static/css/theme.css?v4" rel="stylesheet" media="all">
 
 	<!--Favicons-->
 	<link rel="shortcut icon" href="static/favicon.ico">
@@ -90,7 +90,7 @@
 					<ul class="navbar-nav">
 						<li class="language-nav-item">
 							<div class="btn-group">
-								<button type="button" class="btn btn-default btn-sm" data-toggle="dropdown" aria-expanded="false" style="cursor: pointer; width: 32px; margin-right: 7px;">
+								<button type="button" class="btn btn-default btn-sm" data-toggle="dropdown" aria-expanded="false">
 									<img id="imgBtnSel" src="static/images/flags/united-states.png" alt="..." class="img-thumbnail icon-medium" style="border: none">   
 									<span id="lanBtnSel"></span>
 								</button>
@@ -126,11 +126,11 @@
 						انقر على الزر أدناه لفتح أو تثبيت تطبيق Byteball على جهازك وأخذ مستحقاتك.
 					</p>
 					<p class="desktop">
-						<a href="#download"> ابدأ بتنزيل وتثبيت محفظة Byteball </a> ، ثم انقر على الزر أدناه لفتح التطبيق على جهازك والمطالبة بمستحقاتك.
+						<a href="#download"> ابدأ بتنزيل وتثبيت محفظة Byteball </a>، ثم انقر على الزر أدناه لفتح التطبيق على جهازك والمطالبة بمستحقاتك.
 					</p>
 					<p><button id="openInApp" class="btn btn-lg btn-success m10" style="cursor: pointer">إستلام الأموال</button></p>
 					<p>
-						إذا لم يعمل الزر ، <a href="#download"> قم بتثبيت محفظة Byteball </a> ، وانتقل إلى <i> تلقي </i> &rarr؛ <i> تلقي دفعة عبر textcoin </i> وقم بلصق النص التالي:<br>
+						إذا لم يعمل الزر، <a href="#download"> قم بتثبيت محفظة Byteball </a>، وانتقل إلى <i> تلقي </i> &rarr; <i> تلقي دفعة عبر textcoin </i> وقم بلصق النص التالي:<br>
 						<b id="mnemonic"></b><br>
 					</p>
 				</div>
@@ -145,27 +145,27 @@
 	<!-- Download start-->
 	<section class="section section-download-app bg-white p-t-90 p-b-40 block1">
 		<div class="container">
-			<h3 class="section-heading section-heading1 section-heading--center m-b-0 noto-sans-bold" style="max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.5">منصة لعملة مشفرة جاهزة لتبنيها في العالم الحقيقي</h3>
+			<h3 class="section-heading section-heading1 section-heading--center m-b-0 noto-sans-bold" style="max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.5">منصة تعرض عملة مشفرة جاهزة للتبني في العالم الحقيقي</h3>
 			<div class="row justify-content-center">
 				<div class="col-md-9 text-center">
 					<p class="text-left m-b-70 noto-sans-display-regular" style="color: black; line-height: 2; max-width: 760px; margin-left: auto; margin-right: auto; display: inline-block;">
-						<i class="far fa-check-square"></i>  مع عقود غير قابلة للوصول <br>
+						<i class="far fa-check-square"></i> مع عقود غير قابلة للإختراق<br>
 <i class="far fa-check-square"> </i> يمكنك التحكم بِهُويتك <br>
-<i class="far fa-check-square"> </i> يمكنك بسهولة إرسال الدفعات عبر أي شبكة <br>
-<i class="far fa-check-square"> </i> مع سهولة تطوير التطبيقات التي تربط كل ما سبق <br>
-<i class="far fa-check-square"> </i> مبنية على تقنية DAG القابلة للتطوير <br>
-<i class="far fa-check-square"> </i> تعمل بكامل طاقتها اليوم <br>
-<i class="far fa-square"> </i> بحثًا عن اعتماد واسع النطاق<br>
+<i class="far fa-check-square"> </i> يمكنك بسهولة إرسال الدفعات عبر أي شبكة<br>
+<i class="far fa-check-square"> </i> مع سهولة لتطوير التطبيقات التي تربط كل ما سبق<br>
+<i class="far fa-check-square"> </i> مبنية على تقنية DAG القابلة للتطوير<br>
+<i class="far fa-check-square"> </i> تعمل بكامل طاقتها اليوم<br>
+<i class="far fa-square"> </i> في رحلة للبحث عن إعتماد واسع<br>
 					</p>
 				</div>
 			</div>
 			<div class="section-btn-group m-b-70 wow zoomIn" data-wow-delay="0.6s">
 				<a class="au-btn au-btn-pill au-btn-icon subscribe-to-news-btn block1-btn noto-sans-bold" href="#" onclick="ml_account('webforms', '884262', 'i1z6x7', 'show')" style="background-color: #1560bd; color: white; border: 1px solid transparent;">
-<span class="btn-text"> اشترك في النشرة الإخبارية </span>
+<span class="btn-text">اشترك في النشرة الإخبارية</span>
 </a>
 
 <a class="au-btn au-btn-pill au-btn-icon block1-btn noto-sans-bold download-wallet-header-btn2" href="#" onclick="scrollToBlock('download')" style="border: 1px solid #0060c1 !important;">
-<span class="btn-text"> قم بتنزيل المحفظة </span>
+<span class="btn-text"> قم بتنزيل المحفظة</span>
 </a>
 			</div>
 
@@ -176,16 +176,16 @@
 			<div class="section section-footer" style="background: none;">
 				<ul class="footer-menu-list h-list learn-more-ul">
 					<li class="list-item">
-						<a href="#" class="noto-sans-display-regular" onclick="scrollToBlock('learn_more')">تقرير عن المشروع</a>
+						<a href="#" class="noto-sans-display-regular" onclick="scrollToBlock('learn_more')">الوثيقة البيضاء</a>
 					</li>
 					<li class="list-item">
-						<a href="#" class="noto-sans-display-regular" onclick="scrollToBlock('learn_more')">أدلة تمهيدية</a>
+						<a href="#" class="noto-sans-display-regular" onclick="scrollToBlock('learn_more')">دلائل تمهيدية</a>
 					</li>
 					<li class="list-item">
 						<a href="#" class="noto-sans-display-regular" onclick="scrollToBlock('learn_more')">ويكي</a>
 					</li>
 					<li class="list-item">
-						<a href="#" class="noto-sans-display-regular" onclick="scrollToBlock('learn_more')">Github</a>
+						<a href="#" class="noto-sans-display-regular" onclick="scrollToBlock('learn_more')">جيت هاب</a>
 					</li>
 				</ul>
 			</div>
@@ -197,7 +197,7 @@
 	<section class="section section-about-1 bg-white why-us-main-block p-t-20" id="why">
 		<div class="container">
 
-			<h1 class="section-heading section-heading1 section-heading--center m-b-40 why-use-h1 noto-sans-symbols-regular">لماذا نستخدم BYTEBALL</h1>
+			<h1 class="section-heading section-heading1 section-heading--center m-b-40 why-use-h1 noto-sans-symbols-regular">لماذا تستخدم BYTEBALL</h1>
 
 			<div class="row">
 				<div class="col-md-6">
@@ -224,19 +224,19 @@
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular">اختياريا يتطلب KYC (إعرف عميلك) عبر ميزة التحقق من الهوية المدمجة.</span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">اختياريا، يتطلب KYC (إعرف عميلك) عبر ميزة التحقق من الهوية المدمجة.</span>
 							</div>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular">بع من أجل Bytes, BTC, ETH.</span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">يمكنك البيع مقابل Bytes, BTC, ETH.</span>
 							</div>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular"> عرض الإحصائيات في الوقت الفعلي. </span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular"> عرض الإحصائيات بشكل حي ومباشر. </span>
 							</div>
 						</li>
 					</ul>
@@ -264,9 +264,9 @@
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular"> للمطورين إمكانية الوصول الفوري إلى جميع مستخدمي منصة Byteball عبر متجر بوتات (Bot) مدمج في الحافظة. <br> <br>
-يمكنك أن ترى متجر بوتات يشبه متجر تطبيقات آبل أو مثل متجر Google Play باستثناء أنك لا تتنافس مع الآلاف من التطبيقات الأخرى... الآن! <br>
-كمكافأة ، فإنه من الأسهل بكثير أن تطور على Byteball أكثر من معظم منصات التشفير الأخرى.  راجع <a href="https://github.com/byteball/byteballcore/wiki/Byteball-Developer-Guides" target="_blank"> أدلة المطور في github. </a>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular"> للمطورين إمكانية الوصول الفوري إلى جميع مستخدمي منصة Byteball عبر متجر بوتات (Bot) مدمج في الحافظة. <br><br>
+يمكنك أن ترى متجر بوتات يشبه متجر تطبيقات آبل أو مثل متجر Google Play باستثناء أنك لا تتنافس مع الآلاف من التطبيقات الأخرى... الآن! <br><br>
+كمكافأة ، فإنه من الأسهل بكثير أن تطور على Byteball أكثر من معظم منصات التشفير الأخرى.  راجع <a href="https://github.com/byteball/byteballcore/wiki/Byteball-Developer-Guides" target="_blank"> أدلة المطور في <جيت هاب</a>. </span>
 							</div>
 						</li>
 					</ul>
@@ -301,7 +301,7 @@
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular"> يمكنك ضبط شرط عندما يستلم المستفيد المال. إذا لم يتم استيفاء الشرط ، يتم استرداد أموالك. </span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular"> يمكنك ضبط شرط عندما يستلم المستفيد المال. إذا لم يتم استيفاء الشرط، يتم استرداد أموالك.</span>
 							</div>
 						</li>
 					</ul>
@@ -329,7 +329,7 @@
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular"> شراء التأمين من النظراء للحصول على أموال في حالة حدوث حدث سلبي. بيع التأمين من أجل الربح <br><br> التأمين هو مجرد <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527" target="_blank"> عقد ذكي بسيط </a> الذي يمكن فتحه من قبل المؤمن عليه &mdash; إذا حدث الحدث المعني ، أو من قبل المُؤِمِّنْ &mdash; غير ذلك. <br><br> وللتأمين ضد احتمال تأخر الرحلات، إبحث عن النضير الخاص بك في قناة <a href="https://byteball.slack.com/messages/C54CDJATB/" target="_blank">#p2p_insurance</a> على منصة <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a> أنشئ عقد، وإذا وصلت رحلتك في وقت متأخر، <a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000">تكلم مع وسيط الرحلات المتأخرة من خلال الدردشة </a>لجعله ينشر البيانات حول التأخير,، ثم يمكنك فتح العقد.</span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular"> شراء التأمين من النظراء للحصول على أموال في حالة حدوث حدث سلبي. بيع التأمين من أجل الربح <br><br> التأمين هو مجرد <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527" target="_blank"> عقد ذكي بسيط </a> الذي يمكن فتحه من قبل المؤمن عليه &mdash; إذا حدث الحدث المعني، أو من قبل المُؤِمِّنْ &mdash; غير ذلك. <br><br> وللتأمين ضد احتمال تأخر الرحلات، إبحث عن النضير الخاص بك في قناة <a href="https://byteball.slack.com/messages/C54CDJATB/" target="_blank">#p2p_insurance</a> على منصة <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a> أنشئ عقد، وإذا وصلت رحلتك في وقت متأخر، <a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000">تكلم مع وسيط الرحلات المتأخرة من خلال الدردشة </a>لجعله ينشر البيانات حول التأخير، ثم يمكنك فتح العقد.</span>
 							</div>
 						</li>
 					</ul>
@@ -363,7 +363,7 @@
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular"> قم بإنشاء عقد ذكي P2P يمكن فتحه في حالة حدوث حدث معين. استخدمه لـ <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab" target="_blank"> المراهنة على تقلبات الأسعار </a> أو على الرياضة أو التأمين. <br> <br> إبحث عن نظيرك على قناة <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank"> #prediction_markets </a> في <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack </a>. </span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular"> قم بإنشاء عقد ذكي P2P يمكن فتحه في حالة حدوث حدث معين. استخدمه لـ <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab" target="_blank"> المراهنة على تقلبات الأسعار </a> أو على الرياضة أو التأمين. <br> <br> إبحث عن نظيرك على قناة <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank"> #prediction_markets </a> في <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack </a>.</span>
 							</div>
 						</li>
 					</ul>
@@ -385,14 +385,14 @@
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">راهن ضد المستخدمين الآخرين في المناسبات الرياضية-</span>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">راهن ضد المستخدمين الآخرين في المناسبات الرياضية.</span>
 							</a>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular"> اعثر على نظيرك في قناة <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank"> #prediction_markets </a> على <a href="https://slack.byteball.org" target="_blank" title="Slack"> Slack </a> وأنشيء عقدًا يمكن أن يفتح من طرفك أو من طرف نظيرك بناءً على نتائج مباراة قادمة. <br> <br>
-بمجرد معرفة النتيجة ،<a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">اتصل بـ وكيل الرياضات عبر الدردشة </a> لجعله ينشر البيانات حول النتيجة، بعدها يتم فتح العقد </span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular"> اعثر على نظيرك في قناة <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank"> #prediction_markets </a> على <a href="https://slack.byteball.org" target="_blank" title="Slack"> Slack </a> وأنشيء عقدًا يمكن أن يفتح من طرفك أو من طرف نظيرك بناءً على نتائج مباراة قادمة.<br><br>
+بمجرد معرفة النتيجة، <a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000"> اتصل بـ وكيل الرياضات عبر الدردشة </a> لجعله ينشر البيانات حول النتيجة، بعدها يتم فتح العقد.</span>
 							</div>
 						</li>
 					</ul>
@@ -426,7 +426,7 @@
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular"> يقوم المرسل ببساطة بإدخال عنوان بريد إلكتروني حيث يقوم عادة بإدخال عنوان Byteball. ينقر المستلم فقط على رابط يلقاه في البريد الإلكتروني أو في الدردشة. إذا لم يكن المستلم موجودًا في Byteball بعد ، فستتم مطالبته بتثبيت المحفظة. على نظام التشغيل Android ، يتم بدء التثبيت تلقائيًا. <a href="https://medium.com/byteball/sending-cryptocurrency-to-email-5c9bce22b8a9" target="_blank"> اعرف المزيد</a>-</span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular"> يقوم المرسل ببساطة بإدخال عنوان بريد إلكتروني حيث يقوم عادة بإدخال عنوان Byteball. ينقر المستلم فقط على رابط يلقاه في البريد الإلكتروني أو في الدردشة. إذا لم يكن المستلم موجودًا في Byteball بعد، فستتم مطالبته بتثبيت المحفظة. على نظام التشغيل Android، يتم بدء التثبيت تلقائيًا. <a href="https://medium.com/byteball/sending-cryptocurrency-to-email-5c9bce22b8a9" target="_blank">اعرف المزيد</a>.</span>
 							</div>
 						</li>
 					</ul>
@@ -454,7 +454,7 @@
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular"> تحقق من هويتك الحقيقية وخزنها بأمان في محفظتك. يساعد<a href="https://www.jumio.com/" target="_blank"> Jumio </a>في التحقق من الهوية. عندما تريد الكشف عن هويتك لمقدم خدمة ، على سبيل المثال للمشاركة في ICO ، يمكنك الوصول إليها من خلال نقرات قليلة مباشرة في محفظتك. <a href="https://medium.com/byteball/bringing-identity-to-crypto-b35964feee8e" target="_blank"> اعرف المزيد</a>-</span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular"> تحقق من هويتك الحقيقية وخزنها بأمان في محفظتك. يساعد<a href="https://www.jumio.com/" target="_blank"> Jumio </a>في التحقق من الهوية. عندما تريد الكشف عن هويتك لمقدم الخدمة، على سبيل المثال للمشاركة في ICO، يمكنك الوصول إليها من خلال نقرات قليلة مباشرة في محفظتك. <a href="https://medium.com/byteball/bringing-identity-to-crypto-b35964feee8e" target="_blank">اعرف المزيد</a>.</span>
 							</div>
 						</li>
 					</ul>
@@ -488,7 +488,7 @@
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular"> لا تحتاج إلى نسخ / لصق عناوين طويلة <br><br> نقرة بسيطة كافية لإدخال عنوانك في الدردشة ، مما يسمح للمستلم بالنقر فوقه لتحويل الأموال. </span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">لا تحتاج إلى نسخ / لصق عناوين طويلة<br><br> نقرة بسيطة كافية لإدخال عنوانك في الدردشة، مما يسمح للمستلم بالنقر فوقه لتحويل الأموال.</span>
 							</div>
 						</li>
 					</ul>
@@ -510,13 +510,13 @@
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular"> تحدث إلى بوت وكأنك تتحدث إلى شخص. </span>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular"> تحدث إلى بوت وكأنك تتحدث إلى شخص.</span>
 							</a>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular">قم بالتسوق عبر الدردشة مع بوت التجار ، وأدفع عبر نقرتين فقط. من السهل أيضًا استخدام التبادلات والخدمات الأخرى في الواجهة التفاعلية. </span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">قم بالتسوق عبر الدردشة مع بوت التجار، وأدفع عبر نقرتين فقط. من السهل أيضًا استخدام التبادلات والخدمات الأخرى في الواجهة التفاعلية.</span>
 							</div>
 						</li>
 					</ul>
@@ -550,7 +550,7 @@
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular"> عندما تريد خصوصية كاملة ، يمكنك إجراء الدفعات باستخدام BlackBytes ، وهي عملة لا يمكن تتبعها ، ومعاملاتها تتم من نظير إلى نظير وغير مرئية في قاعدة البيانات العامة. <br><br>استخدم نظام TOR المبني مباشرة داخل المحفظة لضمان الحفاظ على خصوصيتك.</span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">عندما تريد خصوصية كاملة، يمكنك إجراء الدفعات باستخدام BlackBytes، وهي عملة لا يمكن تتبعها، ومعاملاتها تتم من نظير إلى نظير وغير مرئية في قاعدة البيانات العامة.<br><br>استخدم نظام TOR المبني مباشرة داخل المحفظة لضمان الحفاظ على خصوصيتك.</span>
 							</div>
 						</li>
 					</ul>
@@ -572,13 +572,13 @@
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
 								<i class="iconbox-icon"></i>
-								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">المستخدمون يأمنون معاملات بعضهم البعض. </span>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">المستخدمون يأمنون معاملات بعضهم البعض.</span>
 							</a>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular"> لا يوجد كيان مركزي يخزن ويعالج جميع المدفوعات. بدلاً من ذلك ، يتم ربط المعاملات التي ينشئها المستخدمون مع بعضها البعض بشكل تشعبي ، وبمجرد إضافة معاملتك الجديدة ، يبدأ المستخدمون الآخرون بإضافة معاملاتهم فوق معاملتك ، ويزداد عدد المعاملات الأخرى التي ترتبط بمعاملتك مثل كرة الثلج (ولهذا السبب نسميها Byteball). </span>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular"> لا يوجد كيان مركزي يخزن ويعالج جميع المدفوعات. بدلاً من ذلك، يتم ربط المعاملات التي ينشئها المستخدمون مع بعضها البعض بشكل تشعبي، وبمجرد إضافة معاملتك الجديدة، يبدأ المستخدمون الآخرون بإضافة معاملاتهم فوق معاملتك، ويزداد عدد المعاملات الأخرى التي ترتبط بمعاملتك مثل كرة الثلج (ولهذا السبب نسميها Byteball).</span>
 							</div>
 						</li>
 					</ul>
@@ -608,21 +608,21 @@
 								<span class="iconbox-text">التبادل الذري</span>
 								<i class="iconbox-icon" style="background-color: #0060C1"></i>
 							</p>
-							<p class="collapse show iconbox-item-text source-sans-pro-regular">في حالة قيام طرفين بالتوقيع على عملية تحويل تقوم بتبادل العملات على كلا الجانبين ، فإن كلتا العمليتين يتم تنفيذهما في نفس الوقت أو لا لا يتم إجرائهما إطلاقا. لم يعد من الضروري الثقة في الأسواق المركزية.</p>
+							<p class="collapse show iconbox-item-text source-sans-pro-regular">في حالة قيام طرفين بالتوقيع على عملية تحويل تقوم بتبادل العملات على كلا الجانبين، فإن كلتا العمليتين يتم تنفيذهما في نفس الوقت أو لا لا يتم إجرائهما إطلاقا. لم يعد من الضروري الثقة في الأسواق المركزية.</p>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text iconbox-style-2-with-text-lg iconbox-style-2-with-text-right wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.4s">
 							<p class="iconbox-item-title" href="#">
 								<span class="iconbox-text">التوقيع المتعدد</span>
 								<i class="iconbox-icon" style="background-color: #0060C1"></i>
 							</p>
-							<p class="collapse show iconbox-item-text source-sans-pro-regular">للأمان ، يمكنك أن تطلب أن تكون أموالك قابلة للانفاق فقط عند تقديم عدة توقيعات ، على سبيل المثال. من الكمبيوتر المحمول ومن هاتفك. للتحكم المشترك في الأموال ، قد تكون هناك حاجة إلى تواقيع من أشخاص مختلفين.</p>
+							<p class="collapse show iconbox-item-text source-sans-pro-regular">للأمان، يمكنك أن تطلب أن تكون أموالك قابلة للانفاق فقط عند تقديم عدة توقيعات، على سبيل المثال. من الكمبيوتر المحمول ومن هاتفك. للتحكم المشترك في الأموال، قد تكون هناك حاجة إلى تواقيع من أشخاص مختلفين.</p>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text iconbox-style-2-with-text-lg iconbox-style-2-with-text-right wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.6s">
 							<p class="iconbox-item-title" href="#">
 								<span class="iconbox-text">تخزين ثابت</span>
 								<i class="iconbox-icon" style="background-color: #0060C1"></i>
 							</p>
-							<p class="collapse show iconbox-item-text source-sans-pro-regular">متى تم تخزين البيانات في قاعدة بيانات Byteball ، فإنه لا يمكن مراجعة هذه البيانات أو حذفها.</p>
+							<p class="collapse show iconbox-item-text source-sans-pro-regular">متى تم تخزين البيانات في قاعدة بيانات Byteball، فإنه لا يمكن مراجعة هذه البيانات أو حذفها.</p>
 						</li>
 					</ul>
 				</div>
@@ -642,14 +642,14 @@
 								<i class="iconbox-icon" style="background-color: #0060C1"></i>
 								<span class="iconbox-text">وسطاء على السلسلة</span>
 							</p>
-							<p class="collapse show iconbox-item-text source-sans-pro-regular">عند التعامل مع أطراف مقابلة غير موثوقة ، يمكنك قفل الأموال على عنوان متاح لك أو للطرف المقابل ، اعتمادًا على الأحداث المسجلة في قاعدة البيانات من قبل مقدمي الخدمة الموثوق بهم &mdash; وسطاء.</p>
+							<p class="collapse show iconbox-item-text source-sans-pro-regular">عند التعامل مع أطراف مقابلة غير موثوقة، يمكنك قفل الأموال على عنوان متاح لك أو للطرف المقابل، اعتمادًا على الأحداث المسجلة في قاعدة البيانات من قبل مقدمي الخدمة الموثوق بهم &mdash; وسطاء.</p>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text iconbox-style-2-with-text-lg wow fadeInRight col6-feature" data-wow-duration="0.8s" data-wow-delay="0.6s">
 							<p class="iconbox-item-title" href="#">
 								<i class="iconbox-icon" style="background-color: #0060C1"></i>
 								<span class="iconbox-text">التسوية النهائية</span>
 							</p>
-							<p class="collapse show iconbox-item-text source-sans-pro-regular">بعد استيفاء معايير معينة، المعاملة الجديدة تصبح نهائية. ولا يمكن مراجعتها حتى من قبل مهاجم قوي. لا تخمين حول العدد الصحيح من التأكيدات ، ولا هجمات 51 ٪.</p>
+							<p class="collapse show iconbox-item-text source-sans-pro-regular">بعد استيفاء معايير معينة، المعاملة الجديدة تصبح نهائية. ولا يمكن مراجعتها حتى من قبل مهاجم قوي. لا تخمين حول العدد الصحيح من التأكيدات، ولا هجمات 51 ٪.</p>
 						</li>
 					</ul>
 				</div>
@@ -670,18 +670,19 @@
 			</div>
 			<div class="row bg-gray-50">
 				<div class="col-lg-12 distibution-desc-div-padding">
-					<h3 class="m-b-30 distribution-text">الاعتماد الشامل يتطلب توزيعًا واسعًا ، ولهذا السبب سيتم توزيع 99٪ من جميع وحدات bytes و blackbytes مجانًا. حاليًا ، نستخدم عدة طرق لتوزيعها:</h3>
+					<h3 class="m-b-30 distribution-text">الاعتماد الشامل يتطلب توزيعًا واسعًا، ولهذا السبب سيتم توزيع 99٪ من جميع وحدات bytes و blackbytes مجانًا. حاليًا، نستخدم عدة طرق لتوزيعها:</h3>
 					<p class="distribution-text2">
-						- <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">استرداد النقود</a> إذا أجريت عمليات شراء على مواقع شركائنا. في معظم الحالات ، المبلغ المعروض والذي يمكن استرداده هو 10٪ من مبلغ الشراء.
-						<br> - <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank"> املأ طلب الشراكة الخاص بك </a> أو <script>document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org"> اتصل بنا </a>');</script> إذا كان لديك متجر أو معالج دفع وتريد الاستفادة من برنامج استرداد النقود.
+						- <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">استرداد النقود</a> إذا أجريت عمليات شراء على مواقع شركائنا. في معظم الحالات، المبلغ المعروض والذي يمكن استرداده هو 10٪ من مبلغ الشراء.
+						<br> - <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank"> املأ طلب الشراكة الخاص بك </a> أو <script> <document.write ('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">') ؛ </script> اتصل بنا <script> <document.write ('</a> ')؛</script> إذا كان لديك متجر أو معالج دفع وتريد الاستفادة من برنامج استرداد النقود.
 						<br>- <a href="https://medium.com/byteball/distribution-to-verified-users-and-referrals-ed00b9b2a30e" target="_blank"> مكافآت التحقق ومكافآت الإحالة  </a> لأولئك الذين يأكدون اسمهم الحقيقي.
 						<br> - <a href="https://medium.com/byteball/distribution-to-verified-emails-and-sending-cryptocurrency-to-email-episode-ii-cb955fe19d7e" target="_blank"> مكافآت التحقق ومكافآت الإحالة </a> لأولئك الذين يأكدون عناوين بريدهم الإلكتروني.
 						<br> - <a href="https://medium.com/byteball/attestation-of-accredited-investors-d4a8dabf683b" target="_blank"> مكافآت التحقق ومكافآت الإحالة </a> للمستثمرين المعتمدين الذين يأكدون اعتماداتهم.
 						<br> - مكافآت لمن يجتاز اختبار <a href="https://medium.com/byteball/money-for-knowledge-distribution-via-telegram-quiz-bot-2dd400e22997"> في Telegram </a>.
 						<br>- مساعدات تعوض جزءًا من الرسوم المدفوعة عندما <a href="https://medium.com/byteball/buying-bytes-with-visa-or-mastercard-d8ee2d1a2b07"> تشتري عبر Visa او Mastercard</a>.
-						<br> - مكافآت لمن يتبرعون بمواردهم الحاسوبية لـ <a href="https://medium.com/byteball/computing-for-good-again-3795336bdaed"> شبكة المجتمع العالمي </a>.
+						<br> - مكافآت لمن يتبرعون بمواردهم الحاسوبية لـ<a href="https://medium.com/byteball/computing-for-good-again-3795336bdaed"> شبكة المجتمع العالمي</a>.
 						<br> - توزيع الهبات على سبيل المثال عبر قنوات YouTube الخاصة بأنصارنا. على سبيل المثال <a href="https://www.youtube.com/watch?v=hycluITNDBM" target="_blank">https://www.youtube.com/watch?v=hycluITNDBM</a>.
-						<br>-<a href="https://medium.com/byteball-help/using-mailchimp-to-mass-send-payments-as-textcoins-5c1db06342e3" target="_blank">إرسال كتلة لـ textcoins </a> للمشتركين شركائنا. راجع <a href="https://docs.google.com/spreadsheets/d/1heT6TUSpTJgRW-FUM0LbcoVjXZRCb3PbXQQLmzvNRvM/edit#gid=323859176" target="_blank">نتائج الحملات السابقة</a>.                    </p>
+						<br>-<a href="https://medium.com/byteball-help/using-mailchimp-to-mass-send-payments-as-textcoins-5c1db06342e3" target="_blank">إرسال كتلة لـ textcoins </a> للمشتركين شركائنا. راجع <a href="https://docs.google.com/spreadsheets/d/1heT6TUSpTJgRW-FUM0LbcoVjXZRCb3PbXQQLmzvNRvM/edit#gid=323859176" target="_blank">نتائج الحملات السابقة</a>.
+						<br>- <a href="https://medium.com/byteball/introducing-a-bridge-between-byteball-and-steem-and-an-airdrop-548d7958b9e9" target="_blank">مكافآت ستيم ومكافآت الإحالة</a> إلى الذين قاموا بتأكيد حسابات الستيم الخاصة بهم.</p>
 				</div>
 			</div>
 			<div class="row justify-content-md-center m-t-40 m-b-10">
@@ -692,21 +693,19 @@
 			<div class="row bg-gray-50">
 				<div class="col-lg-12 distibution-desc-div-padding">
 					<h3 class="m-b-40 distribution-text">
-						في الماضي ، قمنا أيضًا بتوزيع Bytes على حاملي BTC وحاملي Bytes الحاليين. كان المستخدمون يربطون عناوين BTC و Byteball الخاصة بهم وكانوا يتلقون Bytes جديدة بما يتناسب مع أرصدتهم الحالية ب BTC و Bytes. تم تقسيم هذا التوزيع على عدة جولات.
-						<br><br> جرت الحملة الأولى في 25 ديسمبر. في عام 2016 عند إطلاق الشبكة مع أكثر من 70.000 BTC مرتبطة بالحملة ، تم توزيع 10٪ من إجمالي المبلغ من وحدات bytes و Blackbytes في ذلك الوقت. في الحملات التالية ، بلغ إجمالي التوزيع 64.5٪:
+						في الماضي، قمنا أيضًا بتوزيع Bytes على حاملي BTC وحاملي Bytes الحاليين. كان المستخدمون يربطون عناوين BTC و Byteball الخاصة بهم وكانوا يتلقون Bytes جديدة بما يتناسب مع أرصدتهم الحالية بـ BTC و Bytes. تم تقسيم هذا التوزيع على عدة جولات.
+						<br><br> جرت الحملة الأولى في 25 ديسمبر. في عام 2016 عند إطلاق الشبكة مع أكثر من 70.000 BTC مرتبطة بالحملة، تم توزيع 10٪ من إجمالي المبلغ من وحدات bytes و Blackbytes في ذلك الوقت. في الحملات التالية، بلغ إجمالي التوزيع 64.5٪:
 					</h3>
 					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">الجولة الثانية في 11 فبراير 2017: 121،763 BTC مرتبط، تم توزيع 1.8٪ ،;</p>
-					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">الجولة الثالثة في 12 مارس 2017: 129،139 BTC مرتبط ، تم توزيع 2.0٪ ؛;</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">الجولة الثالثة في 12 مارس 2017: 129،139 BTC مرتبط، تم توزيع 2.0٪;</p>
 					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">الجولة الرابعة في 11 أبريل 2017: 145،441 BTC مرتبط, تم توزيع 2.3٪;</p>
 					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">الجولة الخامسة في 10 مايو 2017: 207،672 BTC مرتبط، تم توزيع 2.9%;</p>
-					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">الجولة السادسة في 9 يونيو 2017: 453،621 BTC مرتبط ، تم توزيع 6،6٪ ،;</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">الجولة السادسة في 9 يونيو 2017: 453،621 BTC مرتبط، تم توزيع 6،6٪;</p>
 					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">الجولة السابعة في 9 يوليو 2017: 949،004 BTC مرتبط, تم توزيع
  11.0٪.</p>
-					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">الجولة الثامنة في 7 أغسطس 2017: 1،395،899 BTC مرتبط, تم توزيع
- 16.0٪.</p>
-					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">الجولة التاسعة في 6 سبتمبر 2017: 1،306،573 BTC مرتبط ، وتم توزيع 5.7٪.</p>
-					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">الجولة العاشرة في 4 تشرين الثاني 2017: 1،093،155 BTC مرتبط, تم توزيع
- 6.1٪.</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">الجولة الثامنة في 7 أغسطس 2017: 1،395،899 BTC مرتبط، تم توزيع 16.0٪.</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">الجولة التاسعة في 6 سبتمبر 2017: 1،306،573 BTC مرتبط، وتم توزيع 5.7٪.</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">الجولة العاشرة في 4 تشرين الثاني 2017: 1،093،155 BTC مرتبط, تم توزيع 6.1٪.</p>
 				</div>
 			</div>
 
@@ -714,19 +713,18 @@
 
 			<div class="row justify-content-md-center" id="tech">
 				<div class="col-md-12">
-					<h1 class="section-heading section-heading--center section-heading--dark m-b-40 m-t-20 distribution-title"> تقنية جديدة جذريًا </h1>
-<h4 class="m-b-30 section-heading--center distribution-title2" style="max-width: 550px; margin-left: auto; margin-right: auto;"> قابلية تطوير غير محدودة ، تأكيدات فائقة السرعة ، عدم وجود معدنين ، عدم وجود كتل ، مع رسوم منخفضة. </h4>
+					<h1 class="section-heading section-heading--center section-heading--dark m-b-40 m-t-20 distribution-title"> تقنية جديدة جذريًا </h1> <h4 class="m-b-30 section-heading--center distribution-title2" style="max-width: 550px; margin-left: auto; margin-right: auto;"> قابلية تطوير غير محدودة، تأكيدات فائقة السرعة، عدم وجود معدنين، عدم وجود كتل، مع رسوم منخفضة.</h4>
 				</div>
 			</div>
 
 			<div class="row bg-gray-50">
 				<div class="col-lg-12 distibution-desc-div-padding">
 					<p class="distribution-text3">
-						يتم تخزين بيانات Byteball و ترتيبها باستخدام <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">رسم حَلَقِي مُوَجّه</a> (DAG) بدلاً من سلسلة الكتل. يسمح هذا لجميع المستخدمين بتأمين بيانات بعضهم البعض عن طريق الرجوع إلى وحدات البيانات السابقة التي تم إنشاؤها من قبل مستخدمين آخرين ، وكذلك إزالة حدود قابلية التوسع الشائعة في سلسلة الكتل، مثل مشكلة حجم الكتل.
+						يتم تخزين بيانات Byteball وترتيبها باستخدام <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">رسم حَلَقِي مُوَجّه</a> (DAG) بدلاً من سلسلة الكتل. يسمح هذا لجميع المستخدمين بتأمين بيانات بعضهم البعض عن طريق الرجوع إلى وحدات البيانات السابقة التي تم إنشاؤها من قبل مستخدمين آخرين، وكذلك إزالة حدود قابلية التوسع الشائعة في سلسلة الكتل، مثل مشكلة حجم الكتل.
 						<br><br>
-التصميم بدون كتل يعد بسيط بسبب عدم وجود الكتل ، هناك فقط معاملات. يضيف المستخدمون معاملاتهم إلى نهاية DAG بأنفسهم ، ولا يضطرون للانتظار عندما ينشئ المعدنون كتلة جديدة وليس هناك أي تخمين في ما إذا كان المعدنون سيُدرِجون معاملتك في الكتلة.
+التصميم بدون كتل يعد بسيط بسبب عدم وجود الكتل، هناك فقط معاملات. يضيف المستخدمون معاملاتهم إلى نهاية DAG بأنفسهم، ولا يضطرون للانتظار عندما ينشئ المعدنون كتلة جديدة وليس هناك أي تخمين في ما إذا كان المعدنون سيُدرِجون معاملتك في الكتلة.
 						<br>
-<br> تستند خوارزمية الإجماع المستخدمة للحماية من عمليات الإنفاق المزدوجة على إنشاء طلب إجمالي داخل DAG. يتم تحقيق ذلك عن طريق اختيار سلسلة, تسمى السلسلة الرئيسية ، والتي تنجذب إلى وحدات صادرة عن مستخدمين ذو سمعة يعرفون &mdash; بالشهود.
+<br> تستند خوارزمية الإجماع المستخدمة للحماية من عمليات الإنفاق المزدوجة على إنشاء طلب إجمالي داخل DAG. يتم تحقيق ذلك عن طريق اختيار سلسلة، تسمى السلسلة الرئيسية، والتي تنجذب إلى وحدات صادرة عن مستخدمين ذو سمعة يعرفون &mdash; بالشهود.
 						<br><a href="https://byteball.org/Byteball.pdf" target="_blank"> الرجاء الإطلاع على الورقة البيضاء (whitepaper) للحصول على التفاصيل.</a>
 					</p>
 				</div>
@@ -751,37 +749,43 @@
 						<li class="list-item">
 							<a href="https://itunes.apple.com/us/app/byteball/id1147137332?ls=1&amp;mt=8" target="_blank">
 								<img src="static/images/app/icon-applestore.svg">
-								iOS
+								آي أو إس<br />آب ستور
 							</a>
 						</li>
 						<li class="list-item">
 							<a href="https://play.google.com/store/apps/details?id=org.byteball.wallet" target="_blank">
 								<img src="static/images/app/android_robot.svg">
-								أندرويد
+								أندرويد<br />بلاي ستور
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="/downloads/Byteball-win64.exe" target="_blank">
+							<a href="/downloads/Byteball-win64.exe">
 								<img src="static/images/app/icon-microsoft.svg">
-								ويندوز
+								ويندوز<br />64 بت
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="/downloads/Byteball-osx64.dmg" target="_blank">
+							<a href="/downloads/Byteball-win32.exe">
+								<img src="static/images/app/icon-microsoft.svg">
+								ويندوز<br />32 بت
+							</a>
+						</li>
+						<li class="list-item">
+							<a href="/downloads/Byteball-osx64.dmg">
 								<img src="static/images/app/icon-mac-os-x.svg">
-								ماكنتوش
+								ماك<br />64 بت
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="/downloads/Byteball-linux64.zip" target="_blank">
+							<a href="/downloads/Byteball-linux64.zip">
 								<img src="static/images/app/linux.png">
-								لينكس / Linux
+								لينكس<br />64 بت
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball" target="_blank">
+							<a href="https://github.com/byteball/byteball/releases" target="_blank">
 								<img src="static/images/app/fi-social-github.svg">
-								GitHub
+								جيت هاب<br />الإصدارات
 							</a>
 						</li>
 					</ul>
@@ -1183,7 +1187,7 @@
 						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">موضوع طويل ونشط في Bitcointalk مع ما يقارب 1000 مشاركة.</h2>
 					</div>
 					<div class="com-sup-block telegram_img" style="display:none;">
-						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">قناتنا علي Telegram تحظى بشعبية كبيرة أيضا.</h2>
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">قناتنا على Telegram تحظى بشعبية كبيرة أيضا.</h2>
 					</div>
 					<div class="com-sup-block we_chat_img" style="display:none;">
 						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">يمكن العثور على مجتمعنا الصيني على WeChat.</h2>
@@ -1240,7 +1244,7 @@
 
 					<div class="learn-more-block medium2_img">
 						<h3 class="section-heading section-heading--center section-heading--dark m-b-40 noto-sans-display-bold medium-info-blocks">مدخل إلى Byteball</h3>
-						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">المقالات الأربعة أدناه هي بداية جيدة لاكتشاف Byteball. تستخدم هذه المقالات المواد المرئية والصوتية وهي مكتوبة بلغة واضحة. إذا كنت جديدًا في Byteball ، فنقترح عليك البدء هنا.</h3>
+						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">المقالات الأربعة أدناه هي بداية جيدة لاكتشاف Byteball. تستخدم هذه المقالات المواد المرئية والصوتية وهي مكتوبة بلغة واضحة. إذا كنت جديدًا في Byteball، فنقترح عليك البدء هنا.</h3>
 
 						<div class="section-btn-group m-b-30 wow zoomIn section-heading--center m-t-30 medium-info-blocks" data-wow-delay="0.6s">
 							<a class="au-btn au-btn-pill au-btn-icon new-part-btn m-b-30 download-btn" href="https://medium.com/@Suirelav/introduction-to-byteball-part-1-why-ab3ff6a7a8f2" target="_blank">
@@ -1257,10 +1261,10 @@
 						</div>
 					</div>
 					<div class="learn-more-block whitepaper_img" style="display:none;">
-						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">الورقة البيضاء (whitepaper) الخاصة ب Byteball مفصلة للغاية إذ يوجد فيها الكثير من التفاصيل التقنية. إذا لم تكن مطورًا أو لست على دراية بالتقنية ، فقد تجد صعوبة في فهمها. إذا كان الأمر كذلك ، فإننا نقترح المقالات الأربعة التمهيدية أعلاه. مع ذلك ، إذا كانت لديك معرفة تقنية ، فنحن نشجعك على قراءة الورقة البيضاء! هي مكتوبة من قبل Tony Churyumoff ، مؤسس Byteball، هو المَوْرِد الوحيد الأكثر إدراكاً ومعرفة بمشروع Byteball.</h3>
+						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">الورقة البيضاء (whitepaper) الخاصة بـ Byteball مفصلة للغاية إذ يوجد فيها الكثير من التفاصيل التقنية. إذا لم تكن مطورًا أو لست على دراية بالتقنية، فقد تجد صعوبة في فهمها. إذا كان الأمر كذلك، فإننا نقترح المقالات الأربعة التمهيدية أعلاه. مع ذلك، إذا كانت لديك معرفة تقنية، فنحن نشجعك على قراءة الورقة البيضاء! هي مكتوبة من قبل Tony Churyumoff، مؤسس Byteball، هو المَوْرِد الوحيد الأكثر إدراكاً ومعرفة بمشروع Byteball.</h3>
 					</div>
 					<div class="learn-more-block wiki_img" style="display:none;">
-						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">يحتوي الويكي أيضًا على موارد ممتازة مع مجموعة واسعة من المقالات حول ميزات Byteball. ومع ذلك ، هناك الكثير من المعلومات وقد تشعر بالضياع قليلاً! إذا كنت جديدًا تمامًا على Byteball ، نقترح المقالات الأربعة المدرجة أدناه. إذا كنت قرأت المقالات الأربعة وترغب في معرفة المزيد (الشيء اللذي ستفعله) ، فقم باستكشاف الويكي wiki.</h3>
+						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">يحتوي الويكي أيضًا على موارد ممتازة مع مجموعة واسعة من المقالات حول ميزات Byteball. ومع ذلك، هناك الكثير من المعلومات وقد تشعر بالضياع قليلاً! إذا كنت جديدًا تمامًا على Byteball، نقترح المقالات الأربعة المدرجة أدناه. إذا كنت قرأت المقالات الأربعة وترغب في معرفة المزيد (الشيء اللذي ستفعله)، فقم باستكشاف الويكي wiki.</h3>
 					</div>
 					<div class="learn-more-block github_img" style="display:none;">
 						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">Byteball في تطور مستمر، ألقي نضرة على التعليمات البرمجية الخاصة بنا على Github.</h3>
@@ -1281,8 +1285,8 @@
 			<div class="row justify-content-center">
 				<div class="col-md-9">
 					<p class="text-center section-content-text m-b-50 noto-sans-display-regular after-before-delete" style="color: #666666; font-weight: normal; max-width: 900px;margin-left: auto; margin-right: auto; font-size: 22px;line-height: 1.4;">
-						يمكنك شراء أو بيع وحدات bytes الخاصة بك دون مغادرة محفظتك من خلال <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000"> الدردشة مع بوت التداول </a>. يمكنك أيضًا التداول في مواقع التبادلات المدرجة أدناه.
-						<br> <br>لشراء أو بيع blackbytes، راجع أو انشر الطلبات في قناة <a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank"> #trading_blackbyte </a> على موقعنا في <a href="https://slack.byteball.org" target="_blank" title="Slack"> Slack </a> ،ثم قم بالتبادل عن طريق تقنية النضير إلى النضير باستخدام <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank"> دفعات (مشروطة) مقيدة </a>.</p>
+						يمكنك شراء أو بيع وحدات bytes الخاصة بك دون مغادرة محفظتك من خلال<a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">الدردشة مع بوت التداول</a>. يمكنك أيضًا التداول في مواقع التبادلات المدرجة أدناه.
+						<br> <br>لشراء أو بيع blackbytes، راجع أو انشر الطلبات في قناة <a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank"> #trading_blackbyte </a> على موقعنا في <a href="https://slack.byteball.org" target="_blank" title="Slack"> Slack </a> ،ثم قم بالتبادل عن طريق تقنية النضير إلى النضير باستخدام <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank"> دفعات (مشروطة) مقيدة</a>.</p>
 				</div>
 			</div>
 			<ul class="list-reset partner-list p-b-30">
@@ -1359,7 +1363,7 @@
 	<footer class="section section-footer p-t-80 p-b-60" style="background-color: white;">
 		<div class="container">
 			<a href="https://s3.amazonaws.com/lkbr/18/5/Byteball-Media-Kit.pdf" target="_blank">
-				<h3 class="section-heading section-heading--center m-b-75 noto-sans-display-bold after-before-delete" style="color: black; border: 3px solid black;width: 100%;margin-left: auto;margin-right: auto;padding-top: 20px;padding-bottom: 20px;max-width: 280px;">معدات وسائل الإعلام</h3>
+<h3 class="section-heading section-heading--center m-b-75 noto-sans-display-bold after-before-delete" style="color: black; border: 3px solid black;width: 100%;margin-left: auto;margin-right: auto;padding-top: 20px;padding-bottom: 20px;max-width: 280px;">معدات وسائل الإعلام</h3>
 </a>
 
 <ul class="footer-menu-list h-list footer-social-new-ul m-b-50">
@@ -1412,9 +1416,9 @@
 
 <h3 class="section-heading section-heading--center m-t-50 noto-sans-display-bold after-before-delete" style="color: black; cursor: pointer;">
 <script>document.write('<a style="color: black" href="mailto:byteball'); document.write('@'); document.write('byteball.org">byteball'); document.write('@'); document.write('byteball.org</a>');</script> &nbsp;
-<a style="color: black" href="terms.html">الشروط</a>
+<a style="color: black" href="terms.html">شروط الإستخدام</a>
 &nbsp;
-<a style="color: black" href="privacy.html">الخصوصية</a>
+<a style="color: black" href="privacy.html">سياسية الخصوصية</a>
 </h3>
 		</div>
 	</footer>
@@ -1434,7 +1438,7 @@
 <button type="button" class="close" data-dismiss="modal">&times;</button>
 				</div>
 				<div class="modal-body">
-					<p>سيعالج Jumio صورك ، وعادة ما يستغرق ذلك بضع دقائق ، ولكن في بعض الأحيان يمكن أن يستغرق الأمر عدة ساعات.</p>
+					<p>سيعالج Jumio صورك، وعادة ما يستغرق ذلك بضع دقائق، ولكن في بعض الأحيان يمكن أن يستغرق الأمر عدة ساعات.</p>
 					<p>سوف يعلمك البوت المسؤول عن المصادقة بمجرد معرفة النتيجة.</p>
 				</div>
 				<div class="modal-footer" style="justify-content: center">

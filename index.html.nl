@@ -27,7 +27,7 @@
 	<link href="static/vendor/lightbox2/css/lightbox.min.css" rel="stylesheet" media="all">
 
 	<!-- Main CSS-->
-	<link href="static/css/theme.css?v3" rel="stylesheet" media="all">
+	<link href="static/css/theme.css?v4" rel="stylesheet" media="all">
 
 	<!--Favicons-->
 	<link rel="shortcut icon" href="static/favicon.ico">
@@ -90,7 +90,7 @@
 					<ul class="navbar-nav">
 						<li class="language-nav-item">
 							<div class="btn-group">
-								<button type="button" class="btn btn-default btn-sm" data-toggle="dropdown" aria-expanded="false" style="cursor: pointer; width: 32px; margin-right: 7px;">
+								<button type="button" class="btn btn-default btn-sm" data-toggle="dropdown" aria-expanded="false">
 									<img id="imgBtnSel" src="static/images/flags/united-states.png" alt="..." class="img-thumbnail icon-medium" style="border: none">   
 									<span id="lanBtnSel"></span>
 								</button>
@@ -680,7 +680,8 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 						<br>- Subsidies die een deel van de kosten betalen wanneer er <a href="https://medium.com/byteball/buying-bytes-with-visa-or-mastercard-d8ee2d1a2b07">Bytes worden gekocht met een Visa of Mastercard</a>.
 						<br>- Beloningen voor het doneren van computerbronnen aan het <a href="https://medium.com/byteball/computing-for-good-again-3795336bdaed">World Community Grid</a>.
 						<br>- Giveaways verspreid bijvoorbeeld via YouTube kanalen van onze supporters. Zie bijvoorbeeld <a href="https://www.youtube.com/watch?v=hycluITNDBM" target="_blank">https://www.youtube.com/watch?v=hycluITNDBM</a>.
-						<br>- <a href="https://medium.com/byteball-help/using-mailchimp-to-mass-send-payments-as-textcoins-5c1db06342e3" target="_blank">Massale verzending van textcoins</a> naar abonnees van onze partners. Bekijk de <a href="https://docs.google.com/spreadsheets/d/1heT6TUSpTJgRW-FUM0LbcoVjXZRCb3PbXQQLmzvNRvM/edit#gid=323859176" target="_blank">resultaten van eerdere campagnes</a>.                    </p>
+						<br>- <a href="https://medium.com/byteball-help/using-mailchimp-to-mass-send-payments-as-textcoins-5c1db06342e3" target="_blank">Massale verzending van textcoins</a> naar abonnees van onze partners. Bekijk de <a href="https://docs.google.com/spreadsheets/d/1heT6TUSpTJgRW-FUM0LbcoVjXZRCb3PbXQQLmzvNRvM/edit#gid=323859176" target="_blank">resultaten van eerdere campagnes</a>.
+						<br>- <a href="https://medium.com/byteball/introducing-a-bridge-between-byteball-and-steem-and-an-airdrop-548d7958b9e9" target="_blank">Steem beloningen en verwijzing beloningen</a> voor zij die hun Steem account verfieren.</p>
 				</div>
 			</div>
 			<div class="row justify-content-md-center m-t-40 m-b-10">
@@ -745,37 +746,43 @@ Daarnaast is het veel gemakkelijker om voor Byteball te ontwikkelen dan voor and
 						<li class="list-item">
 							<a href="https://itunes.apple.com/us/app/byteball/id1147137332?ls=1&amp;mt=8" target="_blank">
 								<img src="static/images/app/icon-applestore.svg">
-								iOS
+								iOS<br />App Store
 							</a>
 						</li>
 						<li class="list-item">
 							<a href="https://play.google.com/store/apps/details?id=org.byteball.wallet" target="_blank">
 								<img src="static/images/app/android_robot.svg">
-								Android
+								Android<br />Play Store
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="/downloads/Byteball-win64.exe" target="_blank">
+							<a href="/downloads/Byteball-win64.exe">
 								<img src="static/images/app/icon-microsoft.svg">
-								Windows
+								Windows<br />64bit
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="/downloads/Byteball-osx64.dmg" target="_blank">
+							<a href="/downloads/Byteball-win32.exe">
+								<img src="static/images/app/icon-microsoft.svg">
+								Windows<br />32bit
+							</a>
+						</li>
+						<li class="list-item">
+							<a href="/downloads/Byteball-osx64.dmg">
 								<img src="static/images/app/icon-mac-os-x.svg">
-								Mac
+								Mac<br />64bit
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="/downloads/Byteball-linux64.zip" target="_blank">
+							<a href="/downloads/Byteball-linux64.zip">
 								<img src="static/images/app/linux.png">
-								Linux
+								Linux<br />64bit
 							</a>
 						</li>
 						<li class="list-item">
-							<a href="https://github.com/byteball/byteball" target="_blank">
+							<a href="https://github.com/byteball/byteball/releases" target="_blank">
 								<img src="static/images/app/fi-social-github.svg">
-								GitHub
+								GitHub<br />releases
 							</a>
 						</li>
 					</ul>

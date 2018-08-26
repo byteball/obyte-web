@@ -5,11 +5,11 @@
 	<!-- Required meta tags-->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Byteball &mdash; Криптовалютная платформа, готовая ко встрече с реальним миром">
-	<meta name="keywords" content="Byteball &mdash; Криптовалютная платформа, готовая ко встрече с реальним миром">
+	<meta name="description" content="Byteball &mdash; Криптовалютная платформа, готовая ко встрече с реальным миром">
+	<meta name="keywords" content="Byteball &mdash; Криптовалютная платформа, готовая ко встрече с реальным миром">
 
 	<!-- Title Page-->
-	<title>Byteball &mdash; Криптовалютная платформа, готовая ко встрече с реальним миром</title>
+	<title>Byteball &mdash; Криптовалютная платформа, готовая ко встрече с реальным миром</title>
 
 	<!-- Fontfaces CSS-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -156,7 +156,7 @@
 						<i class="far fa-check-square"></i> с легкими для разработки приложениями, которые соединяют все вышеуказанное<br>
 						<i class="far fa-check-square"></i> построенная на основе масштабируемой DAG технологии<br>
 						<i class="far fa-check-square"></i> полностью функциональная уже сегодня<br>
-						<i class="far fa-square"></i> в поисках массоваго принятия<br>
+						<i class="far fa-square"></i> в поисках массового принятия<br>
 					</p>
 				</div>
 			</div>
@@ -265,7 +265,7 @@
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
 							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
 								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
-								<span class="iconbox-text iconbox-text-100 open-sans-regular">Разработчики, которые создают приложения, имеют мгновенный доступ ко всем пользователям Byteball платформы через встроенний в кошелек Bot Store (магазин ботов).<br><br>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Разработчики, которые создают приложения, имеют мгновенный доступ ко всем пользователям Byteball платформы через встроенный в кошелек Bot Store (магазин ботов).<br><br>
 									Bot Store немного напоминает Apple App Store или Google Play Store, за исключением того, что вам не нужно конкурировать с тысячами других приложений... пока что!<br><br>
 									Как дополнительный бонус, разрабатывать для Byteball намного легче, чем для прочих крипто-платформ.  Смотрите <a href="https://github.com/byteball/byteballcore/wiki/Byteball-Developer-Guides" target="_blank">Руководства для разработчика на github</a>.</span>
 							</div>
@@ -622,7 +622,7 @@
 								<span class="iconbox-text">НЕИЗМЕННОЕ ХРАНЕНИЕ</span>
 								<i class="iconbox-icon" style="background-color: #0060C1"></i>
 							</p>
-							<p class="collapse show iconbox-item-text source-sans-pro-regular">Информация, однажды записання в базу данных Byteball, более не может быть изменена, либо удалена.</p>
+							<p class="collapse show iconbox-item-text source-sans-pro-regular">Информация, однажды записанная в базу данных Byteball, более не может быть изменена, либо удалена.</p>
 						</li>
 					</ul>
 				</div>
@@ -635,7 +635,8 @@
 								<i class="iconbox-icon" style="background-color: #0060C1"></i>
 								<span class="iconbox-text">РЕГУЛИРУЕМЫЕ АКТИВЫ</span>
 							</p>
-							<p class="collapse show iconbox-item-text source-sans-pro-regular">Организации и институты, осуществляющие регулируемые виды деятельности, могут выпускать активы, соответствующие требованиям KYC/AML. Каждый перевод таких активов одобряется (дополнительно подписывается) эмитентом и если есть что-либо, противоречащее правилам регулятора, эмитент не будет ее подпиывать.</p>
+							<p class="collapse show iconbox-item-text source-sans-pro-regular">Организации и институты, осуществляющие регулируемые виды деятельности, могут выпускать активы, соответствующие требованиям KYC/AML. Каждый перевод таких активов одобряется (дополнительно 
+								сывается) эмитентом и если есть что-либо, противоречащее правилам регулятора, эмитент не будет ее подписывать.</p>
 						</li>
 						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text iconbox-style-2-with-text-lg wow fadeInRight col4-feature" data-wow-duration="0.8s" data-wow-delay="0.4s">
 							<p class="iconbox-item-title" href="#">
@@ -672,8 +673,8 @@
 				<div class="col-lg-12 distibution-desc-div-padding">
 					<h3 class="m-b-30 distribution-text">Для массового применения необходимо широкое распространение, поэтому 99% всех байтов и блэкбайтов распределяются бесплатно. На текущий момент есть несколько способов распределения:</h3>
 					<p class="distribution-text2">
-						- <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Кешбэк</a> при покупках в магазинах наших партнёров. В большинстве случает кэшбэк составляет 10% от стоимости покупки.
-						<br>- <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Заполните форму заявки</a> или <script>document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">');</script>свяжитесь с нами<script>document.write('</a>');</script> если вы владеете магазином или платежной системой и хотите быть частью cashback программы.
+						- <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Кэшбэк</a> при покупках в магазинах наших партнёров. В большинстве случает кэшбэк составляет 10% от стоимости покупки.
+						<br>- <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Заполните форму заявки</a> или <script>document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">');</script>свяжитесь с нами<script>document.write('</a>');</script> если вы владеете магазином или платежной системой и хотите быть частью кэшбэк программы.
 						<br>- <a href="https://medium.com/byteball/distribution-to-verified-users-and-referrals-ed00b9b2a30e" target="_blank">Вознаграждения за верификацию и реферальные вознаграждения</a> тем, кто подтвердит свое настоящее имя.
 						<br>- <a href="https://medium.com/byteball/distribution-to-verified-emails-and-sending-cryptocurrency-to-email-episode-ii-cb955fe19d7e" target="_blank">Вознаграждения за верификацию и реферальные вознаграждения</a> тем, кто подтвердит свой email адрес.
 						<br>- <a href="https://medium.com/byteball/attestation-of-accredited-investors-d4a8dabf683b" target="_blank">Вознаграждения за верификацию и реферальные вознаграждения</a> аккредитованым инвесторам, подтвердившим свой статус.

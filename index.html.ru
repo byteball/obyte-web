@@ -1,222 +1,127 @@
 <!DOCTYPE html>
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!-->
 <html lang="ru">
-<!--<![endif]-->
 
 <head>
-	<meta charset="utf-8">
-	<meta name="description" content="Умные платежи - это просто">
-	<meta name="author" content="Byteball">
-	<link rel="icon" href="img/icon_16x16@2x.png">
+	<!-- Required meta tags-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Byteball &mdash; Криптовалютная платформа, готовая ко встрече с реальным миром">
+	<meta name="keywords" content="Byteball &mdash; Криптовалютная платформа, готовая ко встрече с реальным миром">
 
-	<title>Byteball &mdash; простые умные платежи</title>
+	<!-- Title Page-->
+	<title>Byteball &mdash; Криптовалютная платформа, готовая ко встрече с реальным миром</title>
 
-	<!-- Mobile Meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Fontfaces CSS-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link href="static/css/font-face.css" rel="stylesheet" media="all">
+	<link href="static/vendor/linearicons/css/linearicons.css" rel="stylesheet" media="all">
 
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="img/icon_16x16@2x.png">
+	<!-- Bootstrap CSS-->
+	<link href="static/vendor/bootstrap/bootstrap.min.css" rel="stylesheet" media="all">
 
-	<!-- Web Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<!-- Vendor CSS-->
+	<link href="static/vendor/animate.css/animate.min.css" rel="stylesheet" media="all">
+	<link href="static/vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+	<link href="static/vendor/slick/slick.css" rel="stylesheet" media="all">
+	<link href="static/vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+	<link href="static/vendor/lightbox2/css/lightbox.min.css" rel="stylesheet" media="all">
 
-	<!-- Bootstrap core CSS -->
-	<link href="css/bootstrap.css" rel="stylesheet">
+	<!-- Main CSS-->
+	<link href="static/css/theme.css?v4" rel="stylesheet" media="all">
 
-	<!-- Font Awesome CSS -->
-	<link href="css/font-awesome.min.css" rel="stylesheet">
-
-	<!-- Plugins -->
-	<link href="css/animations.css" rel="stylesheet">
-	
-	<link href="https://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-
-	<!-- Worthy core CSS file -->
-	<link href="css/style.css?v11" rel="stylesheet">
-	<style>
-.btnn {
-        
-        background-color: #E67E22 !important;
-        color: #FFFFFF !important;
-        font-family: 'Arial', sans-serif !important;
-        font-size: 16px !important;
-        text-align: center !important;
-       
-    }
-	
-.bbt {
-    font-size: 13px;
-    border: none;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    letter-spacing: .03em;
-    color: #fff;
-    background-color: #E67E22;
-    box-sizing: border-box;
-    height: 32px;
-    line-height: 32px;
-    padding: 0 18px;
-    display: inline-block;
-    margin: 0;
-    transition: all 0.23s ease-in-out 0s;
-}
-</style>
-
+	<!--Favicons-->
+	<link rel="shortcut icon" href="static/favicon.ico">
+	<link rel="apple-touch-icon" sizes="57x57" href="static/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="static/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="static/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="static/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="static/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="static/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="static/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="static/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="static/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="static/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="static/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="static/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="static/favicon-16x16.png">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="static/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
 	
 </head>
+	
+<body class="no-animsition">
+		<!-- Header start-->
+	<header class="header-absolute section-header js-header unsticky">
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<div class="container-fluid">
+				<a class="navbar-logo" href="/">
+					<img class="logo-light" src="static/images/icons/ic-logo.png">
+					<img class="logo-dark" src="static/images/icons/ic-logo-dark.png">
+				</a>
+				<button class="navbar-toggler hamburger hamburger--slider" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
+				</button>
+				<div class="navbar-collapse collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav navbar-nav-new">
+						<li class="nav-item active">
+							<a class="nav-link" href="#why">ПОЧЕМУ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link noto-sans-bold" href="#features">ОСОБЕННОСТИ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link noto-sans-bold" href="#dist">РАСПРЕДЕЛЕНИЕ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link noto-sans-bold" href="#tech">ТЕХНОЛОГИЯ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link noto-sans-bold" href="#team">КОМАНДА</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link noto-sans-bold" href="#community">СООБЩЕСТВО</a>
+						</li>
 
-<body class="no-trans">
-	<!--div id="particles-js"></div-->
+					</ul>
 
-	<!-- scrollToTop -->
-	<!-- ================ -->
-	<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
-
-	<!-- header start -->
-	<!-- ================ -->
-	<header class="header fixed clearfix navbar navbar-fixed-top">
-		<div class="container">
-			<div class="row main-navigation animated">
-				<div class="col-xs-2">
-					<div class="logo smooth-scroll text-center">
-						 <a href="#banner"><img id="logo" src="img/icon-white-outline-1024.png" alt="Логотип Byteball" style="max-width: 55px;"></a> 
-					</div>
-					<div class="site-name">
-						 <a href="#banner">Byteball</a> 
-					</div>
-				</div>
-
-				<!-- navbar start -->
-				<!-- ================ -->
-				<nav class="navbar navbar-default col-xs-10" role="navigation">
-					<div class="container-fluid">
-
-						<!-- Toggle get grouped for better mobile display -->
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-									<span class="sr-only">Навигация</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
+					<ul class="navbar-nav">
+						<li class="language-nav-item">
+							<div class="btn-group">
+								<button type="button" class="btn btn-default btn-sm" data-toggle="dropdown" aria-expanded="false">
+									<img id="imgBtnSel" src="static/images/flags/united-states.png" alt="..." class="img-thumbnail icon-medium" style="border: none">   
+									<span id="lanBtnSel"></span>
 								</button>
-						</div>
+								<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+									<span class="caret"></span>
+								</button>
 
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
-							<ul class="nav navbar-nav">
-								<li><a href="#why">Почему Byteball</a></li>
-								<li><a href="#core">Возможности</a></li>
-								<li><a href="#download">Скачать</a></li>
-								<li><a href="#dist">Распределение</a></li>
-								<li><a href="#tech">Технология</a></li>
-								<li><a href="https://wiki.byteball.org" target="_blank" title="Wiki">Wiki</a></li>
-								<li><a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="Ветка BitcoinTalk"><i class="fa fa-bitcoin"></i></a></li>
-								<li><a href="https://medium.com/byteball" target="_blank" title="Блог на Medium"><i class="fa fa-medium"></i></a></li>
-								<li><a href="https://slack.byteball.org" target="_blank" title="Slack"><i class="fa fa-slack"></i></a></li>
-								<li><a href="https://www.reddit.com/r/ByteBall/" target="_blank" title="Reddit"><i class="fa fa-reddit-alien"></i></a></li>
-								<li><a href="https://t.me/byteball" target="_blank" title="Telegram"><i class="fa fa-telegram"></i></a></li>
-								<!--<li class="social-dropdown">
-									<button class="btn-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-										<span class="caret"></span>
-									</button>
-									<ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-										<li><a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="BitcoinTalk thread"><i class="fa fa-bitcoin"></i></a></li>
-										<li><a href="https://medium.com/byteball" target="_blank" title="Medium blog"><i class="fa fa-medium"></i></a></li>
-										<li><a href="https://byteball.slack.com" target="_blank" title="Slack"><i class="fa fa-slack"></i></a></li>
-										<li><a href="https://www.reddit.com/r/ByteBall/" target="_blank" title="Reddit"><i class="fa fa-reddit-alien"></i></a></li>
-										<li><a href="https://t.me/byteball" target="_blank" title="Telegram"><i class="fa fa-telegram"></i></a></li>
-									</ul>
-								</li>-->
-								<li class="dropdown lang">
-									<button class="btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-										<img class="flag" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAAAjUlEQVQoU2M004h/cY1XR5yRjYXh/68/DNjompOFDDjAMUYe0+7/u2YnMsS1XmFYVK2DlT41zwKr/inzljIw8lr3/xeXMsSpmYWLjWHLsTCsBqy9/4RhOLkA5Nc/334xYKPxhkHTxLn/c5KicUUTXnFwLHSyMPwPVpQhywBwLFDDBUcZGBisyHICA8NxAHf1hEyWpj+2AAAAAElFTkSuQmCC"/>
-										<span class="caret"></span>
-									</button>
-									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-										<!-- English -->
-										<li><a href="/index.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAAAjUlEQVQoU2M004h/cY1XR5yRjYXh/68/DNjompOFDDjAMUYe0+7/u2YnMsS1XmFYVK2DlT41zwKr/inzljIw8lr3/xeXMsSpmYWLjWHLsTCsBqy9/4RhOLkA5Nc/334xYKPxhkHTxLn/c5KicUUTXnFwLHSyMPwPVpQhywBwLFDDBUcZGBisyHICA8NxAHf1hEyWpj+2AAAAAElFTkSuQmCC"/>EN</a></li>
-
-										<!-- Chinese -->
-										<li><a href="/index.html.zh"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAABCUlEQVQ4T62SPU7DQBCFvx2b2MiItQsENNwmAoSQ6KHhBlwEcQloASHRQEPNBaip+CsCUTBxnN1FXsVWiig/iCdNs9r95s28VfeBvPSs3eAPSkTe1JXC7aUZQ+co1xzyAUsoLPizUClfk3T72cEDdnRK1xjisxb5zZDowSFKsXweURwVxCLTAe1MMzgJ0MctTNfROx0QXlqMdf5hJDLRReOgvarpbFk2rxOKZ8PXwQ+ZhJTOEU1x0QC2dUq5r8ifDEGqiJUgj9YD5nKwq1PMaMpqcbYqYOUinm8HVQq1+tZ62/lhn2CUwMwUxgGVg1nx1c2aHYwDFvlP/wO4C+T129r1RTrXdxOR919kd4kyT7xXQgAAAABJRU5ErkJggg=="/>ZH</a></li>
-
-										<!-- Danish -->
-										<li><a href="/index.html.da"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAkklEQVQ4T2Ocz8Bw5D8DgzUDEngycS6YJ5OfjCyMjX2McR4Dw/9gcR0USY5HZ8H8H3LGeA1Y+/IKw3AwoGni3P9l6TGEAgurfNfMJQyMIANKUqPIMqBn9jLsgch05yTYwH8q5uTFwr8bx8AamTSsyDPg19UjYI1s2jbkGfD90iGwRk49O6IMOMrAwIDiVhKS8nEA/C1UGlAm6fkAAAAASUVORK5CYII="/>DA</a></li>
-
-										<!-- Dutch -->
-										<li><a href="/index.html.nl"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAV0lEQVQ4T2PsY2CdzsDAkMFAHpjF2MfA+t9PiJcs7ZvefWYYBAY0TZz7vzg9jiwv9M5cxMA4DAwQsWz7r6RpSVYY3Lt+nIFxMBjQOpOBgTGNLD/8Z5gNAIXgOI0BqcDYAAAAAElFTkSuQmCC"/>NL</a></li>
-
-										<!-- Estonian-->
-										<li><a href="/index.html.et"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAYElEQVQ4T2PUz5j86OJfVlkGMoAe8+/HjAypM/5LOQSRoZ2B4dmBdQyDwQAGhv8mhoZkeeHM+fMMjAxD34CmiXP/F6fHkRUGvTMXMTAOvAHTl6zf/frtOxdy/CAmLLQXAOQZPLwK8Il6AAAAAElFTkSuQmCC"/>ET</a></li>
-										
-										<!-- German -->
-										<li><a href="/index.html.de"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAVklEQVQ4T2NkYGCYzsDAkMFAHpjFyMDA8F9dXZ0s7Tdv3mQYBAbsYmT4rykjQ5YXrj95wsA4DAw41cDw3zRAgqwwOL3hBQPjoDBgJgMDQxpZfmBkmA0Ap4wzS+Kj08UAAAAASUVORK5CYII="/>DE</a></li>
-										
-										<!-- Japanese -->
-										<li><a href="/index.html.ja"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAyElEQVQ4T2NsmjT3CMN/BmsGMgAjA8MxxqaJc/8Xp8eRoZ2BoXfmIgbaGPD/10+G13WVDJ9WLgO7jC88ikG0qZ2BkY0dxaU4XfCmpZ7h/dSJKIoFs/MZRGoaiTPgnp4aw9/Xr1AUM4uKMihduk2cAfcNNBj+vHyBophFTJxB8eJN4gx419vJ8LanHUWxcEklg1BxOXEG/P/zh+FtZwvD51XLwRp4wyIZhMtrGBhZWIgzgNhEQZ10MHPJ+v8v374j1lIUdWLCQgwAG1htQzGt2mgAAAAASUVORK5CYII="/>JA</a></li>
-
-										<!-- Spanish -->
-										<li><a href="/index.html.es"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAA9ElEQVQ4T2PsY2Y48p+BwZqBPHCMsZeZ4X+RjiZZ2vuuXGeg3IBTDQz/TUMswS64fvMPw8//ggzP3oky8HD+ZuDi+M0gIfiRQUbiO1YXnl5znIER2QCG/wwMB3ZbMqjNWsPAuvcQw4Nr+xhMpJYxMP7/SpwBF26JMYgZtDHw33nI8DEvg+Hb6uUM3x4tYtCTv0ScAYcuyDAomFUxnN63muHfg/sMkrYhDF+frmJwt3pEnAE/frIwvPjtznDm+DkGUREWBmV1DQYJjsMMLEw/iDMApurPHyYGFpZ/BKMWHIgDnw56mRmOMjAwWBF0LxYFjAwMxwHj5XGr1M6PtQAAAABJRU5ErkJggg=="/>ES</a></li>
-
-										<!-- French -->
-										<li><a href="/index.html.fr"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAATklEQVQ4T2N01Z8/nZHhfwYDErBJ+o/MhbOVK3PRxWcxuunP+68gHIIi0b+NE6sBH1SVUMQPvH3LMGrAaBhQLR3MZGBgSCMnKTMyMMwGACAMWONtJSw3AAAAAElFTkSuQmCC"/>FR</a></li>
-										
-										<!-- Indonesian -->
-										<li><a href="/index.html.id"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAUElEQVQ4T2NcwM666/PP364MZAA+dtY9jJMZGP57qUqToZ2BYdvtpwyjBjxlYGyaOPd/cXocWYHYO3PRqAGgMJi+ZP3u12/fuZATimLCQnsBItU/YSoyxUcAAAAASUVORK5CYII="/>ID</a></li>
-
-										<!-- Italian -->
-										<li><a href="/index.html.it"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAUUlEQVQ4T2NkqPKazsDAkMGABJrEg5G5cLZmfhaK+H8GhlmMDFVe//XNdFEkjnm0YDXgv7c/ivj2vXsZRg0YDQNqpQPPmQwMjGnkJGUGBobZAEtLVo37EG2TAAAAAElFTkSuQmCC"/>IT</a></li>
-										
-										<!-- Korean -->
-										<li><a href="/index.html.ko"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAABgElEQVQ4T2NsmjT3CMN/BmsGMgAjA8MxxqaJc/8Xp8fBtf///5+BkZERq3Hocr0zFzGgGLBm9SqGLZs3MSxYtASrAf6+3gwFhUUMjk7OYHkUA3Zs38aQnprCsGnrNgYDcQkGtpoqBqYjR8AK//r5MfxqbWc4ePQIQ1REOMP6TZsZzMzMUQ0IDvRnKCwqZrCxtWPg8PdlYDpzGsUVv6trGX5nZTNs2rSRYfPGDQyz585HNQDuv///GT7oGDNIfXjG8I2FnSErfCLDDT5ZhuJPxxm8u3JQDEXxAnIARXScZPB9epxhtYAhw+4fQmBN0rzMDLfqtHAbAAogkBccHJ0YqrY8Z5h48A2KYi9NPobVSfIM69auYdi0cQM4oFFcsG/vHob42BhwAGnpGzPkrnnKsP7iRwYOViYGD01ehi5/SYaLx/czJCXEM6zdsJHBxMQU1QCQdSCTQXjOvAVYoxEU0PkFhQx29g6Y0UhMQsSakGYuWf//5dt3xOjHUCMmLMQAAArvukNTiC2gAAAAAElFTkSuQmCC"/>KO</a></li>
-
-										<!-- Polish -->
-										<li><a href="/index.html.pl"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAUElEQVQ4T2OcvnTdrtdv3rsykAFEhYX2MDZNnPu/OD2ODO0MDL0zFzGMGrCIgXEyA8N/L1VpsgJx2+2nowaAwmAhO+vuTz9/u5ATinzsrHsBqd8/YFeteyoAAAAASUVORK5CYII="/>PL</a></li>
-
-										<!-- Russian -->
-										<li><a href="/index.html.ru"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAXklEQVQ4T2OcvnTdrtdv3rsykAFEhYX2MDZNnPu/OD2ODO0MDL0zFzEMAgMYNev/23mnkuWFQ1tnMzAOAwOWCzD8t5aRICsMjj55wcA4CAwQZJjJ8J8hjSw/MDLMBgDbJjvTGKiw3wAAAABJРусский5ErkJggg=="/>Русский</a></li>
-									</ul>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</nav>
-				<!-- navbar end -->
-
-				<div class="col-md-12 col-xs-12 col-sm-12">
-
-					
-					<!-- header-right start -->
-					<!-- ================ -->
-					<div class="header-right clearfix">
-
-						<!-- main-navigation start -->
-						<!-- ================ -->
-						<div class="main-navigation animated">
-
-
-						</div>
-						<!-- main-navigation end -->
-
-					</div>
-					<!-- header-right end -->
-
+								<ul class="dropdown-menu language-block" role="menu"></ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="au-btn au-btn-pill au-btn-border au-btn-icon m-l-5 download-wallet-btn noto-sans-bold download-wallet-header-btn1" href="#download" style="background-color: #1560bd">
+								<span class="btn-text">
+									СКАЧАТЬ КОШЕЛЕК                               
+								</span>
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
-		</div>
+		</nav>
 	</header>
-	<!-- header end -->
+	<!-- Header end-->
 
 	<!-- textcoin block start -->
 	<!-- ================ -->
-	<div class="section clearfix" id="textcoin" style="display: none;">
+	<div class="section clearfix open-sans-regular" id="textcoin" style="display: none;">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-md-5 col-md-push-5 text-center text-md-left">
-					<h2>Вы получили деньги!</h2>
+				<div class="col-xs-12 col-md-6 col-md-push-6 text-center text-md-left order-md-2">
+					<h3 class="m-b-30 open-sans-bold">Вы получили деньги!</h3>
 					<p class="android" style="display: none;">
 						Нажмите кнопку ниже, чтобы открыть или установить кошелёк Byteball и получить ваши деньги.
 					</p>
@@ -224,735 +129,1323 @@
 						<a href="#download">Скачайте и установите кошелёк Byteball</a>, затем нажмите кнопку ниже, чтобы открыть кошелёк и получить ваши деньги.
 
 					</p>
-					<p id="warning" class="alert alert-danger m10" style="display: none">
-							К сожалению, кошелёк Byteball пока недоступен для установки через официальный магазин приложений на платформе iOS. Используйте кошелёк на других платформах или скомпилируйте кошелёк для iOS самостоятельно.
-					</p>
-					<p><button id="openInApp" class="btn btn-lg btn-success m10">Получить деньги</button></p>
+					<p><button id="openInApp" class="btn btn-lg btn-success m10" style="cursor: pointer">Получить деньги</button></p>
 					<p>
-						Если кнопка не работает, <a href="#download">установите кошелёк Byteball</a>, и на вкладке <i>Получить</i> 	&rarr; <i>введите в поле Получить через textcoin</i> следующую строку:<br>
+						Если кнопка не работает, <a href="#download">установите кошелёк Byteball</a>, перейдите в <i>Получить</i> 	&rarr; <i> Получить средства используя textcoin</i> и вставьте следующую строку:<br>
 						<b id="mnemonic"></b><br>
 					</p>
 				</div>
-				<div class="col-md-2"></div>
-				<div class="col-xs-12 col-md-3 col-md-offset-2 col-md-pull-7 text-center">
-					<img src="img/inphone/wallet.png?v2" style="display: inline; max-height: 547px" /> 
+				<div class="col-xs-12 col-md-5 col-md-offset-2 col-md-pull-7 text-center text-md-right order-md-1">
+					<img src="img/inphone/wallet.png?v2" style="display: inline; max-height: 547px; max-width: 100%" /> 
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- textcoin block end -->
 
-	<!-- banner start -->
-	<!-- ================ -->
-	<div id="banner" class="banner">
-		<div class="banner-caption">
-			<div class="container">
-				
-				<div class="row smooth-scroll">
-					<div class="row text-center logo-main">
-						<svg height="128" width="128">
-							<circle cx="64" cy="64" r="56" stroke="#2c3e50" stroke-width="8" fill="white" />
-						</svg> 
-						<div style="margin-top: -15px;">Byteball</div>
-					</div>
-					<div class="space"></div>
-					<div class="row text-center">
-						<h2>Умные платежи - это просто</h2>
-
-						<p><a class="btn btn-lg btn-success" href="#download" role="button">Скачать Byteball кошелек</a></p>
-						<p><a href="Byteball.pdf"><i class="fa fa-file-text-o"></i> Читать белую книгу</a></p>
-					</div>
-					<div class="space"></div>
-					
-					
-					<!--p class="lead what-is">Byteball is an alternative legal system based on smart contracts.</p>
-					<p class="lead what-is">When a contract is created on Byteball, it just works exactly as agreed upon.  Trust in the counterparty and reliance on the slow and expensive conventional legal system are not required any more as the contracts are enforced by the immutable rules of the decentralized platform.  See below the types of contracts available today.</p-->
-					
-					<p class="lead what-is">Byteball создает доверие там, где оно было невозможным ранее.</p>
-					<p class="lead what-is">Созданным на платформе Byteball контрактам можно доверять при работе точно так, как и согласованным вживую.  Почему? Потому что они заверены множественными узлами децентрализованной сети, которые подчиняются одним и тем же неизменным правилам.  Контрагент, даже если он является абсолютно незнакомым человеком, должен вести себя честно, потому что только правила имеют власть.  Такой договор называется смарт-контракт.  Ниже приведены примеры рабочих смарт-контрактов, доступных на данный момент.</p>
-					
-					
-				</div>
-			</div>
-			<!-- /.countdown-wrapper -->
-
-		</div>
-	</div>
-	<!-- banner end -->
-	
-	
-	
-	<!-- section start -->
-	<!-- ================ -->
-	<div class="default-bg">
-		<div id="why" class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Зачем использовать Byteball?</h2>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- section end -->
-			<div class="section clearfix">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						
-						 <div class="space"></div> 
-						<div class="row">
-							<div class="col-md-5 col-md-offset-1">
-								<h2 class="title text-left">Безрисковые умные платежи с условиями</h2>
-								<p class="lead text-left">Byteball позволяет вам делать то, что традиционные валюты не могут: <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
-								 target="_blank">платежи с условиями.</a></p>
-
-								<p>Вы задаёте условия, ваши деньги резервируются и если условие не будет выполнено, вы автоматически получите деньги обратно.</p>
-								<div class="space"></div>
-							</div>
-							<div class="col-md-6">
-								  <!-- <div class="frame-it"></div>  -->
-								<img src="img/inphone/payment-with-bind-full.png" alt="" class="img-feature">
-								<!-- <img src="img/inphone/bind.png" alt="" class="max-w320"> -->
-								<!-- <div class="space"></div> -->
-							</div>
-						</div>
-					 </div> 
-				</div>
-			</div>
-		</div>
-		<!-- section end -->
-			<!-- section end -->
-			<div class="section clearfix">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						
-						 <div class="space"></div> 
-						<div class="row">
-							<div class="col-md-4 col-md-push-6">
-							<h2 class="title text-left">P2P страхование</h2>
-							<p class="lead text-left">Застрахуйтесь от нежелательных событий.</p>
-							<p>Вы можете купить страховку у других пользователей и сервисов, получить выплату при наступлении страховых случаев. Либо сами продавать страховку для получения прибыли.</p>
-							<p>Страхование &mdash; это яркий пример <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527"
-								 target="_blank">простого умного контракта</a>, при котором по наступлению страхового случая застрахованный автоматически получит выплату, а если ничего не случится &mdash; страховой взнос получит страховщик.</p>
-							<p>Чтобы купить страховку от задержки вылета рейса, вы можете найти партнёра на канале <a href="https://byteball.slack.com/messages/C54CDJATB/"
-								 target="_blank">#p2p_insurance</a> в нашем <a href="http://slack.byteball.org" target="_blank" title="Slack">Slack</a>,
-								Создайте контракт, и если ваш рейс задержится, <a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000">запросите информацию у оракула задержки рейсов</a>, он выдаст данные о задержке, а вы получите страховую выплату.</p>
-							<div class="space"></div>
-							</div>
-							<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
-								<img src="img/inphone/flight-delays-oracle-full.png" alt="" class="img-wallet-left img-feature">
-								<!-- <img src="img/inphone/flight-delays-oracle-top-no-border.png" alt="" class="img-wallet-left"> -->
-								<!-- <div class="space"></div> -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- section end -->
-
-	<!-- section start -->
-	<!-- ================ -->
-			<div class="section clearfix">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						
-						 <div class="space"></div> 
-						<div class="row">
-							<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Рынки предсказаний</h2>
-							<p class="lead text-left">Зарабатывайте, предсказывая будущие события.</p>
-							<p>Вы можете создать умный контракт, где деньги будут выплачены автоматически при наступлении определённого события. Такие контракты могут быть использованы для <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab"
-								 target="_blank">ставок на изменение котировок/цен</a>, спортивные события, страхование.</p>
-							<p>Вы можете найти партнёров по ставками на канале <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> в нашем <a href="http://slack.byteball.org" target="_blank" title="Slack">Slack.</a></p>
-							<div class="space"></div>
-							</div>
-							<div class="col-md-6">
-								<img src="img/inphone/offer-contract.png" alt="" class="img-feature">
-								<!-- <img src="img/inphone/offer-contract-unlock-condition.png" alt=""> -->
-								<!-- <div class="space"></div> -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- section end -->
-	<!-- section end -->
-			<div class="section clearfix">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						
-						<div class="space"></div> 
-						<div class="row">
-							<div class="col-md-4 col-md-push-6">
-								<h2 class="title text-left">P2P cтавки на события</h2>
-								<p class="lead text-left">Делайте ставки с другими пользователями на спортивные события.</p>
-								<p>Найдите партнёра по ставкам на канале <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a>								в нашем <a href="http://slack.byteball.org" target="_blank" title="Slack">Slack</a>, и создайте контракт, по которому выигрыш получите вы, либо ваш оппонент в зависимости от результатов матча.</p>
-								<p>Когда матч состоится, <a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">запросите результат матча у спортивного оракула</a> и тот, кто сделал верную ставку, получит выигрыш.</p>
-
-								<div class="space"></div>
-							</div>
-							<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
-								
-							<!-- <div style="position:relative; display: inline-block;">
-								<div class="frame-it1"></div> -->
-								<img src="img/inphone/sports-oracle-chat-full.png" alt="" class="img-wallet-left img-feature">
-								<!-- <img src="img/inphone/payment-in-chat.png" alt="" class="img-wallet-left max-w320"> -->
-							<!-- </div> -->
-								<!-- <div class="space"></div> -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- section end -->
-	
-	<!-- section start -->
-	<!-- ================ -->
-		<div class="section clearfix">
+	<!-- Download start-->
+	<section class="section section-download-app bg-white p-t-90 p-b-40 block1">
 		<div class="container">
+			<h3 class="section-heading section-heading1 section-heading--center m-b-0 noto-sans-bold" style="max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.5">Криптовалютная платформа, готовая ко встрече с реальним миром</h3>
+			<div class="row justify-content-center">
+				<div class="col-md-9 text-center">
+					<p class="text-left m-b-70 noto-sans-display-regular" style="color: black; line-height: 2; max-width: 760px; margin-left: auto; margin-right: auto; display: inline-block;">
+						<i class="far fa-check-square"></i> с нерушимыми контрактами<br>
+						<i class="far fa-check-square"></i> с пользовательской идентификацией<br>
+						<i class="far fa-check-square"></i> с платежами, которые легко могут быть отправлены по любой сети<br>
+						<i class="far fa-check-square"></i> с легкими для разработки приложениями, которые соединяют все вышеуказанное<br>
+						<i class="far fa-check-square"></i> построенная на основе масштабируемой DAG технологии<br>
+						<i class="far fa-check-square"></i> полностью функциональная уже сегодня<br>
+						<i class="far fa-square"></i> в поисках массового принятия<br>
+					</p>
+				</div>
+			</div>
+			<div class="section-btn-group m-b-70 wow zoomIn" data-wow-delay="0.6s">
+				<a class="au-btn au-btn-pill au-btn-icon subscribe-to-news-btn block1-btn noto-sans-bold" href="#" onclick="ml_account('webforms', '884262', 'i1z6x7', 'show')" style="background-color: #1560bd; color: white; border: 1px solid transparent;">
+					<span class="btn-text">ПОДПИСАТЬСЯ НА РАССЫЛКУ</span>
+				</a>
+
+				<a class="au-btn au-btn-pill au-btn-icon block1-btn noto-sans-bold download-wallet-header-btn2" href="#" onclick="scrollToBlock('download')" style="border: 1px solid #0060c1 !important;">
+					<span class="btn-text">СКАЧАТЬ КОШЕЛЕК</span>
+				</a>
+			</div>
+
+			<p class="box-title section-heading--center noto-sans-display-semibold" style="font-weight: bold; color: black;">
+				Подробнее            
+			</p>
+
+			<div class="section section-footer" style="background: none;">
+				<ul class="footer-menu-list h-list learn-more-ul">
+					<li class="list-item">
+						<a href="#" class="noto-sans-display-regular" onclick="scrollToBlock('learn_more')">Whitepaper</a>
+					</li>
+					<li class="list-item">
+						<a href="#" class="noto-sans-display-regular" onclick="scrollToBlock('learn_more')">Вводные инструкции</a>
+					</li>
+					<li class="list-item">
+						<a href="#" class="noto-sans-display-regular" onclick="scrollToBlock('learn_more')">Wiki</a>
+					</li>
+					<li class="list-item">
+						<a href="#" class="noto-sans-display-regular" onclick="scrollToBlock('learn_more')">GitHub</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!-- Download end-->
+
+	<!-- About start-->
+	<section class="section section-about-1 bg-white why-us-main-block p-t-20" id="why">
+		<div class="container">
+
+			<h1 class="section-heading section-heading1 section-heading--center m-b-40 why-use-h1 noto-sans-symbols-regular">ЗАЧЕМ ИСПОЛЬЗОВАТЬ BYTEBALL</h1>
+
 			<div class="row">
+				<div class="col-md-6">
+					<div class="section-content-image section-heading--center wow nofadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.5s">
+						<img class="img-fluid" src="static/images/ico_img.png" alt="">
+					</div>
+				</div>
+
+				<div class="col-md-5 margin-left-7p">
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">ICO платформа</h3>
+					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+								<i class="iconbox-icon"></i>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Единственная ICO платформа на рынке, которая предлагает совместимую продажу готовых к использованию токенов безопасности.</span>
+							</div>
+						</li>
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
+								<i class="iconbox-icon"></i>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Продавайте незарегистрированные бумаги аккредитованным инвесторам, используя встроенную аккредитацию инвестора.</span>
+							</div>
+						</li>
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
+								<i class="iconbox-icon"></i>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Опционально предлагается KYC с использованием встроенной верификации реального имени.</span>
+							</div>
+						</li>
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
+								<i class="iconbox-icon"></i>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Продажа за Bytes, BTC, ETH.</span>
+							</div>
+						</li>
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
+								<i class="iconbox-icon"></i>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Отображение статистики в реальном времени.</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr class="new-breaker-line">
+
+			<div class="row">
+				<div class="col-md-6 visible-xs" style="margin-top: 30px;">
+					<div class="section-content-image section-heading--center wow nofadeInRight" data-wow-duration="0.8s" data-wow-delay="0.5s">
+						<img class="img-fluid" src="static/images/bot-store.png" alt="">
+					</div>
+				</div>
+
+				<div class="col-md-5 margin-left-7p">
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Дружественная для разработчиков</h3>
+					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+								<i class="iconbox-icon"></i>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Легко находите новых пользователей для ваших приложений</span>
+							</a>
+						</li>
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
+								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Разработчики, которые создают приложения, имеют мгновенный доступ ко всем пользователям Byteball платформы через встроенный в кошелек Bot Store (магазин ботов).<br><br>
+									Bot Store немного напоминает Apple App Store или Google Play Store, за исключением того, что вам не нужно конкурировать с тысячами других приложений... пока что!<br><br>
+									Как дополнительный бонус, разрабатывать для Byteball намного легче, чем для прочих крипто-платформ.  Смотрите <a href="https://github.com/byteball/byteballcore/wiki/Byteball-Developer-Guides" target="_blank">Руководства для разработчика на github</a>.</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-md-6 hidden-xs">
+					<div class="section-content-image section-heading--center wow nofadeInRight" data-wow-duration="0.8s" data-wow-delay="0.5s">
+						<img class="img-fluid" src="static/images/bot-store.png" alt="">
+					</div>
+				</div>
+			</div>
+
+			<hr class="new-breaker-line new-breaker-line2">
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="section-content-image section-heading--center wow nofadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.5s">
+						<img class="img-fluid" src="static/images/risk_free_img.png" alt="">
+					</div>
+				</div>
+
+				<div class="col-md-5 margin-left-7p">
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Безрисковые умные платежи с условиями</h3>
+					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+								<i class="iconbox-icon"></i>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Byteball позволяет вам делать нечто, чего не могут традиционные валюты: <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a"
+								 target="_blank" style="text-decoration: underline; color: #4285f4">платежи с условиями</a></span>
+							</div>
+						</li>
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
+								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Вы задаете условие, при котором адресат получает деньги. Если условие не выполняется, вы получаете свои деньги обратно.</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr class="new-breaker-line">
+
+			<div class="row">
+				<div class="col-md-6 visible-xs" style="margin-top: 30px;">
+					<div class="section-content-image section-heading--center wow nofadeInRight" data-wow-duration="0.8s" data-wow-delay="0.5s">
+						<img class="img-fluid" src="static/images/p2p_img.png" alt="">
+					</div>
+				</div>
+
+				<div class="col-md-5 margin-left-7p">
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">P2P страхование</h3>
+					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+								<i class="iconbox-icon"></i>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Оградите себя от негативных событий.</span>
+							</a>
+						</li>
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
+								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Покупайте страховку у других участников, чтобы получить оплату при наступлении негативного события. Продавайте страховку, чтобы получить прибыль. <br><br>Страховка это просто <a href="https://medium.com/byteball/making-p2p-great-again-episode-iv-p2p-insurance-cbbd1e59d527" target="_blank">обычный смарт-контракт</a>, который может быть разблокирован застрахованным лицом &mdash; в случае наступления оговоренного события, или страховщиком &mdash; в противном случае.<br><br>Чтобы застраховаться от задержки рейса, найдите контрагента на канале <a href="https://byteball.slack.com/messages/C54CDJATB/" target="_blank">p2p_insurance</a> нашего <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>, создайте контракт, и если ваш рейс задерживается, <a href="byteball:AuP4ngdv0S/rok+IaW1q2D6ye72eXLl3h+CqXNXzkBXn@byteball.org/bb#0000">свяжитесь в чате с Оракулом задержки рейсов</a>, чтобы он опубликовал данные о задержке, затем разблокируйте контракт.</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-md-6 hidden-xs">
+					<div class="section-content-image section-heading--center wow nofadeInRight" data-wow-duration="0.8s" data-wow-delay="0.5s">
+						<img class="img-fluid" src="static/images/p2p_img.png" alt="">
+					</div>
+				</div>
+			</div>
+
+			<hr class="new-breaker-line new-breaker-line2">
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="section-content-image section-heading--center wow nofadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.5s">
+						<img class="img-fluid" src="static/images/predictions_markets_img.png" alt="">
+					</div>
+				</div>
+
+				<div class="col-md-5 margin-left-7p">
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Рынки предсказаний</h3>
+					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+								<i class="iconbox-icon"></i>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Зарабатывайте деньги, правильно предсказывая будущие события.</span>
+							</a>
+						</li>
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
+								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Создайте P2P смарт-контракт, который может быть разблокирован при наступлении определенного события. Используйте его, чтобы <a href="https://medium.com/byteball/making-p2p-great-again-episode-iii-prediction-markets-f40d49c0abab" target="_blank">делать ставки на движения цен</a>, ставки на спорт или для страхования. <br><br>Найдите партнера по контракту на канале <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> в нашем <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>.</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr class="new-breaker-line">
+
+			<div class="row">
+				<div class="col-md-6 visible-xs" style="margin-top: 30px;">
+					<div class="section-content-image section-heading--center wow nofadeInRight" data-wow-duration="0.8s" data-wow-delay="0.5s">
+						<img class="img-fluid" src="static/images/p2p_betting_img.png" alt="">
+					</div>
+				</div>
+
+				<div class="col-md-5 margin-left-7p">
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">P2P cтавки на события</h3>
+					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+								<i class="iconbox-icon"></i>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Делайте ставки против других пользователей на спортивные события.</span>
+							</a>
+						</li>
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
+								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Найдите себе партнера по контракту на канале <a href="https://byteball.slack.com/messages/C4UMVU4QZ/" target="_blank">#prediction_markets</a> нашего <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a> и создайте контракт, который может быть разблокирован вами или вашим партнером, в зависимости от результатов будущего матча.<br><br>После того, как результат станет известен, <a href="byteball:Ar1O7dGgkkcABYNAbShlY2Pbx6LmUzoyRh6F14vM0vTZ@byteball.org/bb#0000">свяжитесь в чате со спортивным оракулом</a>, чтобы он опубликовал данные о результатах матча, затем разблокируйте контракт.</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-md-6 hidden-xs">
+					<div class="section-content-image section-heading--center wow nofadeInRight" data-wow-duration="0.8s" data-wow-delay="0.5s">
+						<img class="img-fluid" src="static/images/p2p_betting_img.png" alt="">
+					</div>
+				</div>
+			</div>
+
+			<hr class="new-breaker-line new-breaker-line2">
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="section-content-image section-heading--center wow nofadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.5s">
+						<img class="img-fluid" src="static/images/textcoins_img.png" alt="">
+					</div>
+				</div>
+
+				<div class="col-md-5 margin-left-7p">
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Текст-коины (textcoins)</h3>
+					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+								<i class="iconbox-icon"></i>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Отправляйте криптовалюту на e-mail или через чат.</span>
+							</a>
+						</li>
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
+								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Отправитель просто пишет e-mail адрес там, где он обычно указывает адрес кошелька Byteball. Получатель просто кликает по ссылке, полученной в письме или в чате. Если у получателя нет кошелька Byteball, он сможет тут же установить его. На Android загрузка начинается автоматически. <a href="https://medium.com/byteball/sending-cryptocurrency-to-email-5c9bce22b8a9" target="_blank">Узнать больше</a>.</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr class="new-breaker-line">
+
+			<div class="row">
+				<div class="col-md-6 visible-xs" style="margin-top: 30px;">
+					<div class="section-content-image section-heading--center wow nofadeInRight" data-wow-duration="0.8s" data-wow-delay="0.5s">
+						<img class="img-fluid" src="static/images/sovereign_identity.png" alt="">
+					</div>
+				</div>
+
+				<div class="col-md-5 margin-left-7p">
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Подтверждение личности</h3>
+					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+								<i class="iconbox-icon"></i>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Храните удостоверение личности в своем кошельке, выбирайте, что раскрывать и кому.</span>
+							</a>
+						</li>
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
+								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Получите подтверждение своей реальной личности, надежно сохраненное в вашем кошельке. <a href="https://www.jumio.com/" target="_blank">Jumio</a> помогает с подтверждением личности. Когда вы захотите раскрыть свою личность для какого-то сервиса, например, для участия в ICO, вы просто вытаскиваете его из своего кошелька в несколько кликов. <a href="https://medium.com/byteball/bringing-identity-to-crypto-b35964feee8e" target="_blank">Узнать больше</a>.</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-md-6 hidden-xs">
+					<div class="section-content-image section-heading--center wow nofadeInRight" data-wow-duration="0.8s" data-wow-delay="0.5s">
+						<img class="img-fluid" src="static/images/sovereign_identity.png" alt="">
+					</div>
+				</div>
+			</div>
+
+			<hr class="new-breaker-line new-breaker-line2">
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="section-content-image section-heading--center wow nofadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.5s">
+						<img class="img-fluid" src="static/images/p2p_payments.png" alt="">
+					</div>
+				</div>
+
+				<div class="col-md-5 margin-left-7p">
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">P2P платежи в чате</h3>
+					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+								<i class="iconbox-icon"></i>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Общайтесь и платите в одном и том же приложении, просто кликая по ссылкам.</span>
+							</a>
+						</li>
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
+								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Не нужно копировать и вставлять длинные крипто адреса. <br><br>Просто нажимаете, чтобы вставить ваш адрес в чат, a плательщик нажимает на ваш адрес, чтобы отправить деньги.</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr class="new-breaker-line">
+
+			<div class="row">
+				<div class="col-md-6 visible-xs" style="margin-top: 30px;">
+					<div class="section-content-image section-heading--center wow nofadeInRight" data-wow-duration="0.8s" data-wow-delay="0.5s">
+						<img class="img-fluid" src="static/images/chatbots_img.png" alt="">
+					</div>
+				</div>
+
+				<div class="col-md-5 margin-left-7p">
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Чатботы</h3>
+					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+								<i class="iconbox-icon"></i>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Разговаривайте с ботом так, как говорили бы с человеком.</span>
+							</a>
+						</li>
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
+								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Совершайте покупки, общаясь с торговым ботом, оплачивайте в два клика. Обмен и другие услуги тоже можно легко использовать в разговорном интерфейсе.</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-md-6 hidden-xs">
+					<div class="section-content-image section-heading--center wow nofadeInRight" data-wow-duration="0.8s" data-wow-delay="0.5s">
+						<img class="img-fluid" src="static/images/chatbots_img.png" alt="">
+					</div>
+				</div>
+			</div>
+
+			<hr class="new-breaker-line new-breaker-line2">
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="section-content-image section-heading--center wow nofadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.5s">
+						<img class="img-fluid" src="static/images/eye_logo.png" alt="" style="box-shadow: none; filter: none;">
+					</div>
+				</div>
+
+				<div class="col-md-5 margin-left-7p">
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Неотслеживаемая валюта: Блэкбайты (Blackbytes)</h3>
+					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+								<i class="iconbox-icon"></i>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Конфиденциальность, как при расчете наличными.</span>
+							</a>
+						</li>
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
+								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Если вы хотите полной анонимности, платите в Blackbytes, неотслеживаемой валюте подобной наличным, чьи транзакции не видны в публичной базе данных, вместо этого они отправляются методом P2P.<br><br>Используйте встроенный переключатель TOR прямо из кошелька, чтобы еще больше повысить вашу конфиденциальность.</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr class="new-breaker-line">
+
+			<div class="row">
+				<div class="col-md-6 visible-xs" style="margin-top: 30px;">
+					<div class="section-content-image section-heading--center wow nofadeInRight" data-wow-duration="0.8s" data-wow-delay="0.5s">
+						<img class="img-fluid" src="static/images/dag_img.png" alt="" style="box-shadow: none; filter: none; ">
+					</div>
+				</div>
+
+				<div class="col-md-5 margin-left-7p">
+					<h3 class="section-heading m-b-30 block2-title-margin-top open-sans-bold">Пользователи помогают друг другу</h3>
+					<ul class="v-list list-text-icon list-text-icon-accordion m-b-20" id="accordion" role="tablist" aria-multiselectable="true">
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<a class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+								<i class="iconbox-icon"></i>
+								<span class="iconbox-text iconbox-text-100 source-sans-pro-regular">Каждый обеспечивает транзакции других.</span>
+							</a>
+						</li>
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text">
+							<div class="iconbox-item-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
+								<i class="iconbox-icon" style="background: none !important;border: none !important;box-shadow: none !important;"></i>
+								<span class="iconbox-text iconbox-text-100 open-sans-regular">Здесь нет центрального органа, который хранит и обрабатывает все платежи. Вместо этого, созданные пользователями транзакции криптографически связаны друг с другом, и как только вы добавляете новую транзакцию, другие пользователи начинают добавлять свои поверх вашей, а количество других транзакций, которые ссылаются на вашу, растет как снежный ком (потому мы и называем его Byteball).</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-md-6 hidden-xs">
+					<div class="section-content-image section-heading--center wow nofadeInRight" data-wow-duration="0.8s" data-wow-delay="0.5s">
+						<img class="img-fluid" src="static/images/dag_img.png" alt="" style="box-shadow: none; filter: none;">
+					</div>
+				</div>
+			</div>
+
+			<hr class="new-breaker-line new-breaker-line2">
+		</div>
+	</section>
+	<!-- About end-->
+
+	<!-- Features start-->
+	<section class="section section-about-2 p-b-40 p-t-20 feature-block" id="features">
+		<div class="container">
+			<h3 class="section-heading section-heading--center section-heading--dark m-b-50 core-feature-title">Основные возможности</h3>
+			<div class="row section-content-inner">
+				<div class="col-sm-12 col-xs-12 col-md-12 col-lg-5 features-col1">
+					<ul class="v-list list-text-icon">
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text iconbox-style-2-with-text-lg iconbox-style-2-with-text-right wow fadeInLeft col1-feature" data-wow-duration="0.8s" data-wow-delay="0.2s">
+							<p class="iconbox-item-title" href="#">
+								<span class="iconbox-text">АТОМАРНЫЙ ОБМЕН</span>
+								<i class="iconbox-icon" style="background-color: #0060C1"></i>
+							</p>
+							<p class="collapse show iconbox-item-text source-sans-pro-regular">Когда два участника подписывают соглашение, которое предполагает двухсторонний обмен, либо две транзакции происходят одновременно, либо они не происходят вовсе. Больше нет необходимости доверять централизованным биржам и обменникам.</p>
+						</li>
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text iconbox-style-2-with-text-lg iconbox-style-2-with-text-right wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.4s">
+							<p class="iconbox-item-title" href="#">
+								<span class="iconbox-text">МУЛЬТИ-ПОДПИСЬ</span>
+								<i class="iconbox-icon" style="background-color: #0060C1"></i>
+							</p>
+							<p class="collapse show iconbox-item-text source-sans-pro-regular">Для безопасности вы можете потребовать, чтобы перевод средств происходил только при наличии нескольких подписей, например, с вашего телефона и ноутбука. При совместном управлении средствами, для проведения транзакции могут потребоваться подписи нескольких людей.</p>
+						</li>
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text iconbox-style-2-with-text-lg iconbox-style-2-with-text-right wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.6s">
+							<p class="iconbox-item-title" href="#">
+								<span class="iconbox-text">НЕИЗМЕННОЕ ХРАНЕНИЕ</span>
+								<i class="iconbox-icon" style="background-color: #0060C1"></i>
+							</p>
+							<p class="collapse show iconbox-item-text source-sans-pro-regular">Информация, однажды записанная в базу данных Byteball, более не может быть изменена, либо удалена.</p>
+						</li>
+					</ul>
+				</div>
+				<div class="col-4 image-content wow fadeInUp" data-wow-duration="1s">
+				</div>
+				<div class="col-sm-12 col-xs-12 col-md-12 col-lg-5">
+					<ul class="v-list list-text-icon list-text-icon-invert">
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text iconbox-style-2-with-text-lg wow fadeInRight" data-wow-duration="0.8s" data-wow-delay="0.2s">
+							<p class="iconbox-item-title" href="#">
+								<i class="iconbox-icon" style="background-color: #0060C1"></i>
+								<span class="iconbox-text">РЕГУЛИРУЕМЫЕ АКТИВЫ</span>
+							</p>
+							<p class="collapse show iconbox-item-text source-sans-pro-regular">Организации и институты, осуществляющие регулируемые виды деятельности, могут выпускать активы, соответствующие требованиям KYC/AML. Каждый перевод таких активов одобряется (дополнительно 
+								сывается) эмитентом и если есть что-либо, противоречащее правилам регулятора, эмитент не будет ее подписывать.</p>
+						</li>
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text iconbox-style-2-with-text-lg wow fadeInRight col4-feature" data-wow-duration="0.8s" data-wow-delay="0.4s">
+							<p class="iconbox-item-title" href="#">
+								<i class="iconbox-icon" style="background-color: #0060C1"></i>
+								<span class="iconbox-text">ON-CHAIN ОРАКУЛЫ</span>
+							</p>
+							<p class="collapse show iconbox-item-text source-sans-pro-regular">При взаимодействии с ненадежными участниками, вы можете заблокировать средства на адресе, с которого возможно списание вами или контрагентом в зависимости от событий, зарегистрированных в базе данных доверенными поставщиками данных &mdash; оракулами.</p>
+						</li>
+						<li class="iconbox iconbox-style-2 iconbox-style-2-with-text iconbox-style-2-with-text-lg wow fadeInRight col6-feature" data-wow-duration="0.8s" data-wow-delay="0.6s">
+							<p class="iconbox-item-title" href="#">
+								<i class="iconbox-icon" style="background-color: #0060C1"></i>
+								<span class="iconbox-text">ЗАВЕРШЕННОСТЬ РАСЧЕТОВ</span>
+							</p>
+							<p class="collapse show iconbox-item-text source-sans-pro-regular">Когда определенные условия выполнены, транзакция становится завершённой. Она не может быть изменена даже могущественным атакующим. Никакого гадания о необходимом количестве подтверждений, никаких атак 51%.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Features end-->
+
+	<!-- Pricing Tables start-->
+	<section class="section section-price-table p-b-90" id="dist">
+		<div class="container">
+			<hr class="new-breaker-line">
+			<div class="row justify-content-md-center">
 				<div class="col-md-12">
-					
-					<div class="space"></div> 
-					<div class="row">
-						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Текстовые монеты (textcoin)</h2>
-							<p class="lead text-left">Отправляйте средства на email или через чат.</p>
-							<p>Для отправки через email просто укажите адрес email вместо адреса Byteball. Получатель кликнет по ссылке, полученной в письме или в чате. Если у получателя нет кошелька Byteball, он сможет тут же установить его.  Для ОС Android будет автоматически открыт магазин Google Play для установки кошелька. <a href="https://medium.com/byteball/sending-cryptocurrency-to-email-5c9bce22b8a9" target="_blank">Узнать больше</a>.</p>
-							<div class="space"></div>
-						</div>
-						<div class="col-md-6">
-							 <!-- <div class="frame-it"></div> -->
-							<img src="Подтверждение личности" alt="" class="img-feature">
-							<!-- <img src="img/inphone/sports-oracle-chat-top-no-border.png" alt=""> -->
-							<!-- <div class="space"></div> -->
-						</div>
-					</div>
+					<h1 class="section-heading section-heading--center section-heading--dark m-b-40 m-t-20 distribution-title">Честное начальное распределение</h1>
+					<h4 class="m-b-30 section-heading--center distribution-title2">Бесплатное распределение для массового применения</h4>
+				</div>
+			</div>
+			<div class="row bg-gray-50">
+				<div class="col-lg-12 distibution-desc-div-padding">
+					<h3 class="m-b-30 distribution-text">Для массового применения необходимо широкое распространение, поэтому 99% всех байтов и блэкбайтов распределяются бесплатно. На текущий момент есть несколько способов распределения:</h3>
+					<p class="distribution-text2">
+						- <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Кэшбэк</a> при покупках в магазинах наших партнёров. В большинстве случает кэшбэк составляет 10% от стоимости покупки.
+						<br>- <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Заполните форму заявки</a> или <script>document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">');</script>свяжитесь с нами<script>document.write('</a>');</script> если вы владеете магазином или платежной системой и хотите быть частью кэшбэк программы.
+						<br>- <a href="https://medium.com/byteball/distribution-to-verified-users-and-referrals-ed00b9b2a30e" target="_blank">Вознаграждения за верификацию и реферальные вознаграждения</a> тем, кто подтвердит свое настоящее имя.
+						<br>- <a href="https://medium.com/byteball/distribution-to-verified-emails-and-sending-cryptocurrency-to-email-episode-ii-cb955fe19d7e" target="_blank">Вознаграждения за верификацию и реферальные вознаграждения</a> тем, кто подтвердит свой email адрес.
+						<br>- <a href="https://medium.com/byteball/attestation-of-accredited-investors-d4a8dabf683b" target="_blank">Вознаграждения за верификацию и реферальные вознаграждения</a> аккредитованым инвесторам, подтвердившим свой статус.
+						<br>- Вознаграждения тем, кто прошел <a href="https://medium.com/byteball/money-for-knowledge-distribution-via-telegram-quiz-bot-2dd400e22997">опрос в Telegram</a>.
+						<br>- Компенсации, которые покрывают часть комиссии, оплаченной при <a href="https://medium.com/byteball/buying-bytes-with-visa-or-mastercard-d8ee2d1a2b07">покупке байтов с помощью Visa или Mastercard</a>.
+						<br>- Вознаграждения за предоставление своих вычислительных мощностей <a href="https://medium.com/byteball/computing-for-good-again-3795336bdaed">World Community Grid</a>.
+						<br>- Раздачи проведенные, к примеру, через YouTube каналы наших сторонников. Например: <a href="https://www.youtube.com/watch?v=hycluITNDBM" target="_blank">https://www.youtube.com/watch?v=hycluITNDBM</a>.
+						<br>- <a href="https://medium.com/byteball-help/using-mailchimp-to-mass-send-payments-as-textcoins-5c1db06342e3" target="_blank">Массовая рассылка textcoin'ов</a> подписчикам наших партнёров. <a href="https://docs.google.com/spreadsheets/d/1heT6TUSpTJgRW-FUM0LbcoVjXZRCb3PbXQQLmzvNRvM/edit#gid=323859176" target="_blank">Результаты предыдущих кампаний</a>.
+						<br>- <a href="https://medium.com/byteball/introducing-a-bridge-between-byteball-and-steem-and-an-airdrop-548d7958b9e9" target="_blank">Steem вознаграждения и реферальные вознаграждения</a> тем, кто подтвердит свой Steem аккаунт.</p>
+				</div>
+			</div>
+			<div class="row justify-content-md-center m-t-40 m-b-10">
+				<div class="col-md-12">
+					<h4 class="m-b-30 section-heading--center distribution-title2">Предыдущие распределения</h4>
+				</div>
+			</div>
+			<div class="row bg-gray-50">
+				<div class="col-lg-12 distibution-desc-div-padding">
+					<h3 class="m-b-40 distribution-text">
+						Раньше мы распространяли байты держателям Bitcoin и байтов. Пользователи связывали свои адреса Bitcoin с адресами Byteball  и получали байты пропорционально балансу кошельков Bitcoin и Byteball. Распределение проводилось в несколько раундов.
+						<br><br>Первый раунд распределения состоялся 25 декабря 2016г. при запуске сети, было привязано более 70 000 BTC и распределено 10% от общего количества всех байтов и блэк-байтов. В последующих раундах общее распределение достигло 64,5%:
+					</h3>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">2-й раунд 11 февраля 2017: 121 763 BTC привязано, 1.8% байтов распределено;</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">3-й раунд 12 марта 2017: 129 139 BTC привязано, 2.0% байтов распределено;</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">4-й раунд 11 апреля 2017: 145 441 BTC привязано, 2.3% байтов распределено;</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">5-й раунд 10 мая 2017: 207 672 BTC привязано, 2.9% байтов распределено;</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">6-й раунд 9 июня 2017: 453 621 BTC привязано, 6.6% байтов распределено;</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">7-й раунд 9 июля 2017: 949 004 BTC привязано, 11.0% байтов распределено.</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">8-й раунд 7 августа 2017: 1 395 899 BTC привязано, 16% байтов распределено.</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">9-й раунд 6 сентября 2017: 1 306 573 BTC привязано, 5.7% байтов распределено.</p>
+					<p class="left-float col-lg-6 col-xs-12 m-b-10 distribution-text2">10-й раунд 4 ноября 2017: 1 093 155 BTC привязано, 6.1% байтов распределено.</p>
+				</div>
+			</div>
+
+			<hr class="new-breaker-line m-t-50">
+
+			<div class="row justify-content-md-center" id="tech">
+				<div class="col-md-12">
+					<h1 class="section-heading section-heading--center section-heading--dark m-b-40 m-t-20 distribution-title">Абсолютно новая технология</h1>
+					<h4 class="m-b-30 section-heading--center distribution-title2" style="max-width: 550px; margin-left: auto; margin-right: auto;">Неограниченная масштабируемость, быстрые подтверждения, без майнеров, без блоков, низкие комиссии.</h4>
+				</div>
+			</div>
+
+			<div class="row bg-gray-50">
+				<div class="col-lg-12 distibution-desc-div-padding">
+					<p class="distribution-text3">
+						Данные Byteball сохранены и упорядочены с использованием <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">направленного ацикличного графа</a> (DAG) вместо блокчейна. Это позволяет всем пользователям подтверждать транзакции друг друга путем ссылки на предыдущие блоки данных, созданные другими пользователями, а также снимает лимиты масштабируемости, присущие блокчейнам, такие как проблема размера блоков.
+						<br><br>
+						Архитектура сети без блоков значительно проще, потому что в ней нет блоков, только транзакции. Пользователи просто добавляют в DAG свои транзакции, им не надо ждать пока майнеры добудут новый блок и не нужно гадать, включат ли майнеры твою транзацию в очередной блок.
+						<br>
+						<br>Алгоритм консенсуса, защищающий от двойных трат, базируется на установлении строгого порядка внутри DAG. Это достигается путем выбора цепи (так называемой, основной цепи), которая тяготеет к транзакциям, подписанным общепризнанными авторитетными пользователями &mdash; свидетелями.
+						<br><a href="https://byteball.org/Byteball.pdf" target="_blank">Более детально смотрите в Whitepaper.</a>
+					</p>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- section end -->
-		<!-- section end -->
-		<div class="section clearfix">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					
-					 <div class="space"></div> 
-					<div class="row">
-						<div class="col-md-4 col-md-push-6">
-							<h2 class="title text-left">Подтверждение личности</h2>
-							<p class="lead text-left">Вы можете хранить ваш ID в вашем кошельке, и при необходимости подтверждать им свою личность. Вы сами выбираете, какие свои данные раскрывать и кому.</p>
-							<p>Вы можете подтвердить свою настояющую личность своими документами и хранить свой ID в кошельке.  Для подтверждения реальной личности используется сервис <a href="https://www.jumio.com/" target="_blank">Jumio</a>.  Когда вам нужно подтвердить свою личность для какого-то сервиса, например, для участия в ICO, вы можете сделать это прямо в кошельке за пару кликов.  <a href="https://medium.com/byteball/sending-cryptocurrency-to-email-5c9bce22b8a9" target="_blank">Узнать больше</a>.</p>
-						<div class="space"></div>
-						</div>
-						<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
-							<img src="img/inphone/attestation-choose-profile-pixelated.png" alt="" class="img-wallet-left img-feature">
-							<!-- <img src="img/inphone/merchant-chatbot-top.png" alt="" class="img-wallet-left"> -->
-							<!-- <div class="space"></div> -->
-						</div>
+	</section>
+	<!-- Pricing Tables end-->
 
+	<!-- Pricing Tables start-->
+	<section class="section section-price-table" id="download">
+		<div class="container">
+			<hr class="new-breaker-line">
+			<div class="row justify-content-md-center">
+				<div class="col-md-12 dybw-list-item">
+					<h1 class="section-heading section-heading--center section-heading--dark m-b-40 m-t-20 app-title">Скачайте свой Byteball кошелёк</h1>
+
+					<div class="section-heading--center">
+						<img src="img/inphone/wallet.png?v2" style="max-width: 300px">
 					</div>
+
+					<ul class="footer-menu-list app-icons h-list footer-social-new-ul m-b-50">
+						<li class="list-item">
+							<a href="https://itunes.apple.com/us/app/byteball/id1147137332?ls=1&amp;mt=8" target="_blank">
+								<img src="static/images/app/icon-applestore.svg">
+								iOS<br />App Store
+							</a>
+						</li>
+						<li class="list-item">
+							<a href="https://play.google.com/store/apps/details?id=org.byteball.wallet" target="_blank">
+								<img src="static/images/app/android_robot.svg">
+								Android<br />Play Store
+							</a>
+						</li>
+						<li class="list-item">
+							<a href="/downloads/Byteball-win64.exe">
+								<img src="static/images/app/icon-microsoft.svg">
+								Windows<br />64bit
+							</a>
+						</li>
+						<li class="list-item">
+							<a href="/downloads/Byteball-win32.exe">
+								<img src="static/images/app/icon-microsoft.svg">
+								Windows<br />32bit
+							</a>
+						</li>
+						<li class="list-item">
+							<a href="/downloads/Byteball-osx64.dmg">
+								<img src="static/images/app/icon-mac-os-x.svg">
+								Mac<br />64bit
+							</a>
+						</li>
+						<li class="list-item">
+							<a href="/downloads/Byteball-linux64.zip">
+								<img src="static/images/app/linux.png">
+								Linux<br />64bit
+							</a>
+						</li>
+						<li class="list-item">
+							<a href="https://github.com/byteball/byteball/releases" target="_blank">
+								<img src="static/images/app/fi-social-github.svg">
+								GitHub<br />релизы
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- section end -->
+	</section>
+	<!-- Pricing Tables end-->
 
-	<!-- section start -->
-	<!-- ================ -->
-		<div class="section clearfix">
+	<!-- Pricing Tables start 22-->
+	<section class="section section-price-table">
 		<div class="container">
-			<div class="row">
+			<hr class="new-breaker-line">
+			<div class="row justify-content-md-center">
 				<div class="col-md-12">
-					
-					<div class="space"></div> 
-					<div class="row">
-						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">P2P платежи между пользователями в чате</h2>
-							<p class="lead text-left">Общайтесь и платите в одном приложении, просто щелкая ссылки.</p>
-							<div class="space"></div>
-						</div>
-						<div class="col-md-6">
-							 <!-- <div class="frame-it"></div> -->
-							<img src="img/inphone/payment-in-chat-full.png" alt="" class="img-feature">
-							<!-- <img src="img/inphone/sports-oracle-chat-top-no-border.png" alt=""> -->
-							<!-- <div class="space"></div> -->
-						</div>
-					</div>
+
+					<h1 class="section-heading section-heading--center section-heading--dark m-b-40 m-t-20 app-title">Тестовая сеть</h1>
+
+					<h4 class="m-b-30 section-heading--center noto-sans-display-regular" style="font-size: 20px; line-height: 1.5; max-width: 850px; margin: auto;">
+						Также доступен <a href="testnet.html" target="_blank">Кошелек для тестовой сети,</a> если вы являетесь разработчиком или хотите испытать возможности Byteball, не потратив ни копейки.
+					</h4>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- section end -->
-		<!-- section end -->
-		<div class="section clearfix">
+	</section>
+	<!-- Pricing Tables end-->
+
+	<!-- Team start-->
+	<section class="section section-team p-b-40" id="team">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					
-					 <div class="space"></div> 
-					<div class="row">
-						<div class="col-md-4 col-md-push-6">
-							<h2 class="title text-left">Чатботы</h2>
-							<p class="lead text-left">Общайтесь с ботами так же как вы общаетесь с людьми.</p>
-							<p>Вы можете делать покупки, общаясь с ботами-продавцами, платите в 2 клика прямо в чате. Обменники и другие сервисы также доступны в диалоговом интерфейсе.</p>
-						<div class="space"></div>
-						</div>
-						<div class="col-md-6 col-md-offset-2 col-md-pull-6 text-right">
-							<img src="img/inphone/merchant-chatbot-1.png" alt="" class="img-wallet-left img-feature">
-							<!-- <img src="img/inphone/merchant-chatbot-top.png" alt="" class="img-wallet-left"> -->
-							<!-- <div class="space"></div> -->
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- section end -->
-
-		<!-- section end -->
-		<!-- section end -->
-		<div class="section clearfix">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					
-					 <div class="space"></div> 
-					<div class="row">
-						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Магазин ботов</h2>
-							<p class="lead text-left">Находите и добавляйте себе новых чат-ботов с помощью встроенного магазина ботов.</p>
-							<p>Разработчики могут добавить в магазин своих ботов, которые тут же будут доступны всем пользователям. Ознакомьтесь с <a href="https://github.com/byteball/byteballcore/wiki/Writing-chatbots-for-Byteball"
-								 target="_blank">руководством по разработке чатботов.</a></p>
-						<div class="space"></div>
-						</div>
-						<div class="col-md-6">
-							<img src="img/inphone/bot-store.png" alt="" class="img-feature">
-							<!-- <img src="img/inphone/bot-store-top-no-border.png" alt=""> -->
-							<!-- <div class="space"></div> -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- section end -->
-			<!-- section end -->
-		<div class="section clearfix">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					
-					 <div class="space"></div> 
-					<div class="row">
-						<div class="col-md-5 col-md-offset-1">
-							<h2 class="title text-left">Неотслеживаемая валюта: Черные байты (Blackbytes)</h2>
-							<p class="lead text-left">Полная приватность как при расчёте наличными.</p>
-							<p>Если вам нужна абсолютная приватность, вы можете расплачиваться Чёрными байтами (Blackbytes). Это аналог наличных денег -
- неотслеживаемая валюта, передачи которой осуществляются напрямую между пользователями и не видны в публичной базе данных.</p>
-							<p>Чтобы ещё больше усилить приватность, вы можете включить встроенный в кошелёк клиент TOR.</p>
-
-
-						</div>
-						<div class="col-md-6" style="position: relative">
-							<!--img src="img/black-byteball-logo-big.png" alt="" style="max-width: 142px; margin-top: 60px; margin-left: 110px;"-->
-							<svg height="128" width="128" style="position: relative">
-								<circle cx="64" cy="64" r="56" stroke="#2c3e50" stroke-width="8" fill="transparent" />
-							</svg>
-							<i class="fa fa-eye-slash" style="font-size: 80px; position: absolute; top: 19px; left: 39px; color: #2c3e50"></i>
-							<!-- <div class="space"></div> -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- section end -->
-	<!-- section start -->
-	<!-- ================ -->
-		<!-- section start -->
-	<!-- ================ -->
-	<div class="section clearfix ">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					
-						 <div class="space"></div> 
-						<div class="row">
-							<div class="col-md-5 col-md-offset-1">
-								<h2 class="title text-left">Пользователи помогают друг другу</h2>
-								<p class="lead text-left">Каждая транзакция пользователя помогает транзакциям других пользователей.</p>
-								<p>В сети нет центрального узла, хранящего информацию и проводящего платежи.  Вместо этого каждая транзакция любого пользователя криптографически связана со всеми другими транзакциями. И когда вы делаете перевод, другие пользователи делают свои переводы поверх ваших и количество других транзакций, связаных с вашей, нарастает как снежный ком (отсюда и название Byteball).</p>
-
+			<hr class="new-breaker-line">
+			<h3 class="section-heading section-heading--center m-b-45">Знакомьтесь с командой</h3>
+			<ul class="row list-reset">
+				<li class="col-lg-12 col-md-12 col-sm-12" style="margin: auto">
+					<div class="col-lg-3 col-md-6 col-sm-6 section-heading--center" style="margin: auto;">
+						<div class="box box-style-2">
+							<div class="box-image">
+								<img src="static/images/team/tony.png" alt="Tony Churyumoff" />
+								<div class="bg-overlay"></div>
+								<ul class="list-socials" style="margin: auto; left: 41%;">
+									<li class="list-item">
+										<a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/anton-churyumov-32112b7/" target="_blank"></a>
+									</li>
+									<li class="list-item">
+										<a class="fab fa-github" href="https://github.com/tonyofbyteball" target="_blank"></a>
+									</li>
+								</ul>
 							</div>
-							<div class="col-md-6">
-								<img src="img/DAG-transparent.png" alt="" style="margin-top: 60px;">
-								
+							<div class="box-body">
+								<h5 class="box-title noto-sans-symbols-bold">
+									Tony Churyumoff
+								</h5>
+								<p class="box-author-job source-sans-pro-regular">Основатель и ведущий разработчик</p>
 							</div>
 						</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- section end -->
-	<!-- section start -->
-	<!-- section start -->
-	<!-- ================ -->
-	<div class="default-bg">
-		<div id="core" class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Основные возможности</h2>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- section end -->
-	<!-- ================ -->
-	<div class="section clearfix">
-		<div class="container ">
-			<div class="row">
-				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
-					<h3 class="media-heading">Атомарный обмен</h3>
-					<p>Когда два участника производят обмен, обе транзакции выполняются одновременно, либо не выполняются вовсе. Больше нет необходимости доверять централизованным биржам и обменникам.</p>
-					<div class="space-res"></div>
-				</div>
-				<div class="col-sm-4">
-					<h3 class="media-heading">Регулируемые активы</h3>
-					<p>Организации и институты, осуществляющие регулируемые виды деятельности, могут выпускать активы, соответствующие требованиям KYC/AML. Каждая операция с такими активами одобряется (дополнительно подписывается) эмитентом и если операция не соответствует регулирующим правилам, эмитент может её заблокировать.</p>
-				</div>
-			</div>
-			<div class="space"></div>
-			<div class="row">
-				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
-					<h3 class="media-heading">Мульти-подпись</h3>
-					<p>Для безопасности вы можете создать правила, по которым перевод средств произойдёт только при наличии нескольких необходимых подписей, например, с вашего телефона и ноутбука. При совместном управлении фондами для проведения транзакции могут потребоваться подписи нескольких людей.</p>
-					<div class="space-res"></div>
-				</div>
+					</div>
+				</li>
 
-				<div class="col-sm-4">
-					<h3 class="media-heading">Встроенные оракулы</h3>
-					<p>При взаимодействии с участниками, которым вы не доверяете, вы можете заморозить средства в умном контракте, и они будут переведены вам или вашему контрагенту в зависимости от событий, зарегистрированных в базе данных доверенными поставщиками данных &mdash; оракулами.</p>
-				</div>
-			</div>
-			<div class="space"></div>
-			<div class="row">
-				<div class="col-sm-4 col-sm-offset-2 text-right core-res-left">
-					<h3 class="media-heading">Неизменяемое хранилище</h3>
-					<p>Информация, однажды записання в базу данных Byteball, более не может быть изменена, либо удалена.</p>
-					<div class="space-res"></div>
-				</div>
-				<div class="col-sm-4">
-					<h3 class="media-heading">Окончательность расчётов</h3>
-							<p>Когда установленные условия выполнены, транзакция становится завершённой и не может быть изменена даже могущественным атакующим. Никаких проблем с необходимым количеством подтверждений, никаких атак 51%.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- section end -->
-
-	<!-- section start -->
-	<!-- ================ -->
-	<div class="default-bg">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<h2  id="download"  class="text-center">Скачать Byteball кошелёк</h2>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- section end -->
-	<!-- section start -->
-
-	<div class="section clearfix ">
-		<div class="container">
-			<div class="row apps">
-
-				<div class="col-md-8 col-md-offset-2 text-center">
-
-					 <div>
-						 <img style="max-width: 33%;" src="img/inphone/wallet.png?v2" /> 
-					</div> 
-					<div class="space"></div>
-					<div class="app">
-						<div><a target="_blank" href="https://itunes.apple.com/us/app/byteball/id1147137332?ls=1&amp;mt=8"><img src="img/icon-applestore.svg"/></a></div>
-						<div><a target="_blank" href="https://itunes.apple.com/us/app/byteball/id1147137332?ls=1&amp;mt=8">iOS</a></div>
-					</div>
-					<div class="app">
-						<div><a target="_blank" href="https://play.google.com/store/apps/details?id=org.byteball.wallet"><img src="img/android_robot.svg"/></a></div>
-						<div><a target="_blank" href="https://play.google.com/store/apps/details?id=org.byteball.wallet">Android</a></div>
-					</div>
-					<div class="app">
-						<div><a href="/downloads/Byteball-win64.exe"><img src="img/icon-microsoft.svg"/></a></div>
-						<div><a href="/downloads/Byteball-win64.exe">Windows</a></div>
-					</div>
-					<div class="app">
-						<div><a href="/downloads/Byteball-osx64.dmg"><img src="img/icon-mac-os-x.svg"/></a></div>
-						<div><a href="/downloads/Byteball-osx64.dmg">Mac</a></div>
-					</div>
-					<div class="app">
-						<div><a href="/downloads/Byteball-linux64.zip"><img src="img/linux.png"/></a></div>
-						<div><a href="/downloads/Byteball-linux64.zip">Linux</a></div>
-					</div>
-					<div class="app">
-						<div><a target="_blank" href="https://github.com/byteball/byteball"><img src="img/fi-social-github.svg"/></a></div>
-						<div><a target="_blank" href="https://github.com/byteball/byteball">GitHub</a></div>
-					</div>
-					<div class="space"></div>
-					<ul class="list-unstyled text-left">
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">Покупайте и продавайте байты</a> общаясь с торговым ботом</li>
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> <a href="https://medium.com/byteball/making-p2p-great-again-episode-ii-bitcoin-exchange-d98adfbde2a5" target="_blank">P2P обменник байтов на биткоин</a>,
-						получайте сведения о сети биткоин в чате с ботом <a href="byteball:A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@byteball.org/bb#0000">BTC Oracle</a><br></li>
-								<li><i class="fa fa-caret-right pr-10 text-colored"></i> Просматривайте публичные транзакции через <a href="https://explorer.byteball.org" target="_blank">DAG explorer</a></li>
-								<!-- <li><i class="fa fa-caret-right pr-10 text-colored"></i> Dignissimos molestiae necessitatibus</li> -->
+				<li class="col-lg-3 col-md-6 col-sm-6 section-heading--center">
+					<div class="box box-style-2">
+						<div class="box-image">
+							<img src="static/images/team/mikhail.png" alt="Mikhail Pustovalov" />
+							<div class="bg-overlay"></div>
+							<ul class="list-socials" style="margin: auto; left: 45%;">
+								<li class="list-item">
+									<a class="fab fa-github" href="https://github.com/kakysha" target="_blank"></a>
+								</li>
 							</ul>
-					 <!-- <h4 style="font-weight: 500;">After installing, <a href="byteball:A2WMb6JEIrMhxVk+I0gIIW1vmM3ToKoLkNF8TqUV5UvX@byteball.org/bb#0000">chat with the Transition Bot</a>	to participate in the next distribution round</br> -->
-						<!-- <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">Buy or sell bytes</a> by chatting
-						with a trading bot</br> -->
-						<!-- <a href="https://medium.com/byteball/making-p2p-great-again-episode-ii-bitcoin-exchange-d98adfbde2a5" target="_blank">P2P exchange bytes vs bitcoins</a>,
-						get your merkle proof by chatting with <a href="byteball:A7C96Bhg4Gpb2Upw/Ky/YfGG8BKe5DjTiBuJFGAX50N1@byteball.org/bb#0000">BTC Oracle</a></br>
-						View public transactions on the <a href="https://explorer.byteball.org" target="_blank">DAG explorer</a></h4>  -->
+						</div>
+						<div class="box-body">
+							<h5 class="box-title noto-sans-symbols-bold">
+								Mikhail Pustovalov
+							</h5>
+							<p class="box-author-job source-sans-pro-regular">Разработчик</p>
+						</div>
+					</div>
+				</li>
+				<li class="col-lg-3 col-md-6 col-sm-6 section-heading--center">
+					<div class="box box-style-2">
+						<div class="box-image">
+							<img src="static/images/team/evgenii.png" alt="Evgeniy Stulnikov" />
+							<div class="bg-overlay"></div>
+							<ul class="list-socials" style="margin: auto; left: 45%;">
+								<li class="list-item">
+									<a class="fab fa-github" href="https://github.com/xJeneKx" target="_blank"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="box-body">
+							<h5 class="box-title noto-sans-symbols-bold">
+								Evgeniy Stulnikov
+							</h5>
+							<p class="box-author-job source-sans-pro-regular">Разработчик</p>
+						</div>
+					</div>
+				</li>
+				<li class="col-lg-3 col-md-6 col-sm-6 section-heading--center">
+					<div class="box box-style-2">
+						<div class="box-image">
+							<img src="static/images/team/artem.png" alt="Artem Nagorny" />
+							<div class="bg-overlay"></div>
+							<ul class="list-socials" style="margin: auto; left: 45%;">
+								<li class="list-item">
+									<a class="fab fa-github" href="https://github.com/temikng" target="_blank"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="box-body">
+							<h5 class="box-title noto-sans-symbols-bold">
+								Artem Nagorny
+							</h5>
+							<p class="box-author-job source-sans-pro-regular">Разработчик</p>
+						</div>
+					</div>
+				</li>
 
-				</div>
-			</div>
+				<li class="col-lg-3 col-md-6 col-sm-6 section-heading--center">
+					<div class="box box-style-2">
+						<div class="box-image">
+							<img src="static/images/team/steve.png" alt="Steve Safronoff" />
+							<div class="bg-overlay"></div>
+							<ul class="list-socials" style="margin: auto; left: 45%;">
+								<li class="list-item">
+									<a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/vyacheslav-safronov-5607a04b/" target="_blank"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="box-body">
+							<h5 class="box-title noto-sans-symbols-bold">
+								Steve Safronoff
+							</h5>
+							<p class="box-author-job source-sans-pro-regular">Партнер и коммерческий директор</p>
+						</div>
+					</div>
+				</li>
+				<li class="col-lg-3 col-md-6 col-sm-6 section-heading--center">
+					<div class="box box-style-2">
+						<div class="box-image">
+							<img src="static/images/team/valerius.png" alt="Valerius Coppens" />
+							<div class="bg-overlay"></div>
+							<ul class="list-socials" style="margin: auto; left: 45%;">
+								<li class="list-item">
+									<a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/valerius-coppens-29941a1" target="_blank"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="box-body">
+							<h5 class="box-title noto-sans-symbols-bold">
+								Valerius Coppens
+							</h5>
+							<p class="box-author-job source-sans-pro-regular">Глава отдела стратегии</p>
+						</div>
+					</div>
+				</li>
+				<li class="col-lg-3 col-md-6 col-sm-6 section-heading--center">
+					<div class="box box-style-2">
+						<div class="box-image">
+							<img src="static/images/team/elena.png" alt="Elena Tairova" />
+							<div class="bg-overlay"></div>
+							<ul class="list-socials" style="margin: auto; left: 45%;">
+								<li class="list-item">
+									<a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/elena-tairova/" target="_blank"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="box-body">
+							<h5 class="box-title noto-sans-symbols-bold">
+								Elena Tairova
+							</h5>
+							<p class="box-author-job source-sans-pro-regular">Глава отдела PR и коммуникаций</p>
+						</div>
+					</div>
+				</li>
+				<li class="col-lg-3 col-md-6 col-sm-6 section-heading--center">
+					<div class="box box-style-2">
+						<div class="box-image">
+							<img src="static/images/team/paul.png" alt="Paul Murray" />
+							<div class="bg-overlay"></div>
+							<ul class="list-socials" style="margin: auto; left: 45%;">
+								<li class="list-item">
+									<a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/pauljvmurray/" target="_blank"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="box-body">
+							<h5 class="box-title noto-sans-symbols-bold">
+								Paul Murray
+							</h5>
+							<p class="box-author-job source-sans-pro-regular">Ответственный за цифровой контент</p>
+						</div>
+					</div>
+				</li>
+
+				<li class="col-lg-3 col-md-6 col-sm-6 section-heading--center">
+					<div class="box box-style-2">
+						<div class="box-image">
+							<img src="static/images/team/luke.png" alt="Luke Angell" />
+							<div class="bg-overlay"></div>
+							<ul class="list-socials" style="margin: auto; left: 45%;">
+								<li class="list-item">
+									<a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/lukezangell/" target="_blank"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="box-body">
+							<h5 class="box-title noto-sans-symbols-bold">
+								Luke Angell
+							</h5>
+							<p class="box-author-job source-sans-pro-regular">Менеджер по ивентам и сотрудничеству</p>
+						</div>
+					</div>
+				</li>
+				<li class="col-lg-3 col-md-6 col-sm-6 section-heading--center">
+					<div class="box box-style-2">
+						<div class="box-image">
+							<img src="static/images/team/milan.png" alt="Milan Horvath" />
+							<div class="bg-overlay"></div>
+							<ul class="list-socials" style="margin: auto; left: 45%;">
+								<li class="list-item">
+									<a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/mil%C3%A1n-horv%C3%A1th-97480486/" target="_blank"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="box-body">
+							<h5 class="box-title noto-sans-symbols-bold">
+								Milan Horvath
+							</h5>
+							<p class="box-author-job source-sans-pro-regular">Комьюнити-менеджер</p>
+						</div>
+					</div>
+				</li>
+				<li class="col-lg-3 col-md-6 col-sm-6 section-heading--center">
+					<div class="box box-style-2">
+						<div class="box-image">
+							<img src="static/images/team/chen.png" alt="Chen Weijun" />
+							<div class="bg-overlay"></div>
+							<ul class="list-socials" style="margin: auto; left: 45%;">
+								<li class="list-item">
+									<a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/%E5%B7%8D%E5%B3%BB-%E9%99%88-4b702b145/" target="_blank"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="box-body">
+							<h5 class="box-title noto-sans-symbols-bold">
+								Chen Weijun
+							</h5>
+							<p class="box-author-job source-sans-pro-regular">Региональный представитель, Китай</p>
+						</div>
+					</div>
+				</li>
+				<li class="col-lg-3 col-md-6 col-sm-6 section-heading--center">
+					<div class="box box-style-2">
+						<div class="box-image">
+							<img src="static/images/team/casper.png" alt="Casper Niebe" />
+							<div class="bg-overlay"></div>
+							<ul class="list-socials" style="margin: auto; left: 45%;">
+								<li class="list-item">
+									<a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/cniebe/" target="_blank"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="box-body">
+							<h5 class="box-title noto-sans-symbols-bold">
+								Casper Niebe
+							</h5>
+							<p class="box-author-job source-sans-pro-regular">Ответственный за привлечение пользователей</p>
+						</div>
+					</div>
+				</li>
+				<li class="col-lg-3 col-md-6 col-sm-6 section-heading--center">
+					<div class="box box-style-2">
+						<div class="box-image">
+							<img src="static/images/team/david.png" alt="David Meister" />
+							<div class="bg-overlay"></div>
+							<ul class="list-socials" style="margin: auto; left: 45%;">
+								<li class="list-item">
+									<a class="fab fa-github" href="https://github.com/thedavidmeister" target="_blank"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="box-body">
+							<h5 class="box-title noto-sans-symbols-bold">
+								David Meister
+							</h5>
+							<p class="box-author-job source-sans-pro-regular">Участник</p>
+						</div>
+					</div>
+				</li>
+
+				<li class="col-lg-3 col-md-6 col-sm-6 section-heading--center">
+					<div class="box box-style-2">
+						<div class="box-image">
+							<img src="static/images/team/tarmo.png" alt="Tarmo" />
+							<div class="bg-overlay"></div>
+							<ul class="list-socials" style="margin: auto; left: 45%;">
+								<li class="list-item">
+									<a class="fab fa-github" href="https://github.com/tarmo888" target="_blank"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="box-body">
+							<h5 class="box-title noto-sans-symbols-bold">
+								Tarmo
+							</h5>
+							<p class="box-author-job source-sans-pro-regular">Участник</p>
+						</div>
+					</div>
+				</li>
+				<li class="col-lg-3 col-md-6 col-sm-6 section-heading--center">
+					<div class="box box-style-2">
+						<div class="box-image">
+							<img src="static/images/team/papabyte.jpg" alt="Papabyte" />
+							<div class="bg-overlay"></div>
+							<ul class="list-socials" style="margin: auto; left: 45%;">
+								<li class="list-item">
+									<a class="fab fa-github" href="https://github.com/Papabyte" target="_blank"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="box-body">
+							<h5 class="box-title noto-sans-symbols-bold">
+								Papabyte
+							</h5>
+							<p class="box-author-job source-sans-pro-regular">Участник</p>
+						</div>
+					</div>
+				</li>
+			</ul>
 		</div>
-	</div>
-	<!-- section end -->
-	<!-- section start -->
-	<!-- ================ -->
-	<div class="default-bg">
-		<div id="dist" class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Справедливое начальное распределение</h2>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- section end -->
-	<!-- section start -->
-	<!-- ================ -->
-	<div class="section clearfix ">
+	</section>
+	<!-- Team end-->
+
+	<!-- Pricing Tables start-->
+	<section class="section section-price-table" id="community">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
-					<div class="row margin-zero">
-						<p class="lead text-left">Бесплатное массовое распространение.</p>
-						<p>Для массового применения необходимо широкое распространение, поэтому 99% всех байтов и тёмных байтов распространяются бесплатно. На текущий момент есть несколько способов распространения:</p>
-						<ul>
-							<li><a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Кешбэк</a> при покупках в магазинах наших партнёров.  В большинстве случает кэшбэк составляет 10% от стоимости покупки.  <a href="https://medium.com/byteball/byteball-cashback-program-9c717b8d3173" target="_blank">Заполните форму заявки</a> или свяжитесь с нами если вы владеете магазином или платежной системой и хотите участвовать в кешбэк-программе.</li>
-							<li><a href="https://medium.com/byteball/distribution-to-verified-users-and-referrals-ed00b9b2a30e" target="_blank">Награда за подтверждение личности и рефералов </a>.</li>
-							<li><a href="https://medium.com/byteball/distribution-to-verified-emails-and-sending-cryptocurrency-to-email-episode-ii-cb955fe19d7e" target="_blank">Награды за верификацию и реферралов</a> для подтвердивших свой email.</li>
-							<li><a href="https://medium.com/byteball/attestation-of-accredited-investors-d4a8dabf683b" target="_blank">Verification rewards and referral rewards</a> to accredited investors who verify their accredited status.</li>
-							<li>Rewards to those who pass a <a href="https://medium.com/byteball/money-for-knowledge-distribution-via-telegram-quiz-bot-2dd400e22997">quiz in Telegram</a>.</li>
-							<li>Subsidies that offset part of the fees paid when <a href="https://medium.com/byteball/buying-bytes-with-visa-or-mastercard-d8ee2d1a2b07">buying Bytes with Visa or Mastercard</a>.</li>
-							<li>Rewards for donating one's computing resources to the <a href="https://medium.com/byteball/computing-for-good-again-3795336bdaed">World Community Grid</a>.</li>
-							<li>Rewards to those who participate in <a href="https://bitcointalk.org/index.php?topic=3162547.0">our signature campaign on Bitcointalk</a>.</li>
-							<li>Rewards to those who participate in <a href="https://bitcointalk.org/index.php?topic=3218859.0">our twitter campaign on Bitcointalk</a>.</li>
-							<li>Giveaways distributed e.g. through youtube channels of our supporters.  See e.g. <a href="https://www.youtube.com/watch?v=hycluITNDBM" target="_blank">https://www.youtube.com/watch?v=hycluITNDBM</a>.</li>
-							<li><a href="https://medium.com/byteball-help/using-mailchimp-to-mass-send-payments-as-textcoins-5c1db06342e3" target="_blank">Mass sending of textcoins</a> to subscribers of our partners.  See the <a href="https://docs.google.com/spreadsheets/d/1heT6TUSpTJgRW-FUM0LbcoVjXZRCb3PbXQQLmzvNRvM/edit#gid=323859176" target="_blank">results of the previous campaigns</a>.</li>
+			<hr class="new-breaker-line">
+			<div class="row justify-content-md-center">
+				<div class="col-md-12">
+					<h1 class="section-heading section-heading--center section-heading--dark m-b-40 m-t-20 distribution-title">Сообщество и поддержка</h1>
+					<div class="section-heading--center m-t-0 m-b-40">
+						<ul class="footer-menu-list h-list footer-social-new-ul">
+							<li class="list-item community-item">
+								<a href="https://slack.byteball.org/" target="_blank">
+									<img data-img="slack_img" src="static/images/slack_img.png"  style="max-width: 100%;">
+								</a>
+							</li>
+							<li class="list-item community-item">
+								<a href="https://medium.com/byteball" target="_blank">
+									<img data-img="medium_img" src="static/images/medium_img.png"  style="max-width: 100%;">
+								</a>
+							</li>
+							<li class="list-item community-item">
+								<a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank">
+									<img data-img="bitcoin_talk_img" src="static/images/bitcoin_talk_img.png" style="max-width: 100%;">
+								</a>
+							</li>
+							<li class="list-item community-item">
+								<a href="https://t.me/byteball" target="_blank">
+									<img data-img="telegram_img" src="static/images/telegram_img.png"  style="max-width: 100%;">
+								</a>
+							</li>
+							<li class="list-item community-item">
+								<a href="https://mp.weixin.qq.com/s/JB0_MlK6w--D6pO5zPHAQQ" target="_blank">
+									<img data-img="we_chat_img" src="static/images/we_chat_img.png"  style="max-width: 100%;">
+								</a>
+							</li>
+							<li class="list-item community-item">
+								<a href="https://www.reddit.com/r/ByteBall/" target="_blank">
+									<img data-img="reddit_img" src="static/images/reddit_img.png" style="max-width: 100%;">
+								</a>
+							</li>
+							<li class="list-item community-item">
+								<a href="https://twitter.com/ByteballOrg" target="_blank">
+									<img data-img="twitter_img" src="static/images/twitter_img.png" style="max-width: 100%;">
+								</a>
+							</li>
+							<li class="list-item community-item">
+								<a href="https://www.facebook.com/byteball.org" target="_blank">
+									<img data-img="facebook_img" src="static/images/facebook_img.png" style="max-width: 100%;">
+								</a>
+							</li>
+							<li class="list-item community-item">
+								<a href="https://www.youtube.com/channel/UCYAjbxT5zHfeTtXe_hr9Gxg/" target="_blank">
+									<img data-img="youtube_img" src="static/images/youtube_img.png" style="max-width: 100%;">
+								</a>
+							</li>
 						</ul>
-						
-						<p>Раньше мы распространяли байты держателям Bitcoin и байтов.  Пользователи связывали свои адреса Bitcoin с адресами Byteball  и получали байты пропорционально балансу кошельков Bitcoin и Byteball.  Проводилось несколько раундов распределения.  Первый раунд распределения состоялся 25 декабря 2016г. при запуске сети, было привязано более 70 000 BTC и распределено 10% всех байтов и чёрных байтов.  В последующих раундах распределено суммарно 64,5%:</p>
-						<ul>
-							<li>2-й раунд 11 февраля 2017: 121 763 BTC привязано, 1.8% байтов распределено;</li>
-							<li>3-й раунд 12 марта 2017: 129 139 BTC привязано, 2.0% байтов распределено;</li>
-							<li>4-й раунд 11 апреля2017: 145 441 BTC привязано, 2.3% байтов распределено;</li>
-							<li>5-й раунд 10 мая 2017: 207 672 BTC привязано, 2.9% байтов распределено;</li>
-							<li>6-й раунд 9 июня 2017: 453 621 BTC привязано, 6.6% байтов распределено;</li>
-							<li>7-й раунд 9 июля 2017: 949 004 BTC привязано, 11.0% байтов распределено.</li>
-							<li>8-й раунд 7 августа 2017: 1 395 899 BTC привязано, 16% байтов распределено.</li>
-							<li>9-й раунд 6 сентября 2017: 1 306 573 BTC привязано, 5.7% байтов распределено.</li>
-							<li>10-й раунд 4 ноября 2017: 1 093 155 BTC привязано, 6.1% байтов распределено.</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- section end -->
+						<div class="clearfloat"></div>
 
-	<!-- section start -->
-	<!-- ================ -->
-	<div class="default-bg">
-		<div id="tech" class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">Абсолютно новая технология</h2>
+					</div>
+
+					<div class="com-sup-block slack_img">
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Наше наиболее активное сообщество находится на Slack, так что пожалуйста, присоединяйтесь.</h2>
+					</div>
+					<div class="com-sup-block medium_img" style="display:none;">
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Мы публикуем новости на Medium.</h2>
+					</div>
+					<div class="com-sup-block bitcoin_talk_img" style="display:none;">
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Длинная и активная лента на Bitcointalk с более чем 1000 постами.</h2>
+					</div>
+					<div class="com-sup-block telegram_img" style="display:none;">
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Наш Telegram канал тоже популярен.</h2>
+					</div>
+					<div class="com-sup-block we_chat_img" style="display:none;">
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Наше китайское сообщество можно найти на WeChat.</h2>
+					</div>
+					<div class="com-sup-block reddit_img" style="display:none;">
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">У нас также есть активный sub-reddit.</h2>
+					</div>
+					<div class="com-sup-block twitter_img" style="display:none;">
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Конечно же мы есть в Twitter'e.</h2>
+					</div>
+					<div class="com-sup-block facebook_img" style="display:none;">
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Конечно, мы есть и на Facebook'е тоже.</h2>
+					</div>
+					<div class="com-sup-block youtube_img" style="display:none;">
+						<h2 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete com-sup-desc">Наш Youtube канал</h2>
+					</div>
+
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- section end -->
-	
-	<!-- section start -->
-	<!-- ================ -->
-	<div class="section clearfix ">
+	</section>
+
+	<!-- Pricing Tables start-->
+	<section class="section section-price-table" id="learn_more">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
-					<div class="row margin-zero">
-						<p class="lead text-left">Неограниченная масштабируемость, быстрое подтверждение, нет майнинга, нет блоков, минимальные комиссии.</p>
-						<p>Данные Byteball упорядочены и хранятся с использованием <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">направленного ацикличного графа</a>							(DAG) вместо блокчейна. Это позволяет пользователям подтверждать транзакции друг друга посредством включения в свои транзакции ссылок на предшествующие транзакции других пользователей и снимает лимиты масштабируемости, присущие блокчейнам, такие как проблема размера блоков.</p>
-						<p>Архитектура сети без блоков значительно проще, потому что в ней нет блоков, только транзакции.  Пользователи просто добавляют в DAG свои транзакции, им не надо ждать пока майнеры добудут новый блок и не нужно гадать, включат ли майнеры твою транзацию в очередной блок.</p>
-						<p>Алгоритм консенсуса, защищающий от двойных трат, базируется на установлении строгого порядка в DAG. Основная цепь задаёт линейно упорядоченное множество между транзакциями: транзакции, которые включены ранее в основную цель(прямо или косвенно), считаются более ранними в упорядоченном множестве. В случае двойной траты действительной считается та транзакция, которая в упорядоченном множестве встречается раньше, остальные считаются недействительными.
-Основная цепь определяется детерминированным образом, исходя из позиций транзакций на графе. Основная цепь тяготеет к транзакциям, подписанным общеизвестными пользователями &mdash; ("свидетелями"). Список свидетелей определяется самими пользователями, поскольку они включают его в каждую свою транзакцию. Затем основная цепь прокладывается в графе следующим образом:
-1. Списки свидетелей соседних в основной цепи транзакций либо идентичны, либо различаются только одной мутацией,
-2. Основная цепь проходит через транзакции, подписанные наибольшим числом свидетелей (по сравнению с альтернативными цепями). Более детальное описание смотрите в "<a href="Byteball.pdf">Белой книге</a>".</p>
+			<hr class="new-breaker-line">
+			<div class="row justify-content-md-center">
+				<div class="col-md-12">
+					<h1 class="section-heading section-heading--center section-heading--dark m-b-40 m-t-20 distribution-title">Узнать больше</h1>
 
+					<div class="section-heading--center m-t-80 m-b-40">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 left-float m-b-40 community-item">
+							<a href="https://medium.com/byteball" target="_blank">
+								<img data-img="medium2_img" src="static/images/medium2_img.png"  style="max-width: 100%;">
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 left-float m-b-40 community-item">
+							<a href="https://byteball.org/Byteball.pdf" target="_blank">
+								<img data-img="whitepaper_img" src="static/images/whitepaper_img.png" style="max-width: 100%;">
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 left-float m-b-40 community-item">
+							<a href="https://wiki.byteball.org/" target="_blank">
+								<img data-img="wiki_img" src="static/images/wiki_img.png" style="max-width: 100%;">
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 left-float m-b-40 community-item">
+							<a href="https://github.com/byteball" target="_blank">
+								<img data-img="github_img" src="static/images/github_img.png" style="max-width: 100%;">
+							</a>
+						</div>
+						<div class="clearfix"></div>
 					</div>
+
+					<div class="learn-more-block medium2_img">
+						<h3 class="section-heading section-heading--center section-heading--dark m-b-40 noto-sans-display-bold medium-info-blocks">Введение в Byteball</h3>
+						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">4 статьи ниже являются отличным введением в Byteball. В статьях используется графика, видео, и они написаны на легком для понимания языке. Большинству людей, которые являются новичками в Byteball, мы советуем начать с них.</h3>
+
+						<div class="section-btn-group m-b-30 wow zoomIn section-heading--center m-t-30 medium-info-blocks" data-wow-delay="0.6s">
+							<a class="au-btn au-btn-pill au-btn-icon new-part-btn m-b-30 download-btn" href="https://medium.com/@Suirelav/introduction-to-byteball-part-1-why-ab3ff6a7a8f2" target="_blank">
+								<span class="btn-text">ЧАСТЬ ПЕРВАЯ</span>
+							</a>
+							<a class="au-btn au-btn-pill au-btn-icon new-part-btn m-b-30 download-btn" href="https://medium.com/@Suirelav/introduction-to-byteball-part-2-the-dag-ce84ca4c4e01" target="_blank">
+								<span class="btn-text">ЧАСТЬ ВТОРАЯ</span>
+							</a>
+							<a class="au-btn au-btn-pill au-btn-icon new-part-btn m-b-30 download-btn" href="https://medium.com/@Suirelav/introduction-to-byteball-part-3-smart-contracts-81efa010a0b3" target="_blank">
+								<span class="btn-text">ЧАСТЬ ТРЕТЬЯ</span>
+							</a>
+							<a class="au-btn au-btn-pill au-btn-icon new-part-btn m-b-30 download-btn" href="https://medium.com/@Suirelav/introduction-to-byteball-part-4-adoption-ff37d87615c9" target="_blank">
+								<span class="btn-text">ЧАСТЬ ЧЕТВЕРТАЯ</span>
+							</a>
+						</div>
+					</div>
+					<div class="learn-more-block whitepaper_img" style="display:none;">
+						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">Белый документ Byteball (whitepaper) очень подробный и довольно технический. Если вы не являетесь разработчиком или не имеете технического склада ума, вам возможно будет сложно его понять. В таком случае мы рекомендуем ознакомиться с 4-мя вводными статьями, приведенными ниже. Однако, если у вас есть техническое мышление, обязательно прочитайте whitepaper! Он был написан Tony Churyumoff, основателем Byteball, и является единственным наиболее полным источником информации по Byteball, который существует.</h3>
+					</div>
+					<div class="learn-more-block wiki_img" style="display:none;">
+						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">Wiki - отличный ресурс со статьями по широкому спектру возможностей платформы Byteball. Однако, информации здесь настолько много, что можно потеряться! Если вы совсем новичек в Byteball, советует прочитать 4 статьи, приведенные ниже. Если вы прочитали эти 4 статьи и хотите узнать больше (а вы захотите), затем исследуйте Wiki.</h3>
+					</div>
+					<div class="learn-more-block github_img" style="display:none;">
+						<h3 class="section-heading section-heading--center section-heading--dark noto-sans-display-regular after-before-delete learn-more-desc">Byteball находится в постоянном развитии, смотрите наш код на Github.</h3>
+					</div>
+
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- section end -->
+	</section>
+	<!-- Pricing Tables end-->
 
-	<!-- section start -->
-	<!-- ================ -->
-	<div class="section clearfix ">
+	<!-- Pricing Tables start-->
+	<section class="section section-partner bg-white p-t-10 p-b-100" id="exchanges">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
-					<div class="row margin-zero">
-						<h2 class="text-left">Тестовая сеть</h2>
-						<p>Для тестирования доступен <a href="testnet.html">кошелёк для тестовой сети</a>. Если вы разработчик, с ним вы можете опробовать работу с сетью без затрат.</p>
+			<hr class="new-breaker-line">
 
-					</div>
+			<h3 class="section-heading section-heading--center m-b-45 distribution-title">Обмен</h3>
+			<div class="row justify-content-center">
+				<div class="col-md-9">
+					<p class="text-center section-content-text m-b-50 noto-sans-display-regular after-before-delete" style="color: #666666; font-weight: normal; max-width: 900px;margin-left: auto; margin-right: auto; font-size: 22px;line-height: 1.4;">
+						Вы можете купить или продать байты, не покидая кошелька в <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">чате с торговым ботом</a>. Вы также можете торговать на биржах, перечисленных ниже.
+						<br><br>
+						Чтобы купить или продать блэкбайты, смотрите или создавайте заявки на канале <a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a> в нашем <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>, и торгуйте P2P используя <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">платежи с условиями</a>.</p>
 				</div>
 			</div>
+			<ul class="list-reset partner-list p-b-30">
+				<li class="wow zoomIn col-lg-3 col-md-4 col-sm-6 col-xs-6 m-b-15 left-float" data-wow-duration="0.5s" data-wow-delay="0.2s">
+					<div class="iconbox iconbox-style-4">
+						<a class="iconbox-image" href="https://bittrex.com/Market/Index?MarketName=BTC-GBYTE" target="_blank">
+							<img src="static/images/bittrex_img.png" alt="" />
+						</a>
+					</div>
+				</li>
+				<li class="wow zoomIn col-lg-3 col-md-4 col-sm-6 col-xs-6 m-b-15 left-float" data-wow-duration="0.5s" data-wow-delay="0.8s">
+					<div class="iconbox iconbox-style-4">
+						<a class="iconbox-image" href="https://upbit.com/exchange?code=CRIX.UPBIT.BTC-GBYTE" target="_blank">
+							<img src="static/images/upbit_img.png"/>
+						</a>
+					</div>
+				</li>
+				<li class="wow zoomIn col-lg-3 col-md-4 col-sm-6 col-xs-6 m-b-15 left-float" data-wow-duration="0.5s" data-wow-delay="0.4s">
+					<div class="iconbox iconbox-style-4">
+						<a class="iconbox-image" href="https://cryptox.pl/" target="_blank">
+							<img src="static/images/cryptox_img.png"/>
+						</a>
+					</div>
+				</li>
+				<li class="wow zoomIn col-lg-3 col-md-4 col-sm-6 col-xs-6 m-b-15 left-float" data-wow-duration="0.5s" data-wow-delay="0.6s">
+					<div class="iconbox iconbox-style-4">
+						<a class="iconbox-image" href="https://www.cryptopia.co.nz/Exchange/?market=GBYTE_BTC" target="_blank">
+							<img src="static/images/cryptopia_img.png"/>
+						</a>
+					</div>
+				</li>
+				<li class="wow zoomIn col-lg-3 col-md-4 col-sm-6 col-xs-6 m-b-15 left-float" data-wow-duration="0.5s" data-wow-delay="0.2s">
+					<div class="iconbox iconbox-style-4">
+						<a class="iconbox-image" href="https://bisq.network" target="_blank">
+							<img src="static/images/bisq_img.png"/>
+						</a>
+					</div>
+				</li>
+				<li class="wow zoomIn col-lg-3 col-md-4 col-sm-6 col-xs-6 m-b-15 left-float" data-wow-duration="0.5s" data-wow-delay="0.4s">
+					<div class="iconbox iconbox-style-4">
+						<a class="iconbox-image" href="https://www.kaiserex.com" target="_blank">
+							<img src="static/images/kaiserex_img.png"/>
+						</a>
+					</div>
+				</li>
+				<li class="wow zoomIn col-lg-3 col-md-4 col-sm-6 col-xs-6 m-b-15 left-float" data-wow-duration="0.5s" data-wow-delay="0.6s">
+					<div class="iconbox iconbox-style-4">
+						<a class="iconbox-image" href="https://kkex.com" target="_blank">
+							<img src="static/images/kkex_img.png"/>
+						</a>
+					</div>
+				</li>
+				<li class="wow zoomIn col-lg-3 col-md-4 col-sm-6 col-xs-6 m-b-15 left-float" data-wow-duration="0.5s" data-wow-delay="0.8s">
+					<div class="iconbox iconbox-style-4">
+						<a class="iconbox-image" href="https://indacoin.com/en_GB/change/buy-Bytes-with-cardusd" target="_blank">
+							<img src="static/images/indacoin_img.png"/>
+						</a>
+					</div>
+				</li>
+			</ul>
 		</div>
-	</div>
-	<!-- section end -->
-	<!-- section start -->
-	<!-- ================ -->
-	<div class="section clearfix ">
+	</section>
+	<!-- Pricing Tables end-->
+
+	<!-- Subcribe start-->
+	<section class="section section-cta-1 pos-relative bg-parallax p-t-60 p-b-30" style="background-color: black !important;">
+				<div class="container">
+			<script type="text/javascript" src="https://static.mailerlite.com/data/webforms/884470/p2o8d6.js?v5"></script>
+		</div>
+	</section>
+	<!-- Subcribe end-->
+
+	<!-- Footer start-->
+	<footer class="section section-footer p-t-80 p-b-60" style="background-color: white;">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
-					<div class="row margin-zero">
-						<h2 class="text-left">Сообщество и поддержка</h2>
-						<p>Заходите на канал в <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>! Там несколько каналов с живым обсуждением разработки, торговли, аукционов и т. д. Если у вас возникли проблемы или есть вопросы по использованию Byteball, вам помогут на канале
-							#helpdesk в нашем <a href="https://slack.byteball.org" target="_blank" title="Slack">slack.byteball.org</a>.</p>
+			<a href="https://s3.amazonaws.com/lkbr/18/5/Byteball-Media-Kit.pdf" target="_blank">
+				<h3 class="section-heading section-heading--center m-b-75 noto-sans-display-bold after-before-delete" style="color: black; border: 3px solid black;width: 100%;margin-left: auto;margin-right: auto;padding-top: 20px;padding-bottom: 20px;max-width: 280px;">Медиа ссылки</h3>
+			</a>
 
-					</div>
-				</div>
-			</div>
+			<ul class="footer-menu-list h-list footer-social-new-ul m-b-50">
+				<li class="list-item">
+					<a href="https://slack.byteball.org/" target="_blank">
+						<img src="static/images/slack_img.png">
+					</a>
+				</li>
+				<li class="list-item">
+					<a href="https://mp.weixin.qq.com/s/JB0_MlK6w--D6pO5zPHAQQ" target="_blank">
+						<img src="static/images/we_chat_img.png">
+					</a>
+				</li>
+				<li class="list-item">
+					<a href="https://t.me/byteball" target="_blank">
+						<img src="static/images/telegram_img.png">
+					</a>
+				</li>
+				<li class="list-item">
+					<a href="https://www.reddit.com/r/ByteBall/" target="_blank">
+						<img src="static/images/reddit_img.png">
+					</a>
+				</li>
+				<li class="list-item">
+					<a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank">
+						<img src="static/images/bitcoin_talk_img.png">
+					</a>
+				</li>
+				<li class="list-item">
+					<a href="https://twitter.com/ByteballOrg" target="_blank">
+						<img src="static/images/twitter_img.png">
+					</a>
+				</li>
+				<li class="list-item">
+					<a href="https://www.facebook.com/byteball.org" target="_blank">
+						<img src="static/images/facebook_img.png">
+					</a>
+				</li>
+				<li class="list-item">
+					<a href="https://www.youtube.com/channel/UCYAjbxT5zHfeTtXe_hr9Gxg/" target="_blank">
+						<img src="static/images/youtube_img.png">
+					</a>
+				</li>
+				<li class="list-item">
+					<a href="https://github.com/byteball" target="_blank">
+						<img src="static/images/github_footer_img.png">
+					</a>
+				</li>
+			</ul>
+
+			<h3 class="section-heading section-heading--center m-t-50 noto-sans-display-bold after-before-delete" style="color: black; cursor: pointer;">
+				<script>document.write('<a style="color: black" href="mailto:byteball'); document.write('@'); document.write('byteball.org">byteball'); document.write('@'); document.write('byteball.org</a>');</script>
+				&nbsp;
+				<a style="color: black" href="terms.html">Условия</a>
+				&nbsp;
+				<a style="color: black" href="privacy.html">Конфиденциальность</a>
+			</h3>
 		</div>
-	</div>
-	<!-- section end -->
-	<!-- section start -->
-	<!-- ================ -->
-	<div class="section clearfix ">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
-					<div class="row margin-zero">
-						<h2 class="text-left">Биржи и обменники</h2>
-						<p>Вы можете купить или продать байты прямо в кошельке в <a href="byteball:Ar2ukVqx309sX+LoC9RVOpfATgXskt+Ser5jVr3Q2FOo@byteball.org/bb#0000">чате с торговым ботом</a>.
-							Вы также можете торговать на биржах, перечисленных ниже.</p>
-						<p>Чтобы купить или продать чёрные байты, смотрите заявки на канале <a href="https://byteball.slack.com/messages/C3KFYK5H7/" target="_blank">#trading_blackbyte</a>							в нашем <a href="https://slack.byteball.org" target="_blank" title="Slack">Slack</a>, и торгуйте peer-to-peer
-							с использованием <a href="https://medium.com/byteball/making-p2p-great-again-fe9e20546a4a" target="_blank">условных платежей.</a></p>
-
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<a class='exchange-icon' href="https://bittrex.com/Market/Index?MarketName=BTC-GBYTE" target="_blank"><img src="img/exchanges/bittrex-logo-white-no-tagline.png" alt="Bittrex"></a>
-					<a class='exchange-icon' style='margin-bottom: 6px; background-color: #342533' href="https://cryptox.pl" target="_blank"><img src="https://cryptox.pl/images/logo.png" alt="Cryptox"></a>
-					<a class='exchange-icon' href="https://www.cryptopia.co.nz/Exchange/?market=GBYTE_BTC" target="_blank"><img src="img/exchanges/Cryptopia-Light2x.png" alt="Cryptopia"></a>
-					<a class='exchange-icon' href="https://changelly.com/exchange/btc/gbyte" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALwAAAA1CAMAAADMKHGJAAADAFBMVEUQ0Hj///8Q0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HgQ0HisG82fAAAA/3RSTlMAAAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmJygpKissLS4vMDEyMzQ1Njc4OTo7PD0+P0BBQkNERUZHSElKS0xNTk9QUVJTVFVWV1hZWltcXV5fYGFiY2RlZmdoaWprbG1ub3BxcnN0dXZ3eHl6e3x9fn+AgYKDhIWGh4iJiouMjo+QkZKTlJWWl5iZmpucnZ6foKGio6SlpqeoqaqrrK2ur7CxsrO0tba3uLm6u7y9vr/AwcLDxMXGx8jJysvMzc7P0NHS09TV1tfY2drb3N3e3+Dh4uPk5ebn6Onq6+zt7u/w8fLz9PX29/j5+vv8/f7Mjg0aAAAJ3UlEQVR4AdXYBXBTCaCF4T83CYG0KRSnuFPc3eUttu6+uPex7o7TdffF3a0ruLtbcXeoe3Le3mAN2yGdzZuhfCO1M/f+jSdYchhuL2/7iC+i9p6Mk9wxJ+6meKPpqK2e44t+eK/XCw8++Hi3K6vunnjnoOgjn3YqfGNYXEPvmvgnD49rCNzsfVat7pL4grP/rgpgdIz8cVBe7/DnGPvdEV/nQIQBkHfBtvEHdaLcPzvr6XGWuyE+5MVzrfCaNs6wWL9Q1D+7Juqaw+PLjfx92prDnvTeeNXW/2CxOE6l2SyWr8/ksnALa5N350WnSifG1eC6Cr27BRGwepMO7v0qH7e6XXyN8/N+/+K1Ny435aq+6mbuZ1yxWPJc+tB3C64Xj+jKzFFvfb5HSqqFV8FxHmkWgerpnv279A1AxbFX3Mtc/uPDjvUGKp+7j2se1kabxWLs/MJi6Z1czDfe6HFGS++zeb/9WPoaU8UT+nKmPMEEprX7fCjRmg10Sdg0ROrqNz5k6/uAc+cIrnPu1V/31P5hR4jFHj3aZ0upv3WwC9fY4/UbQJFj+pwXpZIExL5Pg2CXIqFe0qVi5aWO/uKN2Rcn7U9PWHs8NzcUHZuk2C9CLJYBFwv6xLe9pO9dXGdP1mCAhdpk5zMlWgnIE7rkxBqv+wjar2doL4X5i4+4OH9Y93c9eh9TntpDnwawhlr/GRW++KzPtltGyvPc9LRiCgCPK70W7NcMAvO3Poe6SnMxRCtgtDbhLz6PAXBI7cExYFNGnOeBm/s5M322/RXbnJtKnddzgP2gvoRWUhcCUsqjhvChFlMyWW2wHtOL/uKvmaDOxuN7v7s//DeVurF/Y09I5m0PXa7NNWVm74o8pjcA+iihMERpi0FAXtJJA3arB59pM7RVaqFsxg/VkrUzKgFbYo3r+8dOVci8vced1ITrKkdLuzoDWKMVCU2l9gRmuX6HFkrJFxyvXjBBE8hm/P0xe5pTrgPGuV+u758/Fp55WylGj3KTrVpFvB5SWnGs6zSRwLgy9DxM0m90U2IwYWlq6De+aj2AfsmPGrQ73pwRm1145Rqxrnjmbe5tGk1W/tIUeFExxQhMJ6kKpTNUh4WaASMVhb/47keqAUTvhWeP1SbiUBG86l9cldtnG6lduclCZakt5RLVjQANUazBp1pCUKqeo1CCmviLf+xiBQBr2sKgr9eG8ejZiphKfncuIdRnW8+txmTlcx0xbMs0l0BFabOZ3IYOUpj3gvcTXzbheUyltWDPh7nonDjAAbYOUw8PuvCZ73ZF1rdpnFc0hHd1uhCBOqnJjNBy+EDHCEtQQ3/x407YMN2ri58+1aZdspR+6nzS8mccT6uxz7aTPFXIylNSpbbujFYEyiUNDY1RC5im6fygifiJL5Q+Eq/nT512S/FPNBkwZFaahsOC44bPdrEWkqUFWlfmgl4mYDWk7pGaDezVyPCM5DL+4vupAdfZwuq4rj30DSU45UefbXnpSbISmq5h2/UrgesoDUxLDwdHhiLmaAT+4hcfN/iXHqpKJz3js31NGS6y8px0WH87+O/sVWsFXzvSQQ0Hiko/6UiQv/gS6UP4F+v2KSERh6fl8tlGaQtZmiZpc16wNh/wTAGusta4v3MxrilbD1NYnSJc43r22wkfF+eqZlMTpITHgL6SDjmvPva61QlT/p83VwAoFtH7X/Ej4gqRWe6rl8Afp76tCz7bE5pMVmxXpJ2F4cGDkk6HAIR8cOZYrDyTC2D6Tgl28r55IE7uZzA53omZ/FGS1mJyTtTbucNP6jTwouRpB1BHun62X659s0ajbo0vGd+HTIy3VgN5TmzuGQy3xHv0FVlpJG0rjONH7bivj1QLaHz8cCNyvSF1uXZbUJmOp/Y1znNWvwOEbUx6AMZqEaZp3sOO1JWr8aO5Fn+qEKbWSqsIUE8KvyU+aO3XZFJw+kwX4AjP4maG9BtZcP2ljPzkW67JeXhAcU5omnSmJBgTpTCgeKykz9zrQ2GvXgWKHNRDkP9MWiOArooNBWOVXgcipZKYqktDMYUcvHbW2dpp8RW2Zp6VG8Lei+6GD5/4C1rFv5XZIm2m8Db9ZIMofQauk95LfIi0D2CWdkvamg8qehILgLFUP0HoyuT7Mc3TGHCNz3gL6OyWGgLYFkqzMY2XWgF0kIZYfO2SLvz5Sf+H27TpNODTrYded3Gb+Cil5eVWbc/Jox8K79RvBrRWbEF4SYeAZyTNA3rrj++lU8WASfoOeFDuklTbf6wxXjF61fnimbWNgMYJMVI3wPhe6bpoBXpIcVag4FGpjcWXvckbYzdcSJLn0v5pbzYy4HbxA6S38WX/2B33vEfv79Q0GxgbNQqI0l/QLOXkcW2Bxol7CxxRmlla1aN6wARtsr+S/Huoo/cvxQFp5ZlVnQ2gRezO6tIvYHyhT7+WOkKHNGkX4FgspeSx/Hc4jyqlKZnV3aQNlepKcVroAOpJXYEVOmGvceFAxTlShwdj1hRtKUUAfCQZwF86tn1be/hccbnAeVnpLTB1S14QwkrFlwienjaI2m5tCn44afkUxdgImp9yUkstAYBGSYp/zuC6Mr+4k9+2c5+kqKBrDxHHf83Hx9LGiz+GUmXJxfNLnrMyW4sNgCHSq6VD66yUpllhgDSTPC+e3iyNd0LVufGDDfO+riNHV9YFXs7Q5YMDbX2lb7rtWx4erffMiBLt/ms8DY5Jm3oUAwh9dFaGZ3I5oJ/0jQOvHquOfGrF2qLfE8W4oVrislKYwlZInpOzB2+QVo1afFZ6sd/x+XUZfEXn522/8GkYpgoDB9bEq3SbKoDtw8VRo+tTRGpvsVQdd+GV/xyP892zkk5sWXXco4RfqmGq9HYjsimolAOwdnh75Fsd6kmJUU0Acrd67smGdm7rYemxEds2RYQG9KGsveOIRbuPRv/5+f0uAvKx4puTTUbTxYod361EILf5/0fNV0t/kj3O/z24PkZfYTHd+fiSky8NPKwPyQ6j15nZdYPSdX/OiM/9dsLPhQpLHcmG8ivPdoaOSg/JEfHtD25vCvcrJQj/Ol9eURyI1EpyQLzz+/ShuYBP9Rf+9XNPcQBs0ds5IL7k9kttMe3TYPzqqQU2gFJShTsfX/7kxZqYwpVRDH+apx0MwfSiVnHH44N2e9rhFal5+OM4oK54bdEzdz5+mH7Hy3lerbJxozmAV2sdtN/x+Hw3Pnp8VUvxa7F+xWQs1aPc8fjHpFyYSsal1sSv8/oaUzdN4c7HvyUFAzhWqA/+ndZuA2iYtD4kB8Q/Lz1ptk/3vEw2jJXehgdi5+QjB8TnO6HYQdUe3hHdjuwo/Ke0f+/qRyAnxFN6/BVdnvuEnWyqcG+7QpgCjv8/uEXVwAI2pKcAAAAASUVORK5CYII=" alt="Changelly"></a>
-					<a class='exchange-icon' style='margin-bottom: -11px;' href="https://bisq.network" target="_blank" title="Bisq (formerly Bitsquare)"><img src="img/exchanges/bisq_logo_820_460.png" alt="Bisq"></a>
-					<a class='exchange-icon' style='margin-bottom: 12px;' href="https://www.kaiserex.com" target="_blank"><img src="img/exchanges/kaiserex-logo.png" alt="Kaiserex"></a>
-					<!--a class='exchange-icon' href="https://cryptochangex.com" target="_blank"><img src="img/exchanges/cryptochangex.png" alt="Cryptochangex"></a-->
-					<a class='exchange-icon' style='margin-bottom: 11px;' href="https://kkex.com" target="_blank"><img src="img/exchanges/KKEX_logo.png" alt="KKEX"></a>
-					<a class='exchange-icon' style='margin-bottom: 11px; background-color: #35a6c0' href="https://indacoin.com/en_GB/change/buy-Bytes-with-cardusd" target="_blank" title="Indacoin: buy Bytes with Visa or Mastercard"><img src="img/exchanges/indacoin.svg" alt="Indacoin: buy Bytes with Visa or Mastercard"></a>
-				</div>
-			</div>
-		</div>
-		<script>
-            function ml_webform_success_8574594() {
-                var $ = ml_jQuery || jQuery;
-
-                $('.ml-subscribe-form-8574594 .ml-block-success').show();
-                $('.ml-subscribe-form-8574594 .ml-block-form').hide();
-            };
-        </script>
-		<div class="gap">				
-			<div id="mc_embed_signup">
-				 <form class="ml-block-form" action="https://landing.mailerlite.com/webforms/submit/q4s2a8" data-id="854744" data-code="q4s2a8" method="POST" target="_blank">
-					<div id="mc_embed_signup_scroll">
-						<label for="mce-EMAIL">Subscribe for the latest Byteball updates: </label>
-						<input  type="email" name="fields[email]" class="email" placeholder="Email address" value="" required>
-						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-						<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8375ddcbb541577ef0292094a_10f3306c05" tabindex="-1" value=""></div>
-						 <input type="hidden" name="ml-submit" value="1" />
-						<button type="submit" class="primary bbt">
-                        Subscribe
-                    </button>
-                    <button disabled="disabled" style="display: none;" type="button" class="loading ">
-                        <img src="https://static.mailerlite.com/images/rolling@2x.gif" width="20" height="20" style="width: 20px; height: 20px;">
-                    </button>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
-	<!-- sectionimg/exchanges/bitsqare.png end -->
-	<!-- footer start -->
-	<!-- Site footer -->
-	<footer class="footer text-center">
-		<!--p>&copy; 2016 Byteball</p-->
-
-		&nbsp;
-		<a href="terms.html">Terms</a>
-		&nbsp;
-		<a href="privacy.html">Privacy</a>
-		&nbsp;
-		<a href="https://docs.google.com/document/d/1LXYchOifJ8eRJ8ZKRNr1K-jkiFYWLiHS1yaUpRMf8JA/edit?usp=sharing" target="_blank">Media Kit</a>
-
-		&nbsp;
-		<script>
-			document.write('<a href="mailto:byteball'); document.write('@'); document.write('byteball.org">byteball'); document.write('@'); document.write('byteball.org</a>');
-		</script>
-		&nbsp;
-		<a href="https://twitter.com/ByteballOrg" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a> &nbsp;
-		<a href="https://www.facebook.com/byteball.org" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a> &nbsp;
-		<a href="https://bitcointalk.org/index.php?topic=1608859.0" target="_blank" title="Ветка BitcoinTalk"><i class="fa fa-bitcoin"></i></a>		&nbsp;
-		<a href="https://medium.com/byteball" target="_blank" title="Medium"><i class="fa fa-medium"></i></a> &nbsp;
-		<a href="https://slack.byteball.org" target="_blank" title="Slack"><i class="fa fa-slack"></i></a> &nbsp;
-		<a href="https://www.reddit.com/r/ByteBall/" target="_blank" title="Reddit"><i class="fa fa-reddit-alien"></i></a> &nbsp;
-		<a href="https://t.me/byteball" target="_blank" title="Telegram"><i class="fa fa-telegram"></i></a> &nbsp;
-		<a href="https://mp.weixin.qq.com/s/JB0_MlK6w--D6pO5zPHAQQ" target="_blank" title="WeChat"><i class="fa fa-weixin"></i></a>
 	</footer>
+	<!-- Footer end-->
 
-	
+	<div id="up-to-top">
+		<i class="fas fa-angle-up"></i>
+	</div>
 
-	
 	<div id="jumioModal" class="modal fade" role="dialog">
 		<div class="modal-dialog">
 
 			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
 					<h4 class="modal-title">Сканирование завершено</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
 				</div>
 				<div class="modal-body">
 					<p>Далее Jumio обработает ваши фото, обычно это занимает пару минут, в редких случаях, может занять пару часов.</p>
 					<p>Бот аттестации сообщит вам, когда будет доступен результат.</p>
 				</div>
-				<div class="modal-footer">
+				<div class="modal-footer" style="justify-content: center">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
 				</div>
 			</div>
@@ -961,27 +1454,73 @@
 	</div>
 	
 	
+	<!-- Jquery JS-->
+	<script src="static/js/jquery-2.1.1.min.js"></script>
+	<!-- Bootstrap JS-->
+	<script src="static/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Vendor JS-->
+	<script src="static/vendor/slick/slick.min.js"></script>
+	<script src="static/vendor/animsition/animsition.min.js"></script>
+	<script src="static/vendor/waypoints/jquery.waypoints.min.js"></script>
+	<script src="static/vendor/jquery.counterup/jquery.counterup.min.js"></script>
+	<script src="static/vendor/wowjs/wow.min.js"></script>
+	<script src="static/vendor/lightbox2/js/lightbox.min.js"></script>
+
+	<!-- Main JS-->
+	<script src="static/js/global.js?v3"></script>
+
+	<!-- Special Vendor-->
+	<script src="static/vendor/validator/validator.min.js"></script>
+
+	<!-- MailerLite Universal -->
+	<script>
+		(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+			var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+			f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+			var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+			_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+		var ml_account = ml('accounts', '1115900', 'a6k5q0g6f3', 'load');
+	</script>
+	<!-- End MailerLite Universal -->
 	
+	<script>
+		$(document).ready(function(){
+			$(".community-item img").on("mouseover", function(){
+				$(this).attr("src","static/images/" + $(this).data("img") + "_active.png");
+			});
 
-	<!-- JavaScript files placed at the end of the document so the pages load faster
-		================================================== -->
-	<!-- Jquery and Bootstap core js files -->
-	<script type="text/javascript" src="plugins/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+			$(".community-item img").on("mouseout", function(){
+				$(this).attr("src","static/images/" + $(this).data("img") + ".png");
+			});
 
-	<!-- Modernizr javascript -->
-	<script type="text/javascript" src="plugins/modernizr.js"></script>
+			$("#community .community-item img").on("mouseover", function(){
+				$("#community .com-sup-block").hide();
+				$("#community .com-sup-block."+ $(this).data("img")).show();
+			});
 
+			$("#learn_more .community-item img").on("mouseover", function(){
+				$("#learn_more .learn-more-block").hide();
+				$("#learn_more .learn-more-block."+ $(this).data("img")).show();
+			});
 
-	<!-- Initialization of Plugins -->
-	<script type="text/javascript" src="js/template.js?v5"></script>
+			$("a").on('click', function(){
+				var href = $(this).attr('href');
+				var text = $(this).text().trim();
+				var is_download_link = $(this).parent().parent().hasClass("app-icons");
+				var goal = (is_download_link && href !== 'https://github.com/byteball/byteball') ? 1 : 0;
+				console.log('click', href, text, goal);
+				ga('send', 'event', 'click', href, text, goal);
+			});
+		})
+	</script>
 
-	<script src="js/kinetic.js"></script>
-	<script src="js/jquery.final-countdown.min.js"></script>
 	<script>
 		if (location.hash === '#jumio-done' || location.search.match('jumio-done'))
 			$("#jumioModal").modal();
 	</script>
+	
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -1037,12 +1576,8 @@
 					// in which case the redirect dialog will wait for the currently shown dialog to be dismissed.
 					
 					gotStoreURI && timers.push(window.setTimeout(function() {
-						if (!isIOS()) {
-							storeLaunched = true;
-							window.top.location = storeURI;
-						} else {
-							document.getElementById('warning').style.display = 'block';
-						}
+						storeLaunched = true;
+						window.top.location = storeURI;
 					}, 1000));
 					isIOS() && timers.push(window.setTimeout(function() {
 						storeLaunched && window.location.reload()
@@ -1055,7 +1590,7 @@
 				getStoreURI: function() {
 					return isAndroid() ?
 						"market://details?id=org.byteball.wallet&referrer=" + textcoin :
-						"https://github.com/byteball/byteball/releases";
+						"https://itunes.apple.com/us/app/byteball/id1147137332?ls=1&mt=8";
 				},
 				// Try to launch the native app on iOS/Android. Redirect to the app store if launch fails.
 				init: function() {
@@ -1089,7 +1624,6 @@
 						$('.desktop').hide();
 					}
 					$('#textcoin').show();
-					$('.header').addClass('visible-logo');
 				}
 			};
 		})();
@@ -1097,7 +1631,8 @@
 			NativeAppLauncher.init();
 		}
 	</script>
-	<script type="text/javascript" src="js/mailerlite-webforms.min.js"></script>
+
 </body>
+
 
 </html>

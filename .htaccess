@@ -1,10 +1,10 @@
 RewriteEngine on
-RewriteRule ^downloads\/Byteball-test-osx64.dmg https://github.com/byteball/byteball/releases/download/v2.3.0t/Byteball-TN-osx64.dmg [R=303,L]
+RewriteRule ^downloads\/Byteball-test-osx64.dmg https://github.com/byteball/byteball/releases/download/v2.6.0t/Byteball-TN-osx64.dmg [R=303,L]
 RewriteRule ^downloads\/Byteball-test-win64.exe https://github.com/byteball/byteball/releases/download/v1.9.1t/Byteball-TN-win64.exe [R=303,L]
 RewriteRule ^downloads\/Byteball-test-win32.exe https://github.com/byteball/byteball/releases/download/v1.9.1t/Byteball-TN-win32.exe [R=303,L]
 RewriteRule ^downloads\/Byteball-test-linux64.zip https://github.com/byteball/byteball/releases/download/v1.9.1t/byteball-tn-linux64.zip [R=303,L]
 
-RewriteRule ^downloads\/Byteball-osx64.dmg https://github.com/byteball/byteball/releases/download/v2.5.0/Byteball-osx64.dmg [R=303,L]
-RewriteRule ^downloads\/Byteball-win64.exe https://github.com/byteball/byteball/releases/download/v2.5.0/Byteball-win64.exe [R=303,L]
-RewriteRule ^downloads\/Byteball-win32.exe https://github.com/byteball/byteball/releases/download/v2.5.0/Byteball-win32.exe [R=303,L]
-RewriteRule ^downloads\/Byteball-linux64.zip https://github.com/byteball/byteball/releases/download/v2.5.0/byteball-linux64.zip [R=303,L]
+RewriteRule ^downloads\/Byteball-osx64.dmg https://github.com/byteball/byteball/releases/download/v2.6.0/Byteball-osx64.dmg [R=303,L]
+RewriteRule ^downloads\/Byteball-win64.exe https://github.com/byteball/byteball/releases/download/v2.6.0/Byteball-win64.exe [R=303,L]
+RewriteRule ^downloads\/Byteball-win32.exe https://github.com/byteball/byteball/releases/download/v2.6.0/Byteball-win32.exe [R=303,L]
+RewriteRule ^downloads\/Byteball-linux64.zip https://github.com/byteball/byteball/releases/download/v2.6.0/byteball-linux64.zip [R=303,L]

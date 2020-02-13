@@ -1,0 +1,17 @@
+{
+	"version": "1.0",
+	"description": "Token registry AA. It links asset IDs to their symbols displayed in dapps such as ODEX.",
+	"homepage_url": "https://tokens.ooo",
+	"source_url": "https://github.com/byteball/token-registry",
+	"field_descriptions": {
+		"asset": "Asset ID (44 characters).",
+		"symbol": "Symbol that identifies an asset, such as AAPL (up to 40 characters but usually short)",
+		"description": "Description of an asset (up to 140 characters).",
+		"decimals": "How many decimals to use in display units (e.g. GBYTE uses 9).",
+		"drawer": "ID of the drawer: 0, 1, 7, 30, 90, 180, 360. Funds from drawer 0 can be withdrawn any time, withdrawal from other drawers requires a waiting period (in days) equal to the ID of the drawer.",
+		"withdraw": "Command to withdraw funds. Set the value to 1.",
+		"amount": "The amount you want to withdraw.",
+		"move": "Command to move funds from a warmed-up drawer to 0-drawer. Set the value to 1.",
+		"address": "The address whose balance is to be moved from a warmed-up drawer to drawer 0."
+	}
+}

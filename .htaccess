@@ -1,14 +1,14 @@
 RewriteEngine on
 
-RewriteRule ^downloads\/Byteball-test-osx64.dmg https://github.com/byteball/testnet-releases/releases/download/v3.0.1t/Obyte-TN-osx64.dmg [R=303,L]
-RewriteRule ^downloads\/Byteball-test-win64.exe https://github.com/byteball/testnet-releases/releases/download/v3.0.1t/Obyte-TN-win64.exe [R=303,L]
-RewriteRule ^downloads\/Byteball-test-win32.exe https://github.com/byteball/testnet-releases/releases/download/v3.0.1t/Obyte-TN-win32.exe [R=303,L]
-RewriteRule ^downloads\/Byteball-test-linux64.zip https://github.com/byteball/testnet-releases/releases/download/v3.0.1t/obyte-tn-linux64.zip [R=303,L]
+RewriteRule ^downloads\/Byteball-test-osx64.dmg https://github.com/byteball/testnet-releases/releases/download/v3.0.2t/Obyte-TN-osx64.dmg [R=303,L]
+RewriteRule ^downloads\/Byteball-test-win64.exe https://github.com/byteball/testnet-releases/releases/download/v3.0.2t/Obyte-TN-win64.exe [R=303,L]
+RewriteRule ^downloads\/Byteball-test-win32.exe https://github.com/byteball/testnet-releases/releases/download/v3.0.2t/Obyte-TN-win32.exe [R=303,L]
+RewriteRule ^downloads\/Byteball-test-linux64.zip https://github.com/byteball/testnet-releases/releases/download/v3.0.2t/obyte-tn-linux64.zip [R=303,L]
 
-RewriteRule ^downloads\/Obyte-test-osx64.dmg https://github.com/byteball/testnet-releases/releases/download/v3.0.1t/Obyte-TN-osx64.dmg [R=303,L]
-RewriteRule ^downloads\/Obyte-test-win64.exe https://github.com/byteball/testnet-releases/releases/download/v3.0.1t/Obyte-TN-win64.exe [R=303,L]
-RewriteRule ^downloads\/Obyte-test-win32.exe https://github.com/byteball/testnet-releases/releases/download/v3.0.1t/Obyte-TN-win32.exe [R=303,L]
-RewriteRule ^downloads\/Obyte-test-linux64.zip https://github.com/byteball/testnet-releases/releases/download/v3.0.1t/obyte-tn-linux64.zip [R=303,L]
+RewriteRule ^downloads\/Obyte-test-osx64.dmg https://github.com/byteball/testnet-releases/releases/download/v3.0.2t/Obyte-TN-osx64.dmg [R=303,L]
+RewriteRule ^downloads\/Obyte-test-win64.exe https://github.com/byteball/testnet-releases/releases/download/v3.0.2t/Obyte-TN-win64.exe [R=303,L]
+RewriteRule ^downloads\/Obyte-test-win32.exe https://github.com/byteball/testnet-releases/releases/download/v3.0.2t/Obyte-TN-win32.exe [R=303,L]
+RewriteRule ^downloads\/Obyte-test-linux64.zip https://github.com/byteball/testnet-releases/releases/download/v3.0.2t/obyte-tn-linux64.zip [R=303,L]
 
 RewriteRule ^downloads\/Obyte-osx64.dmg https://github.com/byteball/obyte-gui-wallet/releases/download/v2.8.0/Obyte-osx64.dmg [R=303,L]
 RewriteRule ^downloads\/Obyte-win64.exe https://github.com/byteball/obyte-gui-wallet/releases/download/v2.8.0/Obyte-win64.exe [R=303,L]

@@ -14,6 +14,7 @@ RewriteRule ^downloads\/Obyte-osx64.dmg https://github.com/byteball/obyte-gui-wa
 RewriteRule ^downloads\/Obyte-win64.exe https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.3/Obyte-win64.exe [R=303,L]
 RewriteRule ^downloads\/Obyte-win32.exe https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.3/Obyte-win32.exe [R=303,L]
 RewriteRule ^downloads\/Obyte-linux64.zip https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.3/obyte-x86_64.AppImage [R=303,L]
+RewriteRule ^downloads\/Obyte-x86_64.AppImage https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.3/obyte-x86_64.AppImage [R=303,L]
 
 RewriteRule ^downloads\/Byteball-osx64.dmg https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.3/Obyte-osx64.dmg [R=303,L]
 RewriteRule ^downloads\/Byteball-win64.exe https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.3/Obyte-win64.exe [R=303,L]

@@ -10,15 +10,15 @@ RewriteRule ^downloads\/Obyte-test-win64.exe https://github.com/byteball/testnet
 RewriteRule ^downloads\/Obyte-test-win32.exe https://github.com/byteball/testnet-releases/releases/download/v3.0.2t/Obyte-TN-win32.exe [R=303,L]
 RewriteRule ^downloads\/Obyte-test-linux64.zip https://github.com/byteball/testnet-releases/releases/download/v3.0.2t/obyte-tn-linux64.zip [R=303,L]
 
-RewriteRule ^downloads\/Obyte-osx64.dmg https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.2/Obyte-osx64.dmg [R=303,L]
-RewriteRule ^downloads\/Obyte-win64.exe https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.2/Obyte-win64.exe [R=303,L]
-RewriteRule ^downloads\/Obyte-win32.exe https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.2/Obyte-win32.exe [R=303,L]
-RewriteRule ^downloads\/Obyte-linux64.zip https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.2/obyte-linux64.zip [R=303,L]
+RewriteRule ^downloads\/Obyte-osx64.dmg https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.3/Obyte-osx64.dmg [R=303,L]
+RewriteRule ^downloads\/Obyte-win64.exe https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.3/Obyte-win64.exe [R=303,L]
+RewriteRule ^downloads\/Obyte-win32.exe https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.3/Obyte-win32.exe [R=303,L]
+RewriteRule ^downloads\/Obyte-linux64.zip https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.3/obyte-x86_64.AppImage [R=303,L]
 
-RewriteRule ^downloads\/Byteball-osx64.dmg https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.2/Obyte-osx64.dmg [R=303,L]
-RewriteRule ^downloads\/Byteball-win64.exe https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.2/Obyte-win64.exe [R=303,L]
-RewriteRule ^downloads\/Byteball-win32.exe https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.2/Obyte-win32.exe [R=303,L]
-RewriteRule ^downloads\/Byteball-linux64.zip https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.2/obyte-linux64.zip [R=303,L]
+RewriteRule ^downloads\/Byteball-osx64.dmg https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.3/Obyte-osx64.dmg [R=303,L]
+RewriteRule ^downloads\/Byteball-win64.exe https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.3/Obyte-win64.exe [R=303,L]
+RewriteRule ^downloads\/Byteball-win32.exe https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.3/Obyte-win32.exe [R=303,L]
+RewriteRule ^downloads\/Byteball-linux64.zip https://github.com/byteball/obyte-gui-wallet/releases/download/v3.0.3/obyte-x86_64.AppImage [R=303,L]
 
 RewriteRule ^discord$ https://discordapp.com/invite/Qn6JWfT [R=303,L]
 RewriteRule ^coin_info.json https://stats.obyte.org/coin_info.json [R=303,L]

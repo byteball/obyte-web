@@ -2,7 +2,7 @@
 	"version": "1.0",
 	"description": "Token registry AA. It links asset IDs to their symbols displayed in dapps such as ODEX.",
 	"homepage_url": "https://tokens.ooo",
-	"source_url": "https://github.com/byteball/token-registry",
+	"source_url": "https://github.com/byteball/token-registry-aa",
 	"field_descriptions": {
 		"asset": "Asset ID (44 characters).",
 		"symbol": "Symbol that identifies an asset, such as AAPL (up to 40 characters but usually short)",

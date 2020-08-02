@@ -4843,8 +4843,15 @@ body.lb-disable-scrolling .section-header {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1270px){
-	.download-wallet-btn{
-		display: none;
+	.download-wallet-btn {
+		width: 40px;
+	}
+	.download-wallet-btn .btn-text {
+		display:none;
+	}
+
+	.download-wallet-btn:after{
+		content: "⇩";
 	}
 
 	::-webkit-scrollbar{

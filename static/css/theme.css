@@ -4843,8 +4843,8 @@ body.lb-disable-scrolling .section-header {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1270px){
-	.navbar-nav{
-		width: 100%;
+	.download-wallet-btn{
+		display: none;
 	}
 
 	.section-header{

@@ -4843,12 +4843,15 @@ body.lb-disable-scrolling .section-header {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1270px){
-	.navbar-nav{
-		width: 100%;
+	.download-wallet-btn {
+		width: 40px;
+	}
+	.download-wallet-btn .btn-text {
+		display:none;
 	}
 
-	.section-header{
-		overflow-x: auto;
+	.download-wallet-btn:after{
+		content: "⇩";
 	}
 
 	::-webkit-scrollbar{
@@ -4866,6 +4869,10 @@ body.lb-disable-scrolling .section-header {
 @media screen and (max-width: 991px){
 	.download-wallet-btn{
 		margin-top: 5px;
+	}
+
+	.section-header{
+		overflow-x: auto;
 	}
 
 	.language-nav-item .language-block li, .language-nav-item .language-block{

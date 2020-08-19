@@ -60,7 +60,19 @@
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-M79QXTS');</script>
 	<!-- End Google Tag Manager -->
-	
+ 
+	<!-- fix iframe stealing focus -->
+	<style>
+	iframe {position:fixed}
+	</style>
+	<script>
+	window.onload = function() {
+		var iframes = document.getElementsByTagName("iframe");
+		for (i = 0; i < iframes.length; i++) {
+			iframes[i].style.position = "static";
+		}
+	};
+	</script>
 </head>
 	
 <body class="no-animsition">
@@ -1482,6 +1494,13 @@
 		</div>
 	</section>
 	<!-- Pricing Tables end-->
+
+	<section class="section section-partner bg-white p-t-10 p-b-100" id="checkout">
+		<div class="container text-center">
+			<h3 class="section-heading section-heading--center m-b-45">CryptoCoin.PRO</h3>
+			<iframe src="https://checkout.cryptocoin.pro/order/obyte?iframe=true&parent=true" height="650" width="100%" style="max-width:600px;" frameBorder="0"></iframe>
+		</div>
+	</section>
 
 	<section class="section section-partner bg-white p-t-10 p-b-100" id="Media">
 		<div class="container">

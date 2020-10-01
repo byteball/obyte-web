@@ -25,7 +25,7 @@ THE SOFTWARE.
 Credits:
 =======================================================================
 
-Demo images
+Demo images used in website
 ------------------------------------------------------
 Unsplash by Crew - http://unsplash.com/
 
